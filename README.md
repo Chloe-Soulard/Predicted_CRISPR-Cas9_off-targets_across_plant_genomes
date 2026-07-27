@@ -32,8 +32,7 @@ CRISPOR 5.2
 | 1d | `python build_manual_overrides.py` | Converts the filled form to config | no | 
 | 2 | `python step2_fetch_genomic.py --all --resume` | Reconstructs each ortholog's spliced CDS from its `coded_by` intervals | NCBI | 
 | 2b | `python step2b_exon_structure.py --all --resume` | Adds coding-exon junctions in CDS coordinates | NCBI | 
-| 3-4 | `python step34_conserved.py --all` | Star alignment, each species CDS is aligned to the *Arabidopsis*
-reference (global, NUC.4.4, gap-open −10, gap-extend −0.5), then picks the most conserved 100bp single-exon window | no | 
+| 3-4 | `python step34_conserved.py --all` | Star alignment, each species CDS is aligned to the *Arabidopsis* reference (global, NUC.4.4, gap-open −10, gap-extend −0.5), then picks the most conserved 100bp single-exon window | no | 
 | 5 | `python step5_loop.py` | Submits every sequence from that window to CRISPOR (SpCas9, NGG PAM) and collects results | CRISPOR | 
 | 5b | `python step5b_recover_genomic.py --all --resume` | Recovers windows CRISPOR could not find in its assembly | NCBI + CRISPOR | 
 | 6a | `python step6_aggregate_tables.py` | Builds the four analysis CSVs | no |
