@@ -42,7 +42,6 @@ CRISPOR 5.2
 
 ## Configuration files
 
-All four config file represents the data in the article.
 
 | File | Contents |
 |---|---|
