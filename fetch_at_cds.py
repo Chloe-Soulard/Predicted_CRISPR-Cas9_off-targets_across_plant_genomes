@@ -27,8 +27,8 @@ import time
 
 from Bio.Blast import NCBIWWW, NCBIXML
 
-from crispea import ncbi
-from crispea.paths import AT_CDS_FILE, load_genes, load_json, resolve_genes, save_json
+import ncbi
+from paths import AT_CDS_FILE, load_genes, load_json, resolve_genes, save_json
 
 EVALUE = 1e-10        # stringent: we want the Arabidopsis gene itself, not a paralog
 

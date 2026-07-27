@@ -36,8 +36,8 @@ from __future__ import annotations
 
 import argparse
 
-from crispea import ncbi
-from crispea.paths import STEP2_DIR, gene_slug, load_json, resolve_genes, save_json
+import ncbi
+from paths import STEP2_DIR, gene_slug, load_json, resolve_genes, save_json
 
 
 def junctions_from_coded_by(entry: dict) -> dict | None:

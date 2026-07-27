@@ -28,11 +28,11 @@ from openpyxl.comments import Comment
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
 
-from crispea.paths import (
-    PIPELINE_DIR, STEP1_DIR, gene_names, gene_slug, load_json, load_species_genomes,
+from paths import (
+    ROOT, STEP1_DIR, gene_names, gene_slug, load_json, load_species_genomes,
 )
 
-OUT_FILE = PIPELINE_DIR / "manual_overrides_TEMPLATE.xlsx"
+OUT_FILE = ROOT / "manual_overrides_TEMPLATE.xlsx"
 
 # (header, column width, filled by the curator?, cell comment)
 # The column order is the contract with build_manual_overrides.py — keep them in step.

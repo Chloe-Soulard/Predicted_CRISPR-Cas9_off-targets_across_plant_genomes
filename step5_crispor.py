@@ -36,8 +36,9 @@ from __future__ import annotations
 import argparse
 import time
 
-from crispea import crispor, ncbi
-from crispea.paths import (
+import crispor
+import ncbi
+from paths import (
     STEP34_DIR, STEP5_DIR, gene_slug, load_json, load_species_genomes,
     resolve_genes, save_json,
 )

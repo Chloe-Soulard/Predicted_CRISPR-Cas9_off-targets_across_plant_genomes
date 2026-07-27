@@ -40,7 +40,7 @@ from collections import Counter
 
 from Bio.Align import PairwiseAligner, substitution_matrices
 
-from crispea.paths import (
+from paths import (
     ALIGN_DIR, AT_CDS_FILE, STEP2_DIR, STEP34_DIR, WINDOW_BP, gene_slug,
     load_json, resolve_genes, save_json,
 )

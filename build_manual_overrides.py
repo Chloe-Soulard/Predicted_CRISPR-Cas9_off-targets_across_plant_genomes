@@ -34,9 +34,9 @@ import re
 import openpyxl
 from Bio.Seq import Seq
 
-from crispea.paths import MANUAL_OVERRIDES_FILE, PIPELINE_DIR, save_json
+from paths import MANUAL_OVERRIDES_FILE, ROOT, save_json
 
-IN_FILE = PIPELINE_DIR / "manual_overrides_TEMPLATE.xlsx"
+IN_FILE = ROOT / "manual_overrides_TEMPLATE.xlsx"
 SHEET   = "Manual overrides"
 FIRST_DATA_ROW = 3
 

@@ -26,9 +26,9 @@ import argparse
 
 from Bio.Blast import NCBIWWW, NCBIXML
 
-from crispea import ncbi
-from crispea.blast import extract_organism, hit_record, match_species
-from crispea.paths import (
+import ncbi
+from blast import extract_organism, hit_record, match_species
+from paths import (
     STEP1_DIR, gene_slug, load_genes, load_json, load_species_genomes,
     resolve_genes, save_json,
 )

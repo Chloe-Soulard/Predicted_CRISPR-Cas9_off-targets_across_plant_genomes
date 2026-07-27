@@ -41,8 +41,9 @@ import requests
 from Bio import Entrez, SeqIO
 from Bio.Blast import NCBIWWW, NCBIXML
 
-from crispea import crispor, ncbi
-from crispea.paths import (
+import crispor
+import ncbi
+from paths import (
     STEP5_DIR, STEP34_DIR, gene_slug, load_json, load_species_genomes, save_json,
 )
 

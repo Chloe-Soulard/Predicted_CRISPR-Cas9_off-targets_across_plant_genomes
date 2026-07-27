@@ -17,8 +17,8 @@ import subprocess
 import sys
 import time
 
-from crispea import crispor
-from crispea.paths import PIPELINE_DIR, STEP5_DIR, load_json
+import crispor
+from paths import ROOT, STEP5_DIR, load_json
 
 MAX_PASSES      = 40
 SLEEP_BETWEEN_S = 900      # 15 min between passes: CRISPOR jobs take minutes
@@ -67,8 +67,8 @@ def main() -> None:
             log("nothing pending — done")
             return
 
-        subprocess.run([sys.executable, str(PIPELINE_DIR / "step5_crispor.py"),
-                        "--all", "--resume"], cwd=str(PIPELINE_DIR), check=False)
+        subprocess.run([sys.executable, str(ROOT / "step5_crispor.py"),
+                        "--all", "--resume"], cwd=str(ROOT), check=False)
 
         after = status_counts()
         log(f"--- pass {pass_number}: after  = {describe(after)}")

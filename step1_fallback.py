@@ -30,9 +30,9 @@ import time
 
 from Bio.Blast import NCBIWWW, NCBIXML
 
-from crispea import ncbi
-from crispea.blast import hit_record
-from crispea.paths import (
+import ncbi
+from blast import hit_record
+from paths import (
     STEP1_DIR, gene_slug, load_genes, load_json, resolve_genes, save_json,
 )
 

@@ -32,8 +32,8 @@ from __future__ import annotations
 
 import argparse
 
-from crispea import ncbi
-from crispea.paths import (
+import ncbi
+from paths import (
     MANUAL_OVERRIDES_FILE, STEP1_DIR, STEP2_DIR, gene_slug, load_json,
     resolve_genes, save_json,
 )

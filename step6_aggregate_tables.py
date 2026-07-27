@@ -34,7 +34,7 @@ import argparse
 import csv
 from pathlib import Path
 
-from crispea.paths import (
+from paths import (
     MULTICOPY_GENES, R_EXPORT_DIR, RESULTS_DIR, STEP5_DIR, gene_names, gene_slug,
     load_json, load_species_metadata, ploidy_group,
 )
