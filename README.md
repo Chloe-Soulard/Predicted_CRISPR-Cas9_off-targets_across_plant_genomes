@@ -24,8 +24,7 @@ CRISPOR 5.2
 
 | # | Command | Does | Network |
 |---|---|---|---|
-| 0a | `python setup_config.py` | Reads the gene and species panels out of the source spreadsheet. Reports differences instead of overwriting the committed config — see [below](#configuration-files) | no | 
-| 0b | `python fetch_at_cds.py` | Fetches the 10 *Arabidopsis* reference CDSs | NCBI |
+| 0 | `python fetch_at_cds.py` | Fetches the 10 *Arabidopsis* reference CDSs | NCBI |
 | 1 | `python step1_blast.py --all` | Homolog search : Does one broad blastp per gene against Viridiplantae; retrives best hit per species | NCBI |
 | 1b | `python step1_fallback.py --all --resume` |Homolog search : Retries species the broad search missed, one query each against the species needed | NCBI | 
 | 1c | `python make_manual_template.py` | Writes the Excel form for species NCBI does not cover for manual addition of sequences (ex: *Rubus occidentalis* and *Miscanthus sinensis*). Found sequences can also be replaced if manually found to be wrong  | no | 
