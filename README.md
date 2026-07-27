@@ -10,7 +10,7 @@ For each gene :
 -the pipeline reconstructs coding sequences, selects the most conserved region in a exon for all species, and submits each genes sequence in that window to CRISPOR (https://crispor.gi.ucsc.edu) against each species' own genome assembly.
 -the pipeline then retrieves the results, count predicted off-target sites for all guides.
 
-Verification where conducted at each steps. 
+Verification was conducted at each steps. 
 
 Code was written using Claude code, Opus model
 
