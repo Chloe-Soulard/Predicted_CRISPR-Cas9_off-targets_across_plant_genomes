@@ -34,7 +34,7 @@ CRISPOR 5.2
 | 3-4 | `python step34_conserved.py --all` | Star alignment, each species CDS is aligned to the *Arabidopsis* reference (global, NUC.4.4, gap-open −10, gap-extend −0.5), then picks the most conserved 100bp single-exon window | no | 
 | 5 | `python step5_loop.py` | Submits every sequence from that window to CRISPOR (SpCas9, NGG PAM) and collects results | CRISPOR | 
 | 5b | `python step5b_recover_genomic.py --all --resume` | Recovers windows CRISPOR could not find in its assembly | NCBI + CRISPOR | 
-| 6a | `python step6_aggregate_tables.py` | Builds the four analysis CSVs | no |
+| 6a | `python step6_aggregate_tables.py` | Builds the analysis CSVs | no |
 
 
 
