@@ -12,7 +12,7 @@ For each gene :
 
 Verification was conducted at each step. 
 
-Code was written using Claude code, Opus model
+Code was written using Claude code, Opus model.
 
 ---
 
