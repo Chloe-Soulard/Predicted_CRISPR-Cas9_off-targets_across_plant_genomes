@@ -1,0 +1,742 @@
+{
+  "Arabidopsis thaliana": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001031504",
+        "title": "ref|NP_001031504.1| actin 1 [Arabidopsis thaliana] >ref|NP_001324518.1| actin 1 [Arabidopsis thaliana] >ref|NP_001324519.1| actin 1 [Arabido",
+        "organism": "Arabidopsis thaliana",
+        "identity_pct": 100.0,
+        "evalue": 0.0,
+        "bits": 786.178,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001031504"
+      }
+    ]
+  },
+  "Rubus occidentalis": {
+    "db": "none_targeted",
+    "hits": []
+  },
+  "Prunus persica": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_007205366",
+        "title": "ref|XP_007205366.1| actin [Prunus persica] >ref|XP_008223466.1| PREDICTED: actin [Prunus mume] >ref|XP_021828368.1| actin-like [Prunus avium",
+        "organism": "Prunus persica",
+        "identity_pct": 96.82,
+        "evalue": 0.0,
+        "bits": 768.074,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_007205366"
+      }
+    ]
+  },
+  "brassica rapa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_009139296",
+        "title": "ref|XP_009139296.1| actin-1 [Brassica rapa] >ref|XP_009139297.1| actin-1 [Brassica rapa] >ref|XP_013742857.1| actin-1 [Brassica napus] >ref|",
+        "organism": "Brassica rapa",
+        "identity_pct": 99.73,
+        "evalue": 0.0,
+        "bits": 784.252,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_009139296"
+      }
+    ]
+  },
+  "Brachypodium distachyon": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_014754925",
+        "title": "ref|XP_014754925.1| actin-97 [Brachypodium distachyon] >ref|XP_020179982.1| actin-97 [Aegilops tauschii subsp. strangulata] >ref|XP_02431445",
+        "organism": "Brachypodium distachyon",
+        "identity_pct": 95.76,
+        "evalue": 0.0,
+        "bits": 762.296,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_014754925"
+      }
+    ]
+  },
+  "Cucumis sativus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_004136568",
+        "title": "ref|XP_004136568.1| actin [Cucumis sativus] >ref|XP_008380137.1| actin-like [Malus domestica] >ref|XP_008443052.1| actin-like [Cucumis melo]",
+        "organism": "Cucumis sativus",
+        "identity_pct": 96.82,
+        "evalue": 0.0,
+        "bits": 766.918,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_004136568"
+      }
+    ]
+  },
+  "Corylus avellana": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_059427954",
+        "title": "ref|XP_059427954.1| actin [Corylus avellana]",
+        "organism": "Corylus avellana",
+        "identity_pct": 97.61,
+        "evalue": 0.0,
+        "bits": 770.77,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_059427954"
+      }
+    ]
+  },
+  "Setaria viridis": {
+    "db": "nr_targeted",
+    "query": "Setaria viridis",
+    "hits": [
+      {
+        "accession": "XP_034586284",
+        "title": "ref|XP_004960554.1| actin-97 [Setaria italica] >ref|XP_034586284.1| actin-97 [Setaria viridis]",
+        "organism": "Setaria italica",
+        "identity_pct": 96.29,
+        "evalue": 0.0,
+        "bits": 762.681,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_034586284"
+      }
+    ]
+  },
+  "Populus deltoides": {
+    "db": "nr_targeted",
+    "query": "Populus deltoides",
+    "hits": [
+      {
+        "accession": "KAH8485687",
+        "title": "ref|XP_002308365.1| actin [Populus trichocarpa] >ref|XP_002322664.1| actin [Populus trichocarpa] >ref|XP_011004840.1| actin [Populus euphrat",
+        "organism": "Populus trichocarpa",
+        "identity_pct": 96.82,
+        "evalue": 0.0,
+        "bits": 766.918,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAH8485687"
+      }
+    ]
+  },
+  "Daucus carota": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_017252870",
+        "title": "ref|XP_017252870.1| actin [Daucus carota subsp. sativus] >ref|XP_074354916.1| actin [Apium graveolens]",
+        "organism": "Daucus carota subsp. sativus",
+        "identity_pct": 96.02,
+        "evalue": 0.0,
+        "bits": 762.681,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_017252870"
+      }
+    ]
+  },
+  "Populus trichocarpa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_002308365",
+        "title": "ref|XP_002308365.1| actin [Populus trichocarpa] >ref|XP_002322664.1| actin [Populus trichocarpa] >ref|XP_011004840.1| actin [Populus euphrat",
+        "organism": "Populus trichocarpa",
+        "identity_pct": 96.82,
+        "evalue": 0.0,
+        "bits": 766.918,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_002308365"
+      }
+    ]
+  },
+  "Vitis vinifera": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_002283590",
+        "title": "ref|XP_002283590.1| actin-1 [Vitis vinifera] >ref|XP_010658578.1| actin-1 [Vitis vinifera] >ref|XP_010658580.1| actin-1 [Vitis vinifera] >re",
+        "organism": "Vitis vinifera",
+        "identity_pct": 96.29,
+        "evalue": 0.0,
+        "bits": 763.066,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_002283590"
+      }
+    ]
+  },
+  "Paspalum notatum": {
+    "db": "nr_targeted",
+    "query": "Paspalum notatum",
+    "hits": [
+      {
+        "accession": "WVZ54311",
+        "title": "gb|WVZ54311.1| hypothetical protein U9M48_005130 [Paspalum notatum var. saurae]",
+        "organism": "Paspalum notatum var. saurae",
+        "identity_pct": 96.02,
+        "evalue": 0.0,
+        "bits": 762.296,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WVZ54311"
+      }
+    ]
+  },
+  "musa acuminata": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_009385539",
+        "title": "ref|XP_009385539.1| actin [Musa acuminata AAA Group] >ref|XP_009385540.1| actin [Musa acuminata AAA Group] >ref|XP_009393674.1| actin-like [",
+        "organism": "Musa acuminata AAA Group",
+        "identity_pct": 98.14,
+        "evalue": 0.0,
+        "bits": 772.311,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_009385539"
+      }
+    ]
+  },
+  "Phaseolus vulgaris": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_068494197",
+        "title": "ref|XP_068494197.1| actin-like [Phaseolus vulgaris] >ref|XP_068494199.1| actin-like [Phaseolus vulgaris] >ref|XP_068494200.1| actin-like [Ph",
+        "organism": "Phaseolus vulgaris",
+        "identity_pct": 96.29,
+        "evalue": 0.0,
+        "bits": 766.148,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_068494197"
+      }
+    ]
+  },
+  "Thlaspi arvense": {
+    "db": "nr_targeted",
+    "query": "Thlaspi arvense",
+    "hits": [
+      {
+        "accession": "KAN1322002",
+        "title": "ref|XP_002879684.1| actin-1 [Arabidopsis lyrata subsp. lyrata] >ref|XP_006291303.1| actin-1 [Capsella rubella] >ref|XP_006294425.1| actin-1 ",
+        "organism": "Arabidopsis lyrata subsp. lyrata",
+        "identity_pct": 99.73,
+        "evalue": 0.0,
+        "bits": 784.637,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAN1322002"
+      }
+    ]
+  },
+  "Lotus japonicus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_057449170",
+        "title": "ref|XP_057449170.1| actin-97 [Lotus japonicus]",
+        "organism": "Lotus japonicus",
+        "identity_pct": 95.76,
+        "evalue": 0.0,
+        "bits": 761.911,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_057449170"
+      }
+    ]
+  },
+  "Beta vulgaris": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_010685773",
+        "title": "ref|XP_010685773.1| actin-66 [Beta vulgaris subsp. vulgaris]",
+        "organism": "Beta vulgaris subsp. vulgaris",
+        "identity_pct": 97.08,
+        "evalue": 0.0,
+        "bits": 765.377,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_010685773"
+      }
+    ]
+  },
+  "Coffea canephora": {
+    "db": "nr_targeted",
+    "query": "Coffea canephora",
+    "hits": [
+      {
+        "accession": "CDP10143",
+        "title": "ref|XP_027065662.1| actin-97 [Coffea arabica] >ref|XP_027175080.1| actin-97 [Coffea eugenioides] >ref|XP_071911471.1| actin-97 [Coffea arabi",
+        "organism": "Coffea arabica",
+        "identity_pct": 96.02,
+        "evalue": 0.0,
+        "bits": 763.451,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CDP10143"
+      }
+    ]
+  },
+  "Vigna unguiculata": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_027934115",
+        "title": "ref|XP_027934115.1| actin-like [Vigna unguiculata] >ref|XP_027934116.1| actin-like [Vigna unguiculata] >ref|XP_027934117.1| actin-like [Vign",
+        "organism": "Vigna unguiculata",
+        "identity_pct": 96.29,
+        "evalue": 0.0,
+        "bits": 767.303,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_027934115"
+      }
+    ]
+  },
+  "Malus domestica": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_008385127",
+        "title": "ref|XP_008385127.1| actin [Malus domestica] >ref|XP_017191420.1| actin [Malus domestica] >ref|XP_028944256.1| actin [Malus domestica] >ref|X",
+        "organism": "Malus domestica",
+        "identity_pct": 97.08,
+        "evalue": 0.0,
+        "bits": 769.229,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_008385127"
+      }
+    ]
+  },
+  "Sorghum bicolor": {
+    "db": "nr_targeted",
+    "query": "Sorghum bicolor",
+    "hits": [
+      {
+        "accession": "NP_001413146",
+        "title": "ref|NP_001399649.1| Actin-1 [Zea mays] >ref|NP_001413146.1| actin-1 [Sorghum bicolor] >ref|XP_004981970.1| actin-1 [Setaria italica] >ref|XP",
+        "organism": "Zea mays",
+        "identity_pct": 96.29,
+        "evalue": 0.0,
+        "bits": 762.296,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001413146"
+      }
+    ]
+  },
+  "Cicer arietinum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_004489182",
+        "title": "ref|XP_004489182.1| actin-97-like [Cicer arietinum] >ref|XP_027924130.1| actin-97-like [Vigna unguiculata] >ref|XP_027924131.1| actin-97-lik",
+        "organism": "Cicer arietinum",
+        "identity_pct": 96.29,
+        "evalue": 0.0,
+        "bits": 764.222,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_004489182"
+      }
+    ]
+  },
+  "Manihot esculenta": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021622542",
+        "title": "ref|XP_021622542.1| actin isoform X1 [Manihot esculenta]",
+        "organism": "Manihot esculenta",
+        "identity_pct": 97.08,
+        "evalue": 0.0,
+        "bits": 770.77,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021622542"
+      }
+    ]
+  },
+  "Camelina sativa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_010454923",
+        "title": "ref|XP_010454923.1| PREDICTED: actin-12-like [Camelina sativa]",
+        "organism": "Camelina sativa",
+        "identity_pct": 96.55,
+        "evalue": 0.0,
+        "bits": 762.296,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_010454923"
+      }
+    ]
+  },
+  "Fragaria ananassa": {
+    "db": "nr_targeted",
+    "query": "Fragaria ananassa",
+    "hits": [
+      {
+        "accession": "AZI15355",
+        "title": "ref|XP_004302738.1| PREDICTED: actin [Fragaria vesca subsp. vesca] >ref|XP_050384338.1| actin [Argentina anserina] >gb|AZI15355.1| Actin, pa",
+        "organism": "Fragaria vesca subsp. vesca",
+        "identity_pct": 97.35,
+        "evalue": 0.0,
+        "bits": 768.074,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/AZI15355"
+      }
+    ]
+  },
+  "Solanum lycopersicum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001317048",
+        "title": "ref|NP_001317048.1| actin-41 [Solanum lycopersicum] >ref|XP_015073455.1| actin-97 [Solanum pennellii] >ref|XP_049354474.1| actin-97 [Solanum",
+        "organism": "Solanum lycopersicum",
+        "identity_pct": 96.82,
+        "evalue": 0.0,
+        "bits": 768.459,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001317048"
+      }
+    ]
+  },
+  "Panicum miliaceum": {
+    "db": "nr_targeted",
+    "query": "Panicum miliaceum",
+    "hits": [
+      {
+        "accession": "RLN17578",
+        "title": "ref|NP_001399649.1| Actin-1 [Zea mays] >ref|NP_001413146.1| actin-1 [Sorghum bicolor] >ref|XP_004981970.1| actin-1 [Setaria italica] >ref|XP",
+        "organism": "Zea mays",
+        "identity_pct": 96.29,
+        "evalue": 0.0,
+        "bits": 762.296,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/RLN17578"
+      }
+    ]
+  },
+  "Eruca vesicaria": {
+    "db": "nr_targeted",
+    "query": "Eruca vesicaria",
+    "hits": [
+      {
+        "accession": "CAH8313780",
+        "title": "gb|KAG2325037.1| hypothetical protein Bca52824_007765 [Brassica carinata] >gb|WZZ66126.1| hypothetical protein YC2023_077496 [Brassica napus",
+        "organism": "Brassica carinata",
+        "identity_pct": 99.73,
+        "evalue": 0.0,
+        "bits": 785.023,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CAH8313780"
+      }
+    ]
+  },
+  "Lupinus angustifolius": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_019458660",
+        "title": "ref|XP_019458660.1| PREDICTED: actin [Lupinus angustifolius] >ref|XP_019458661.1| PREDICTED: actin [Lupinus angustifolius] >ref|XP_019458662",
+        "organism": "Lupinus angustifolius",
+        "identity_pct": 96.55,
+        "evalue": 0.0,
+        "bits": 766.533,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_019458660"
+      }
+    ]
+  },
+  "Brassica napus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_013737898",
+        "title": "ref|XP_013737898.2| actin-1 [Brassica napus] >ref|XP_013737899.2| actin-1 [Brassica napus]",
+        "organism": "Brassica napus",
+        "identity_pct": 99.2,
+        "evalue": 0.0,
+        "bits": 780.785,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_013737898"
+      }
+    ]
+  },
+  "Spinacia oleracea": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021854622",
+        "title": "ref|XP_021854622.1| actin-11 [Spinacia oleracea] >ref|XP_056686286.1| actin-11 [Spinacia oleracea]",
+        "organism": "Spinacia oleracea",
+        "identity_pct": 96.29,
+        "evalue": 0.0,
+        "bits": 763.837,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021854622"
+      }
+    ]
+  },
+  "Eleusine coracana": {
+    "db": "nr_targeted",
+    "query": "Eleusine coracana",
+    "hits": [
+      {
+        "accession": "KAK3146275",
+        "title": "ref|NP_001399649.1| Actin-1 [Zea mays] >ref|NP_001413146.1| actin-1 [Sorghum bicolor] >ref|XP_004981970.1| actin-1 [Setaria italica] >ref|XP",
+        "organism": "Zea mays",
+        "identity_pct": 96.29,
+        "evalue": 0.0,
+        "bits": 762.296,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAK3146275"
+      }
+    ]
+  },
+  "Glycine max": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_003533915",
+        "title": "ref|XP_003533915.1| actin [Glycine max] >ref|XP_006587210.1| actin [Glycine max] >ref|XP_006587211.1| actin [Glycine max] >ref|XP_028181223.",
+        "organism": "Glycine max",
+        "identity_pct": 97.08,
+        "evalue": 0.0,
+        "bits": 769.615,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_003533915"
+      }
+    ]
+  },
+  "Asparagus officinalis": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_020244625",
+        "title": "ref|XP_020244625.1| actin [Asparagus officinalis]",
+        "organism": "Asparagus officinalis",
+        "identity_pct": 97.08,
+        "evalue": 0.0,
+        "bits": 769.615,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020244625"
+      }
+    ]
+  },
+  "Chenopodium quinoa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021716156",
+        "title": "ref|XP_021716156.1| actin-66-like [Chenopodium quinoa] >ref|XP_021841660.1| actin-66 [Spinacia oleracea] >ref|XP_056687965.1| actin-66 [Spin",
+        "organism": "Chenopodium quinoa",
+        "identity_pct": 97.35,
+        "evalue": 0.0,
+        "bits": 766.918,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021716156"
+      }
+    ]
+  },
+  "Solanum tuberosum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_006350765",
+        "title": "ref|XP_006350765.1| actin-82 [Solanum tuberosum] >ref|XP_049408795.1| actin-82 [Solanum stenotomum]",
+        "organism": "Solanum tuberosum",
+        "identity_pct": 96.29,
+        "evalue": 0.0,
+        "bits": 762.296,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_006350765"
+      }
+    ]
+  },
+  "Miscanthus sinensis": {
+    "db": "nr_targeted",
+    "query": "Miscanthus sinensis",
+    "hits": [
+      {
+        "accession": "AFC88818",
+        "title": "gb|AFC88818.1| putative actin 1 [Miscanthus sinensis]",
+        "organism": "Miscanthus sinensis",
+        "identity_pct": 90.45,
+        "evalue": 0.0,
+        "bits": 728.783,
+        "length": 376,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/AFC88818"
+      }
+    ]
+  },
+  "Gossypium hirsutum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_040973606",
+        "title": "ref|XP_040973606.1| actin-like [Gossypium hirsutum] >ref|XP_040973607.1| actin-like [Gossypium hirsutum]",
+        "organism": "Gossypium hirsutum",
+        "identity_pct": 97.61,
+        "evalue": 0.0,
+        "bits": 772.311,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_040973606"
+      }
+    ]
+  },
+  "Zea mays": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001399649",
+        "title": "ref|NP_001399649.1| Actin-1 [Zea mays] >ref|NP_001413146.1| actin-1 [Sorghum bicolor] >ref|XP_004981970.1| actin-1 [Setaria italica] >ref|XP",
+        "organism": "Zea mays",
+        "identity_pct": 96.29,
+        "evalue": 0.0,
+        "bits": 762.296,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001399649"
+      }
+    ]
+  },
+  "Lactuca sativa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_023731715",
+        "title": "ref|XP_023731715.1| actin [Lactuca sativa] >ref|XP_078830131.1| actin-like [Lactuca saligna] >ref|XP_078876077.1| actin-like [Lactuca serrio",
+        "organism": "Lactuca sativa",
+        "identity_pct": 96.82,
+        "evalue": 0.0,
+        "bits": 768.844,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_023731715"
+      }
+    ]
+  },
+  "Helianthus annuus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021997882",
+        "title": "ref|XP_021997882.1| actin [Helianthus annuus] >ref|XP_021997883.1| actin [Helianthus annuus] >ref|XP_076955309.1| actin [Bidens hawaiensis]",
+        "organism": "Helianthus annuus",
+        "identity_pct": 97.61,
+        "evalue": 0.0,
+        "bits": 772.696,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021997882"
+      }
+    ]
+  },
+  "Aegilops tauschii": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_020148819",
+        "title": "ref|XP_020148819.1| actin-3 [Aegilops tauschii subsp. strangulata] >ref|XP_037444346.1| actin-3 [Triticum dicoccoides] >ref|XP_037444347.1| ",
+        "organism": "Aegilops tauschii subsp. strangulata",
+        "identity_pct": 96.29,
+        "evalue": 0.0,
+        "bits": 763.837,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020148819"
+      }
+    ]
+  },
+  "Pisum sativum": {
+    "db": "nr_targeted",
+    "query": "Pisum sativum",
+    "hits": [
+      {
+        "accession": "XP_050904920",
+        "title": "ref|XP_004489182.1| actin-97-like [Cicer arietinum] >ref|XP_027924130.1| actin-97-like [Vigna unguiculata] >ref|XP_027924131.1| actin-97-lik",
+        "organism": "Cicer arietinum",
+        "identity_pct": 96.29,
+        "evalue": 0.0,
+        "bits": 764.222,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_050904920"
+      }
+    ]
+  },
+  "Hordeum vulgare": {
+    "db": "nr_targeted",
+    "query": "Hordeum vulgare",
+    "hits": [
+      {
+        "accession": "KAI4986401",
+        "title": "gb|KAI4986401.1| hypothetical protein ZWY2020_019031 [Hordeum vulgare]",
+        "organism": "Hordeum vulgare",
+        "identity_pct": 96.29,
+        "evalue": 0.0,
+        "bits": 767.689,
+        "length": 498,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAI4986401"
+      }
+    ]
+  },
+  "Ceratopteris richardii": {
+    "db": "nr_targeted",
+    "query": "Ceratopteris richardii",
+    "hits": [
+      {
+        "accession": "KAH7281087",
+        "title": "gb|KAH7281087.1| hypothetical protein KP509_36G029400 [Ceratopteris richardii] >gb|KAH7281088.1| hypothetical protein KP509_36G029400 [Cerat",
+        "organism": "Ceratopteris richardii",
+        "identity_pct": 93.9,
+        "evalue": 0.0,
+        "bits": 753.051,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAH7281087"
+      }
+    ]
+  },
+  "Vicia faba": {
+    "db": "nr_targeted",
+    "query": "Vicia faba",
+    "hits": [
+      {
+        "accession": "KAL5079926",
+        "title": "ref|XP_004489182.1| actin-97-like [Cicer arietinum] >ref|XP_027924130.1| actin-97-like [Vigna unguiculata] >ref|XP_027924131.1| actin-97-lik",
+        "organism": "Cicer arietinum",
+        "identity_pct": 96.29,
+        "evalue": 0.0,
+        "bits": 764.222,
+        "length": 377,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAL5079926"
+      }
+    ]
+  }
+}

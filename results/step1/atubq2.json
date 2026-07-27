@@ -1,0 +1,730 @@
+{
+  "Arabidopsis thaliana": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_565836",
+        "title": "ref|NP_565836.1| 60S ribosomal protein L40-1 [Arabidopsis thaliana] >ref|NP_566969.1| ubiquitin extension protein 1 [Arabidopsis thaliana] >",
+        "organism": "Arabidopsis thaliana",
+        "identity_pct": 100.0,
+        "evalue": 1.22307e-90,
+        "bits": 264.233,
+        "length": 128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_565836"
+      }
+    ]
+  },
+  "Rubus occidentalis": {
+    "db": "none_targeted",
+    "hits": []
+  },
+  "Prunus persica": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_007202754",
+        "title": "ref|XP_007202754.1| ubiquitin-60S ribosomal protein L40 [Prunus persica] >ref|XP_007218596.1| ubiquitin-60S ribosomal protein L40 [Prunus pe",
+        "organism": "Prunus persica",
+        "identity_pct": 98.44,
+        "evalue": 1.478e-89,
+        "bits": 261.536,
+        "length": 128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_007202754"
+      }
+    ]
+  },
+  "brassica rapa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_033146759",
+        "title": "ref|XP_033146759.1| ubiquitin [Brassica rapa]",
+        "organism": "Brassica rapa",
+        "identity_pct": 97.98,
+        "evalue": 1.56073e-65,
+        "bits": 200.29,
+        "length": 108,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_033146759"
+      }
+    ]
+  },
+  "Brachypodium distachyon": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_003558419",
+        "title": "ref|XP_003558419.1| ubiquitin-60S ribosomal protein L40-2 [Brachypodium distachyon] >ref|XP_003578682.1| ubiquitin-60S ribosomal protein L40",
+        "organism": "Brachypodium distachyon",
+        "identity_pct": 97.66,
+        "evalue": 3.30425e-88,
+        "bits": 258.07,
+        "length": 129,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_003558419"
+      }
+    ]
+  },
+  "Cucumis sativus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_031742146",
+        "title": "ref|XP_031742146.1| ubiquitin isoform X2 [Cucumis sativus]",
+        "organism": "Cucumis sativus",
+        "identity_pct": 96.08,
+        "evalue": 1.9598e-65,
+        "bits": 199.904,
+        "length": 111,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_031742146"
+      }
+    ]
+  },
+  "Corylus avellana": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_059434215",
+        "title": "ref|XP_059434215.1| polyubiquitin-like [Corylus avellana]",
+        "organism": "Corylus avellana",
+        "identity_pct": 98.44,
+        "evalue": 7.17456e-87,
+        "bits": 259.996,
+        "length": 270,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_059434215"
+      }
+    ]
+  },
+  "Setaria viridis": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_034578376",
+        "title": "ref|XP_034578376.1| uncharacterized protein [Setaria viridis]",
+        "organism": "Setaria viridis",
+        "identity_pct": 82.09,
+        "evalue": 4.24383e-73,
+        "bits": 220.32,
+        "length": 141,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_034578376"
+      }
+    ]
+  },
+  "Populus deltoides": {
+    "db": "nr_targeted",
+    "query": "Populus deltoides",
+    "hits": [
+      {
+        "accession": "KAH8485339",
+        "title": "ref|NP_001317704.1| ubiquitin-ribosomal fusion protein [Solanum lycopersicum] >ref|XP_002318470.1| ubiquitin-60S ribosomal protein L40 [Popu",
+        "organism": "Solanum lycopersicum",
+        "identity_pct": 98.44,
+        "evalue": 1.87662e-91,
+        "bits": 260.381,
+        "length": 128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAH8485339"
+      }
+    ]
+  },
+  "Daucus carota": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_017240926",
+        "title": "ref|XP_017240926.1| ubiquitin-ribosomal protein eL40 fusion protein-like [Daucus carota subsp. sativus]",
+        "organism": "Daucus carota subsp. sativus",
+        "identity_pct": 59.85,
+        "evalue": 2.41858e-49,
+        "bits": 160.229,
+        "length": 139,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_017240926"
+      }
+    ]
+  },
+  "Populus trichocarpa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_024443898",
+        "title": "ref|XP_024443898.1| uncharacterized protein LOC7467569 isoform X1 [Populus trichocarpa]",
+        "organism": "Populus trichocarpa",
+        "identity_pct": 83.76,
+        "evalue": 7.40075e-60,
+        "bits": 197.208,
+        "length": 470,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_024443898"
+      }
+    ]
+  },
+  "Vitis vinifera": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_002273568",
+        "title": "ref|XP_002273568.1| ubiquitin-ribosomal protein eL40z fusion protein [Vitis vinifera] >ref|XP_023893154.1| ubiquitin-ribosomal protein eL40z",
+        "organism": "Vitis vinifera",
+        "identity_pct": 99.22,
+        "evalue": 1.11102e-89,
+        "bits": 261.922,
+        "length": 128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_002273568"
+      }
+    ]
+  },
+  "Paspalum notatum": {
+    "db": "nr_targeted",
+    "query": "Paspalum notatum",
+    "hits": [
+      {
+        "accession": "WVZ63148",
+        "title": "ref|XP_002459842.1| ubiquitin-60S ribosomal protein L40-2 [Sorghum bicolor] >ref|XP_002465593.1| ubiquitin-60S ribosomal protein L40-2 [Sorg",
+        "organism": "Sorghum bicolor",
+        "identity_pct": 97.66,
+        "evalue": 5.597e-90,
+        "bits": 256.914,
+        "length": 129,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WVZ63148"
+      }
+    ]
+  },
+  "musa acuminata": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_065030783",
+        "title": "ref|XP_065030783.1| ubiquitin-ribosomal protein eL40 fusion protein-like [Musa acuminata AAA Group]",
+        "organism": "Musa acuminata AAA Group",
+        "identity_pct": 97.66,
+        "evalue": 5.45216e-88,
+        "bits": 260.381,
+        "length": 198,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_065030783"
+      }
+    ]
+  },
+  "Phaseolus vulgaris": {
+    "db": "nr_targeted",
+    "query": "Phaseolus vulgaris",
+    "hits": [
+      {
+        "accession": "XP_068473501",
+        "title": "ref|NP_001295699.1| ubiquitin-60S ribosomal protein L40-like [Jatropha curcas] >ref|XP_002530306.1| ubiquitin-60S ribosomal protein L40 [Ric",
+        "organism": "Jatropha curcas",
+        "identity_pct": 99.22,
+        "evalue": 4.56029e-92,
+        "bits": 261.922,
+        "length": 128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_068473501"
+      }
+    ]
+  },
+  "Thlaspi arvense": {
+    "db": "nr_targeted",
+    "query": "Thlaspi arvense",
+    "hits": [
+      {
+        "accession": "KAN1308453",
+        "title": "ref|NP_001295699.1| ubiquitin-60S ribosomal protein L40-like [Jatropha curcas] >ref|XP_002530306.1| ubiquitin-60S ribosomal protein L40 [Ric",
+        "organism": "Jatropha curcas",
+        "identity_pct": 99.22,
+        "evalue": 1.67893e-91,
+        "bits": 261.922,
+        "length": 128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAN1308453"
+      }
+    ]
+  },
+  "Lotus japonicus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_057457487",
+        "title": "ref|XP_057457487.1| ubiquitin [Lotus japonicus]",
+        "organism": "Lotus japonicus",
+        "identity_pct": 100.0,
+        "evalue": 1.65561e-48,
+        "bits": 157.532,
+        "length": 114,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_057457487"
+      }
+    ]
+  },
+  "Beta vulgaris": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_010683693",
+        "title": "ref|XP_010683693.1| ubiquitin-60S ribosomal protein L40 [Beta vulgaris subsp. vulgaris] >ref|XP_021843191.1| ubiquitin-60S ribosomal protein",
+        "organism": "Beta vulgaris subsp. vulgaris",
+        "identity_pct": 97.66,
+        "evalue": 1.60028e-88,
+        "bits": 258.84,
+        "length": 128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_010683693"
+      }
+    ]
+  },
+  "Coffea canephora": {
+    "db": "nr_targeted",
+    "query": "Coffea canephora",
+    "hits": [
+      {
+        "accession": "CDP08635",
+        "title": "ref|NP_001295699.1| ubiquitin-60S ribosomal protein L40-like [Jatropha curcas] >ref|XP_002530306.1| ubiquitin-60S ribosomal protein L40 [Ric",
+        "organism": "Jatropha curcas",
+        "identity_pct": 99.22,
+        "evalue": 2.81243e-92,
+        "bits": 261.922,
+        "length": 128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CDP08635"
+      }
+    ]
+  },
+  "Vigna unguiculata": {
+    "db": "nr_targeted",
+    "query": "Vigna unguiculata",
+    "hits": [
+      {
+        "accession": "XP_027930693",
+        "title": "ref|NP_001295699.1| ubiquitin-60S ribosomal protein L40-like [Jatropha curcas] >ref|XP_002530306.1| ubiquitin-60S ribosomal protein L40 [Ric",
+        "organism": "Jatropha curcas",
+        "identity_pct": 99.22,
+        "evalue": 4.37262e-92,
+        "bits": 261.922,
+        "length": 128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_027930693"
+      }
+    ]
+  },
+  "Malus domestica": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_070668321",
+        "title": "ref|XP_070668321.1| polyubiquitin isoform X2 [Malus domestica]",
+        "organism": "Malus domestica",
+        "identity_pct": 98.7,
+        "evalue": 2.49563e-48,
+        "bits": 157.147,
+        "length": 124,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_070668321"
+      }
+    ]
+  },
+  "Sorghum bicolor": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_002459842",
+        "title": "ref|XP_002459842.1| ubiquitin-60S ribosomal protein L40-2 [Sorghum bicolor] >ref|XP_002465593.1| ubiquitin-60S ribosomal protein L40-2 [Sorg",
+        "organism": "Sorghum bicolor",
+        "identity_pct": 97.66,
+        "evalue": 9.90352e-88,
+        "bits": 256.914,
+        "length": 129,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_002459842"
+      }
+    ]
+  },
+  "Cicer arietinum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_004497490",
+        "title": "ref|XP_004497490.1| polyubiquitin-like [Cicer arietinum]",
+        "organism": "Cicer arietinum",
+        "identity_pct": 98.7,
+        "evalue": 8.82354e-48,
+        "bits": 156.762,
+        "length": 154,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_004497490"
+      }
+    ]
+  },
+  "Manihot esculenta": {
+    "db": "nr_targeted",
+    "query": "Manihot esculenta",
+    "hits": [
+      {
+        "accession": "XP_021614880",
+        "title": "ref|NP_001295699.1| ubiquitin-60S ribosomal protein L40-like [Jatropha curcas] >ref|XP_002530306.1| ubiquitin-60S ribosomal protein L40 [Ric",
+        "organism": "Jatropha curcas",
+        "identity_pct": 99.22,
+        "evalue": 5.42822e-92,
+        "bits": 261.922,
+        "length": 128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021614880"
+      }
+    ]
+  },
+  "Camelina sativa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_010497209",
+        "title": "ref|XP_010497209.1| PREDICTED: polyubiquitin, partial [Camelina sativa]",
+        "organism": "Camelina sativa",
+        "identity_pct": 100.0,
+        "evalue": 1.31039e-47,
+        "bits": 156.377,
+        "length": 147,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_010497209"
+      }
+    ]
+  },
+  "Fragaria ananassa": {
+    "db": "nr_targeted",
+    "query": "Fragaria ananassa",
+    "hits": [
+      {
+        "accession": "KAL6123030",
+        "title": "ref|NP_001317704.1| ubiquitin-ribosomal fusion protein [Solanum lycopersicum] >ref|XP_002318470.1| ubiquitin-60S ribosomal protein L40 [Popu",
+        "organism": "Solanum lycopersicum",
+        "identity_pct": 98.44,
+        "evalue": 3.56762e-91,
+        "bits": 260.381,
+        "length": 128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAL6123030"
+      }
+    ]
+  },
+  "Solanum lycopersicum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001317704",
+        "title": "ref|NP_001317704.1| ubiquitin-ribosomal fusion protein [Solanum lycopersicum] >ref|XP_002318470.1| ubiquitin-60S ribosomal protein L40 [Popu",
+        "organism": "Solanum lycopersicum",
+        "identity_pct": 98.44,
+        "evalue": 4.19352e-89,
+        "bits": 260.381,
+        "length": 128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001317704"
+      }
+    ]
+  },
+  "Panicum miliaceum": {
+    "db": "nr_targeted",
+    "query": "Panicum miliaceum",
+    "hits": [
+      {
+        "accession": "RLM84757",
+        "title": "ref|NP_001389050.1| ubiquitin-ribosomal protein eL40z fusion protein [Oryza sativa Japonica Group] >ref|NP_001409878.1| ubiquitin-ribosomal ",
+        "organism": "Oryza sativa Japonica Group",
+        "identity_pct": 98.44,
+        "evalue": 5.83939e-91,
+        "bits": 259.61,
+        "length": 129,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/RLM84757"
+      }
+    ]
+  },
+  "Eruca vesicaria": {
+    "db": "nr_targeted",
+    "query": "Eruca vesicaria",
+    "hits": [
+      {
+        "accession": "CAH8358153",
+        "title": "ref|NP_001295699.1| ubiquitin-60S ribosomal protein L40-like [Jatropha curcas] >ref|XP_002530306.1| ubiquitin-60S ribosomal protein L40 [Ric",
+        "organism": "Jatropha curcas",
+        "identity_pct": 99.22,
+        "evalue": 4.33451e-92,
+        "bits": 261.922,
+        "length": 128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CAH8358153"
+      }
+    ]
+  },
+  "Lupinus angustifolius": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_019433617",
+        "title": "ref|XP_019433617.1| PREDICTED: ubiquitin-60S ribosomal protein L40 isoform X1 [Lupinus angustifolius]",
+        "organism": "Lupinus angustifolius",
+        "identity_pct": 98.44,
+        "evalue": 7.52641e-89,
+        "bits": 259.996,
+        "length": 133,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_019433617"
+      }
+    ]
+  },
+  "Brassica napus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_013663268",
+        "title": "ref|XP_013663268.2| ubiquitin-60S ribosomal protein L40 [Brassica napus]",
+        "organism": "Brassica napus",
+        "identity_pct": 99.22,
+        "evalue": 1.19794e-89,
+        "bits": 262.307,
+        "length": 141,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_013663268"
+      }
+    ]
+  },
+  "Spinacia oleracea": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021865373",
+        "title": "ref|XP_021865373.1| ubiquitin-like [Spinacia oleracea]",
+        "organism": "Spinacia oleracea",
+        "identity_pct": 87.5,
+        "evalue": 6.49705e-74,
+        "bits": 222.246,
+        "length": 133,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021865373"
+      }
+    ]
+  },
+  "Eleusine coracana": {
+    "db": "nr_targeted",
+    "query": "Eleusine coracana",
+    "hits": [
+      {
+        "accession": "KAK3129403",
+        "title": "ref|NP_001389050.1| ubiquitin-ribosomal protein eL40z fusion protein [Oryza sativa Japonica Group] >ref|NP_001409878.1| ubiquitin-ribosomal ",
+        "organism": "Oryza sativa Japonica Group",
+        "identity_pct": 98.44,
+        "evalue": 9.70846e-91,
+        "bits": 259.61,
+        "length": 129,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAK3129403"
+      }
+    ]
+  },
+  "Glycine max": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001237759",
+        "title": "ref|NP_001237759.1| uncharacterized protein LOC100306626 [Glycine max]",
+        "organism": "Glycine max",
+        "identity_pct": 98.44,
+        "evalue": 5.28073e-89,
+        "bits": 259.996,
+        "length": 128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001237759"
+      }
+    ]
+  },
+  "Asparagus officinalis": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_020245612",
+        "title": "ref|XP_020245612.1| ubiquitin-60S ribosomal protein L40-like [Asparagus officinalis]",
+        "organism": "Asparagus officinalis",
+        "identity_pct": 73.64,
+        "evalue": 1.31765e-61,
+        "bits": 191.045,
+        "length": 134,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020245612"
+      }
+    ]
+  },
+  "Chenopodium quinoa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021765161",
+        "title": "ref|XP_021765161.1| ubiquitin-60S ribosomal protein L40 [Chenopodium quinoa] >ref|XP_021766532.1| ubiquitin-60S ribosomal protein L40 [Cheno",
+        "organism": "Chenopodium quinoa",
+        "identity_pct": 98.44,
+        "evalue": 3.71653e-89,
+        "bits": 260.381,
+        "length": 128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021765161"
+      }
+    ]
+  },
+  "Solanum tuberosum": {
+    "db": "nr_targeted",
+    "query": "Solanum tuberosum",
+    "hits": [
+      {
+        "accession": "XP_006339755",
+        "title": "ref|NP_001317704.1| ubiquitin-ribosomal fusion protein [Solanum lycopersicum] >ref|XP_002318470.1| ubiquitin-60S ribosomal protein L40 [Popu",
+        "organism": "Solanum lycopersicum",
+        "identity_pct": 98.44,
+        "evalue": 1.71794e-91,
+        "bits": 260.381,
+        "length": 128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_006339755"
+      }
+    ]
+  },
+  "Miscanthus sinensis": {
+    "db": "none_targeted",
+    "hits": []
+  },
+  "Gossypium hirsutum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_016676983",
+        "title": "ref|XP_016676983.2| ubiquitin-60S ribosomal protein L40 [Gossypium hirsutum]",
+        "organism": "Gossypium hirsutum",
+        "identity_pct": 98.44,
+        "evalue": 3.08384e-89,
+        "bits": 260.766,
+        "length": 128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_016676983"
+      }
+    ]
+  },
+  "Zea mays": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001357553",
+        "title": "ref|NP_001357553.1| Ubiquitin-60S ribosomal protein L40-like [Zea mays]",
+        "organism": "Zea mays",
+        "identity_pct": 73.33,
+        "evalue": 1.86741e-65,
+        "bits": 201.06,
+        "length": 143,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001357553"
+      }
+    ]
+  },
+  "Lactuca sativa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_023746612",
+        "title": "ref|XP_023746612.1| ubiquitin-NEDD8-like protein RUB2 [Lactuca sativa]",
+        "organism": "Lactuca sativa",
+        "identity_pct": 100.0,
+        "evalue": 1.73832e-47,
+        "bits": 155.992,
+        "length": 154,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_023746612"
+      }
+    ]
+  },
+  "Helianthus annuus": {
+    "db": "nr_targeted",
+    "query": "Helianthus annuus",
+    "hits": [
+      {
+        "accession": "XP_021970198",
+        "title": "ref|XP_003602319.1| ubiquitin-60S ribosomal protein L40 [Medicago truncatula] >ref|XP_004494208.1| ubiquitin-ribosomal protein eL40 fusion p",
+        "organism": "Medicago truncatula",
+        "identity_pct": 98.44,
+        "evalue": 6.38002e-91,
+        "bits": 259.61,
+        "length": 128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021970198"
+      }
+    ]
+  },
+  "Aegilops tauschii": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_020161703",
+        "title": "ref|XP_020161703.1| ubiquitin-ribosomal protein eL40 fusion protein isoform X2 [Aegilops tauschii subsp. strangulata] >ref|XP_044375804.1| u",
+        "organism": "Aegilops tauschii subsp. strangulata",
+        "identity_pct": 88.98,
+        "evalue": 4.46789e-75,
+        "bits": 225.328,
+        "length": 132,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020161703"
+      }
+    ]
+  },
+  "Pisum sativum": {
+    "db": "nr_targeted",
+    "query": "Pisum sativum",
+    "hits": [
+      {
+        "accession": "XP_050877766",
+        "title": "ref|XP_003602319.1| ubiquitin-60S ribosomal protein L40 [Medicago truncatula] >ref|XP_004494208.1| ubiquitin-ribosomal protein eL40 fusion p",
+        "organism": "Medicago truncatula",
+        "identity_pct": 98.44,
+        "evalue": 4.45509e-91,
+        "bits": 259.61,
+        "length": 128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_050877766"
+      }
+    ]
+  },
+  "Hordeum vulgare": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_044967896",
+        "title": "ref|XP_044967896.1| ubiquitin-like [Hordeum vulgare subsp. vulgare]",
+        "organism": "Hordeum vulgare subsp. vulgare",
+        "identity_pct": 80.6,
+        "evalue": 1.3866e-73,
+        "bits": 221.861,
+        "length": 142,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_044967896"
+      }
+    ]
+  },
+  "Ceratopteris richardii": {
+    "db": "nr_targeted",
+    "query": "Ceratopteris richardii",
+    "hits": [
+      {
+        "accession": "KAH7295269",
+        "title": "ref|XP_014518456.1| ubiquitin-60S ribosomal protein L40 [Vigna radiata var. radiata] >ref|XP_015951439.2| ubiquitin-60S ribosomal protein L4",
+        "organism": "Vigna radiata var. radiata",
+        "identity_pct": 98.44,
+        "evalue": 3.71845e-91,
+        "bits": 260.381,
+        "length": 128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAH7295269"
+      }
+    ]
+  },
+  "Vicia faba": {
+    "db": "nr_targeted",
+    "query": "Vicia faba",
+    "hits": [
+      {
+        "accession": "CAI8598569",
+        "title": "ref|XP_003602319.1| ubiquitin-60S ribosomal protein L40 [Medicago truncatula] >ref|XP_004494208.1| ubiquitin-ribosomal protein eL40 fusion p",
+        "organism": "Medicago truncatula",
+        "identity_pct": 98.44,
+        "evalue": 5.78202e-91,
+        "bits": 259.61,
+        "length": 128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CAI8598569"
+      }
+    ]
+  }
+}

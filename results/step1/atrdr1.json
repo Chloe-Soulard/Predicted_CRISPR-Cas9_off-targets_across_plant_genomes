@@ -1,0 +1,730 @@
+{
+  "Arabidopsis thaliana": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_172932",
+        "title": "ref|NP_172932.1| RNA-dependent RNA polymerase 1 [Arabidopsis thaliana]",
+        "organism": "Arabidopsis thaliana",
+        "identity_pct": 100.0,
+        "evalue": 0.0,
+        "bits": 2304.25,
+        "length": 1107,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_172932"
+      }
+    ]
+  },
+  "Rubus occidentalis": {
+    "db": "none_targeted",
+    "hits": []
+  },
+  "Prunus persica": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_007225261",
+        "title": "ref|XP_007225261.2| probable RNA-dependent RNA polymerase 1 [Prunus persica] >ref|XP_020419609.1| probable RNA-dependent RNA polymerase 1 [P",
+        "organism": "Prunus persica",
+        "identity_pct": 63.36,
+        "evalue": 0.0,
+        "bits": 1414.05,
+        "length": 1123,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_007225261"
+      }
+    ]
+  },
+  "brassica rapa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_009148868",
+        "title": "ref|XP_009148868.1| RNA-dependent RNA polymerase 1 [Brassica rapa] >ref|XP_033130018.1| RNA-dependent RNA polymerase 1 [Brassica rapa]",
+        "organism": "Brassica rapa",
+        "identity_pct": 86.78,
+        "evalue": 0.0,
+        "bits": 1978.37,
+        "length": 1110,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_009148868"
+      }
+    ]
+  },
+  "Brachypodium distachyon": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_010236147",
+        "title": "ref|XP_010236147.1| LOW QUALITY PROTEIN: probable RNA-dependent RNA polymerase 1 [Brachypodium distachyon]",
+        "organism": "Brachypodium distachyon",
+        "identity_pct": 57.41,
+        "evalue": 0.0,
+        "bits": 1253.43,
+        "length": 1117,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_010236147"
+      }
+    ]
+  },
+  "Cucumis sativus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001267692",
+        "title": "ref|NP_001267692.1| RNA-dependent RNA polymerase 1-like [Cucumis sativus] >ref|XP_031740799.1| RNA-dependent RNA polymerase 1-like isoform X",
+        "organism": "Cucumis sativus",
+        "identity_pct": 63.46,
+        "evalue": 0.0,
+        "bits": 1421.37,
+        "length": 1130,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001267692"
+      }
+    ]
+  },
+  "Corylus avellana": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_059448546",
+        "title": "ref|XP_059448546.1| RNA-dependent RNA polymerase 1-like isoform X1 [Corylus avellana] >ref|XP_059448547.1| RNA-dependent RNA polymerase 1-li",
+        "organism": "Corylus avellana",
+        "identity_pct": 66.05,
+        "evalue": 0.0,
+        "bits": 1482.62,
+        "length": 1131,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_059448546"
+      }
+    ]
+  },
+  "Setaria viridis": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_034572718",
+        "title": "ref|XP_034572718.1| probable RNA-dependent RNA polymerase 1 [Setaria viridis]",
+        "organism": "Setaria viridis",
+        "identity_pct": 58.69,
+        "evalue": 0.0,
+        "bits": 1290.4,
+        "length": 1120,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_034572718"
+      }
+    ]
+  },
+  "Populus deltoides": {
+    "db": "nr_targeted",
+    "query": "Populus deltoides",
+    "hits": [
+      {
+        "accession": "KAH8500561",
+        "title": "gb|KAH8500561.1| hypothetical protein H0E87_015706 [Populus deltoides] >gb|KAH8500562.1| hypothetical protein H0E87_015706 [Populus deltoide",
+        "organism": "Populus deltoides",
+        "identity_pct": 64.37,
+        "evalue": 0.0,
+        "bits": 1486.09,
+        "length": 1133,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAH8500561"
+      }
+    ]
+  },
+  "Daucus carota": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_017226588",
+        "title": "ref|XP_017226588.1| probable RNA-dependent RNA polymerase 1 [Daucus carota subsp. sativus] >ref|XP_017226589.1| probable RNA-dependent RNA p",
+        "organism": "Daucus carota subsp. sativus",
+        "identity_pct": 59.5,
+        "evalue": 0.0,
+        "bits": 1312.75,
+        "length": 1105,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_017226588"
+      }
+    ]
+  },
+  "Populus trichocarpa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_002311536",
+        "title": "ref|XP_002311536.1| RNA-dependent RNA polymerase 1 [Populus trichocarpa]",
+        "organism": "Populus trichocarpa",
+        "identity_pct": 64.28,
+        "evalue": 0.0,
+        "bits": 1499.18,
+        "length": 1133,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_002311536"
+      }
+    ]
+  },
+  "Vitis vinifera": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_002284914",
+        "title": "ref|XP_002284914.1| probable RNA-dependent RNA polymerase 1 [Vitis vinifera]",
+        "organism": "Vitis vinifera",
+        "identity_pct": 64.58,
+        "evalue": 0.0,
+        "bits": 1483.0,
+        "length": 1121,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_002284914"
+      }
+    ]
+  },
+  "Paspalum notatum": {
+    "db": "nr_targeted",
+    "query": "Paspalum notatum",
+    "hits": [
+      {
+        "accession": "WVZ73766",
+        "title": "gb|WVZ73766.1| hypothetical protein U9M48_022042 [Paspalum notatum var. saurae]",
+        "organism": "Paspalum notatum var. saurae",
+        "identity_pct": 62.94,
+        "evalue": 0.0,
+        "bits": 917.531,
+        "length": 745,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WVZ73766"
+      }
+    ]
+  },
+  "musa acuminata": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_064986521",
+        "title": "ref|XP_064986521.1| probable RNA-dependent RNA polymerase 1 [Musa acuminata AAA Group] >ref|XP_064986522.1| probable RNA-dependent RNA polym",
+        "organism": "Musa acuminata AAA Group",
+        "identity_pct": 59.23,
+        "evalue": 0.0,
+        "bits": 1299.26,
+        "length": 1134,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_064986521"
+      }
+    ]
+  },
+  "Phaseolus vulgaris": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_068462218",
+        "title": "ref|XP_068462218.1| probable RNA-dependent RNA polymerase 1 [Phaseolus vulgaris] >ref|XP_068462219.1| probable RNA-dependent RNA polymerase ",
+        "organism": "Phaseolus vulgaris",
+        "identity_pct": 60.84,
+        "evalue": 0.0,
+        "bits": 1357.04,
+        "length": 1122,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_068462218"
+      }
+    ]
+  },
+  "Thlaspi arvense": {
+    "db": "nr_targeted",
+    "query": "Thlaspi arvense",
+    "hits": [
+      {
+        "accession": "KAN4552468",
+        "title": "gb|KAN4552468.1| hypothetical protein ACUM60_003053 [Thlaspi arvense] >gb|KAN4552469.1| hypothetical protein ACUM60_003053 [Thlaspi arvense]",
+        "organism": "Thlaspi arvense",
+        "identity_pct": 86.58,
+        "evalue": 0.0,
+        "bits": 1975.29,
+        "length": 1110,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAN4552468"
+      }
+    ]
+  },
+  "Lotus japonicus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_057445087",
+        "title": "ref|XP_057445087.1| RNA-dependent RNA polymerase 1-like [Lotus japonicus] >ref|XP_057445089.1| RNA-dependent RNA polymerase 1-like [Lotus ja",
+        "organism": "Lotus japonicus",
+        "identity_pct": 64.58,
+        "evalue": 0.0,
+        "bits": 1442.17,
+        "length": 1111,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_057445087"
+      }
+    ]
+  },
+  "Beta vulgaris": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_048494216",
+        "title": "ref|XP_048494216.2| LOW QUALITY PROTEIN: RNA-dependent RNA polymerase 1-like [Beta vulgaris subsp. vulgaris]",
+        "organism": "Beta vulgaris subsp. vulgaris",
+        "identity_pct": 62.21,
+        "evalue": 0.0,
+        "bits": 1430.23,
+        "length": 1132,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_048494216"
+      }
+    ]
+  },
+  "Coffea canephora": {
+    "db": "nr_targeted",
+    "query": "Coffea canephora",
+    "hits": [
+      {
+        "accession": "CDP05596",
+        "title": "emb|CDP05596.1| unnamed protein product [Coffea canephora]",
+        "organism": "Coffea canephora",
+        "identity_pct": 63.82,
+        "evalue": 0.0,
+        "bits": 1441.79,
+        "length": 1112,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CDP05596"
+      }
+    ]
+  },
+  "Vigna unguiculata": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_027913456",
+        "title": "ref|XP_027913456.1| probable RNA-dependent RNA polymerase 1 [Vigna unguiculata] >ref|XP_027913457.1| probable RNA-dependent RNA polymerase 1",
+        "organism": "Vigna unguiculata",
+        "identity_pct": 60.66,
+        "evalue": 0.0,
+        "bits": 1352.04,
+        "length": 1133,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_027913456"
+      }
+    ]
+  },
+  "Malus domestica": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_028947083",
+        "title": "ref|XP_028947083.1| probable RNA-dependent RNA polymerase 1 isoform X2 [Malus domestica]",
+        "organism": "Malus domestica",
+        "identity_pct": 63.64,
+        "evalue": 0.0,
+        "bits": 1407.12,
+        "length": 1113,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_028947083"
+      }
+    ]
+  },
+  "Sorghum bicolor": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021315732",
+        "title": "ref|XP_021315732.1| probable RNA-dependent RNA polymerase 1 [Sorghum bicolor] >ref|XP_021315733.1| probable RNA-dependent RNA polymerase 1 [",
+        "organism": "Sorghum bicolor",
+        "identity_pct": 58.62,
+        "evalue": 0.0,
+        "bits": 1269.99,
+        "length": 1127,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021315732"
+      }
+    ]
+  },
+  "Cicer arietinum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_004498236",
+        "title": "ref|XP_004498236.1| probable RNA-dependent RNA polymerase 1 [Cicer arietinum]",
+        "organism": "Cicer arietinum",
+        "identity_pct": 61.24,
+        "evalue": 0.0,
+        "bits": 1382.47,
+        "length": 1126,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_004498236"
+      }
+    ]
+  },
+  "Manihot esculenta": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021594292",
+        "title": "ref|XP_021594292.1| RNA-dependent RNA polymerase 1 [Manihot esculenta]",
+        "organism": "Manihot esculenta",
+        "identity_pct": 67.29,
+        "evalue": 0.0,
+        "bits": 1516.9,
+        "length": 1132,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021594292"
+      }
+    ]
+  },
+  "Camelina sativa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_010496542",
+        "title": "ref|XP_010496542.1| PREDICTED: RNA-dependent RNA polymerase 1 [Camelina sativa] >ref|XP_019099000.1| PREDICTED: RNA-dependent RNA polymerase",
+        "organism": "Camelina sativa",
+        "identity_pct": 92.51,
+        "evalue": 0.0,
+        "bits": 2137.07,
+        "length": 1109,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_010496542"
+      }
+    ]
+  },
+  "Fragaria ananassa": {
+    "db": "nr_targeted",
+    "query": "Fragaria ananassa",
+    "hits": [
+      {
+        "accession": "KAL6187551",
+        "title": "gb|KAL6187551.1| hypothetical protein ACLB2K_038949 [Fragaria x ananassa]",
+        "organism": "Fragaria x ananassa",
+        "identity_pct": 64.54,
+        "evalue": 0.0,
+        "bits": 1447.18,
+        "length": 1119,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAL6187551"
+      }
+    ]
+  },
+  "Solanum lycopersicum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001234319",
+        "title": "ref|NP_001234319.1| RNA-directed RNA polymerase [Solanum lycopersicum]",
+        "organism": "Solanum lycopersicum",
+        "identity_pct": 62.4,
+        "evalue": 0.0,
+        "bits": 1390.94,
+        "length": 1114,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001234319"
+      }
+    ]
+  },
+  "Panicum miliaceum": {
+    "db": "nr_targeted",
+    "query": "Panicum miliaceum",
+    "hits": [
+      {
+        "accession": "RLM79550",
+        "title": "gb|RLM79550.1| hypothetical protein C2845_PM12G26440 [Panicum miliaceum]",
+        "organism": "Panicum miliaceum",
+        "identity_pct": 52.93,
+        "evalue": 0.0,
+        "bits": 794.267,
+        "length": 1010,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/RLM79550"
+      }
+    ]
+  },
+  "Eruca vesicaria": {
+    "db": "nr_targeted",
+    "query": "Eruca vesicaria",
+    "hits": [
+      {
+        "accession": "CAH8353817",
+        "title": "emb|CAH8353817.1| unnamed protein product [Eruca vesicaria subsp. sativa]",
+        "organism": "Eruca vesicaria subsp. sativa",
+        "identity_pct": 84.3,
+        "evalue": 0.0,
+        "bits": 1377.07,
+        "length": 796,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CAH8353817"
+      }
+    ]
+  },
+  "Lupinus angustifolius": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_019461464",
+        "title": "ref|XP_019461464.1| PREDICTED: RNA-dependent RNA polymerase 1 [Lupinus angustifolius]",
+        "organism": "Lupinus angustifolius",
+        "identity_pct": 62.73,
+        "evalue": 0.0,
+        "bits": 1436.4,
+        "length": 1118,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_019461464"
+      }
+    ]
+  },
+  "Brassica napus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_013641436",
+        "title": "ref|XP_013641436.2| RNA-dependent RNA polymerase 1 [Brassica napus]",
+        "organism": "Brassica napus",
+        "identity_pct": 86.68,
+        "evalue": 0.0,
+        "bits": 1975.67,
+        "length": 1110,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_013641436"
+      }
+    ]
+  },
+  "Spinacia oleracea": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021839312",
+        "title": "ref|XP_021839312.2| RNA-dependent RNA polymerase 1 isoform X1 [Spinacia oleracea] >ref|XP_021839313.2| RNA-dependent RNA polymerase 1 isofor",
+        "organism": "Spinacia oleracea",
+        "identity_pct": 63.13,
+        "evalue": 0.0,
+        "bits": 1429.08,
+        "length": 1125,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021839312"
+      }
+    ]
+  },
+  "Eleusine coracana": {
+    "db": "nr_targeted",
+    "query": "Eleusine coracana",
+    "hits": [
+      {
+        "accession": "KAK3159035",
+        "title": "gb|KAK3159035.1| hypothetical protein QOZ80_2AG0144860 [Eleusine coracana subsp. coracana]",
+        "organism": "Eleusine coracana subsp. coracana",
+        "identity_pct": 58.7,
+        "evalue": 0.0,
+        "bits": 1284.63,
+        "length": 1112,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAK3159035"
+      }
+    ]
+  },
+  "Glycine max": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_003518619",
+        "title": "ref|XP_003518619.1| RNA-dependent RNA polymerase 1 [Glycine max] >ref|XP_006574822.1| RNA-dependent RNA polymerase 1 [Glycine max] >ref|XP_0",
+        "organism": "Glycine max",
+        "identity_pct": 63.44,
+        "evalue": 0.0,
+        "bits": 1437.17,
+        "length": 1125,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_003518619"
+      }
+    ]
+  },
+  "Asparagus officinalis": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_020269097",
+        "title": "ref|XP_020269097.1| probable RNA-dependent RNA polymerase 1 [Asparagus officinalis] >ref|XP_020269098.1| probable RNA-dependent RNA polymera",
+        "organism": "Asparagus officinalis",
+        "identity_pct": 59.2,
+        "evalue": 0.0,
+        "bits": 1324.69,
+        "length": 1128,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020269097"
+      }
+    ]
+  },
+  "Chenopodium quinoa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021737878",
+        "title": "ref|XP_021737878.1| RNA-dependent RNA polymerase 1-like [Chenopodium quinoa]",
+        "organism": "Chenopodium quinoa",
+        "identity_pct": 61.57,
+        "evalue": 0.0,
+        "bits": 1406.35,
+        "length": 1122,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021737878"
+      }
+    ]
+  },
+  "Solanum tuberosum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_015160223",
+        "title": "ref|XP_015160223.1| probable RNA-dependent RNA polymerase 1 isoform X2 [Solanum tuberosum]",
+        "organism": "Solanum tuberosum",
+        "identity_pct": 61.68,
+        "evalue": 0.0,
+        "bits": 1373.22,
+        "length": 1115,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_015160223"
+      }
+    ]
+  },
+  "Miscanthus sinensis": {
+    "db": "none_targeted",
+    "hits": []
+  },
+  "Gossypium hirsutum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_016705253",
+        "title": "ref|XP_016705253.2| RNA-dependent RNA polymerase 1 isoform X1 [Gossypium hirsutum]",
+        "organism": "Gossypium hirsutum",
+        "identity_pct": 67.24,
+        "evalue": 0.0,
+        "bits": 1511.89,
+        "length": 1110,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_016705253"
+      }
+    ]
+  },
+  "Zea mays": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_008644240",
+        "title": "ref|XP_008644240.1| probable RNA-dependent RNA polymerase 1 [Zea mays] >ref|XP_008644241.1| probable RNA-dependent RNA polymerase 1 [Zea may",
+        "organism": "Zea mays",
+        "identity_pct": 57.93,
+        "evalue": 0.0,
+        "bits": 1252.65,
+        "length": 1108,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_008644240"
+      }
+    ]
+  },
+  "Lactuca sativa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_023755915",
+        "title": "ref|XP_023755915.1| putative RNA-dependent RNA polymerase 1 [Lactuca sativa] >ref|XP_078949176.1| putative RNA-dependent RNA polymerase 1 [L",
+        "organism": "Lactuca sativa",
+        "identity_pct": 61.68,
+        "evalue": 0.0,
+        "bits": 1368.6,
+        "length": 1119,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_023755915"
+      }
+    ]
+  },
+  "Helianthus annuus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021977450",
+        "title": "ref|XP_021977450.1| probable RNA-dependent RNA polymerase 1 [Helianthus annuus]",
+        "organism": "Helianthus annuus",
+        "identity_pct": 61.33,
+        "evalue": 0.0,
+        "bits": 1368.6,
+        "length": 1113,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021977450"
+      }
+    ]
+  },
+  "Aegilops tauschii": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_020170071",
+        "title": "ref|XP_020170071.1| probable RNA-dependent RNA polymerase 1 [Aegilops tauschii subsp. strangulata] >ref|XP_020170072.1| probable RNA-depende",
+        "organism": "Aegilops tauschii subsp. strangulata",
+        "identity_pct": 57.31,
+        "evalue": 0.0,
+        "bits": 1280.39,
+        "length": 1116,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020170071"
+      }
+    ]
+  },
+  "Pisum sativum": {
+    "db": "nr_targeted",
+    "query": "Pisum sativum",
+    "hits": [
+      {
+        "accession": "XP_050886515",
+        "title": "ref|XP_050886515.1| RNA-dependent RNA polymerase 1 [Lathyrus oleraceus] >ref|XP_050886516.1| RNA-dependent RNA polymerase 1 [Lathyrus olerac",
+        "organism": "Lathyrus oleraceus",
+        "identity_pct": 61.1,
+        "evalue": 0.0,
+        "bits": 1352.42,
+        "length": 1111,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_050886515"
+      }
+    ]
+  },
+  "Hordeum vulgare": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_044950868",
+        "title": "ref|XP_044950868.1| probable RNA-dependent RNA polymerase 1 isoform X1 [Hordeum vulgare subsp. vulgare]",
+        "organism": "Hordeum vulgare subsp. vulgare",
+        "identity_pct": 57.98,
+        "evalue": 0.0,
+        "bits": 1284.24,
+        "length": 1115,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_044950868"
+      }
+    ]
+  },
+  "Ceratopteris richardii": {
+    "db": "nr_targeted",
+    "query": "Ceratopteris richardii",
+    "hits": [
+      {
+        "accession": "KAH7442577",
+        "title": "gb|KAH7442577.1| hypothetical protein KP509_03G095200 [Ceratopteris richardii]",
+        "organism": "Ceratopteris richardii",
+        "identity_pct": 44.22,
+        "evalue": 0.0,
+        "bits": 841.262,
+        "length": 1129,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAH7442577"
+      }
+    ]
+  },
+  "Vicia faba": {
+    "db": "nr_targeted",
+    "query": "Vicia faba",
+    "hits": [
+      {
+        "accession": "KAL5070964",
+        "title": "gb|KAL5070964.1| hypothetical protein RYX36_021851 [Vicia faba]",
+        "organism": "Vicia faba",
+        "identity_pct": 60.83,
+        "evalue": 0.0,
+        "bits": 1331.62,
+        "length": 1112,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAL5070964"
+      }
+    ]
+  }
+}

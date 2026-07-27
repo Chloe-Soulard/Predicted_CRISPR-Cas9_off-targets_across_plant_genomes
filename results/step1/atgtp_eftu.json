@@ -1,0 +1,742 @@
+{
+  "Arabidopsis thaliana": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_192202",
+        "title": "ref|NP_192202.1| GTP binding Elongation factor Tu family protein [Arabidopsis thaliana]",
+        "organism": "Arabidopsis thaliana",
+        "identity_pct": 100.0,
+        "evalue": 0.0,
+        "bits": 929.472,
+        "length": 454,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_192202"
+      }
+    ]
+  },
+  "Rubus occidentalis": {
+    "db": "none_targeted",
+    "hits": []
+  },
+  "Prunus persica": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_007199859",
+        "title": "ref|XP_007199859.1| elongation factor Tu, mitochondrial [Prunus persica]",
+        "organism": "Prunus persica",
+        "identity_pct": 86.09,
+        "evalue": 0.0,
+        "bits": 760.755,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_007199859"
+      }
+    ]
+  },
+  "brassica rapa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_009111250",
+        "title": "ref|XP_009111250.1| elongation factor Tu, mitochondrial [Brassica rapa] >ref|XP_013685806.2| elongation factor Tu, mitochondrial [Brassica n",
+        "organism": "Brassica rapa",
+        "identity_pct": 93.2,
+        "evalue": 0.0,
+        "bits": 818.92,
+        "length": 454,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_009111250"
+      }
+    ]
+  },
+  "Brachypodium distachyon": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_003562281",
+        "title": "ref|XP_003562281.1| elongation factor Tu, mitochondrial [Brachypodium distachyon]",
+        "organism": "Brachypodium distachyon",
+        "identity_pct": 81.76,
+        "evalue": 0.0,
+        "bits": 719.153,
+        "length": 455,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_003562281"
+      }
+    ]
+  },
+  "Cucumis sativus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_004136065",
+        "title": "ref|XP_004136065.1| elongation factor Tu, mitochondrial [Cucumis sativus]",
+        "organism": "Cucumis sativus",
+        "identity_pct": 86.12,
+        "evalue": 0.0,
+        "bits": 777.319,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_004136065"
+      }
+    ]
+  },
+  "Corylus avellana": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_059439785",
+        "title": "ref|XP_059439785.1| elongation factor Tu, mitochondrial [Corylus avellana]",
+        "organism": "Corylus avellana",
+        "identity_pct": 88.11,
+        "evalue": 0.0,
+        "bits": 776.163,
+        "length": 448,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_059439785"
+      }
+    ]
+  },
+  "Setaria viridis": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_034573876",
+        "title": "ref|XP_034573876.1| elongation factor Tu, mitochondrial [Setaria viridis]",
+        "organism": "Setaria viridis",
+        "identity_pct": 79.07,
+        "evalue": 0.0,
+        "bits": 694.115,
+        "length": 451,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_034573876"
+      }
+    ]
+  },
+  "Populus deltoides": {
+    "db": "nr_targeted",
+    "query": "Populus deltoides",
+    "hits": [
+      {
+        "accession": "KAH8517973",
+        "title": "ref|XP_011010772.1| elongation factor Tu, mitochondrial-like [Populus euphratica] >ref|XP_034908181.1| elongation factor Tu, mitochondrial [",
+        "organism": "Populus euphratica",
+        "identity_pct": 86.09,
+        "evalue": 0.0,
+        "bits": 789.26,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAH8517973"
+      }
+    ]
+  },
+  "Daucus carota": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_017237018",
+        "title": "ref|XP_017237018.1| elongation factor Tu, mitochondrial [Daucus carota subsp. sativus]",
+        "organism": "Daucus carota subsp. sativus",
+        "identity_pct": 85.75,
+        "evalue": 0.0,
+        "bits": 768.074,
+        "length": 448,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_017237018"
+      }
+    ]
+  },
+  "Populus trichocarpa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_024449891",
+        "title": "ref|XP_024449891.1| elongation factor Tu, mitochondrial [Populus trichocarpa]",
+        "organism": "Populus trichocarpa",
+        "identity_pct": 86.31,
+        "evalue": 0.0,
+        "bits": 796.964,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_024449891"
+      }
+    ]
+  },
+  "Vitis vinifera": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_010652106",
+        "title": "ref|XP_010652106.1| elongation factor Tu, mitochondrial [Vitis vinifera]",
+        "organism": "Vitis vinifera",
+        "identity_pct": 86.12,
+        "evalue": 0.0,
+        "bits": 805.053,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_010652106"
+      }
+    ]
+  },
+  "Paspalum notatum": {
+    "db": "nr_targeted",
+    "query": "Paspalum notatum",
+    "hits": [
+      {
+        "accession": "WVZ61285",
+        "title": "gb|WVZ61285.1| hypothetical protein U9M48_011187 [Paspalum notatum var. saurae]",
+        "organism": "Paspalum notatum var. saurae",
+        "identity_pct": 79.3,
+        "evalue": 0.0,
+        "bits": 697.967,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WVZ61285"
+      }
+    ]
+  },
+  "musa acuminata": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_064934240",
+        "title": "ref|XP_064934240.1| elongation factor Tu, mitochondrial [Musa acuminata AAA Group] >ref|XP_064976063.1| elongation factor Tu, mitochondrial-",
+        "organism": "Musa acuminata AAA Group",
+        "identity_pct": 82.25,
+        "evalue": 0.0,
+        "bits": 733.406,
+        "length": 455,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_064934240"
+      }
+    ]
+  },
+  "Phaseolus vulgaris": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_068472881",
+        "title": "ref|XP_068472881.1| elongation factor Tu, mitochondrial [Phaseolus vulgaris]",
+        "organism": "Phaseolus vulgaris",
+        "identity_pct": 87.28,
+        "evalue": 0.0,
+        "bits": 775.007,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_068472881"
+      }
+    ]
+  },
+  "Thlaspi arvense": {
+    "db": "nr_targeted",
+    "query": "Thlaspi arvense",
+    "hits": [
+      {
+        "accession": "KAN1296486",
+        "title": "gb|KAN1296486.1| hypothetical protein ACUM6N_021680 [Thlaspi arvense] >gb|KAN1316217.1| hypothetical protein ACUM6Z_021518 [Thlaspi arvense]",
+        "organism": "Thlaspi arvense",
+        "identity_pct": 96.48,
+        "evalue": 0.0,
+        "bits": 890.567,
+        "length": 452,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAN1296486"
+      }
+    ]
+  },
+  "Lotus japonicus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_057438823",
+        "title": "ref|XP_057438823.1| elongation factor Tu, mitochondrial-like [Lotus japonicus]",
+        "organism": "Lotus japonicus",
+        "identity_pct": 92.77,
+        "evalue": 0.0,
+        "bits": 734.561,
+        "length": 453,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_057438823"
+      }
+    ]
+  },
+  "Beta vulgaris": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_010669445",
+        "title": "ref|XP_010669445.1| elongation factor Tu, mitochondrial [Beta vulgaris subsp. vulgaris]",
+        "organism": "Beta vulgaris subsp. vulgaris",
+        "identity_pct": 87.55,
+        "evalue": 0.0,
+        "bits": 801.586,
+        "length": 453,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_010669445"
+      }
+    ]
+  },
+  "Coffea canephora": {
+    "db": "nr_targeted",
+    "query": "Coffea canephora",
+    "hits": [
+      {
+        "accession": "CDP03593",
+        "title": "emb|CDP03593.1| unnamed protein product [Coffea canephora]",
+        "organism": "Coffea canephora",
+        "identity_pct": 85.49,
+        "evalue": 0.0,
+        "bits": 765.763,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CDP03593"
+      }
+    ]
+  },
+  "Vigna unguiculata": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_027914981",
+        "title": "ref|XP_027914981.1| elongation factor Tu, mitochondrial [Vigna unguiculata]",
+        "organism": "Vigna unguiculata",
+        "identity_pct": 87.06,
+        "evalue": 0.0,
+        "bits": 770.0,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_027914981"
+      }
+    ]
+  },
+  "Malus domestica": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_008368874",
+        "title": "ref|XP_008368874.3| elongation factor Tu, mitochondrial [Malus domestica]",
+        "organism": "Malus domestica",
+        "identity_pct": 87.0,
+        "evalue": 0.0,
+        "bits": 802.357,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_008368874"
+      }
+    ]
+  },
+  "Sorghum bicolor": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_002463510",
+        "title": "ref|XP_002463510.1| elongation factor Tu, mitochondrial [Sorghum bicolor]",
+        "organism": "Sorghum bicolor",
+        "identity_pct": 79.74,
+        "evalue": 0.0,
+        "bits": 696.427,
+        "length": 453,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_002463510"
+      }
+    ]
+  },
+  "Cicer arietinum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_004493639",
+        "title": "ref|XP_004493639.2| elongation factor Tu, mitochondrial [Cicer arietinum]",
+        "organism": "Cicer arietinum",
+        "identity_pct": 85.96,
+        "evalue": 0.0,
+        "bits": 753.051,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_004493639"
+      }
+    ]
+  },
+  "Manihot esculenta": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021608199",
+        "title": "ref|XP_021608199.1| elongation factor Tu, mitochondrial [Manihot esculenta]",
+        "organism": "Manihot esculenta",
+        "identity_pct": 87.44,
+        "evalue": 0.0,
+        "bits": 783.097,
+        "length": 451,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021608199"
+      }
+    ]
+  },
+  "Camelina sativa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_010422516",
+        "title": "ref|XP_010422516.1| PREDICTED: elongation factor Tu, mitochondrial [Camelina sativa]",
+        "organism": "Camelina sativa",
+        "identity_pct": 97.14,
+        "evalue": 0.0,
+        "bits": 900.968,
+        "length": 452,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_010422516"
+      }
+    ]
+  },
+  "Fragaria ananassa": {
+    "db": "nr_targeted",
+    "query": "Fragaria ananassa",
+    "hits": [
+      {
+        "accession": "KAL6208541",
+        "title": "gb|KAL6208541.1| hypothetical protein ACLB2K_019490 [Fragaria x ananassa]",
+        "organism": "Fragaria x ananassa",
+        "identity_pct": 85.02,
+        "evalue": 0.0,
+        "bits": 754.592,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAL6208541"
+      }
+    ]
+  },
+  "Solanum lycopersicum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_004247491",
+        "title": "ref|XP_004247491.1| elongation factor Tu, mitochondrial [Solanum lycopersicum]",
+        "organism": "Solanum lycopersicum",
+        "identity_pct": 88.13,
+        "evalue": 0.0,
+        "bits": 781.941,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_004247491"
+      }
+    ]
+  },
+  "Panicum miliaceum": {
+    "db": "nr_targeted",
+    "query": "Panicum miliaceum",
+    "hits": [
+      {
+        "accession": "RLN16953",
+        "title": "gb|RLN16953.1| elongation factor Tu, mitochondrial [Panicum miliaceum]",
+        "organism": "Panicum miliaceum",
+        "identity_pct": 79.47,
+        "evalue": 0.0,
+        "bits": 695.271,
+        "length": 452,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/RLN16953"
+      }
+    ]
+  },
+  "Eruca vesicaria": {
+    "db": "nr_targeted",
+    "query": "Eruca vesicaria",
+    "hits": [
+      {
+        "accession": "CAH8364119",
+        "title": "emb|CAH8364119.1| unnamed protein product [Eruca vesicaria subsp. sativa]",
+        "organism": "Eruca vesicaria subsp. sativa",
+        "identity_pct": 95.6,
+        "evalue": 0.0,
+        "bits": 880.167,
+        "length": 453,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CAH8364119"
+      }
+    ]
+  },
+  "Lupinus angustifolius": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_019424595",
+        "title": "ref|XP_019424595.1| PREDICTED: elongation factor Tu, mitochondrial-like [Lupinus angustifolius]",
+        "organism": "Lupinus angustifolius",
+        "identity_pct": 85.31,
+        "evalue": 0.0,
+        "bits": 737.258,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_019424595"
+      }
+    ]
+  },
+  "Brassica napus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_013688532",
+        "title": "ref|XP_013688532.1| elongation factor Tu, mitochondrial [Brassica napus]",
+        "organism": "Brassica napus",
+        "identity_pct": 93.89,
+        "evalue": 0.0,
+        "bits": 823.157,
+        "length": 456,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_013688532"
+      }
+    ]
+  },
+  "Spinacia oleracea": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_056697879",
+        "title": "ref|XP_056697879.1| elongation factor Tu, mitochondrial [Spinacia oleracea]",
+        "organism": "Spinacia oleracea",
+        "identity_pct": 82.93,
+        "evalue": 0.0,
+        "bits": 738.799,
+        "length": 456,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_056697879"
+      }
+    ]
+  },
+  "Eleusine coracana": {
+    "db": "nr_targeted",
+    "query": "Eleusine coracana",
+    "hits": [
+      {
+        "accession": "KAK3145469",
+        "title": "gb|KAK3145469.1| hypothetical protein QOZ80_3BG0253210 [Eleusine coracana subsp. coracana] >dbj|GJN22645.1| hypothetical protein PR202_gb102",
+        "organism": "Eleusine coracana subsp. coracana",
+        "identity_pct": 81.9,
+        "evalue": 0.0,
+        "bits": 715.687,
+        "length": 451,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAK3145469"
+      }
+    ]
+  },
+  "Glycine max": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001276267",
+        "title": "ref|NP_001276267.2| elongation factor Tu, mitochondrial-like [Glycine max] >ref|XP_028219157.1| elongation factor Tu, mitochondrial-like [Gl",
+        "organism": "Glycine max",
+        "identity_pct": 86.18,
+        "evalue": 0.0,
+        "bits": 757.673,
+        "length": 452,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001276267"
+      }
+    ]
+  },
+  "Asparagus officinalis": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_020261219",
+        "title": "ref|XP_020261219.1| elongation factor Tu, mitochondrial-like [Asparagus officinalis]",
+        "organism": "Asparagus officinalis",
+        "identity_pct": 84.31,
+        "evalue": 0.0,
+        "bits": 743.036,
+        "length": 460,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020261219"
+      }
+    ]
+  },
+  "Chenopodium quinoa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021744471",
+        "title": "ref|XP_021744471.1| elongation factor Tu, mitochondrial-like [Chenopodium quinoa]",
+        "organism": "Chenopodium quinoa",
+        "identity_pct": 84.46,
+        "evalue": 0.0,
+        "bits": 793.882,
+        "length": 456,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021744471"
+      }
+    ]
+  },
+  "Solanum tuberosum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_006358430",
+        "title": "ref|XP_006358430.1| elongation factor Tu, mitochondrial [Solanum tuberosum]",
+        "organism": "Solanum tuberosum",
+        "identity_pct": 87.91,
+        "evalue": 0.0,
+        "bits": 780.785,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_006358430"
+      }
+    ]
+  },
+  "Miscanthus sinensis": {
+    "db": "nr_targeted",
+    "query": "Miscanthus sinensis",
+    "hits": [
+      {
+        "accession": "AFC88830",
+        "title": "ref|XP_066375672.1| elongation factor 1-alpha-like [Miscanthus floridulus] >ref|XP_066375849.1| elongation factor 1-alpha-like [Miscanthus f",
+        "organism": "Miscanthus floridulus",
+        "identity_pct": 30.41,
+        "evalue": 2.15624e-48,
+        "bits": 166.392,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/AFC88830"
+      }
+    ]
+  },
+  "Gossypium hirsutum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_016725170",
+        "title": "ref|XP_016725170.1| elongation factor Tu, mitochondrial [Gossypium hirsutum]",
+        "organism": "Gossypium hirsutum",
+        "identity_pct": 85.93,
+        "evalue": 0.0,
+        "bits": 769.229,
+        "length": 454,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_016725170"
+      }
+    ]
+  },
+  "Zea mays": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001132561",
+        "title": "ref|NP_001132561.1| putative translation elongation/initiation factor family protein [Zea mays]",
+        "organism": "Zea mays",
+        "identity_pct": 80.62,
+        "evalue": 0.0,
+        "bits": 700.664,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001132561"
+      }
+    ]
+  },
+  "Lactuca sativa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_023744012",
+        "title": "ref|XP_023744012.1| GTP binding Elongation factor Tu family protein [Lactuca sativa] >ref|XP_078860180.1| GTP binding Elongation factor Tu f",
+        "organism": "Lactuca sativa",
+        "identity_pct": 81.58,
+        "evalue": 0.0,
+        "bits": 728.013,
+        "length": 451,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_023744012"
+      }
+    ]
+  },
+  "Helianthus annuus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_022040830",
+        "title": "ref|XP_022040830.1| elongation factor Tu, mitochondrial [Helianthus annuus]",
+        "organism": "Helianthus annuus",
+        "identity_pct": 82.68,
+        "evalue": 0.0,
+        "bits": 730.709,
+        "length": 451,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_022040830"
+      }
+    ]
+  },
+  "Aegilops tauschii": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_020189707",
+        "title": "ref|XP_020189707.1| elongation factor Tu, mitochondrial [Aegilops tauschii subsp. strangulata]",
+        "organism": "Aegilops tauschii subsp. strangulata",
+        "identity_pct": 85.64,
+        "evalue": 0.0,
+        "bits": 684.485,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020189707"
+      }
+    ]
+  },
+  "Pisum sativum": {
+    "db": "nr_targeted",
+    "query": "Pisum sativum",
+    "hits": [
+      {
+        "accession": "XP_050911026",
+        "title": "ref|XP_050911026.1| elongation factor Tu, mitochondrial [Lathyrus oleraceus]",
+        "organism": "Lathyrus oleraceus",
+        "identity_pct": 89.46,
+        "evalue": 0.0,
+        "bits": 736.487,
+        "length": 455,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_050911026"
+      }
+    ]
+  },
+  "Hordeum vulgare": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_044946006",
+        "title": "ref|XP_044946006.1| elongation factor Tu, mitochondrial [Hordeum vulgare subsp. vulgare]",
+        "organism": "Hordeum vulgare subsp. vulgare",
+        "identity_pct": 86.07,
+        "evalue": 0.0,
+        "bits": 682.559,
+        "length": 452,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_044946006"
+      }
+    ]
+  },
+  "Ceratopteris richardii": {
+    "db": "nr_targeted",
+    "query": "Ceratopteris richardii",
+    "hits": [
+      {
+        "accession": "KAH7285921",
+        "title": "gb|KAH7285921.1| hypothetical protein KP509_33G051100 [Ceratopteris richardii]",
+        "organism": "Ceratopteris richardii",
+        "identity_pct": 76.82,
+        "evalue": 0.0,
+        "bits": 721.85,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAH7285921"
+      }
+    ]
+  },
+  "Vicia faba": {
+    "db": "nr_targeted",
+    "query": "Vicia faba",
+    "hits": [
+      {
+        "accession": "CAI8614157",
+        "title": "emb|CAI8614157.1| unnamed protein product [Vicia faba]",
+        "organism": "Vicia faba",
+        "identity_pct": 87.9,
+        "evalue": 0.0,
+        "bits": 751.125,
+        "length": 452,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CAI8614157"
+      }
+    ]
+  }
+}

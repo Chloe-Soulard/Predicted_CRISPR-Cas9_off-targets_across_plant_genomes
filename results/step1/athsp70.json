@@ -1,0 +1,730 @@
+{
+  "Arabidopsis thaliana": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_195869",
+        "title": "ref|NP_195869.1| Heat shock protein 70 (Hsp 70) family protein [Arabidopsis thaliana]",
+        "organism": "Arabidopsis thaliana",
+        "identity_pct": 100.0,
+        "evalue": 0.0,
+        "bits": 1342.02,
+        "length": 653,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_195869"
+      }
+    ]
+  },
+  "Rubus occidentalis": {
+    "db": "none_targeted",
+    "hits": []
+  },
+  "Prunus persica": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_020422582",
+        "title": "ref|XP_020422582.1| probable mediator of RNA polymerase II transcription subunit 37e [Prunus persica] >ref|XP_034219498.1| heat shock 70 kDa",
+        "organism": "Prunus persica",
+        "identity_pct": 90.66,
+        "evalue": 0.0,
+        "bits": 1218.37,
+        "length": 647,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020422582"
+      }
+    ]
+  },
+  "brassica rapa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_033143098",
+        "title": "ref|XP_033143098.1| probable mediator of RNA polymerase II transcription subunit 37e [Brassica rapa]",
+        "organism": "Brassica rapa",
+        "identity_pct": 93.57,
+        "evalue": 0.0,
+        "bits": 1263.44,
+        "length": 650,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_033143098"
+      }
+    ]
+  },
+  "Brachypodium distachyon": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_003578898",
+        "title": "ref|XP_003578898.1| heat shock cognate 70 kDa protein 2 [Brachypodium distachyon]",
+        "organism": "Brachypodium distachyon",
+        "identity_pct": 90.51,
+        "evalue": 0.0,
+        "bits": 1219.91,
+        "length": 648,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_003578898"
+      }
+    ]
+  },
+  "Cucumis sativus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_004142749",
+        "title": "ref|XP_004142749.1| heat shock cognate 70 kDa protein [Cucumis sativus]",
+        "organism": "Cucumis sativus",
+        "identity_pct": 89.43,
+        "evalue": 0.0,
+        "bits": 1211.82,
+        "length": 648,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_004142749"
+      }
+    ]
+  },
+  "Corylus avellana": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_059457474",
+        "title": "ref|XP_059457474.1| heat shock cognate 70 kDa protein 2-like [Corylus avellana]",
+        "organism": "Corylus avellana",
+        "identity_pct": 90.35,
+        "evalue": 0.0,
+        "bits": 1220.3,
+        "length": 649,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_059457474"
+      }
+    ]
+  },
+  "Setaria viridis": {
+    "db": "nr_targeted",
+    "query": "Setaria viridis",
+    "hits": [
+      {
+        "accession": "XP_034584247",
+        "title": "ref|XP_004962705.1| probable mediator of RNA polymerase II transcription subunit 37c [Setaria italica] >ref|XP_034584247.1| heat shock 70 kD",
+        "organism": "Setaria italica",
+        "identity_pct": 89.89,
+        "evalue": 0.0,
+        "bits": 1209.51,
+        "length": 649,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_034584247"
+      }
+    ]
+  },
+  "Populus deltoides": {
+    "db": "nr_targeted",
+    "query": "Populus deltoides",
+    "hits": [
+      {
+        "accession": "KAH8492202",
+        "title": "gb|KAH8492202.1| hypothetical protein H0E87_021687 [Populus deltoides] >gb|KAL9334599.1| hypothetical protein Peur_071780 [Populus x canaden",
+        "organism": "Populus deltoides",
+        "identity_pct": 64.17,
+        "evalue": 0.0,
+        "bits": 815.068,
+        "length": 668,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAH8492202"
+      }
+    ]
+  },
+  "Daucus carota": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_017241873",
+        "title": "ref|XP_017241873.1| heat shock cognate 70 kDa protein 2 [Daucus carota subsp. sativus]",
+        "organism": "Daucus carota subsp. sativus",
+        "identity_pct": 91.74,
+        "evalue": 0.0,
+        "bits": 1229.54,
+        "length": 649,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_017241873"
+      }
+    ]
+  },
+  "Populus trichocarpa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_002316294",
+        "title": "ref|XP_002316294.1| heat shock 70 kDa protein 4 [Populus trichocarpa]",
+        "organism": "Populus trichocarpa",
+        "identity_pct": 90.66,
+        "evalue": 0.0,
+        "bits": 1220.3,
+        "length": 648,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_002316294"
+      }
+    ]
+  },
+  "Vitis vinifera": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_019076139",
+        "title": "ref|XP_019076139.1| heat shock cognate 70 kDa protein 2 [Vitis vinifera]",
+        "organism": "Vitis vinifera",
+        "identity_pct": 91.28,
+        "evalue": 0.0,
+        "bits": 1226.46,
+        "length": 648,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_019076139"
+      }
+    ]
+  },
+  "Paspalum notatum": {
+    "db": "nr_targeted",
+    "query": "Paspalum notatum",
+    "hits": [
+      {
+        "accession": "WVZ61067",
+        "title": "gb|WVZ61067.1| hypothetical protein U9M48_010995 [Paspalum notatum var. saurae]",
+        "organism": "Paspalum notatum var. saurae",
+        "identity_pct": 90.0,
+        "evalue": 0.0,
+        "bits": 1218.37,
+        "length": 649,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WVZ61067"
+      }
+    ]
+  },
+  "musa acuminata": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_009409520",
+        "title": "ref|XP_009409520.1| heat shock cognate 70 kDa protein 2 [Musa acuminata AAA Group] >ref|XP_065016782.1| heat shock cognate 70 kDa protein 2 ",
+        "organism": "Musa acuminata AAA Group",
+        "identity_pct": 91.13,
+        "evalue": 0.0,
+        "bits": 1226.08,
+        "length": 648,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_009409520"
+      }
+    ]
+  },
+  "Phaseolus vulgaris": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_068485519",
+        "title": "ref|XP_068485519.1| heat shock cognate 70 kDa protein 2-like [Phaseolus vulgaris]",
+        "organism": "Phaseolus vulgaris",
+        "identity_pct": 90.37,
+        "evalue": 0.0,
+        "bits": 1220.68,
+        "length": 649,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_068485519"
+      }
+    ]
+  },
+  "Thlaspi arvense": {
+    "db": "nr_targeted",
+    "query": "Thlaspi arvense",
+    "hits": [
+      {
+        "accession": "KAN1299830",
+        "title": "gb|KAN1299830.1| hypothetical protein ACUM6N_023834 [Thlaspi arvense] >gb|KAN1320021.1| hypothetical protein ACUM6Z_023664 [Thlaspi arvense]",
+        "organism": "Thlaspi arvense",
+        "identity_pct": 94.03,
+        "evalue": 0.0,
+        "bits": 1255.35,
+        "length": 651,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAN1299830"
+      }
+    ]
+  },
+  "Lotus japonicus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_057425389",
+        "title": "ref|XP_057425389.1| heat shock cognate 70 kDa protein 2-like [Lotus japonicus]",
+        "organism": "Lotus japonicus",
+        "identity_pct": 90.98,
+        "evalue": 0.0,
+        "bits": 1224.15,
+        "length": 649,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_057425389"
+      }
+    ]
+  },
+  "Beta vulgaris": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_010669896",
+        "title": "ref|XP_010669896.2| heat shock cognate 70 kDa protein 2 [Beta vulgaris subsp. vulgaris]",
+        "organism": "Beta vulgaris subsp. vulgaris",
+        "identity_pct": 90.05,
+        "evalue": 0.0,
+        "bits": 1207.97,
+        "length": 647,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_010669896"
+      }
+    ]
+  },
+  "Coffea canephora": {
+    "db": "nr_targeted",
+    "query": "Coffea canephora",
+    "hits": [
+      {
+        "accession": "CDP00073",
+        "title": "emb|CDP00073.1| unnamed protein product [Coffea canephora]",
+        "organism": "Coffea canephora",
+        "identity_pct": 89.13,
+        "evalue": 0.0,
+        "bits": 1201.42,
+        "length": 634,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CDP00073"
+      }
+    ]
+  },
+  "Vigna unguiculata": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_027928152",
+        "title": "ref|XP_027928152.1| heat shock cognate 70 kDa protein 2-like [Vigna unguiculata]",
+        "organism": "Vigna unguiculata",
+        "identity_pct": 90.52,
+        "evalue": 0.0,
+        "bits": 1225.69,
+        "length": 649,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_027928152"
+      }
+    ]
+  },
+  "Malus domestica": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_008369876",
+        "title": "ref|XP_008369876.2| heat shock 70 kDa protein 1 [Malus domestica] >ref|XP_050144705.1| heat shock 70 kDa protein 1-like [Malus sylvestris]",
+        "organism": "Malus domestica",
+        "identity_pct": 90.96,
+        "evalue": 0.0,
+        "bits": 1229.93,
+        "length": 648,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_008369876"
+      }
+    ]
+  },
+  "Sorghum bicolor": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_002442353",
+        "title": "ref|XP_002442353.1| probable mediator of RNA polymerase II transcription subunit 37c [Sorghum bicolor]",
+        "organism": "Sorghum bicolor",
+        "identity_pct": 89.74,
+        "evalue": 0.0,
+        "bits": 1206.43,
+        "length": 649,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_002442353"
+      }
+    ]
+  },
+  "Cicer arietinum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_004493886",
+        "title": "ref|XP_004493886.1| heat shock cognate 70 kDa protein 2-like [Cicer arietinum]",
+        "organism": "Cicer arietinum",
+        "identity_pct": 91.88,
+        "evalue": 0.0,
+        "bits": 1238.02,
+        "length": 650,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_004493886"
+      }
+    ]
+  },
+  "Manihot esculenta": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021625582",
+        "title": "ref|XP_021625582.1| heat shock cognate 70 kDa protein 2 [Manihot esculenta]",
+        "organism": "Manihot esculenta",
+        "identity_pct": 90.69,
+        "evalue": 0.0,
+        "bits": 1212.98,
+        "length": 649,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021625582"
+      }
+    ]
+  },
+  "Camelina sativa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_010423825",
+        "title": "ref|XP_010423825.2| PREDICTED: probable mediator of RNA polymerase II transcription subunit 37c [Camelina sativa]",
+        "organism": "Camelina sativa",
+        "identity_pct": 95.26,
+        "evalue": 0.0,
+        "bits": 1287.71,
+        "length": 654,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_010423825"
+      }
+    ]
+  },
+  "Fragaria ananassa": {
+    "db": "nr_targeted",
+    "query": "Fragaria ananassa",
+    "hits": [
+      {
+        "accession": "KAL6145969",
+        "title": "gb|KAL6145969.1| hypothetical protein ACLB2K_056652 [Fragaria x ananassa]",
+        "organism": "Fragaria x ananassa",
+        "identity_pct": 91.12,
+        "evalue": 0.0,
+        "bits": 1229.54,
+        "length": 647,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAL6145969"
+      }
+    ]
+  },
+  "Solanum lycopersicum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_004250958",
+        "title": "ref|XP_004250958.1| heat shock cognate 70 kDa protein 2-like [Solanum lycopersicum] >ref|XP_015058100.1| heat shock cognate 70 kDa protein 2",
+        "organism": "Solanum lycopersicum",
+        "identity_pct": 90.98,
+        "evalue": 0.0,
+        "bits": 1226.46,
+        "length": 649,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_004250958"
+      }
+    ]
+  },
+  "Panicum miliaceum": {
+    "db": "nr_targeted",
+    "query": "Panicum miliaceum",
+    "hits": [
+      {
+        "accession": "RLN15981",
+        "title": "gb|RLN15981.1| hypothetical protein C2845_PM02G30130 [Panicum miliaceum]",
+        "organism": "Panicum miliaceum",
+        "identity_pct": 87.79,
+        "evalue": 0.0,
+        "bits": 1191.79,
+        "length": 650,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/RLN15981"
+      }
+    ]
+  },
+  "Eruca vesicaria": {
+    "db": "nr_targeted",
+    "query": "Eruca vesicaria",
+    "hits": [
+      {
+        "accession": "CAH8337565",
+        "title": "emb|CAH8337565.1| unnamed protein product [Eruca vesicaria subsp. sativa]",
+        "organism": "Eruca vesicaria subsp. sativa",
+        "identity_pct": 93.57,
+        "evalue": 0.0,
+        "bits": 1263.44,
+        "length": 650,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CAH8337565"
+      }
+    ]
+  },
+  "Lupinus angustifolius": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_019425446",
+        "title": "ref|XP_019425446.1| PREDICTED: heat shock cognate 70 kDa protein 2-like [Lupinus angustifolius]",
+        "organism": "Lupinus angustifolius",
+        "identity_pct": 90.66,
+        "evalue": 0.0,
+        "bits": 1223.76,
+        "length": 649,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_019425446"
+      }
+    ]
+  },
+  "Brassica napus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_013736813",
+        "title": "ref|XP_013736813.2| heat shock 70 kDa protein 1 [Brassica napus]",
+        "organism": "Brassica napus",
+        "identity_pct": 93.72,
+        "evalue": 0.0,
+        "bits": 1264.98,
+        "length": 650,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_013736813"
+      }
+    ]
+  },
+  "Spinacia oleracea": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021852598",
+        "title": "ref|XP_021852598.1| heat shock cognate 70 kDa protein 2 [Spinacia oleracea]",
+        "organism": "Spinacia oleracea",
+        "identity_pct": 89.92,
+        "evalue": 0.0,
+        "bits": 1215.68,
+        "length": 651,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021852598"
+      }
+    ]
+  },
+  "Eleusine coracana": {
+    "db": "nr_targeted",
+    "query": "Eleusine coracana",
+    "hits": [
+      {
+        "accession": "KAK3136816",
+        "title": "gb|KAK3136816.1| hypothetical protein QOZ80_5BG0442900 [Eleusine coracana subsp. coracana] >gb|KAK3140043.1| hypothetical protein QOZ80_5AG0",
+        "organism": "Eleusine coracana subsp. coracana",
+        "identity_pct": 90.05,
+        "evalue": 0.0,
+        "bits": 1214.13,
+        "length": 648,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAK3136816"
+      }
+    ]
+  },
+  "Glycine max": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_003521330",
+        "title": "ref|XP_003521330.1| heat shock cognate 70 kDa protein 2 [Glycine max] >ref|XP_028225701.1| heat shock cognate 70 kDa protein 2-like [Glycine",
+        "organism": "Glycine max",
+        "identity_pct": 91.59,
+        "evalue": 0.0,
+        "bits": 1234.94,
+        "length": 653,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_003521330"
+      }
+    ]
+  },
+  "Asparagus officinalis": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_020267660",
+        "title": "ref|XP_020267660.1| heat shock cognate 70 kDa protein 2-like [Asparagus officinalis]",
+        "organism": "Asparagus officinalis",
+        "identity_pct": 90.98,
+        "evalue": 0.0,
+        "bits": 1224.15,
+        "length": 649,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020267660"
+      }
+    ]
+  },
+  "Chenopodium quinoa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021771039",
+        "title": "ref|XP_021771039.1| heat shock cognate 70 kDa protein 2-like [Chenopodium quinoa]",
+        "organism": "Chenopodium quinoa",
+        "identity_pct": 90.51,
+        "evalue": 0.0,
+        "bits": 1223.38,
+        "length": 649,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021771039"
+      }
+    ]
+  },
+  "Solanum tuberosum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_006348998",
+        "title": "ref|XP_006348998.1| heat shock cognate 70 kDa protein 2 [Solanum tuberosum]",
+        "organism": "Solanum tuberosum",
+        "identity_pct": 90.52,
+        "evalue": 0.0,
+        "bits": 1222.61,
+        "length": 649,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_006348998"
+      }
+    ]
+  },
+  "Miscanthus sinensis": {
+    "db": "none_targeted",
+    "hits": []
+  },
+  "Gossypium hirsutum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001314596",
+        "title": "ref|NP_001314596.1| heat shock cognate 70 kDa protein 2 [Gossypium hirsutum] >ref|XP_017622799.1| heat shock cognate 70 kDa protein 2 [Gossy",
+        "organism": "Gossypium hirsutum",
+        "identity_pct": 90.81,
+        "evalue": 0.0,
+        "bits": 1223.38,
+        "length": 648,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001314596"
+      }
+    ]
+  },
+  "Zea mays": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001306686",
+        "title": "ref|NP_001306686.1| probable mediator of RNA polymerase II transcription subunit 37c [Zea mays]",
+        "organism": "Zea mays",
+        "identity_pct": 91.42,
+        "evalue": 0.0,
+        "bits": 1228.77,
+        "length": 649,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001306686"
+      }
+    ]
+  },
+  "Lactuca sativa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_023761016",
+        "title": "ref|XP_023761016.1| heat shock cognate 70 kDa protein 2 [Lactuca sativa] >ref|XP_023761017.1| heat shock cognate 70 kDa protein 2 [Lactuca s",
+        "organism": "Lactuca sativa",
+        "identity_pct": 91.88,
+        "evalue": 0.0,
+        "bits": 1229.16,
+        "length": 646,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_023761016"
+      }
+    ]
+  },
+  "Helianthus annuus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_022013221",
+        "title": "ref|XP_022013221.1| heat shock cognate 70 kDa protein 2 [Helianthus annuus]",
+        "organism": "Helianthus annuus",
+        "identity_pct": 90.96,
+        "evalue": 0.0,
+        "bits": 1207.2,
+        "length": 649,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_022013221"
+      }
+    ]
+  },
+  "Aegilops tauschii": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_020165835",
+        "title": "ref|XP_020165835.1| heat shock cognate 70 kDa protein 2 [Aegilops tauschii subsp. strangulata] >ref|XP_037448542.1| heat shock cognate 70 kD",
+        "organism": "Aegilops tauschii subsp. strangulata",
+        "identity_pct": 90.05,
+        "evalue": 0.0,
+        "bits": 1217.6,
+        "length": 647,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020165835"
+      }
+    ]
+  },
+  "Pisum sativum": {
+    "db": "nr_targeted",
+    "query": "Pisum sativum",
+    "hits": [
+      {
+        "accession": "XP_050913465",
+        "title": "ref|XP_050913465.1| heat shock 70 kDa protein 4 [Lathyrus oleraceus]",
+        "organism": "Lathyrus oleraceus",
+        "identity_pct": 91.12,
+        "evalue": 0.0,
+        "bits": 1229.16,
+        "length": 647,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_050913465"
+      }
+    ]
+  },
+  "Hordeum vulgare": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_044952512",
+        "title": "ref|XP_044952512.1| heat shock cognate 70 kDa protein 2 [Hordeum vulgare subsp. vulgare]",
+        "organism": "Hordeum vulgare subsp. vulgare",
+        "identity_pct": 89.89,
+        "evalue": 0.0,
+        "bits": 1216.83,
+        "length": 647,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_044952512"
+      }
+    ]
+  },
+  "Ceratopteris richardii": {
+    "db": "nr_targeted",
+    "query": "Ceratopteris richardii",
+    "hits": [
+      {
+        "accession": "KAH7278293",
+        "title": "gb|KAH7278293.1| hypothetical protein KP509_38G034500 [Ceratopteris richardii]",
+        "organism": "Ceratopteris richardii",
+        "identity_pct": 88.73,
+        "evalue": 0.0,
+        "bits": 1194.87,
+        "length": 648,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAH7278293"
+      }
+    ]
+  },
+  "Vicia faba": {
+    "db": "nr_targeted",
+    "query": "Vicia faba",
+    "hits": [
+      {
+        "accession": "CAI8612035",
+        "title": "emb|CAI8612035.1| unnamed protein product [Vicia faba]",
+        "organism": "Vicia faba",
+        "identity_pct": 90.81,
+        "evalue": 0.0,
+        "bits": 1230.31,
+        "length": 647,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CAI8612035"
+      }
+    ]
+  }
+}

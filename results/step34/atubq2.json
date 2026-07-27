@@ -1,0 +1,490 @@
+{
+  "gene": "AtUBQ2",
+  "cds_window_start": 0,
+  "cds_window_end": 100,
+  "cds_window_length": 100,
+  "conservation_score": 4051,
+  "conservation_max_possible": 4700,
+  "conservation_pct": 86.2,
+  "n_species_aligned": 47,
+  "window_fully_exonic": false,
+  "n_exonic_at_window": 46,
+  "cds_sequences": {
+    "Aegilops tauschii": "ATGCAGATCTTCGTGAAGACGCTGACGGGGAAGACCATCACCCTCGAGGTGGAGAGCAGCGACACCATCGACAACGTCAAGGCCAAGATCCAGGACAAGG",
+    "Arabidopsis thaliana": "ATGCAGATTTTCGTGAAAACGCTAACCGGCAAGACCATCACCCTCGAGGTCGAGAGCAGTGACACCATCGACAATGTCAAGGCCAAGATCCAGGACAAAG",
+    "Asparagus officinalis": "ATGCAGATCTTTGTAAAAACTCTATCCGAGAAGACGATCACCCTCGAAGTGGAGAGCAGCGACAGAATCGACGATATCGAGCTCAAGATTCAGGAGCAAG",
+    "Beta vulgaris": "ATGCAGATCTTCGTCAAAACCCTAACTGGCAAGACCATCACTCTTGAGGTCGAAAGCAGTGACACCATTGACAATGTCAAGGCTAAGATTCAAGACAAAG",
+    "Brachypodium distachyon": "ATGCAGATCTTCGTGAAGACCCTCACGGGCAAGACCATCACCCTTGAGGTTGAGAGCAGCGATACCATCGACAATGTCAAGGCTAAGATCCAGGACAAGG",
+    "Brassica napus": "ATGCAGATCTTCGTGAAAACCCTGACCGGGAAGACCATCACCCTCGAGGTCGAGTCCTCCGACACCATCGACAATGTCAAGGCCAAGATCCAAGACAAAG",
+    "Camelina sativa": "CTAACTGGCAAGACTATCACTTTGGAGGTTGAGAGCTCAGACACGATCGATAACGTCAAGGCAAAGATTCAAGACAAGG",
+    "Ceratopteris richardii": "ATGCAGATCTTCGTAAAGACTCTCACGGGAAAGACCATCACTCTCGAGGTTGAGAGCAGTGATACTATCGATAATGTGAAAACTAAGATCCAAGACAAAG",
+    "Chenopodium quinoa": "ATGCAGATCTTCGTGAAAACCCTAACTGGTAAGACCATCACCCTTGAGGTCGAAAGCAGTGATACCATCGACAATGTCAAGGCCAAGATCCAAGACAAAG",
+    "Cicer arietinum": "ATGCAGATCTTCGTCAAAACCCTAACCGGCAAAACCATAACGCTAGAAGTAGAATCCTCCGACACAATCGACAACGTGAAAGCCAAAATCCAAGACAAAG",
+    "Coffea canephora": "ATGCAGATCTTCGTCAAAACCCTGACCGGAAAGACCATAACTCTGGAGGTCGAGTCCTCGGACACCATCGACAATGTCAAGGCCAAAATTCAAGACAAGG",
+    "Corylus avellana": "ATGCAGATCTTCGTGAAAACCCTAACCGGCAAGACCATCACCCTCGAGGTCGAGTCCAGTGACACCATCGATAATGTCAAGGCAAAGATTCAAGATAAGG",
+    "Cucumis sativus": "ATGCAGATCTTCGTCAAAACCCTAACGGGGAAGACCATTACGCTGGAAGTTGAGTCCAGCGACACCATTGACAATGTCAAGGCCAAGATTCAGGATAAGG",
+    "Daucus carota": "AT",
+    "Eleusine coracana": "ATGCAGATATTCGTCAAGACCCTGACCGGGAAGACCATCACCCTCGAGGTCGAGAGCAGCGACACCATCGACAATGTCAAGGCTAAGATCCAGGACAAGG",
+    "Eruca vesicaria": "ATGCAGATATTCGTGAAAACGCTGACGGGGAAGACCATCACCCTCGAGGTGGAGAGCAGTGACACCATCGACAATGTCAAGGCCAAGATCCAGGACAAAG",
+    "Fragaria ananassa": "ATGCAGATCTTTGTGAAAACCCTAACCGGGAAGACCATCACCCTTGAGGTCGAGTCCAGCGACACCATCGACAACGTCAAGGCTAAGATCCAGGACAAGG",
+    "Glycine max": "ATGCAGATCTTCGTGAAAACCCTAACGGGGAAGACCATAACCCTCGAGGTCGAAAGCAGCGACACCATTGACAATGTCAAGGCTAAGATTCAAGACAAGG",
+    "Gossypium hirsutum": "ATGCAGATATTCGTGAAAACCCTAACCGGCAAGACTATAACTCTCGAGGTCGAGAGCAGCGATACCATTGACAACGTCAAAGCCGAGATCCAAGACAAAG",
+    "Helianthus annuus": "ATGCAGATCTTCGTGAAAACCCTAACCGGTAAGACCATAACCCTCGAGGTTGAGAGCAGCGACACCATTGACAATGTCAAGGCCAAGATTCAGGACAAGG",
+    "Hordeum vulgare": "ATGCAGATCTTCGTGAAGACGCTGACGGGGAAGACCATCACGCTCGAGGTGGAGTCCTCGGACACCATCGACAACGTCAAGGCCAAGATCCAGGACAAGG",
+    "Lactuca sativa": "ATGCAGATTTTCGTGAAAACCCTAACCGGGAAGACGATTACTCTCGAAGTCGAGAGCAGTGACACCATTGACAACGTCAAAGCCAAAATCCAGGACAAAG",
+    "Lotus japonicus": "ATGCAGATCTTCGTGAAAACCCTAACGGGGAAGACGATCACCCTTGAGGTTGAATCCTCCGACACAATCGACAATGTGAAAGCTAAGATCCAAGACAAGG",
+    "Lupinus angustifolius": "ATGCAGATCTTCGTGAAAACCCTAACAGGGAAGACCATAACCCTTGAGGTTGAGTCCAGCGACACCATCGACAACGTTAAAGCTAAGATTCAAGACAAAG",
+    "Malus domestica": "ATGCAGATTTTCGTGAAAACCCTAACCGGGAAGACCATCACTCTCGAGGTCGAGAGCAGCGACACCATCGACAATGTCAAGGCCAAGATCCAGGACAAGG",
+    "Manihot esculenta": "ATGCAGATATTCGTGAAAACCCTAACCGGAAAGACCATAACTCTCGAAGTAGAGAGCAGCGATACAATCGACAATGTCAAGGCCAAGATCCAAGACAAGG",
+    "Miscanthus sinensis": "ATGCAGATCTTTGTGAAGACCCTGACCGGCAAGACTATCACCCTTGAGGTGGAGAGCAGTGACACCATCGACAACGTCAAGGCCAAGATCCAGGACAAGG",
+    "Panicum miliaceum": "ATGCAGATCTTCGTGAAGACCCTGACGGGGAAGACCATCACCCTCGAGGTCGAGAGCAGCGACACCATCGACAATGTCAAGGCCAAGATCCAGGACAAGG",
+    "Paspalum notatum": "ATGCAGATCTTCGTGAAGACCCTGACGGGGAAGACCATCACCCTCGAGGTCGAGAGCAGCGACACCATCGACAATGTCAAGGCCAAGATCCAGGACAAGG",
+    "Phaseolus vulgaris": "ATGCAGATTTTCGTGAAAACCCTAACGGGGAAGACCATAACCCTCGAGGTTGAGAGCAGTGACACCATCGACAATGTCAAGGCCAAGATTCAAGACAAGG",
+    "Pisum sativum": "ATGCAGATCTTTGTGAAAACCCTTACCGGCAAGACTATCACCCTTGAGGTGGAGTCAAGCGACACCATTGATAATGTCAAAGCTAAGATTCAGGACAAAG",
+    "Populus deltoides": "ATGCAGATCTTTGTGAAAACCCTAACTGGCAAGACCATTACCCTCGAGGTTGAGAGCAGTGATACCATCGATAATGTCAAGGCCAAAATTCAAGACAAGG",
+    "Populus trichocarpa": "ATGCAGATCTTTGTGAAAACCCTAACTGGCAAGACCATTACCCTCGAGGTTGAGAGCAGTGATACCATCGATAATGTCAAGGCCAAAATTCAAGACAAGG",
+    "Prunus persica": "ATGCAGATTTTCGTGAAAACCCTAACCGGGAAGACCATCACTCTCGAGGTCGAGAGCAGCGACACCATCGACAATGTCAAGGCCAAGATCCAAGACAAGG",
+    "Rubus occidentalis": "ATGCAGATCTTCGTGAAAACCCTAACCGGGAAGACCATAACCCTTGAGGTCGAGTCCAGCGACACTATCGATAACGTCAAGGCCAAGATCCAGGACAAGG",
+    "Setaria viridis": "ATGCAGATCTTCGTGAAGACGCTGACGGGGAAGACGATCACCCTCGAGGTGGAGAGCAGCGACACCATCGACAACGTCAAGGCCAAGATCCAGGACAAGG",
+    "Solanum lycopersicum": "ATGCAGATCTTCGTGAAAACTTTGACGGGTAAAACCATAACCCTCGAGGTTGAATCCAGTGACACTATTGACAATGTCAAGGCCAAGATTCAAGACAAGG",
+    "Solanum tuberosum": "ATGCAGATCTTCGTGAAAACTCTTACGGGGAAGACGATCACACTCGAAGTTGAGAGCGACACTATTGACAATGTCAAAGCTAAGATTCAAGACAAGG",
+    "Sorghum bicolor": "ATGCAGATCTTCGTGAAGACCCTGACGGGGAAGACCATCACCCTCGAGGTCGAGAGCAGCGACACCATCGACAATGTCAAGGCCAAGATCCAGGACAAGG",
+    "Spinacia oleracea": "ATGCAGATCTTCGTGAAAACCCTAACTGGGAAGACAATCACCCTAGAGGTCGAAAGCAGCGACACGATCGACAATGTCAAGGCCAAGATCCAAGACAAAG",
+    "Thlaspi arvense": "ATGCAGATCTTCGTGAAAACCCTCACCGGTAAGACCATCACCCTCGAGGTTGAATCCAGCGACACCATCGACAATGTCAAGGCTAAGATCCAAGACAAAG",
+    "Vicia faba": "ATGCAGATCTTTGTGAAAACCCTTACCGGCAAGACTATCACCCTTGAGGTGGAGTCAAGCGACACCATCGACAATGTCAAAGCAAAGATTCAGGACAAAG",
+    "Vigna unguiculata": "ATGCAGATTTTCGTGAAAACCCTAACGGGGAAGACCATAACCCTCGAGGTTGAGAGCAGCGACACCATCGACAATGTCAAGGCCAAGATTCAAGACAAGG",
+    "Vitis vinifera": "ATGCAGATCTTCGTGAAAACCCTAACTGGGAAGACCATCACCCTCGAGGTTGAATCCAGCGATACCATCGACAATGTCAAGGCCAAGATCCAGGACAAGG",
+    "Zea mays": "ATGCAGATCTTCGTGAAGACCCTGACGGGAAAGACCATCACCCTCGAGGTCGAGAGCAGCGATACAATCGACAATGTCAAGGCCAAGATCCAGGACAAGG",
+    "brassica rapa": "ATGCAGATCTTCGTGAAAACCCTAACCGGCAAGACCATCACCCTCGAGGTCGAGTCCTCCGACACCATCGACAATGTCAAGGCCAAGATCCAAGAAAAAG",
+    "musa acuminata": "ATGCAGATCTTCGTGAAAACCCTCACGGGGAAGACCATCACCCTCGAGGTCGAGAGCAGCGACACCATCGACAACGTCAAGACCAAGATCCAGGACAAAG"
+  },
+  "exonic_windows": {
+    "Aegilops tauschii": {
+      "sequence": "ATGCAGATCTTCGTGAAGACGCTGACGGGGAAGACCATCACCCTCGAGGTGGAGAGCAGCGACACCATCGACAACGTCAAGGCCAAGATCCAGGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Arabidopsis thaliana": {
+      "sequence": "ATGCAGATTTTCGTGAAAACGCTAACCGGCAAGACCATCACCCTCGAGGTCGAGAGCAGTGACACCATCGACAATGTCAAGGCCAAGATCCAGGACAAAG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Asparagus officinalis": {
+      "sequence": "ATGCAGATCTTTGTAAAAACTCTATCCGAGAAGACGATCACCCTCGAAGTGGAGAGCAGCGACAGAATCGACGATATCGAGCTCAAGATTCAGGAGCAAG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Beta vulgaris": {
+      "sequence": "ATGCAGATCTTCGTCAAAACCCTAACTGGCAAGACCATCACTCTTGAGGTCGAAAGCAGTGACACCATTGACAATGTCAAGGCTAAGATTCAAGACAAAG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Brachypodium distachyon": {
+      "sequence": "ATGCAGATCTTCGTGAAGACCCTCACGGGCAAGACCATCACCCTTGAGGTTGAGAGCAGCGATACCATCGACAATGTCAAGGCTAAGATCCAGGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Brassica napus": {
+      "sequence": "ATGCAGATCTTCGTGAAAACCCTGACCGGGAAGACCATCACCCTCGAGGTCGAGTCCTCCGACACCATCGACAATGTCAAGGCCAAGATCCAAGACAAAG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 39,
+      "species_cds_end": 139,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Camelina sativa": {
+      "sequence": "CTAACTGGCAAGACTATCACTTTGGAGGTTGAGAGCTCAGACACGATCGATAACGTCAAGGCAAAGATTCAAGACAAGGAAGGGATCCCCCCGGACCAGC",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Ceratopteris richardii": {
+      "sequence": "ATGCAGATCTTCGTAAAGACTCTCACGGGAAAGACCATCACTCTCGAGGTTGAGAGCAGTGATACTATCGATAATGTGAAAACTAAGATCCAAGACAAAG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Chenopodium quinoa": {
+      "sequence": "ATGCAGATCTTCGTGAAAACCCTAACTGGTAAGACCATCACCCTTGAGGTCGAAAGCAGTGATACCATCGACAATGTCAAGGCCAAGATCCAAGACAAAG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Cicer arietinum": {
+      "sequence": "ATGCAGATCTTCGTCAAAACCCTAACCGGCAAAACCATAACGCTAGAAGTAGAATCCTCCGACACAATCGACAACGTGAAAGCCAAAATCCAAGACAAAG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Coffea canephora": {
+      "sequence": "ATGCAGATCTTCGTCAAAACCCTGACCGGAAAGACCATAACTCTGGAGGTCGAGTCCTCGGACACCATCGACAATGTCAAGGCCAAAATTCAAGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Corylus avellana": {
+      "sequence": "ATGCAGATCTTCGTGAAAACCCTAACCGGCAAGACCATCACCCTCGAGGTCGAGTCCAGTGACACCATCGATAATGTCAAGGCAAAGATTCAAGATAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Cucumis sativus": {
+      "sequence": "ATGCAGATCTTCGTCAAAACCCTAACGGGGAAGACCATTACGCTGGAAGTTGAGTCCAGCGACACCATTGACAATGTCAAGGCCAAGATTCAGGATAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Daucus carota": {
+      "sequence": "ATGAGGCTGGTGTTTGCTGGTAAAGAGCTTGAAGATTATCATGTCGTTGCTGATTATGAGATCCAGAACGAGTCGACGGTGGATGTTCTTGTGAGGCTGA",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100,
+      "exon_unverified": true
+    },
+    "Eleusine coracana": {
+      "sequence": "ATGCAGATATTCGTCAAGACCCTGACCGGGAAGACCATCACCCTCGAGGTCGAGAGCAGCGACACCATCGACAATGTCAAGGCTAAGATCCAGGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Eruca vesicaria": {
+      "sequence": "ATGCAGATATTCGTGAAAACGCTGACGGGGAAGACCATCACCCTCGAGGTGGAGAGCAGTGACACCATCGACAATGTCAAGGCCAAGATCCAGGACAAAG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Fragaria ananassa": {
+      "sequence": "ATGCAGATCTTTGTGAAAACCCTAACCGGGAAGACCATCACCCTTGAGGTCGAGTCCAGCGACACCATCGACAACGTCAAGGCTAAGATCCAGGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Glycine max": {
+      "sequence": "ATGCAGATCTTCGTGAAAACCCTAACGGGGAAGACCATAACCCTCGAGGTCGAAAGCAGCGACACCATTGACAATGTCAAGGCTAAGATTCAAGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Gossypium hirsutum": {
+      "sequence": "ATGCAGATATTCGTGAAAACCCTAACCGGCAAGACTATAACTCTCGAGGTCGAGAGCAGCGATACCATTGACAACGTCAAAGCCGAGATCCAAGACAAAG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Helianthus annuus": {
+      "sequence": "ATGCAGATCTTCGTGAAAACCCTAACCGGTAAGACCATAACCCTCGAGGTTGAGAGCAGCGACACCATTGACAATGTCAAGGCCAAGATTCAGGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Hordeum vulgare": {
+      "sequence": "ATGCAGATCTTCGTGAAGACGCTGACGGGGAAGACCATCACGCTCGAGGTGGAGTCCTCGGACACCATCGACAACGTCAAGGCCAAGATCCAGGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Lactuca sativa": {
+      "sequence": "GACAAAGAAGGTATCCCACCAGACCAACAGAGATTAATTTTTGCTGGAAAGCAATTAGAAGATGGCAGAACTCTTGCTGATTACAACATCCAGAAGGAAT",
+      "source": "exonic_shifted",
+      "exon_index": 1,
+      "species_cds_start": 93,
+      "species_cds_end": 193,
+      "shift_bp": 93,
+      "length": 100
+    },
+    "Lotus japonicus": {
+      "sequence": "ATGCAGATCTTCGTGAAAACCCTAACGGGGAAGACGATCACCCTTGAGGTTGAATCCTCCGACACAATCGACAATGTGAAAGCTAAGATCCAAGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Lupinus angustifolius": {
+      "sequence": "ATGCAGATCTTCGTGAAAACCCTAACAGGGAAGACCATAACCCTTGAGGTTGAGTCCAGCGACACCATCGACAACGTTAAAGCTAAGATTCAAGACAAAG",
+      "source": "exonic",
+      "exon_index": 1,
+      "species_cds_start": 15,
+      "species_cds_end": 115,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Malus domestica": {
+      "sequence": "ATGCAGATTTTCGTGAAAACCCTAACCGGGAAGACCATCACTCTCGAGGTCGAGAGCAGCGACACCATCGACAATGTCAAGGCCAAGATCCAGGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Manihot esculenta": {
+      "sequence": "ATGCAGATATTCGTGAAAACCCTAACCGGAAAGACCATAACTCTCGAAGTAGAGAGCAGCGATACAATCGACAATGTCAAGGCCAAGATCCAAGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Miscanthus sinensis": {
+      "sequence": "ATGCAGATCTTTGTGAAGACCCTGACCGGCAAGACTATCACCCTTGAGGTGGAGTCTTCTGACACCATTGACAACGTTAAGGCCAAGATCCAGGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100,
+      "exon_unverified": true
+    },
+    "Panicum miliaceum": {
+      "sequence": "ATGCAGATCTTCGTGAAGACCCTGACGGGGAAGACCATCACCCTCGAGGTCGAGAGCAGCGACACCATCGACAATGTCAAGGCCAAGATCCAGGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Paspalum notatum": {
+      "sequence": "ATGCAGATCTTCGTGAAGACCCTGACGGGGAAGACCATCACCCTCGAGGTCGAGAGCAGCGACACCATCGACAATGTCAAGGCCAAGATCCAGGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Phaseolus vulgaris": {
+      "sequence": "ATGCAGATTTTCGTGAAAACCCTAACGGGGAAGACCATAACCCTCGAGGTTGAGAGCAGTGACACCATCGACAATGTCAAGGCCAAGATTCAAGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Pisum sativum": {
+      "sequence": "ATGCAGATCTTTGTGAAAACCCTTACCGGCAAGACTATCACCCTTGAGGTGGAGTCAAGCGACACCATTGATAATGTCAAAGCTAAGATTCAGGACAAAG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Populus deltoides": {
+      "sequence": "ATGCAGATCTTTGTGAAAACCCTAACTGGCAAGACCATTACCCTCGAGGTTGAGAGCAGTGATACCATCGATAATGTCAAGGCCAAAATTCAAGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Populus trichocarpa": {
+      "sequence": "ATGCAGATCTTTGTGAAAACCCTAACTGGCAAGACCATTACCCTCGAGGTTGAGAGCAGTGATACCATCGATAATGTCAAGGCCAAAATTCAAGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Prunus persica": {
+      "sequence": "ATGCAGATTTTCGTGAAAACCCTAACCGGGAAGACCATCACTCTCGAGGTCGAGAGCAGCGACACCATCGACAATGTCAAGGCCAAGATCCAAGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Rubus occidentalis": {
+      "sequence": "ATGCAGATCTTCGTGAAAACCCTAACCGGGAAGACCATAACCCTTGAGGTCGAGTCCAGCGACACTATCGATAACGTCAAGGCCAAGATCCAGGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100,
+      "exon_unverified": true
+    },
+    "Setaria viridis": {
+      "sequence": "ATGCAGATCTTCGTGAAGACGCTGACGGGGAAGACGATCACCCTCGAGGTGGAGAGCAGCGACACCATCGACAACGTCAAGGCCAAGATCCAGGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Solanum lycopersicum": {
+      "sequence": "ATGCAGATCTTCGTGAAAACTTTGACGGGTAAAACCATAACCCTCGAGGTTGAATCCAGTGACACTATTGACAATGTCAAGGCCAAGATTCAAGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Solanum tuberosum": {
+      "sequence": "ATGCAGATCTTCGTGAAAACTCTTACGGGGAAGACGATCACACTCGAAGTTGAATCGAGCGACACTATTGACAATGTCAAAGCTAAGATTCAAGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Sorghum bicolor": {
+      "sequence": "ATGCAGATCTTCGTGAAGACCCTGACGGGGAAGACCATCACCCTCGAGGTCGAGAGCAGCGACACCATCGACAATGTCAAGGCCAAGATCCAGGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Spinacia oleracea": {
+      "sequence": "ATGCAGATCTTCGTGAAAACCCTAACTGGGAAGACAATCACCCTAGAGGTCGAAAGCAGCGACACGATCGACAATGTCAAGGCCAAGATCCAAGACAAAG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Thlaspi arvense": {
+      "sequence": "ATGCAGATCTTCGTGAAAACCCTCACCGGTAAGACCATCACCCTCGAGGTTGAATCCAGCGACACCATCGACAATGTCAAGGCTAAGATCCAAGACAAAG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Vicia faba": {
+      "sequence": "ATGCAGATCTTTGTGAAAACCCTTACCGGCAAGACTATCACCCTTGAGGTGGAGTCAAGCGACACCATCGACAATGTCAAAGCAAAGATTCAGGACAAAG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Vigna unguiculata": {
+      "sequence": "ATGCAGATTTTCGTGAAAACCCTAACGGGGAAGACCATAACCCTCGAGGTTGAGAGCAGCGACACCATCGACAATGTCAAGGCCAAGATTCAAGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Vitis vinifera": {
+      "sequence": "ATGCAGATCTTCGTGAAAACCCTAACTGGGAAGACCATCACCCTCGAGGTTGAATCCAGCGATACCATCGACAATGTCAAGGCCAAGATCCAGGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "Zea mays": {
+      "sequence": "ATGCAGATCTTCGTGAAGACCCTGACGGGAAAGACCATCACCCTCGAGGTCGAGAGCAGCGATACAATCGACAATGTCAAGGCCAAGATCCAGGACAAGG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100,
+      "exon_unverified": true
+    },
+    "brassica rapa": {
+      "sequence": "ATGCAGATCTTCGTGAAAACCCTAACCGGCAAGACCATCACCCTCGAGGTCGAGTCCTCCGACACCATCGACAATGTCAAGGCCAAGATCCAAGAAAAAG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 0,
+      "species_cds_end": 100,
+      "shift_bp": 0,
+      "length": 100
+    },
+    "musa acuminata": {
+      "sequence": "ATGCAGATCTTCGTGAAAACCCTCACGGGGAAGACCATCACCCTCGAGGTCGAGAGCAGCGACACCATCGACAACGTCAAGACCAAGATCCAGGACAAAG",
+      "source": "exonic",
+      "exon_index": 0,
+      "species_cds_start": 210,
+      "species_cds_end": 310,
+      "shift_bp": 0,
+      "length": 100
+    }
+  }
+}

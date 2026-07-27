@@ -1,0 +1,742 @@
+{
+  "Arabidopsis thaliana": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_176654",
+        "title": "ref|NP_176654.1| alpha-1 tubulin [Arabidopsis thaliana]",
+        "organism": "Arabidopsis thaliana",
+        "identity_pct": 100.0,
+        "evalue": 0.0,
+        "bits": 940.258,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_176654"
+      }
+    ]
+  },
+  "Rubus occidentalis": {
+    "db": "none_targeted",
+    "hits": []
+  },
+  "Prunus persica": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_007204346",
+        "title": "ref|XP_007204346.1| tubulin alpha-3 chain isoform X1 [Prunus persica]",
+        "organism": "Prunus persica",
+        "identity_pct": 92.44,
+        "evalue": 0.0,
+        "bits": 851.277,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_007204346"
+      }
+    ]
+  },
+  "brassica rapa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_009126388",
+        "title": "ref|XP_009126388.2| tubulin alpha-5 chain-like isoform X1 [Brassica rapa]",
+        "organism": "Brassica rapa",
+        "identity_pct": 93.14,
+        "evalue": 0.0,
+        "bits": 837.795,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_009126388"
+      }
+    ]
+  },
+  "Brachypodium distachyon": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_003562846",
+        "title": "ref|XP_003562846.1| tubulin alpha-1 chain [Brachypodium distachyon]",
+        "organism": "Brachypodium distachyon",
+        "identity_pct": 93.1,
+        "evalue": 0.0,
+        "bits": 832.402,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_003562846"
+      }
+    ]
+  },
+  "Cucumis sativus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_004141134",
+        "title": "ref|XP_004141134.1| tubulin alpha-6 chain [Cucumis sativus]",
+        "organism": "Cucumis sativus",
+        "identity_pct": 92.91,
+        "evalue": 0.0,
+        "bits": 835.484,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_004141134"
+      }
+    ]
+  },
+  "Corylus avellana": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_059430081",
+        "title": "ref|XP_059430081.1| tubulin alpha-3 chain [Corylus avellana] >ref|XP_062171565.1| tubulin alpha-3 chain [Alnus glutinosa]",
+        "organism": "Corylus avellana",
+        "identity_pct": 91.33,
+        "evalue": 0.0,
+        "bits": 848.195,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_059430081"
+      }
+    ]
+  },
+  "Setaria viridis": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_034570967",
+        "title": "ref|XP_034570967.1| tubulin alpha-2 chain isoform X1 [Setaria viridis]",
+        "organism": "Setaria viridis",
+        "identity_pct": 91.28,
+        "evalue": 0.0,
+        "bits": 820.846,
+        "length": 448,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_034570967"
+      }
+    ]
+  },
+  "Populus deltoides": {
+    "db": "nr_targeted",
+    "query": "Populus deltoides",
+    "hits": [
+      {
+        "accession": "KAH8523010",
+        "title": "ref|XP_002297631.1| tubulin alpha-6 chain [Populus trichocarpa] >ref|XP_034893354.1| tubulin alpha-6 chain isoform X1 [Populus alba] >ref|XP",
+        "organism": "Populus trichocarpa",
+        "identity_pct": 91.56,
+        "evalue": 0.0,
+        "bits": 848.966,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAH8523010"
+      }
+    ]
+  },
+  "Daucus carota": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_017229309",
+        "title": "ref|XP_017229309.1| tubulin alpha-1 chain [Daucus carota subsp. sativus]",
+        "organism": "Daucus carota subsp. sativus",
+        "identity_pct": 91.99,
+        "evalue": 0.0,
+        "bits": 828.165,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_017229309"
+      }
+    ]
+  },
+  "Populus trichocarpa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_002297631",
+        "title": "ref|XP_002297631.1| tubulin alpha-6 chain [Populus trichocarpa] >ref|XP_034893354.1| tubulin alpha-6 chain isoform X1 [Populus alba] >ref|XP",
+        "organism": "Populus trichocarpa",
+        "identity_pct": 91.56,
+        "evalue": 0.0,
+        "bits": 848.966,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_002297631"
+      }
+    ]
+  },
+  "Vitis vinifera": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_002285721",
+        "title": "ref|XP_002285721.1| tubulin alpha-5 chain [Vitis vinifera] >ref|XP_034687865.1| tubulin alpha-5 chain [Vitis riparia]",
+        "organism": "Vitis vinifera",
+        "identity_pct": 92.22,
+        "evalue": 0.0,
+        "bits": 850.121,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_002285721"
+      }
+    ]
+  },
+  "Paspalum notatum": {
+    "db": "nr_targeted",
+    "query": "Paspalum notatum",
+    "hits": [
+      {
+        "accession": "WVZ66437",
+        "title": "ref|XP_025801054.1| tubulin alpha-3 chain [Panicum hallii] >ref|XP_039831805.1| tubulin alpha-3 chain [Panicum virgatum] >ref|XP_062187323.1",
+        "organism": "Panicum hallii",
+        "identity_pct": 91.56,
+        "evalue": 0.0,
+        "bits": 851.662,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WVZ66437"
+      }
+    ]
+  },
+  "musa acuminata": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_009413318",
+        "title": "ref|XP_009413318.1| tubulin alpha-3 chain [Musa acuminata AAA Group] >ref|XP_064977723.1| tubulin alpha-3 chain-like [Musa acuminata AAA Gro",
+        "organism": "Musa acuminata AAA Group",
+        "identity_pct": 92.0,
+        "evalue": 0.0,
+        "bits": 850.121,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_009413318"
+      }
+    ]
+  },
+  "Phaseolus vulgaris": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_068470132",
+        "title": "ref|XP_068470132.1| tubulin alpha-5 chain [Phaseolus vulgaris]",
+        "organism": "Phaseolus vulgaris",
+        "identity_pct": 93.33,
+        "evalue": 0.0,
+        "bits": 832.787,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_068470132"
+      }
+    ]
+  },
+  "Thlaspi arvense": {
+    "db": "nr_targeted",
+    "query": "Thlaspi arvense",
+    "hits": [
+      {
+        "accession": "KAN1297152",
+        "title": "ref|NP_197478.1| tubulin alpha-3 [Arabidopsis thaliana] >ref|NP_197479.1| tubulin alpha-5 [Arabidopsis thaliana] >ref|XP_006400538.1| tubuli",
+        "organism": "Arabidopsis thaliana",
+        "identity_pct": 93.33,
+        "evalue": 0.0,
+        "bits": 834.713,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAN1297152"
+      }
+    ]
+  },
+  "Lotus japonicus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_057415020",
+        "title": "ref|XP_057415020.1| tubulin alpha-5 chain [Lotus japonicus]",
+        "organism": "Lotus japonicus",
+        "identity_pct": 93.58,
+        "evalue": 0.0,
+        "bits": 831.632,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_057415020"
+      }
+    ]
+  },
+  "Beta vulgaris": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_010673470",
+        "title": "ref|XP_010673470.1| tubulin alpha-5 chain [Beta vulgaris subsp. vulgaris]",
+        "organism": "Beta vulgaris subsp. vulgaris",
+        "identity_pct": 92.94,
+        "evalue": 0.0,
+        "bits": 840.877,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_010673470"
+      }
+    ]
+  },
+  "Coffea canephora": {
+    "db": "nr_targeted",
+    "query": "Coffea canephora",
+    "hits": [
+      {
+        "accession": "CDP17586",
+        "title": "ref|XP_027102460.1| tubulin alpha-5 chain [Coffea arabica] >ref|XP_027162521.1| tubulin alpha-3 chain [Coffea eugenioides] >ref|XP_071919209",
+        "organism": "Coffea arabica",
+        "identity_pct": 92.97,
+        "evalue": 0.0,
+        "bits": 840.106,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CDP17586"
+      }
+    ]
+  },
+  "Vigna unguiculata": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_027915856",
+        "title": "ref|XP_027915856.1| tubulin alpha-3 chain [Vigna unguiculata]",
+        "organism": "Vigna unguiculata",
+        "identity_pct": 92.44,
+        "evalue": 0.0,
+        "bits": 847.81,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_027915856"
+      }
+    ]
+  },
+  "Malus domestica": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_008386829",
+        "title": "ref|XP_008386829.1| tubulin alpha-3 chain-like [Malus domestica] >ref|XP_050115588.1| tubulin alpha-3 chain-like [Malus sylvestris]",
+        "organism": "Malus domestica",
+        "identity_pct": 91.78,
+        "evalue": 0.0,
+        "bits": 848.581,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_008386829"
+      }
+    ]
+  },
+  "Sorghum bicolor": {
+    "db": "nr_targeted",
+    "query": "Sorghum bicolor",
+    "hits": [
+      {
+        "accession": "XP_021307957",
+        "title": "ref|NP_001105588.1| tubulin alpha-6 chain [Zea mays] >ref|XP_021307957.1| tubulin alpha-6 chain [Sorghum bicolor] >ref|XP_066397950.1| tubul",
+        "organism": "Zea mays",
+        "identity_pct": 92.87,
+        "evalue": 0.0,
+        "bits": 833.173,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021307957"
+      }
+    ]
+  },
+  "Cicer arietinum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_027188595",
+        "title": "ref|XP_027188595.1| tubulin alpha-5 chain-like [Cicer arietinum]",
+        "organism": "Cicer arietinum",
+        "identity_pct": 91.11,
+        "evalue": 0.0,
+        "bits": 840.106,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_027188595"
+      }
+    ]
+  },
+  "Manihot esculenta": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021594636",
+        "title": "ref|XP_021594636.1| tubulin alpha-5 chain [Manihot esculenta]",
+        "organism": "Manihot esculenta",
+        "identity_pct": 91.33,
+        "evalue": 0.0,
+        "bits": 838.951,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021594636"
+      }
+    ]
+  },
+  "Camelina sativa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_010414865",
+        "title": "ref|XP_010414865.1| PREDICTED: tubulin alpha-1 chain [Camelina sativa]",
+        "organism": "Camelina sativa",
+        "identity_pct": 97.78,
+        "evalue": 0.0,
+        "bits": 921.768,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_010414865"
+      }
+    ]
+  },
+  "Fragaria ananassa": {
+    "db": "nr_targeted",
+    "query": "Fragaria ananassa",
+    "hits": [
+      {
+        "accession": "KAL6195022",
+        "title": "ref|XP_004295008.1| PREDICTED: tubulin alpha-3 chain isoform X1 [Fragaria vesca subsp. vesca] >gb|KAL6195022.1| hypothetical protein ACLB2K_",
+        "organism": "Fragaria vesca subsp. vesca",
+        "identity_pct": 91.33,
+        "evalue": 0.0,
+        "bits": 844.729,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAL6195022"
+      }
+    ]
+  },
+  "Solanum lycopersicum": {
+    "db": "nr_targeted",
+    "query": "Solanum lycopersicum",
+    "hits": [
+      {
+        "accession": "XP_004232226",
+        "title": "ref|XP_004232226.1| tubulin alpha chain-like isoform X1 [Solanum lycopersicum] >ref|XP_006338460.1| tubulin alpha chain-like [Solanum tubero",
+        "organism": "Solanum lycopersicum",
+        "identity_pct": 88.0,
+        "evalue": 0.0,
+        "bits": 816.609,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_004232226"
+      }
+    ]
+  },
+  "Panicum miliaceum": {
+    "db": "nr_targeted",
+    "query": "Panicum miliaceum",
+    "hits": [
+      {
+        "accession": "RLN35556",
+        "title": "ref|XP_025801054.1| tubulin alpha-3 chain [Panicum hallii] >ref|XP_039831805.1| tubulin alpha-3 chain [Panicum virgatum] >ref|XP_062187323.1",
+        "organism": "Panicum hallii",
+        "identity_pct": 91.56,
+        "evalue": 0.0,
+        "bits": 851.662,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/RLN35556"
+      }
+    ]
+  },
+  "Eruca vesicaria": {
+    "db": "nr_targeted",
+    "query": "Eruca vesicaria",
+    "hits": [
+      {
+        "accession": "CAH8390092",
+        "title": "emb|CAH8390092.1| unnamed protein product [Eruca vesicaria subsp. sativa]",
+        "organism": "Eruca vesicaria subsp. sativa",
+        "identity_pct": 93.56,
+        "evalue": 0.0,
+        "bits": 836.254,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CAH8390092"
+      }
+    ]
+  },
+  "Lupinus angustifolius": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_019445044",
+        "title": "ref|XP_019445044.1| PREDICTED: tubulin alpha-3 chain-like [Lupinus angustifolius] >ref|XP_019445052.1| PREDICTED: tubulin alpha-3 chain-like",
+        "organism": "Lupinus angustifolius",
+        "identity_pct": 93.14,
+        "evalue": 0.0,
+        "bits": 838.18,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_019445044"
+      }
+    ]
+  },
+  "Brassica napus": {
+    "db": "nr_targeted",
+    "query": "Brassica napus",
+    "hits": [
+      {
+        "accession": "WZY75190",
+        "title": "ref|XP_009126388.2| tubulin alpha-5 chain-like isoform X1 [Brassica rapa] >gb|WZY75190.1| hypothetical protein YC2023_021574 [Brassica napus",
+        "organism": "Brassica rapa",
+        "identity_pct": 93.14,
+        "evalue": 0.0,
+        "bits": 837.795,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WZY75190"
+      }
+    ]
+  },
+  "Spinacia oleracea": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021850918",
+        "title": "ref|XP_021850918.1| tubulin alpha-5 chain [Spinacia oleracea]",
+        "organism": "Spinacia oleracea",
+        "identity_pct": 92.08,
+        "evalue": 0.0,
+        "bits": 840.877,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021850918"
+      }
+    ]
+  },
+  "Eleusine coracana": {
+    "db": "nr_targeted",
+    "query": "Eleusine coracana",
+    "hits": [
+      {
+        "accession": "KAK3125469",
+        "title": "ref|XP_025801054.1| tubulin alpha-3 chain [Panicum hallii] >ref|XP_039831805.1| tubulin alpha-3 chain [Panicum virgatum] >ref|XP_062187323.1",
+        "organism": "Panicum hallii",
+        "identity_pct": 91.56,
+        "evalue": 0.0,
+        "bits": 851.662,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAK3125469"
+      }
+    ]
+  },
+  "Glycine max": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001237301",
+        "title": "ref|NP_001237301.2| tubulin A [Glycine max] >ref|XP_028232839.1| tubulin alpha-3 chain [Glycine soja]",
+        "organism": "Glycine max",
+        "identity_pct": 93.79,
+        "evalue": 0.0,
+        "bits": 835.484,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001237301"
+      }
+    ]
+  },
+  "Asparagus officinalis": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_020273993",
+        "title": "ref|XP_020273993.1| tubulin alpha-3 chain-like [Asparagus officinalis]",
+        "organism": "Asparagus officinalis",
+        "identity_pct": 92.67,
+        "evalue": 0.0,
+        "bits": 860.522,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020273993"
+      }
+    ]
+  },
+  "Chenopodium quinoa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021714947",
+        "title": "ref|XP_021714947.1| tubulin alpha-3 chain [Chenopodium quinoa] >ref|XP_081487960.1| tubulin alpha-5 chain-like [Chenopodium album]",
+        "organism": "Chenopodium quinoa",
+        "identity_pct": 92.71,
+        "evalue": 0.0,
+        "bits": 838.951,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021714947"
+      }
+    ]
+  },
+  "Solanum tuberosum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001275086",
+        "title": "ref|NP_001275086.1| uncharacterized LOC102577521 [Solanum tuberosum]",
+        "organism": "Solanum tuberosum",
+        "identity_pct": 90.0,
+        "evalue": 0.0,
+        "bits": 828.935,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001275086"
+      }
+    ]
+  },
+  "Miscanthus sinensis": {
+    "db": "nr_targeted",
+    "query": "Miscanthus sinensis",
+    "hits": [
+      {
+        "accession": "CAD26887",
+        "title": "emb|CAD26887.1| alpha-tubulin [Miscanthus sinensis]",
+        "organism": "Miscanthus sinensis",
+        "identity_pct": 93.1,
+        "evalue": 0.0,
+        "bits": 835.484,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CAD26887"
+      }
+    ]
+  },
+  "Gossypium hirsutum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_016732247",
+        "title": "ref|XP_016732247.1| tubulin alpha-5 chain [Gossypium hirsutum] >ref|XP_016733557.1| tubulin alpha-5 chain [Gossypium hirsutum] >ref|XP_01760",
+        "organism": "Gossypium hirsutum",
+        "identity_pct": 91.29,
+        "evalue": 0.0,
+        "bits": 842.803,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_016732247"
+      }
+    ]
+  },
+  "Zea mays": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001105588",
+        "title": "ref|NP_001105588.1| tubulin alpha-6 chain [Zea mays] >ref|XP_021307957.1| tubulin alpha-6 chain [Sorghum bicolor] >ref|XP_066397950.1| tubul",
+        "organism": "Zea mays",
+        "identity_pct": 92.87,
+        "evalue": 0.0,
+        "bits": 833.173,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001105588"
+      }
+    ]
+  },
+  "Lactuca sativa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_023754870",
+        "title": "ref|XP_023754870.1| tubulin alpha-1 chain isoform X1 [Lactuca sativa] >ref|XP_078816859.1| tubulin alpha-1 chain isoform X1 [Lactuca saligna",
+        "organism": "Lactuca sativa",
+        "identity_pct": 93.17,
+        "evalue": 0.0,
+        "bits": 841.647,
+        "length": 451,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_023754870"
+      }
+    ]
+  },
+  "Helianthus annuus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021994214",
+        "title": "ref|XP_021994214.1| tubulin alpha-3 chain [Helianthus annuus]",
+        "organism": "Helianthus annuus",
+        "identity_pct": 90.89,
+        "evalue": 0.0,
+        "bits": 835.484,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021994214"
+      }
+    ]
+  },
+  "Aegilops tauschii": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_020152086",
+        "title": "ref|XP_020152086.1| tubulin alpha-1 chain [Aegilops tauschii subsp. strangulata] >ref|XP_037476555.1| tubulin alpha-1 chain [Triticum dicocc",
+        "organism": "Aegilops tauschii subsp. strangulata",
+        "identity_pct": 92.87,
+        "evalue": 0.0,
+        "bits": 831.632,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020152086"
+      }
+    ]
+  },
+  "Pisum sativum": {
+    "db": "nr_targeted",
+    "query": "Pisum sativum",
+    "hits": [
+      {
+        "accession": "XP_050900068",
+        "title": "ref|XP_050900068.1| tubulin alpha-5 chain [Lathyrus oleraceus]",
+        "organism": "Lathyrus oleraceus",
+        "identity_pct": 93.56,
+        "evalue": 0.0,
+        "bits": 835.484,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_050900068"
+      }
+    ]
+  },
+  "Hordeum vulgare": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_044965219",
+        "title": "ref|XP_044965219.1| tubulin alpha-1 chain [Hordeum vulgare subsp. vulgare]",
+        "organism": "Hordeum vulgare subsp. vulgare",
+        "identity_pct": 92.64,
+        "evalue": 0.0,
+        "bits": 829.321,
+        "length": 450,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_044965219"
+      }
+    ]
+  },
+  "Ceratopteris richardii": {
+    "db": "nr_targeted",
+    "query": "Ceratopteris richardii",
+    "hits": [
+      {
+        "accession": "KAH7423065",
+        "title": "gb|KAH7423065.1| hypothetical protein KP509_12G037900 [Ceratopteris richardii]",
+        "organism": "Ceratopteris richardii",
+        "identity_pct": 90.4,
+        "evalue": 0.0,
+        "bits": 828.165,
+        "length": 448,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAH7423065"
+      }
+    ]
+  },
+  "Vicia faba": {
+    "db": "nr_targeted",
+    "query": "Vicia faba",
+    "hits": [
+      {
+        "accession": "KAL5053801",
+        "title": "gb|KAL5053801.1| hypothetical protein RYX36_034483 [Vicia faba] >emb|CAI8618635.1| unnamed protein product [Vicia faba]",
+        "organism": "Vicia faba",
+        "identity_pct": 93.08,
+        "evalue": 0.0,
+        "bits": 854.358,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAL5053801"
+      }
+    ]
+  }
+}

@@ -1,0 +1,730 @@
+{
+  "Arabidopsis thaliana": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_564341",
+        "title": "ref|NP_564341.2| nuclear RNA polymerase A2 [Arabidopsis thaliana]",
+        "organism": "Arabidopsis thaliana",
+        "identity_pct": 100.0,
+        "evalue": 0.0,
+        "bits": 2456.02,
+        "length": 1178,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_564341"
+      }
+    ]
+  },
+  "Rubus occidentalis": {
+    "db": "none_targeted",
+    "hits": []
+  },
+  "Prunus persica": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_020419458",
+        "title": "ref|XP_020419458.1| DNA-directed RNA polymerase I subunit 2 isoform X1 [Prunus persica]",
+        "organism": "Prunus persica",
+        "identity_pct": 69.77,
+        "evalue": 0.0,
+        "bits": 1705.26,
+        "length": 1184,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020419458"
+      }
+    ]
+  },
+  "brassica rapa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_009102799",
+        "title": "ref|XP_009102799.2| DNA-directed RNA polymerase I subunit 2 [Brassica rapa]",
+        "organism": "Brassica rapa",
+        "identity_pct": 85.45,
+        "evalue": 0.0,
+        "bits": 2094.32,
+        "length": 1188,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_009102799"
+      }
+    ]
+  },
+  "Brachypodium distachyon": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_003574126",
+        "title": "ref|XP_003574126.1| DNA-directed RNA polymerase I subunit 2 [Brachypodium distachyon]",
+        "organism": "Brachypodium distachyon",
+        "identity_pct": 59.43,
+        "evalue": 0.0,
+        "bits": 1451.03,
+        "length": 1181,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_003574126"
+      }
+    ]
+  },
+  "Cucumis sativus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_004146776",
+        "title": "ref|XP_004146776.1| DNA-directed RNA polymerase I subunit 2 [Cucumis sativus]",
+        "organism": "Cucumis sativus",
+        "identity_pct": 71.45,
+        "evalue": 0.0,
+        "bits": 1769.59,
+        "length": 1173,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_004146776"
+      }
+    ]
+  },
+  "Corylus avellana": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_059444244",
+        "title": "ref|XP_059444244.1| DNA-directed RNA polymerase I subunit 2 isoform X1 [Corylus avellana]",
+        "organism": "Corylus avellana",
+        "identity_pct": 68.94,
+        "evalue": 0.0,
+        "bits": 1677.14,
+        "length": 1172,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_059444244"
+      }
+    ]
+  },
+  "Setaria viridis": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_034573898",
+        "title": "ref|XP_034573898.1| DNA-directed RNA polymerase I subunit 2 [Setaria viridis]",
+        "organism": "Setaria viridis",
+        "identity_pct": 60.66,
+        "evalue": 0.0,
+        "bits": 1471.06,
+        "length": 1179,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_034573898"
+      }
+    ]
+  },
+  "Populus deltoides": {
+    "db": "nr_targeted",
+    "query": "Populus deltoides",
+    "hits": [
+      {
+        "accession": "KAH8522747",
+        "title": "gb|KAH8522747.1| hypothetical protein H0E87_003404 [Populus deltoides]",
+        "organism": "Populus deltoides",
+        "identity_pct": 70.06,
+        "evalue": 0.0,
+        "bits": 1743.4,
+        "length": 1173,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAH8522747"
+      }
+    ]
+  },
+  "Daucus carota": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_017252668",
+        "title": "ref|XP_017252668.1| DNA-directed RNA polymerase I subunit 2 [Daucus carota subsp. sativus]",
+        "organism": "Daucus carota subsp. sativus",
+        "identity_pct": 66.1,
+        "evalue": 0.0,
+        "bits": 1662.89,
+        "length": 1174,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_017252668"
+      }
+    ]
+  },
+  "Populus trichocarpa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_024444830",
+        "title": "ref|XP_024444830.2| DNA-directed RNA polymerase I subunit 2 [Populus trichocarpa]",
+        "organism": "Populus trichocarpa",
+        "identity_pct": 69.72,
+        "evalue": 0.0,
+        "bits": 1733.77,
+        "length": 1173,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_024444830"
+      }
+    ]
+  },
+  "Vitis vinifera": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_010659082",
+        "title": "ref|XP_010659082.1| DNA-directed RNA polymerase I subunit 2 isoform X1 [Vitis vinifera]",
+        "organism": "Vitis vinifera",
+        "identity_pct": 71.96,
+        "evalue": 0.0,
+        "bits": 1798.1,
+        "length": 1178,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_010659082"
+      }
+    ]
+  },
+  "Paspalum notatum": {
+    "db": "nr_targeted",
+    "query": "Paspalum notatum",
+    "hits": [
+      {
+        "accession": "WVZ59477",
+        "title": "gb|WVZ59477.1| hypothetical protein U9M48_009611 [Paspalum notatum var. saurae]",
+        "organism": "Paspalum notatum var. saurae",
+        "identity_pct": 57.49,
+        "evalue": 0.0,
+        "bits": 1431.77,
+        "length": 1248,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WVZ59477"
+      }
+    ]
+  },
+  "musa acuminata": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_064978090",
+        "title": "ref|XP_064978090.1| DNA-directed RNA polymerase I subunit 2-like [Musa acuminata AAA Group]",
+        "organism": "Musa acuminata AAA Group",
+        "identity_pct": 64.89,
+        "evalue": 0.0,
+        "bits": 1549.26,
+        "length": 1169,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_064978090"
+      }
+    ]
+  },
+  "Phaseolus vulgaris": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_068475282",
+        "title": "ref|XP_068475282.1| DNA-directed RNA polymerase I subunit 2 [Phaseolus vulgaris]",
+        "organism": "Phaseolus vulgaris",
+        "identity_pct": 70.26,
+        "evalue": 0.0,
+        "bits": 1728.38,
+        "length": 1180,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_068475282"
+      }
+    ]
+  },
+  "Thlaspi arvense": {
+    "db": "nr_targeted",
+    "query": "Thlaspi arvense",
+    "hits": [
+      {
+        "accession": "KAN1356460",
+        "title": "gb|KAN1356460.1| hypothetical protein ACUM6N_000937 [Thlaspi arvense] >gb|KAN1369693.1| hypothetical protein ACUM6Z_000933 [Thlaspi arvense]",
+        "organism": "Thlaspi arvense",
+        "identity_pct": 86.08,
+        "evalue": 0.0,
+        "bits": 2118.58,
+        "length": 1180,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAN1356460"
+      }
+    ]
+  },
+  "Lotus japonicus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_057453595",
+        "title": "ref|XP_057453595.1| DNA-directed RNA polymerase I subunit 2 isoform X1 [Lotus japonicus]",
+        "organism": "Lotus japonicus",
+        "identity_pct": 69.36,
+        "evalue": 0.0,
+        "bits": 1689.86,
+        "length": 1165,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_057453595"
+      }
+    ]
+  },
+  "Beta vulgaris": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_010670529",
+        "title": "ref|XP_010670529.2| DNA-directed RNA polymerase I subunit 2 isoform X2 [Beta vulgaris subsp. vulgaris]",
+        "organism": "Beta vulgaris subsp. vulgaris",
+        "identity_pct": 65.73,
+        "evalue": 0.0,
+        "bits": 1635.16,
+        "length": 1171,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_010670529"
+      }
+    ]
+  },
+  "Coffea canephora": {
+    "db": "nr_targeted",
+    "query": "Coffea canephora",
+    "hits": [
+      {
+        "accession": "CDP07938",
+        "title": "emb|CDP07938.1| unnamed protein product [Coffea canephora]",
+        "organism": "Coffea canephora",
+        "identity_pct": 68.42,
+        "evalue": 0.0,
+        "bits": 1694.09,
+        "length": 1209,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CDP07938"
+      }
+    ]
+  },
+  "Vigna unguiculata": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_027910931",
+        "title": "ref|XP_027910931.1| DNA-directed RNA polymerase I subunit 2 [Vigna unguiculata]",
+        "organism": "Vigna unguiculata",
+        "identity_pct": 69.64,
+        "evalue": 0.0,
+        "bits": 1724.14,
+        "length": 1175,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_027910931"
+      }
+    ]
+  },
+  "Malus domestica": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_028963223",
+        "title": "ref|XP_028963223.2| DNA-directed RNA polymerase I subunit 2 [Malus domestica]",
+        "organism": "Malus domestica",
+        "identity_pct": 70.94,
+        "evalue": 0.0,
+        "bits": 1724.91,
+        "length": 1218,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_028963223"
+      }
+    ]
+  },
+  "Sorghum bicolor": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021314715",
+        "title": "ref|XP_021314715.1| DNA-directed RNA polymerase I subunit 2 isoform X1 [Sorghum bicolor]",
+        "organism": "Sorghum bicolor",
+        "identity_pct": 60.55,
+        "evalue": 0.0,
+        "bits": 1491.86,
+        "length": 1169,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021314715"
+      }
+    ]
+  },
+  "Cicer arietinum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_004486057",
+        "title": "ref|XP_004486057.1| DNA-directed RNA polymerase I subunit 2-like isoform X1 [Cicer arietinum] >ref|XP_004486058.1| DNA-directed RNA polymera",
+        "organism": "Cicer arietinum",
+        "identity_pct": 69.48,
+        "evalue": 0.0,
+        "bits": 1721.83,
+        "length": 1177,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_004486057"
+      }
+    ]
+  },
+  "Manihot esculenta": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021610008",
+        "title": "ref|XP_021610008.1| DNA-directed RNA polymerase I subunit 2 [Manihot esculenta] >ref|XP_021610009.1| DNA-directed RNA polymerase I subunit 2",
+        "organism": "Manihot esculenta",
+        "identity_pct": 71.17,
+        "evalue": 0.0,
+        "bits": 1781.92,
+        "length": 1179,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021610008"
+      }
+    ]
+  },
+  "Camelina sativa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_010499511",
+        "title": "ref|XP_010499511.1| PREDICTED: DNA-directed RNA polymerase I subunit 2 [Camelina sativa]",
+        "organism": "Camelina sativa",
+        "identity_pct": 90.94,
+        "evalue": 0.0,
+        "bits": 2241.08,
+        "length": 1190,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_010499511"
+      }
+    ]
+  },
+  "Fragaria ananassa": {
+    "db": "nr_targeted",
+    "query": "Fragaria ananassa",
+    "hits": [
+      {
+        "accession": "KAL6125623",
+        "title": "gb|KAL6125623.1| hypothetical protein ACLB2K_073679 [Fragaria x ananassa]",
+        "organism": "Fragaria x ananassa",
+        "identity_pct": 65.9,
+        "evalue": 0.0,
+        "bits": 978.778,
+        "length": 1084,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAL6125623"
+      }
+    ]
+  },
+  "Solanum lycopersicum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_004229596",
+        "title": "ref|XP_004229596.1| DNA-directed RNA polymerase I subunit 2 isoform X1 [Solanum lycopersicum]",
+        "organism": "Solanum lycopersicum",
+        "identity_pct": 68.92,
+        "evalue": 0.0,
+        "bits": 1694.09,
+        "length": 1184,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_004229596"
+      }
+    ]
+  },
+  "Panicum miliaceum": {
+    "db": "nr_targeted",
+    "query": "Panicum miliaceum",
+    "hits": [
+      {
+        "accession": "RLN18851",
+        "title": "gb|RLN18851.1| DNA-directed RNA polymerase I subunit rpa2 [Panicum miliaceum]",
+        "organism": "Panicum miliaceum",
+        "identity_pct": 55.07,
+        "evalue": 0.0,
+        "bits": 1305.04,
+        "length": 1271,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/RLN18851"
+      }
+    ]
+  },
+  "Eruca vesicaria": {
+    "db": "nr_targeted",
+    "query": "Eruca vesicaria",
+    "hits": [
+      {
+        "accession": "CAH8299301",
+        "title": "emb|CAH8299301.1| unnamed protein product [Eruca vesicaria subsp. sativa]",
+        "organism": "Eruca vesicaria subsp. sativa",
+        "identity_pct": 84.14,
+        "evalue": 0.0,
+        "bits": 2093.55,
+        "length": 1190,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CAH8299301"
+      }
+    ]
+  },
+  "Lupinus angustifolius": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_019449317",
+        "title": "ref|XP_019449317.1| PREDICTED: LOW QUALITY PROTEIN: DNA-directed RNA polymerase I subunit 2 [Lupinus angustifolius]",
+        "organism": "Lupinus angustifolius",
+        "identity_pct": 66.69,
+        "evalue": 0.0,
+        "bits": 1702.57,
+        "length": 1230,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_019449317"
+      }
+    ]
+  },
+  "Brassica napus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_013718067",
+        "title": "ref|XP_013718067.1| DNA-directed RNA polymerase I subunit 2 [Brassica napus]",
+        "organism": "Brassica napus",
+        "identity_pct": 85.7,
+        "evalue": 0.0,
+        "bits": 2096.63,
+        "length": 1188,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_013718067"
+      }
+    ]
+  },
+  "Spinacia oleracea": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021852019",
+        "title": "ref|XP_021852019.2| DNA-directed RNA polymerase I subunit 2 [Spinacia oleracea]",
+        "organism": "Spinacia oleracea",
+        "identity_pct": 66.15,
+        "evalue": 0.0,
+        "bits": 1636.7,
+        "length": 1173,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021852019"
+      }
+    ]
+  },
+  "Eleusine coracana": {
+    "db": "nr_targeted",
+    "query": "Eleusine coracana",
+    "hits": [
+      {
+        "accession": "KAK3138851",
+        "title": "gb|KAK3138851.1| hypothetical protein QOZ80_5AG0374260 [Eleusine coracana subsp. coracana]",
+        "organism": "Eleusine coracana subsp. coracana",
+        "identity_pct": 58.71,
+        "evalue": 0.0,
+        "bits": 1273.84,
+        "length": 1054,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAK3138851"
+      }
+    ]
+  },
+  "Glycine max": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_003542805",
+        "title": "ref|XP_003542805.1| DNA-directed RNA polymerase I subunit 2 isoform X4 [Glycine max]",
+        "organism": "Glycine max",
+        "identity_pct": 70.92,
+        "evalue": 0.0,
+        "bits": 1770.36,
+        "length": 1175,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_003542805"
+      }
+    ]
+  },
+  "Asparagus officinalis": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_020263709",
+        "title": "ref|XP_020263709.1| DNA-directed RNA polymerase I subunit 2 isoform X2 [Asparagus officinalis]",
+        "organism": "Asparagus officinalis",
+        "identity_pct": 63.63,
+        "evalue": 0.0,
+        "bits": 1513.05,
+        "length": 1160,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020263709"
+      }
+    ]
+  },
+  "Chenopodium quinoa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021766326",
+        "title": "ref|XP_021766326.1| DNA-directed RNA polymerase I subunit 2-like [Chenopodium quinoa]",
+        "organism": "Chenopodium quinoa",
+        "identity_pct": 65.21,
+        "evalue": 0.0,
+        "bits": 1627.84,
+        "length": 1184,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021766326"
+      }
+    ]
+  },
+  "Solanum tuberosum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_006366498",
+        "title": "ref|XP_006366498.1| DNA-directed RNA polymerase I subunit 2 [Solanum tuberosum]",
+        "organism": "Solanum tuberosum",
+        "identity_pct": 68.66,
+        "evalue": 0.0,
+        "bits": 1689.47,
+        "length": 1179,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_006366498"
+      }
+    ]
+  },
+  "Miscanthus sinensis": {
+    "db": "none_targeted",
+    "hits": []
+  },
+  "Gossypium hirsutum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_040933906",
+        "title": "ref|XP_040933906.1| DNA-directed RNA polymerase I subunit 2 isoform X1 [Gossypium hirsutum]",
+        "organism": "Gossypium hirsutum",
+        "identity_pct": 70.26,
+        "evalue": 0.0,
+        "bits": 1748.41,
+        "length": 1178,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_040933906"
+      }
+    ]
+  },
+  "Zea mays": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_008664805",
+        "title": "ref|XP_008664805.1| DNA-directed RNA polymerase I subunit 2 [Zea mays]",
+        "organism": "Zea mays",
+        "identity_pct": 60.53,
+        "evalue": 0.0,
+        "bits": 1484.16,
+        "length": 1178,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_008664805"
+      }
+    ]
+  },
+  "Lactuca sativa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_023732824",
+        "title": "ref|XP_023732824.1| nuclear RNA polymerase A2 [Lactuca sativa]",
+        "organism": "Lactuca sativa",
+        "identity_pct": 67.55,
+        "evalue": 0.0,
+        "bits": 1701.41,
+        "length": 1189,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_023732824"
+      }
+    ]
+  },
+  "Helianthus annuus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_022035554",
+        "title": "ref|XP_022035554.1| DNA-directed RNA polymerase I subunit 2 [Helianthus annuus]",
+        "organism": "Helianthus annuus",
+        "identity_pct": 65.56,
+        "evalue": 0.0,
+        "bits": 1644.79,
+        "length": 1190,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_022035554"
+      }
+    ]
+  },
+  "Aegilops tauschii": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_020150651",
+        "title": "ref|XP_020150651.1| DNA-directed RNA polymerase I subunit 2 [Aegilops tauschii subsp. strangulata]",
+        "organism": "Aegilops tauschii subsp. strangulata",
+        "identity_pct": 60.5,
+        "evalue": 0.0,
+        "bits": 1454.88,
+        "length": 1187,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020150651"
+      }
+    ]
+  },
+  "Pisum sativum": {
+    "db": "nr_targeted",
+    "query": "Pisum sativum",
+    "hits": [
+      {
+        "accession": "XP_050906247",
+        "title": "ref|XP_050906247.1| DNA-directed RNA polymerase I subunit 2 [Lathyrus oleraceus]",
+        "organism": "Lathyrus oleraceus",
+        "identity_pct": 67.12,
+        "evalue": 0.0,
+        "bits": 1657.5,
+        "length": 1179,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_050906247"
+      }
+    ]
+  },
+  "Hordeum vulgare": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_044971306",
+        "title": "ref|XP_044971306.1| DNA-directed RNA polymerase I subunit 2 [Hordeum vulgare subsp. vulgare]",
+        "organism": "Hordeum vulgare subsp. vulgare",
+        "identity_pct": 60.55,
+        "evalue": 0.0,
+        "bits": 1458.35,
+        "length": 1185,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_044971306"
+      }
+    ]
+  },
+  "Ceratopteris richardii": {
+    "db": "nr_targeted",
+    "query": "Ceratopteris richardii",
+    "hits": [
+      {
+        "accession": "KAH7297471",
+        "title": "gb|KAH7297471.1| hypothetical protein KP509_26G071000 [Ceratopteris richardii]",
+        "organism": "Ceratopteris richardii",
+        "identity_pct": 53.88,
+        "evalue": 0.0,
+        "bits": 1300.03,
+        "length": 1187,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAH7297471"
+      }
+    ]
+  },
+  "Vicia faba": {
+    "db": "nr_targeted",
+    "query": "Vicia faba",
+    "hits": [
+      {
+        "accession": "KAL5099739",
+        "title": "gb|KAL5099739.1| hypothetical protein RYX36_004066 [Vicia faba]",
+        "organism": "Vicia faba",
+        "identity_pct": 67.29,
+        "evalue": 0.0,
+        "bits": 1653.65,
+        "length": 1179,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAL5099739"
+      }
+    ]
+  }
+}

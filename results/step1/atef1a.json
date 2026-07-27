@@ -1,0 +1,742 @@
+{
+  "Arabidopsis thaliana": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001030993",
+        "title": "ref|NP_001030993.1| GTP binding Elongation factor Tu family protein [Arabidopsis thaliana] >ref|NP_001119464.1| GTP binding Elongation facto",
+        "organism": "Arabidopsis thaliana",
+        "identity_pct": 100.0,
+        "evalue": 0.0,
+        "bits": 925.62,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001030993"
+      }
+    ]
+  },
+  "Rubus occidentalis": {
+    "db": "none_targeted",
+    "hits": []
+  },
+  "Prunus persica": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_007205199",
+        "title": "ref|XP_007205199.1| elongation factor 1-alpha [Prunus persica] >ref|XP_020421970.1| elongation factor 1-alpha [Prunus persica] >ref|XP_03422",
+        "organism": "Prunus persica",
+        "identity_pct": 97.09,
+        "evalue": 0.0,
+        "bits": 896.73,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_007205199"
+      }
+    ]
+  },
+  "brassica rapa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_009144204",
+        "title": "ref|XP_009144204.2| elongation factor 1-alpha 1 isoform X1 [Brassica rapa]",
+        "organism": "Brassica rapa",
+        "identity_pct": 99.33,
+        "evalue": 0.0,
+        "bits": 923.309,
+        "length": 503,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_009144204"
+      }
+    ]
+  },
+  "Brachypodium distachyon": {
+    "db": "nr_targeted",
+    "query": "Brachypodium distachyon",
+    "hits": [
+      {
+        "accession": "XP_003558459",
+        "title": "ref|XP_003558459.1| elongation factor 1-alpha [Brachypodium distachyon] >ref|XP_003577316.1| elongation factor 1-alpha [Brachypodium distach",
+        "organism": "Brachypodium distachyon",
+        "identity_pct": 95.41,
+        "evalue": 0.0,
+        "bits": 870.922,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_003558459"
+      }
+    ]
+  },
+  "Cucumis sativus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_011655323",
+        "title": "ref|XP_011655323.2| elongation factor 1-alpha [Cucumis sativus] >ref|XP_031741430.1| elongation factor 1-alpha [Cucumis sativus]",
+        "organism": "Cucumis sativus",
+        "identity_pct": 95.1,
+        "evalue": 0.0,
+        "bits": 888.256,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_011655323"
+      }
+    ]
+  },
+  "Corylus avellana": {
+    "db": "nr_targeted",
+    "query": "Corylus avellana",
+    "hits": [
+      {
+        "accession": "XP_059431190",
+        "title": "ref|XP_059431190.1| elongation factor 1-alpha [Corylus avellana] >ref|XP_059431192.1| elongation factor 1-alpha [Corylus avellana]",
+        "organism": "Corylus avellana",
+        "identity_pct": 94.84,
+        "evalue": 0.0,
+        "bits": 881.322,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_059431190"
+      }
+    ]
+  },
+  "Setaria viridis": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_034588032",
+        "title": "ref|XP_034588032.1| elongation factor 1-alpha [Setaria viridis] >ref|XP_034588033.1| elongation factor 1-alpha [Setaria viridis]",
+        "organism": "Setaria viridis",
+        "identity_pct": 96.19,
+        "evalue": 0.0,
+        "bits": 890.952,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_034588032"
+      }
+    ]
+  },
+  "Populus deltoides": {
+    "db": "nr_targeted",
+    "query": "Populus deltoides",
+    "hits": [
+      {
+        "accession": "KAH8497258",
+        "title": "gb|KAH8497258.1| hypothetical protein H0E87_019805 [Populus deltoides] >gb|KAL9351545.1| hypothetical protein Peur_054225 [Populus x canaden",
+        "organism": "Populus deltoides",
+        "identity_pct": 95.99,
+        "evalue": 0.0,
+        "bits": 896.345,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAH8497258"
+      }
+    ]
+  },
+  "Daucus carota": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_017245076",
+        "title": "ref|XP_017245076.1| elongation factor 1-alpha [Daucus carota subsp. sativus]",
+        "organism": "Daucus carota subsp. sativus",
+        "identity_pct": 95.77,
+        "evalue": 0.0,
+        "bits": 895.96,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_017245076"
+      }
+    ]
+  },
+  "Populus trichocarpa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_002316351",
+        "title": "ref|XP_002316351.2| elongation factor 1-alpha [Populus trichocarpa] >ref|XP_024466588.1| elongation factor 1-alpha isoform X2 [Populus trich",
+        "organism": "Populus trichocarpa",
+        "identity_pct": 95.1,
+        "evalue": 0.0,
+        "bits": 891.723,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_002316351"
+      }
+    ]
+  },
+  "Vitis vinifera": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_002284924",
+        "title": "ref|XP_002284924.1| elongation factor 1-alpha [Vitis vinifera] >ref|XP_002284964.1| elongation factor 1-alpha [Vitis vinifera] >ref|XP_01065",
+        "organism": "Vitis vinifera",
+        "identity_pct": 95.52,
+        "evalue": 0.0,
+        "bits": 886.33,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_002284924"
+      }
+    ]
+  },
+  "Paspalum notatum": {
+    "db": "nr_targeted",
+    "query": "Paspalum notatum",
+    "hits": [
+      {
+        "accession": "WVZ56555",
+        "title": "gb|KAJ1297627.1| hypothetical protein BS78_01G391300 [Paspalum vaginatum] >gb|WVZ56555.1| hypothetical protein U9M48_007064 [Paspalum notatu",
+        "organism": "Paspalum vaginatum",
+        "identity_pct": 96.41,
+        "evalue": 0.0,
+        "bits": 891.338,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WVZ56555"
+      }
+    ]
+  },
+  "musa acuminata": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_009392715",
+        "title": "ref|XP_009392715.2| elongation factor 1-alpha-like [Musa acuminata AAA Group] >ref|XP_009392716.2| elongation factor 1-alpha-like [Musa acum",
+        "organism": "Musa acuminata AAA Group",
+        "identity_pct": 95.29,
+        "evalue": 0.0,
+        "bits": 884.404,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_009392715"
+      }
+    ]
+  },
+  "Phaseolus vulgaris": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_068502159",
+        "title": "ref|XP_068502159.1| elongation factor 1-alpha [Phaseolus vulgaris]",
+        "organism": "Phaseolus vulgaris",
+        "identity_pct": 97.09,
+        "evalue": 0.0,
+        "bits": 897.116,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_068502159"
+      }
+    ]
+  },
+  "Thlaspi arvense": {
+    "db": "nr_targeted",
+    "query": "Thlaspi arvense",
+    "hits": [
+      {
+        "accession": "KAN1293383",
+        "title": "ref|NP_001030993.1| GTP binding Elongation factor Tu family protein [Arabidopsis thaliana] >ref|NP_001119464.1| GTP binding Elongation facto",
+        "organism": "Arabidopsis thaliana",
+        "identity_pct": 100.0,
+        "evalue": 0.0,
+        "bits": 925.62,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAN1293383"
+      }
+    ]
+  },
+  "Lotus japonicus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_057437397",
+        "title": "ref|XP_057437397.1| elongation factor 1-alpha [Lotus japonicus]",
+        "organism": "Lotus japonicus",
+        "identity_pct": 96.86,
+        "evalue": 0.0,
+        "bits": 897.501,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_057437397"
+      }
+    ]
+  },
+  "Beta vulgaris": {
+    "db": "nr_targeted",
+    "query": "Beta vulgaris",
+    "hits": [
+      {
+        "accession": "XP_010669662",
+        "title": "ref|XP_010669662.1| elongation factor 1-alpha [Beta vulgaris subsp. vulgaris]",
+        "organism": "Beta vulgaris subsp. vulgaris",
+        "identity_pct": 94.39,
+        "evalue": 0.0,
+        "bits": 879.396,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_010669662"
+      }
+    ]
+  },
+  "Coffea canephora": {
+    "db": "nr_targeted",
+    "query": "Coffea canephora",
+    "hits": [
+      {
+        "accession": "CDP08919",
+        "title": "emb|CDP08919.1| unnamed protein product [Coffea canephora]",
+        "organism": "Coffea canephora",
+        "identity_pct": 86.03,
+        "evalue": 0.0,
+        "bits": 700.279,
+        "length": 432,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CDP08919"
+      }
+    ]
+  },
+  "Vigna unguiculata": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_027936881",
+        "title": "ref|XP_027936881.1| elongation factor 1-alpha-like [Vigna unguiculata] >ref|XP_027936882.1| elongation factor 1-alpha-like [Vigna unguiculat",
+        "organism": "Vigna unguiculata",
+        "identity_pct": 95.75,
+        "evalue": 0.0,
+        "bits": 892.493,
+        "length": 448,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_027936881"
+      }
+    ]
+  },
+  "Malus domestica": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_028955585",
+        "title": "ref|XP_028955585.1| elongation factor 1-alpha-like [Malus domestica] >ref|XP_048425135.1| elongation factor 1-alpha [Pyrus x bretschneideri]",
+        "organism": "Malus domestica",
+        "identity_pct": 95.96,
+        "evalue": 0.0,
+        "bits": 894.419,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_028955585"
+      }
+    ]
+  },
+  "Sorghum bicolor": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_002460859",
+        "title": "ref|XP_002460859.1| elongation factor 1-alpha [Sorghum bicolor] >ref|XP_066397885.1| elongation factor 1-alpha-like [Miscanthus floridulus]",
+        "organism": "Sorghum bicolor",
+        "identity_pct": 95.74,
+        "evalue": 0.0,
+        "bits": 888.641,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_002460859"
+      }
+    ]
+  },
+  "Cicer arietinum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001352092",
+        "title": "ref|NP_001352092.1| elongation factor 1-alpha [Cicer arietinum] >ref|XP_004489551.1| elongation factor 1-alpha [Cicer arietinum]",
+        "organism": "Cicer arietinum",
+        "identity_pct": 96.41,
+        "evalue": 0.0,
+        "bits": 896.73,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001352092"
+      }
+    ]
+  },
+  "Manihot esculenta": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021607452",
+        "title": "ref|XP_021607452.1| elongation factor 1-alpha-like [Manihot esculenta]",
+        "organism": "Manihot esculenta",
+        "identity_pct": 95.77,
+        "evalue": 0.0,
+        "bits": 894.804,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021607452"
+      }
+    ]
+  },
+  "Camelina sativa": {
+    "db": "nr_targeted",
+    "query": "Camelina sativa",
+    "hits": [
+      {
+        "accession": "XP_010443836",
+        "title": "ref|XP_006280459.1| elongation factor 1-alpha 1 [Capsella rubella] >ref|XP_006304491.1| elongation factor 1-alpha 1 isoform X2 [Capsella rub",
+        "organism": "Capsella rubella",
+        "identity_pct": 99.78,
+        "evalue": 0.0,
+        "bits": 924.08,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_010443836"
+      }
+    ]
+  },
+  "Fragaria ananassa": {
+    "db": "nr_targeted",
+    "query": "Fragaria ananassa",
+    "hits": [
+      {
+        "accession": "KAL6195723",
+        "title": "ref|XP_004309883.1| PREDICTED: elongation factor 1-alpha-like [Fragaria vesca subsp. vesca] >gb|KAL6195723.1| hypothetical protein ACLB2K_03",
+        "organism": "Fragaria vesca subsp. vesca",
+        "identity_pct": 96.41,
+        "evalue": 0.0,
+        "bits": 894.804,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAL6195723"
+      }
+    ]
+  },
+  "Solanum lycopersicum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001234035",
+        "title": "ref|NP_001234035.1| elongation factor 1-alpha [Solanum lycopersicum] >ref|XP_004240579.1| elongation factor 1-alpha [Solanum lycopersicum] >",
+        "organism": "Solanum lycopersicum",
+        "identity_pct": 96.42,
+        "evalue": 0.0,
+        "bits": 897.116,
+        "length": 448,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001234035"
+      }
+    ]
+  },
+  "Panicum miliaceum": {
+    "db": "nr_targeted",
+    "query": "Panicum miliaceum",
+    "hits": [
+      {
+        "accession": "RLN01139",
+        "title": "ref|XP_039789893.1| elongation factor 1-alpha-like [Panicum virgatum] >ref|XP_039789894.1| elongation factor 1-alpha-like [Panicum virgatum]",
+        "organism": "Panicum virgatum",
+        "identity_pct": 96.19,
+        "evalue": 0.0,
+        "bits": 892.108,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/RLN01139"
+      }
+    ]
+  },
+  "Eruca vesicaria": {
+    "db": "nr_targeted",
+    "query": "Eruca vesicaria",
+    "hits": [
+      {
+        "accession": "CAH8362408",
+        "title": "emb|CAH8362408.1| unnamed protein product [Eruca vesicaria subsp. sativa]",
+        "organism": "Eruca vesicaria subsp. sativa",
+        "identity_pct": 99.33,
+        "evalue": 0.0,
+        "bits": 923.309,
+        "length": 483,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CAH8362408"
+      }
+    ]
+  },
+  "Lupinus angustifolius": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_019427490",
+        "title": "ref|XP_019427490.1| PREDICTED: elongation factor 1-alpha-like [Lupinus angustifolius]",
+        "organism": "Lupinus angustifolius",
+        "identity_pct": 96.19,
+        "evalue": 0.0,
+        "bits": 893.649,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_019427490"
+      }
+    ]
+  },
+  "Brassica napus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_048610417",
+        "title": "ref|XP_048610417.1| elongation factor 1-alpha 1 [Brassica napus]",
+        "organism": "Brassica napus",
+        "identity_pct": 99.33,
+        "evalue": 0.0,
+        "bits": 921.768,
+        "length": 496,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_048610417"
+      }
+    ]
+  },
+  "Spinacia oleracea": {
+    "db": "nr_targeted",
+    "query": "Spinacia oleracea",
+    "hits": [
+      {
+        "accession": "XP_021864385",
+        "title": "ref|XP_021864385.1| elongation factor 1-alpha [Spinacia oleracea] >ref|XP_021864386.1| elongation factor 1-alpha [Spinacia oleracea] >ref|XP",
+        "organism": "Spinacia oleracea",
+        "identity_pct": 93.5,
+        "evalue": 0.0,
+        "bits": 872.463,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021864385"
+      }
+    ]
+  },
+  "Eleusine coracana": {
+    "db": "nr_targeted",
+    "query": "Eleusine coracana",
+    "hits": [
+      {
+        "accession": "KAK3135744",
+        "title": "gb|KAK3135744.1| hypothetical protein QOZ80_5BG0422870 [Eleusine coracana subsp. coracana] >gb|KAK3135766.1| hypothetical protein QOZ80_5BG0",
+        "organism": "Eleusine coracana subsp. coracana",
+        "identity_pct": 96.41,
+        "evalue": 0.0,
+        "bits": 894.419,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAK3135744"
+      }
+    ]
+  },
+  "Glycine max": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001337027",
+        "title": "ref|NP_001337027.1| elongation factor 1-alpha [Glycine max] >ref|XP_028232278.1| elongation factor 1-alpha-like [Glycine soja]",
+        "organism": "Glycine max",
+        "identity_pct": 97.09,
+        "evalue": 0.0,
+        "bits": 899.042,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001337027"
+      }
+    ]
+  },
+  "Asparagus officinalis": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_020267570",
+        "title": "ref|XP_020267570.1| elongation factor 1-alpha [Asparagus officinalis]",
+        "organism": "Asparagus officinalis",
+        "identity_pct": 95.52,
+        "evalue": 0.0,
+        "bits": 889.797,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020267570"
+      }
+    ]
+  },
+  "Chenopodium quinoa": {
+    "db": "nr_targeted",
+    "query": "Chenopodium quinoa",
+    "hits": [
+      {
+        "accession": "XP_021744217",
+        "title": "ref|XP_021744217.1| elongation factor 1-alpha [Chenopodium quinoa]",
+        "organism": "Chenopodium quinoa",
+        "identity_pct": 94.17,
+        "evalue": 0.0,
+        "bits": 878.241,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021744217"
+      }
+    ]
+  },
+  "Solanum tuberosum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_006340223",
+        "title": "ref|XP_006340223.1| elongation factor 1-alpha-like [Solanum tuberosum] >ref|XP_015170758.1| elongation factor 1-alpha-like [Solanum tuberosu",
+        "organism": "Solanum tuberosum",
+        "identity_pct": 96.41,
+        "evalue": 0.0,
+        "bits": 895.96,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_006340223"
+      }
+    ]
+  },
+  "Miscanthus sinensis": {
+    "db": "nr_targeted",
+    "query": "Miscanthus sinensis",
+    "hits": [
+      {
+        "accession": "AFC88830",
+        "title": "ref|XP_066375672.1| elongation factor 1-alpha-like [Miscanthus floridulus] >ref|XP_066375849.1| elongation factor 1-alpha-like [Miscanthus f",
+        "organism": "Miscanthus floridulus",
+        "identity_pct": 95.74,
+        "evalue": 0.0,
+        "bits": 885.174,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/AFC88830"
+      }
+    ]
+  },
+  "Gossypium hirsutum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_016710547",
+        "title": "ref|XP_016710547.1| elongation factor 1-alpha-like isoform X1 [Gossypium hirsutum] >ref|XP_052878809.1| elongation factor 1-alpha-like [Goss",
+        "organism": "Gossypium hirsutum",
+        "identity_pct": 95.97,
+        "evalue": 0.0,
+        "bits": 895.96,
+        "length": 448,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_016710547"
+      }
+    ]
+  },
+  "Zea mays": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001338678",
+        "title": "ref|NP_001338678.1| elongation factor alpha 5 [Zea mays] >ref|XP_023156093.1| elongation factor alpha 5 isoform X1 [Zea mays]",
+        "organism": "Zea mays",
+        "identity_pct": 95.96,
+        "evalue": 0.0,
+        "bits": 889.797,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001338678"
+      }
+    ]
+  },
+  "Lactuca sativa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_023766637",
+        "title": "ref|XP_023766637.1| elongation factor 1-alpha 1 [Lactuca sativa] >ref|XP_078839396.1| elongation factor 1-alpha 1 [Lactuca saligna] >ref|XP_",
+        "organism": "Lactuca sativa",
+        "identity_pct": 96.86,
+        "evalue": 0.0,
+        "bits": 899.042,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_023766637"
+      }
+    ]
+  },
+  "Helianthus annuus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021973407",
+        "title": "ref|XP_021973407.1| elongation factor 1-alpha [Helianthus annuus] >ref|XP_022001202.1| elongation factor 1-alpha [Helianthus annuus] >ref|XP",
+        "organism": "Helianthus annuus",
+        "identity_pct": 96.88,
+        "evalue": 0.0,
+        "bits": 903.664,
+        "length": 449,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021973407"
+      }
+    ]
+  },
+  "Aegilops tauschii": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_020172916",
+        "title": "ref|XP_020172916.1| elongation factor 1-alpha [Aegilops tauschii subsp. strangulata] >ref|XP_020173542.1| elongation factor 1-alpha [Aegilop",
+        "organism": "Aegilops tauschii subsp. strangulata",
+        "identity_pct": 95.29,
+        "evalue": 0.0,
+        "bits": 885.174,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020172916"
+      }
+    ]
+  },
+  "Pisum sativum": {
+    "db": "nr_targeted",
+    "query": "Pisum sativum",
+    "hits": [
+      {
+        "accession": "NP_001414498",
+        "title": "ref|NP_001414498.1| elongation factor 1-alpha-like [Lathyrus oleraceus] >ref|NP_001414499.1| elongation factor 1-alpha [Lathyrus oleraceus]",
+        "organism": "Lathyrus oleraceus",
+        "identity_pct": 95.52,
+        "evalue": 0.0,
+        "bits": 888.641,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001414498"
+      }
+    ]
+  },
+  "Hordeum vulgare": {
+    "db": "nr_targeted",
+    "query": "Hordeum vulgare",
+    "hits": [
+      {
+        "accession": "XP_044981916",
+        "title": "ref|XP_020172916.1| elongation factor 1-alpha [Aegilops tauschii subsp. strangulata] >ref|XP_020173542.1| elongation factor 1-alpha [Aegilop",
+        "organism": "Aegilops tauschii subsp. strangulata",
+        "identity_pct": 95.29,
+        "evalue": 0.0,
+        "bits": 885.174,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_044981916"
+      }
+    ]
+  },
+  "Ceratopteris richardii": {
+    "db": "nr_targeted",
+    "query": "Ceratopteris richardii",
+    "hits": [
+      {
+        "accession": "KAH7287950",
+        "title": "gb|KAH7287950.1| hypothetical protein KP509_31G004900 [Ceratopteris richardii] >gb|KAH7287953.1| hypothetical protein KP509_31G004900 [Cerat",
+        "organism": "Ceratopteris richardii",
+        "identity_pct": 94.39,
+        "evalue": 0.0,
+        "bits": 877.47,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAH7287950"
+      }
+    ]
+  },
+  "Vicia faba": {
+    "db": "nr_targeted",
+    "query": "Vicia faba",
+    "hits": [
+      {
+        "accession": "KAL5080536",
+        "title": "gb|KAL5080536.1| hypothetical protein RYX36_008957 [Vicia faba] >emb|CAI8594071.1| unnamed protein product [Vicia faba]",
+        "organism": "Vicia faba",
+        "identity_pct": 95.52,
+        "evalue": 0.0,
+        "bits": 889.026,
+        "length": 447,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAL5080536"
+      }
+    ]
+  }
+}

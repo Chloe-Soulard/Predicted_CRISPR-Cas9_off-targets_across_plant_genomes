@@ -1,0 +1,730 @@
+{
+  "Arabidopsis thaliana": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001077477",
+        "title": "ref|NP_001077477.1| Histone superfamily protein [Arabidopsis thaliana] >ref|XP_027329265.1| histone H4 isoform X2 [Abrus precatorius] >ref|X",
+        "organism": "Arabidopsis thaliana",
+        "identity_pct": 83.5,
+        "evalue": 7.77235e-49,
+        "bits": 155.992,
+        "length": 86,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001077477"
+      }
+    ]
+  },
+  "Rubus occidentalis": {
+    "db": "none_targeted",
+    "hits": []
+  },
+  "Prunus persica": {
+    "db": "nr_targeted",
+    "query": "Prunus persica",
+    "hits": [
+      {
+        "accession": "XP_007202793",
+        "title": "ref|NP_001131585.1| histone H4 [Zea mays] >ref|NP_001237495.1| histone H4 [Glycine max] >ref|NP_001278493.1| Histone H4 [Zea mays] >ref|NP_0",
+        "organism": "Zea mays",
+        "identity_pct": 100.0,
+        "evalue": 1.9414e-68,
+        "bits": 199.904,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_007202793"
+      }
+    ]
+  },
+  "brassica rapa": {
+    "db": "nr_targeted",
+    "query": "brassica rapa",
+    "hits": [
+      {
+        "accession": "XP_009103711",
+        "title": "ref|NP_001131585.1| histone H4 [Zea mays] >ref|NP_001237495.1| histone H4 [Glycine max] >ref|NP_001278493.1| Histone H4 [Zea mays] >ref|NP_0",
+        "organism": "Zea mays",
+        "identity_pct": 100.0,
+        "evalue": 3.61809e-68,
+        "bits": 199.904,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_009103711"
+      }
+    ]
+  },
+  "Brachypodium distachyon": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_024314550",
+        "title": "ref|XP_024314550.1| uncharacterized protein LOC112270722 [Brachypodium distachyon]",
+        "organism": "Brachypodium distachyon",
+        "identity_pct": 100.0,
+        "evalue": 2.47049e-63,
+        "bits": 204.912,
+        "length": 473,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_024314550"
+      }
+    ]
+  },
+  "Cucumis sativus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_004143094",
+        "title": "ref|XP_004143094.2| LOW QUALITY PROTEIN: uncharacterized protein LOC101218464 [Cucumis sativus]",
+        "organism": "Cucumis sativus",
+        "identity_pct": 100.0,
+        "evalue": 1.83048e-64,
+        "bits": 199.904,
+        "length": 208,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_004143094"
+      }
+    ]
+  },
+  "Corylus avellana": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_059456391",
+        "title": "ref|XP_059456391.1| histone H4-like [Corylus avellana]",
+        "organism": "Corylus avellana",
+        "identity_pct": 100.0,
+        "evalue": 1.23078e-65,
+        "bits": 200.29,
+        "length": 137,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_059456391"
+      }
+    ]
+  },
+  "Setaria viridis": {
+    "db": "nr_targeted",
+    "query": "Setaria viridis",
+    "hits": [
+      {
+        "accession": "XP_034568479",
+        "title": "ref|NP_001131585.1| histone H4 [Zea mays] >ref|NP_001237495.1| histone H4 [Glycine max] >ref|NP_001278493.1| Histone H4 [Zea mays] >ref|NP_0",
+        "organism": "Zea mays",
+        "identity_pct": 100.0,
+        "evalue": 2.22161e-68,
+        "bits": 199.904,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_034568479"
+      }
+    ]
+  },
+  "Populus deltoides": {
+    "db": "nr_targeted",
+    "query": "Populus deltoides",
+    "hits": [
+      {
+        "accession": "KAH8482020",
+        "title": "ref|NP_001131585.1| histone H4 [Zea mays] >ref|NP_001237495.1| histone H4 [Glycine max] >ref|NP_001278493.1| Histone H4 [Zea mays] >ref|NP_0",
+        "organism": "Zea mays",
+        "identity_pct": 100.0,
+        "evalue": 2.39306e-68,
+        "bits": 199.904,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAH8482020"
+      }
+    ]
+  },
+  "Daucus carota": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_017244001",
+        "title": "ref|XP_017244001.2| histone H4, partial [Daucus carota subsp. sativus]",
+        "organism": "Daucus carota subsp. sativus",
+        "identity_pct": 100.0,
+        "evalue": 1.38605e-63,
+        "bits": 193.741,
+        "length": 101,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_017244001"
+      }
+    ]
+  },
+  "Populus trichocarpa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_006381806",
+        "title": "ref|XP_006381806.2| histone H4 [Populus trichocarpa]",
+        "organism": "Populus trichocarpa",
+        "identity_pct": 100.0,
+        "evalue": 1.10882e-66,
+        "bits": 203.756,
+        "length": 155,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_006381806"
+      }
+    ]
+  },
+  "Vitis vinifera": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_059597453",
+        "title": "ref|XP_059597453.1| uncharacterized protein LOC100244527 [Vitis vinifera]",
+        "organism": "Vitis vinifera",
+        "identity_pct": 100.0,
+        "evalue": 6.97232e-63,
+        "bits": 201.83,
+        "length": 390,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_059597453"
+      }
+    ]
+  },
+  "Paspalum notatum": {
+    "db": "nr_targeted",
+    "query": "Paspalum notatum",
+    "hits": [
+      {
+        "accession": "WVZ55202",
+        "title": "ref|NP_001131585.1| histone H4 [Zea mays] >ref|NP_001237495.1| histone H4 [Glycine max] >ref|NP_001278493.1| Histone H4 [Zea mays] >ref|NP_0",
+        "organism": "Zea mays",
+        "identity_pct": 100.0,
+        "evalue": 3.02219e-68,
+        "bits": 199.904,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WVZ55202"
+      }
+    ]
+  },
+  "musa acuminata": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_009384902",
+        "title": "ref|XP_009384902.2| histone H4 [Musa acuminata AAA Group] >ref|XP_064988795.1| histone H4-like [Musa acuminata AAA Group]",
+        "organism": "Musa acuminata AAA Group",
+        "identity_pct": 100.0,
+        "evalue": 1.41302e-66,
+        "bits": 203.371,
+        "length": 150,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_009384902"
+      }
+    ]
+  },
+  "Phaseolus vulgaris": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_068476990",
+        "title": "ref|XP_068476990.1| histone H4-like, partial [Phaseolus vulgaris]",
+        "organism": "Phaseolus vulgaris",
+        "identity_pct": 100.0,
+        "evalue": 3.90149e-52,
+        "bits": 164.466,
+        "length": 83,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_068476990"
+      }
+    ]
+  },
+  "Thlaspi arvense": {
+    "db": "nr_targeted",
+    "query": "Thlaspi arvense",
+    "hits": [
+      {
+        "accession": "KAN1293503",
+        "title": "ref|NP_001131585.1| histone H4 [Zea mays] >ref|NP_001237495.1| histone H4 [Glycine max] >ref|NP_001278493.1| Histone H4 [Zea mays] >ref|NP_0",
+        "organism": "Zea mays",
+        "identity_pct": 100.0,
+        "evalue": 8.92015e-68,
+        "bits": 199.904,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAN1293503"
+      }
+    ]
+  },
+  "Lotus japonicus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_057443352",
+        "title": "ref|XP_057443352.1| histone H4-like [Lotus japonicus]",
+        "organism": "Lotus japonicus",
+        "identity_pct": 99.03,
+        "evalue": 2.20398e-65,
+        "bits": 198.364,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_057443352"
+      }
+    ]
+  },
+  "Beta vulgaris": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_057251311",
+        "title": "ref|XP_057251311.1| uncharacterized protein LOC104908202 [Beta vulgaris subsp. vulgaris]",
+        "organism": "Beta vulgaris subsp. vulgaris",
+        "identity_pct": 100.0,
+        "evalue": 1.54736e-64,
+        "bits": 201.83,
+        "length": 261,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_057251311"
+      }
+    ]
+  },
+  "Coffea canephora": {
+    "db": "nr_targeted",
+    "query": "Coffea canephora",
+    "hits": [
+      {
+        "accession": "CDP00010",
+        "title": "ref|NP_001131585.1| histone H4 [Zea mays] >ref|NP_001237495.1| histone H4 [Glycine max] >ref|NP_001278493.1| Histone H4 [Zea mays] >ref|NP_0",
+        "organism": "Zea mays",
+        "identity_pct": 100.0,
+        "evalue": 1.49424e-68,
+        "bits": 199.904,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CDP00010"
+      }
+    ]
+  },
+  "Vigna unguiculata": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_027932878",
+        "title": "ref|XP_027932878.1| uncharacterized protein LOC114188504 [Vigna unguiculata]",
+        "organism": "Vigna unguiculata",
+        "identity_pct": 100.0,
+        "evalue": 1.62932e-64,
+        "bits": 200.29,
+        "length": 214,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_027932878"
+      }
+    ]
+  },
+  "Malus domestica": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_008345826",
+        "title": "ref|XP_008345826.1| histone H4-like [Malus domestica] >ref|XP_008352072.1| histone H4-like [Malus domestica] >ref|XP_008357955.1| histone H4",
+        "organism": "Malus domestica",
+        "identity_pct": 99.03,
+        "evalue": 1.75018e-65,
+        "bits": 198.749,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_008345826"
+      }
+    ]
+  },
+  "Sorghum bicolor": {
+    "db": "nr_targeted",
+    "query": "Sorghum bicolor",
+    "hits": [
+      {
+        "accession": "XP_002439932",
+        "title": "ref|NP_001131585.1| histone H4 [Zea mays] >ref|NP_001237495.1| histone H4 [Glycine max] >ref|NP_001278493.1| Histone H4 [Zea mays] >ref|NP_0",
+        "organism": "Zea mays",
+        "identity_pct": 100.0,
+        "evalue": 2.24395e-68,
+        "bits": 199.904,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_002439932"
+      }
+    ]
+  },
+  "Cicer arietinum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_073224446",
+        "title": "ref|XP_073224446.1| histone H4-like [Cicer arietinum]",
+        "organism": "Cicer arietinum",
+        "identity_pct": 99.03,
+        "evalue": 2.4063e-65,
+        "bits": 198.364,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_073224446"
+      }
+    ]
+  },
+  "Manihot esculenta": {
+    "db": "nr_targeted",
+    "query": "Manihot esculenta",
+    "hits": [
+      {
+        "accession": "XP_021591740",
+        "title": "ref|NP_001131585.1| histone H4 [Zea mays] >ref|NP_001237495.1| histone H4 [Glycine max] >ref|NP_001278493.1| Histone H4 [Zea mays] >ref|NP_0",
+        "organism": "Zea mays",
+        "identity_pct": 100.0,
+        "evalue": 2.88402e-68,
+        "bits": 199.904,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021591740"
+      }
+    ]
+  },
+  "Camelina sativa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_010483643",
+        "title": "ref|XP_010483643.1| PREDICTED: histone H4-like [Camelina sativa]",
+        "organism": "Camelina sativa",
+        "identity_pct": 99.03,
+        "evalue": 2.20398e-65,
+        "bits": 198.364,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_010483643"
+      }
+    ]
+  },
+  "Fragaria ananassa": {
+    "db": "nr_targeted",
+    "query": "Fragaria ananassa",
+    "hits": [
+      {
+        "accession": "KAL6123793",
+        "title": "ref|NP_001131585.1| histone H4 [Zea mays] >ref|NP_001237495.1| histone H4 [Glycine max] >ref|NP_001278493.1| Histone H4 [Zea mays] >ref|NP_0",
+        "organism": "Zea mays",
+        "identity_pct": 100.0,
+        "evalue": 4.54941e-68,
+        "bits": 199.904,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAL6123793"
+      }
+    ]
+  },
+  "Solanum lycopersicum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001234118",
+        "title": "ref|NP_001234118.1| histone H4 [Solanum lycopersicum] >ref|NP_001234121.1| histone H4 [Solanum lycopersicum] >ref|NP_001385280.1| histone H4",
+        "organism": "Solanum lycopersicum",
+        "identity_pct": 99.03,
+        "evalue": 1.25907e-65,
+        "bits": 199.134,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001234118"
+      }
+    ]
+  },
+  "Panicum miliaceum": {
+    "db": "nr_targeted",
+    "query": "Panicum miliaceum",
+    "hits": [
+      {
+        "accession": "RLM64861",
+        "title": "ref|NP_001131585.1| histone H4 [Zea mays] >ref|NP_001237495.1| histone H4 [Glycine max] >ref|NP_001278493.1| Histone H4 [Zea mays] >ref|NP_0",
+        "organism": "Zea mays",
+        "identity_pct": 100.0,
+        "evalue": 3.12664e-68,
+        "bits": 199.904,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/RLM64861"
+      }
+    ]
+  },
+  "Eruca vesicaria": {
+    "db": "nr_targeted",
+    "query": "Eruca vesicaria",
+    "hits": [
+      {
+        "accession": "CAH8383984",
+        "title": "emb|CAH8383984.1| unnamed protein product [Eruca vesicaria subsp. sativa]",
+        "organism": "Eruca vesicaria subsp. sativa",
+        "identity_pct": 100.0,
+        "evalue": 1.76652e-68,
+        "bits": 200.675,
+        "length": 117,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CAH8383984"
+      }
+    ]
+  },
+  "Lupinus angustifolius": {
+    "db": "nr_targeted",
+    "query": "Lupinus angustifolius",
+    "hits": [
+      {
+        "accession": "XP_019416384",
+        "title": "ref|NP_001131585.1| histone H4 [Zea mays] >ref|NP_001237495.1| histone H4 [Glycine max] >ref|NP_001278493.1| Histone H4 [Zea mays] >ref|NP_0",
+        "organism": "Zea mays",
+        "identity_pct": 100.0,
+        "evalue": 3.00926e-68,
+        "bits": 199.904,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_019416384"
+      }
+    ]
+  },
+  "Brassica napus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_013689098",
+        "title": "ref|XP_013689098.2| histone H4 [Brassica napus]",
+        "organism": "Brassica napus",
+        "identity_pct": 100.0,
+        "evalue": 2.83258e-66,
+        "bits": 201.83,
+        "length": 134,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_013689098"
+      }
+    ]
+  },
+  "Spinacia oleracea": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021864638",
+        "title": "ref|XP_021864638.2| uncharacterized protein [Spinacia oleracea]",
+        "organism": "Spinacia oleracea",
+        "identity_pct": 100.0,
+        "evalue": 2.16127e-64,
+        "bits": 201.83,
+        "length": 267,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021864638"
+      }
+    ]
+  },
+  "Eleusine coracana": {
+    "db": "nr_targeted",
+    "query": "Eleusine coracana",
+    "hits": [
+      {
+        "accession": "KAK3129496",
+        "title": "ref|NP_001131585.1| histone H4 [Zea mays] >ref|NP_001237495.1| histone H4 [Glycine max] >ref|NP_001278493.1| Histone H4 [Zea mays] >ref|NP_0",
+        "organism": "Zea mays",
+        "identity_pct": 100.0,
+        "evalue": 5.19829e-68,
+        "bits": 199.904,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAK3129496"
+      }
+    ]
+  },
+  "Glycine max": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_006604532",
+        "title": "ref|XP_006604532.1| histone H4 [Glycine max] >ref|XP_028216051.1| histone H4-like [Glycine soja]",
+        "organism": "Glycine max",
+        "identity_pct": 100.0,
+        "evalue": 1.32114e-66,
+        "bits": 203.371,
+        "length": 156,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_006604532"
+      }
+    ]
+  },
+  "Asparagus officinalis": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_020252591",
+        "title": "ref|XP_020252591.1| histone H4-like [Asparagus officinalis]",
+        "organism": "Asparagus officinalis",
+        "identity_pct": 96.19,
+        "evalue": 1.16909e-62,
+        "bits": 192.2,
+        "length": 119,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020252591"
+      }
+    ]
+  },
+  "Chenopodium quinoa": {
+    "db": "nr_targeted",
+    "query": "Chenopodium quinoa",
+    "hits": [
+      {
+        "accession": "XP_021713480",
+        "title": "ref|NP_001131585.1| histone H4 [Zea mays] >ref|NP_001237495.1| histone H4 [Glycine max] >ref|NP_001278493.1| Histone H4 [Zea mays] >ref|NP_0",
+        "organism": "Zea mays",
+        "identity_pct": 100.0,
+        "evalue": 3.52112e-68,
+        "bits": 199.904,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021713480"
+      }
+    ]
+  },
+  "Solanum tuberosum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_006350755",
+        "title": "ref|XP_006350755.2| LOW QUALITY PROTEIN: uncharacterized protein [Solanum tuberosum]",
+        "organism": "Solanum tuberosum",
+        "identity_pct": 99.03,
+        "evalue": 1.5396e-64,
+        "bits": 205.297,
+        "length": 368,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_006350755"
+      }
+    ]
+  },
+  "Miscanthus sinensis": {
+    "db": "none_targeted",
+    "hits": []
+  },
+  "Gossypium hirsutum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_040955110",
+        "title": "ref|XP_040955110.1| uncharacterized protein [Gossypium hirsutum]",
+        "organism": "Gossypium hirsutum",
+        "identity_pct": 100.0,
+        "evalue": 6.30241e-65,
+        "bits": 205.297,
+        "length": 330,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_040955110"
+      }
+    ]
+  },
+  "Zea mays": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_035817135",
+        "title": "ref|XP_035817135.1| uncharacterized protein [Zea mays]",
+        "organism": "Zea mays",
+        "identity_pct": 100.0,
+        "evalue": 1.45644e-64,
+        "bits": 205.297,
+        "length": 372,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_035817135"
+      }
+    ]
+  },
+  "Lactuca sativa": {
+    "db": "nr_targeted",
+    "query": "Lactuca sativa",
+    "hits": [
+      {
+        "accession": "XP_023730458",
+        "title": "ref|NP_001131585.1| histone H4 [Zea mays] >ref|NP_001237495.1| histone H4 [Glycine max] >ref|NP_001278493.1| Histone H4 [Zea mays] >ref|NP_0",
+        "organism": "Zea mays",
+        "identity_pct": 100.0,
+        "evalue": 2.6218e-68,
+        "bits": 199.904,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_023730458"
+      }
+    ]
+  },
+  "Helianthus annuus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_022027940",
+        "title": "ref|XP_022027940.2| histone H4 [Helianthus annuus]",
+        "organism": "Helianthus annuus",
+        "identity_pct": 100.0,
+        "evalue": 2.44982e-65,
+        "bits": 199.904,
+        "length": 145,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_022027940"
+      }
+    ]
+  },
+  "Aegilops tauschii": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_020197329",
+        "title": "ref|XP_020197329.2| histone H4 [Aegilops tauschii subsp. strangulata]",
+        "organism": "Aegilops tauschii subsp. strangulata",
+        "identity_pct": 100.0,
+        "evalue": 2.34168e-67,
+        "bits": 204.912,
+        "length": 144,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020197329"
+      }
+    ]
+  },
+  "Pisum sativum": {
+    "db": "nr_targeted",
+    "query": "Pisum sativum",
+    "hits": [
+      {
+        "accession": "NP_001414681",
+        "title": "ref|NP_001131585.1| histone H4 [Zea mays] >ref|NP_001237495.1| histone H4 [Glycine max] >ref|NP_001278493.1| Histone H4 [Zea mays] >ref|NP_0",
+        "organism": "Zea mays",
+        "identity_pct": 100.0,
+        "evalue": 2.78326e-68,
+        "bits": 199.904,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001414681"
+      }
+    ]
+  },
+  "Hordeum vulgare": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_044964552",
+        "title": "ref|XP_044964552.1| histone H3.2-like [Hordeum vulgare subsp. vulgare]",
+        "organism": "Hordeum vulgare subsp. vulgare",
+        "identity_pct": 100.0,
+        "evalue": 3.2733e-66,
+        "bits": 204.912,
+        "length": 225,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_044964552"
+      }
+    ]
+  },
+  "Ceratopteris richardii": {
+    "db": "nr_targeted",
+    "query": "Ceratopteris richardii",
+    "hits": [
+      {
+        "accession": "KAH7277956",
+        "title": "ref|NP_001131585.1| histone H4 [Zea mays] >ref|NP_001237495.1| histone H4 [Glycine max] >ref|NP_001278493.1| Histone H4 [Zea mays] >ref|NP_0",
+        "organism": "Zea mays",
+        "identity_pct": 100.0,
+        "evalue": 4.02187e-68,
+        "bits": 199.904,
+        "length": 103,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAH7277956"
+      }
+    ]
+  },
+  "Vicia faba": {
+    "db": "nr_targeted",
+    "query": "Vicia faba",
+    "hits": [
+      {
+        "accession": "KAL5078576",
+        "title": "gb|KAL5078576.1| hypothetical protein RYX36_006997, partial [Vicia faba]",
+        "organism": "Vicia faba",
+        "identity_pct": 100.0,
+        "evalue": 3.26073e-68,
+        "bits": 201.83,
+        "length": 149,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAL5078576"
+      }
+    ]
+  }
+}

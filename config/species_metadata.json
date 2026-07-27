@@ -1,0 +1,190 @@
+{
+  "Arabidopsis thaliana": {
+    "genome_size_mb": 135,
+    "ploidy": "diploid"
+  },
+  "Rubus occidentalis": {
+    "genome_size_mb": 240,
+    "ploidy": "diploid"
+  },
+  "Prunus persica": {
+    "genome_size_mb": 272,
+    "ploidy": "diploid"
+  },
+  "brassica rapa": {
+    "genome_size_mb": 353,
+    "ploidy": "diploid"
+  },
+  "Brachypodium distachyon": {
+    "genome_size_mb": 355,
+    "ploidy": "diploid"
+  },
+  "Cucumis sativus": {
+    "genome_size_mb": 367,
+    "ploidy": "diploid"
+  },
+  "Corylus avellana": {
+    "genome_size_mb": 378,
+    "ploidy": "diploid"
+  },
+  "Setaria viridis": {
+    "genome_size_mb": 397,
+    "ploidy": "diploid"
+  },
+  "Populus deltoides": {
+    "genome_size_mb": 425,
+    "ploidy": "diploid"
+  },
+  "Daucus carota": {
+    "genome_size_mb": 430,
+    "ploidy": "diploid"
+  },
+  "Populus trichocarpa": {
+    "genome_size_mb": 480,
+    "ploidy": "diploid"
+  },
+  "Vitis vinifera": {
+    "genome_size_mb": 486,
+    "ploidy": "diploid"
+  },
+  "Paspalum notatum": {
+    "genome_size_mb": 513,
+    "ploidy": "diploid"
+  },
+  "musa acuminata": {
+    "genome_size_mb": 523,
+    "ploidy": "diploid"
+  },
+  "Phaseolus vulgaris": {
+    "genome_size_mb": 530,
+    "ploidy": "diploid"
+  },
+  "Thlaspi arvense": {
+    "genome_size_mb": 539,
+    "ploidy": "diploid"
+  },
+  "Lotus japonicus": {
+    "genome_size_mb": 554,
+    "ploidy": "diploid"
+  },
+  "Beta vulgaris": {
+    "genome_size_mb": 558,
+    "ploidy": "diploid"
+  },
+  "Coffea canephora": {
+    "genome_size_mb": 569,
+    "ploidy": "diploid"
+  },
+  "Vigna unguiculata": {
+    "genome_size_mb": 641,
+    "ploidy": "diploid"
+  },
+  "Malus domestica": {
+    "genome_size_mb": 703,
+    "ploidy": "diploid"
+  },
+  "Sorghum bicolor": {
+    "genome_size_mb": 709,
+    "ploidy": "diploid"
+  },
+  "Cicer arietinum": {
+    "genome_size_mb": 740,
+    "ploidy": "diploid"
+  },
+  "Manihot esculenta": {
+    "genome_size_mb": 750,
+    "ploidy": "diploid"
+  },
+  "Camelina sativa": {
+    "genome_size_mb": 785,
+    "ploidy": "hexaploid"
+  },
+  "Fragaria ananassa": {
+    "genome_size_mb": 806,
+    "ploidy": "octoploid"
+  },
+  "Solanum lycopersicum": {
+    "genome_size_mb": 824,
+    "ploidy": "diploid"
+  },
+  "Panicum miliaceum": {
+    "genome_size_mb": 835,
+    "ploidy": "diploid"
+  },
+  "Eruca vesicaria": {
+    "genome_size_mb": 851,
+    "ploidy": "diploid"
+  },
+  "Lupinus angustifolius": {
+    "genome_size_mb": 924,
+    "ploidy": "diploid"
+  },
+  "Brassica napus": {
+    "genome_size_mb": 976,
+    "ploidy": "tetraploid"
+  },
+  "Spinacia oleracea": {
+    "genome_size_mb": 989,
+    "ploidy": "diploid"
+  },
+  "Eleusine coracana": {
+    "genome_size_mb": 1100,
+    "ploidy": "tetraploid"
+  },
+  "Glycine max": {
+    "genome_size_mb": 1115,
+    "ploidy": "diploid"
+  },
+  "Asparagus officinalis": {
+    "genome_size_mb": 1200,
+    "ploidy": "diploid"
+  },
+  "Chenopodium quinoa": {
+    "genome_size_mb": 1300,
+    "ploidy": "tetraploid"
+  },
+  "Solanum tuberosum": {
+    "genome_size_mb": 1653,
+    "ploidy": "tetraploid"
+  },
+  "Miscanthus sinensis": {
+    "genome_size_mb": 2080,
+    "ploidy": "diploid"
+  },
+  "Gossypium hirsutum": {
+    "genome_size_mb": 2300,
+    "ploidy": "tetraploid"
+  },
+  "Zea mays": {
+    "genome_size_mb": 2500,
+    "ploidy": "diploid"
+  },
+  "Lactuca sativa": {
+    "genome_size_mb": 2600,
+    "ploidy": "diploid"
+  },
+  "Helianthus annuus": {
+    "genome_size_mb": 3000,
+    "ploidy": "diploid"
+  },
+  "Aegilops tauschii": {
+    "genome_size_mb": 4200,
+    "ploidy": "diploid"
+  },
+  "Pisum sativum": {
+    "genome_size_mb": 4450,
+    "ploidy": "diploid"
+  },
+  "Hordeum vulgare": {
+    "genome_size_mb": 5100,
+    "ploidy": "diploid"
+  },
+  "Ceratopteris richardii": {
+    "genome_size_mb": 7400,
+    "ploidy": "diploid"
+  },
+  "Vicia faba": {
+    "genome_size_mb": 11900,
+    "ploidy": "diploid"
+  }
+}

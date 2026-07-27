@@ -1,0 +1,730 @@
+{
+  "Arabidopsis thaliana": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_193988",
+        "title": "ref|NP_193988.1| adenine phosphoribosyl transferase 3 [Arabidopsis thaliana] >ref|XP_020873767.1| adenine phosphoribosyltransferase 3 [Arabi",
+        "organism": "Arabidopsis thaliana",
+        "identity_pct": 100.0,
+        "evalue": 1.80296e-129,
+        "bits": 367.081,
+        "length": 183,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_193988"
+      }
+    ]
+  },
+  "Rubus occidentalis": {
+    "db": "none_targeted",
+    "hits": []
+  },
+  "Prunus persica": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_007209667",
+        "title": "ref|XP_007209667.1| adenine phosphoribosyltransferase 3 isoform X1 [Prunus persica] >ref|XP_008238579.1| PREDICTED: adenine phosphoribosyltr",
+        "organism": "Prunus persica",
+        "identity_pct": 86.52,
+        "evalue": 1.20303e-108,
+        "bits": 314.309,
+        "length": 182,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_007209667"
+      }
+    ]
+  },
+  "brassica rapa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_009137262",
+        "title": "ref|XP_009137262.1| adenine phosphoribosyltransferase 3 isoform X2 [Brassica rapa] >ref|XP_018480381.1| adenine phosphoribosyltransferase 3 ",
+        "organism": "Brassica rapa",
+        "identity_pct": 98.36,
+        "evalue": 6.73988e-128,
+        "bits": 362.844,
+        "length": 183,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_009137262"
+      }
+    ]
+  },
+  "Brachypodium distachyon": {
+    "db": "nr_targeted",
+    "query": "Brachypodium distachyon",
+    "hits": [
+      {
+        "accession": "XP_003578157",
+        "title": "ref|XP_003578157.1| adenine phosphoribosyltransferase 1 [Brachypodium distachyon]",
+        "organism": "Brachypodium distachyon",
+        "identity_pct": 75.14,
+        "evalue": 7.06615e-93,
+        "bits": 270.011,
+        "length": 224,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_003578157"
+      }
+    ]
+  },
+  "Cucumis sativus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_004150643",
+        "title": "ref|XP_004150643.2| adenine phosphoribosyltransferase 3 [Cucumis sativus]",
+        "organism": "Cucumis sativus",
+        "identity_pct": 84.92,
+        "evalue": 2.02993e-105,
+        "bits": 308.145,
+        "length": 231,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_004150643"
+      }
+    ]
+  },
+  "Corylus avellana": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_059443357",
+        "title": "ref|XP_059443357.1| adenine phosphoribosyltransferase 3 [Corylus avellana]",
+        "organism": "Corylus avellana",
+        "identity_pct": 87.01,
+        "evalue": 2.37543e-107,
+        "bits": 310.842,
+        "length": 182,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_059443357"
+      }
+    ]
+  },
+  "Setaria viridis": {
+    "db": "nr_targeted",
+    "query": "Setaria viridis",
+    "hits": [
+      {
+        "accession": "XP_034588659",
+        "title": "ref|XP_004963031.1| adenine phosphoribosyltransferase 1 [Setaria italica] >ref|XP_034588659.1| adenine phosphoribosyltransferase 1 [Setaria ",
+        "organism": "Setaria italica",
+        "identity_pct": 79.19,
+        "evalue": 6.14274e-99,
+        "bits": 286.189,
+        "length": 243,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_034588659"
+      }
+    ]
+  },
+  "Populus deltoides": {
+    "db": "nr_targeted",
+    "query": "Populus deltoides",
+    "hits": [
+      {
+        "accession": "KAH8521721",
+        "title": "ref|XP_006368184.1| adenine phosphoribosyltransferase 3 isoform X1 [Populus trichocarpa] >ref|XP_034897569.1| adenine phosphoribosyltransfer",
+        "organism": "Populus trichocarpa",
+        "identity_pct": 84.0,
+        "evalue": 4.72532e-105,
+        "bits": 299.286,
+        "length": 182,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAH8521721"
+      }
+    ]
+  },
+  "Daucus carota": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_017231722",
+        "title": "ref|XP_017231722.1| adenine phosphoribosyltransferase 3 [Daucus carota subsp. sativus]",
+        "organism": "Daucus carota subsp. sativus",
+        "identity_pct": 83.52,
+        "evalue": 3.37606e-103,
+        "bits": 300.442,
+        "length": 182,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_017231722"
+      }
+    ]
+  },
+  "Populus trichocarpa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_006368184",
+        "title": "ref|XP_006368184.1| adenine phosphoribosyltransferase 3 isoform X1 [Populus trichocarpa] >ref|XP_034897569.1| adenine phosphoribosyltransfer",
+        "organism": "Populus trichocarpa",
+        "identity_pct": 84.0,
+        "evalue": 1.05593e-102,
+        "bits": 299.286,
+        "length": 182,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_006368184"
+      }
+    ]
+  },
+  "Vitis vinifera": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_002285252",
+        "title": "ref|XP_002285252.1| adenine phosphoribosyltransferase 1, chloroplastic isoform X1 [Vitis vinifera]",
+        "organism": "Vitis vinifera",
+        "identity_pct": 76.54,
+        "evalue": 1.38544e-96,
+        "bits": 283.878,
+        "length": 182,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_002285252"
+      }
+    ]
+  },
+  "Paspalum notatum": {
+    "db": "nr_targeted",
+    "query": "Paspalum notatum",
+    "hits": [
+      {
+        "accession": "WVZ91024",
+        "title": "gb|WVZ91024.1| hypothetical protein U9M48_037257 [Paspalum notatum var. saurae]",
+        "organism": "Paspalum notatum var. saurae",
+        "identity_pct": 77.46,
+        "evalue": 5.74358e-96,
+        "bits": 278.87,
+        "length": 241,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/WVZ91024"
+      }
+    ]
+  },
+  "musa acuminata": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_009411555",
+        "title": "ref|XP_009411555.1| adenine phosphoribosyltransferase 4-like isoform X1 [Musa acuminata AAA Group]",
+        "organism": "Musa acuminata AAA Group",
+        "identity_pct": 80.66,
+        "evalue": 4.80907e-101,
+        "bits": 295.049,
+        "length": 184,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_009411555"
+      }
+    ]
+  },
+  "Phaseolus vulgaris": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_068467971",
+        "title": "ref|XP_068467971.1| adenine phosphoribosyltransferase 4-like isoform X1 [Phaseolus vulgaris]",
+        "organism": "Phaseolus vulgaris",
+        "identity_pct": 84.07,
+        "evalue": 8.25356e-106,
+        "bits": 308.916,
+        "length": 230,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_068467971"
+      }
+    ]
+  },
+  "Thlaspi arvense": {
+    "db": "nr_targeted",
+    "query": "Thlaspi arvense",
+    "hits": [
+      {
+        "accession": "KAN1289901",
+        "title": "gb|KAN1289901.1| hypothetical protein ACUM6N_025903 [Thlaspi arvense] >gb|KAN1303396.1| hypothetical protein ACUM6Z_025715 [Thlaspi arvense]",
+        "organism": "Thlaspi arvense",
+        "identity_pct": 97.81,
+        "evalue": 1.23162e-127,
+        "bits": 357.836,
+        "length": 183,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAN1289901"
+      }
+    ]
+  },
+  "Lotus japonicus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_057449841",
+        "title": "ref|XP_057449841.1| adenine phosphoribosyltransferase 3-like [Lotus japonicus]",
+        "organism": "Lotus japonicus",
+        "identity_pct": 85.8,
+        "evalue": 4.35893e-106,
+        "bits": 307.76,
+        "length": 184,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_057449841"
+      }
+    ]
+  },
+  "Beta vulgaris": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_010676164",
+        "title": "ref|XP_010676164.1| adenine phosphoribosyltransferase 3 [Beta vulgaris subsp. vulgaris]",
+        "organism": "Beta vulgaris subsp. vulgaris",
+        "identity_pct": 83.91,
+        "evalue": 9.15654e-103,
+        "bits": 299.286,
+        "length": 182,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_010676164"
+      }
+    ]
+  },
+  "Coffea canephora": {
+    "db": "nr_targeted",
+    "query": "Coffea canephora",
+    "hits": [
+      {
+        "accession": "CDP09925",
+        "title": "ref|XP_071920120.1| adenine phosphoribosyltransferase 4-like [Coffea arabica] >emb|CDP09925.1| unnamed protein product [Coffea canephora]",
+        "organism": "Coffea arabica",
+        "identity_pct": 77.97,
+        "evalue": 2.06912e-97,
+        "bits": 279.256,
+        "length": 182,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CDP09925"
+      }
+    ]
+  },
+  "Vigna unguiculata": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_027914937",
+        "title": "ref|XP_027914937.1| adenine phosphoribosyltransferase 4-like isoform X1 [Vigna unguiculata]",
+        "organism": "Vigna unguiculata",
+        "identity_pct": 85.31,
+        "evalue": 1.97923e-106,
+        "bits": 308.916,
+        "length": 184,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_027914937"
+      }
+    ]
+  },
+  "Malus domestica": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_008346604",
+        "title": "ref|XP_008346604.1| adenine phosphoribosyltransferase 3 [Malus domestica] >ref|XP_050152474.1| adenine phosphoribosyltransferase 3-like [Mal",
+        "organism": "Malus domestica",
+        "identity_pct": 85.96,
+        "evalue": 5.9628e-109,
+        "bits": 315.079,
+        "length": 182,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_008346604"
+      }
+    ]
+  },
+  "Sorghum bicolor": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_002443459",
+        "title": "ref|XP_002443459.1| adenine phosphoribosyltransferase 1 [Sorghum bicolor]",
+        "organism": "Sorghum bicolor",
+        "identity_pct": 79.19,
+        "evalue": 3.10523e-97,
+        "bits": 286.96,
+        "length": 227,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_002443459"
+      }
+    ]
+  },
+  "Cicer arietinum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_004511667",
+        "title": "ref|XP_004511667.1| adenine phosphoribosyltransferase 4-like isoform X1 [Cicer arietinum]",
+        "organism": "Cicer arietinum",
+        "identity_pct": 85.8,
+        "evalue": 2.57508e-106,
+        "bits": 308.531,
+        "length": 184,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_004511667"
+      }
+    ]
+  },
+  "Manihot esculenta": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021631468",
+        "title": "ref|XP_021631468.1| adenine phosphoribosyltransferase 3 isoform X1 [Manihot esculenta]",
+        "organism": "Manihot esculenta",
+        "identity_pct": 83.43,
+        "evalue": 1.49971e-102,
+        "bits": 298.901,
+        "length": 182,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021631468"
+      }
+    ]
+  },
+  "Camelina sativa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_010439313",
+        "title": "ref|XP_010439313.1| PREDICTED: adenine phosphoribosyltransferase 3 [Camelina sativa]",
+        "organism": "Camelina sativa",
+        "identity_pct": 98.36,
+        "evalue": 1.87002e-127,
+        "bits": 361.688,
+        "length": 183,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_010439313"
+      }
+    ]
+  },
+  "Fragaria ananassa": {
+    "db": "nr_targeted",
+    "query": "Fragaria ananassa",
+    "hits": [
+      {
+        "accession": "KAL6174513",
+        "title": "gb|KAL6174513.1| hypothetical protein ACLB2K_051159 [Fragaria x ananassa]",
+        "organism": "Fragaria x ananassa",
+        "identity_pct": 82.32,
+        "evalue": 1.34761e-107,
+        "bits": 306.22,
+        "length": 182,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAL6174513"
+      }
+    ]
+  },
+  "Solanum lycopersicum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_004245742",
+        "title": "ref|XP_004245742.1| adenine phosphoribosyltransferase 4 [Solanum lycopersicum]",
+        "organism": "Solanum lycopersicum",
+        "identity_pct": 81.82,
+        "evalue": 1.34378e-101,
+        "bits": 296.59,
+        "length": 182,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_004245742"
+      }
+    ]
+  },
+  "Panicum miliaceum": {
+    "db": "nr_targeted",
+    "query": "Panicum miliaceum",
+    "hits": [
+      {
+        "accession": "RLM98021",
+        "title": "gb|RLM98021.1| adenine phosphoribosyltransferase 1 [Panicum miliaceum]",
+        "organism": "Panicum miliaceum",
+        "identity_pct": 79.19,
+        "evalue": 2.13764e-99,
+        "bits": 287.345,
+        "length": 236,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/RLM98021"
+      }
+    ]
+  },
+  "Eruca vesicaria": {
+    "db": "nr_targeted",
+    "query": "Eruca vesicaria",
+    "hits": [
+      {
+        "accession": "CAH8359604",
+        "title": "emb|CAH8359604.1| unnamed protein product [Eruca vesicaria subsp. sativa]",
+        "organism": "Eruca vesicaria subsp. sativa",
+        "identity_pct": 97.27,
+        "evalue": 2.13845e-129,
+        "bits": 360.918,
+        "length": 183,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/CAH8359604"
+      }
+    ]
+  },
+  "Lupinus angustifolius": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_019445067",
+        "title": "ref|XP_019445067.1| PREDICTED: adenine phosphoribosyltransferase 4-like [Lupinus angustifolius]",
+        "organism": "Lupinus angustifolius",
+        "identity_pct": 82.78,
+        "evalue": 1.53837e-104,
+        "bits": 303.908,
+        "length": 184,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_019445067"
+      }
+    ]
+  },
+  "Brassica napus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_048618982",
+        "title": "ref|XP_048618982.1| adenine phosphoribosyltransferase 3-like isoform X1 [Brassica napus]",
+        "organism": "Brassica napus",
+        "identity_pct": 96.72,
+        "evalue": 5.03714e-125,
+        "bits": 355.525,
+        "length": 183,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_048618982"
+      }
+    ]
+  },
+  "Spinacia oleracea": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021855943",
+        "title": "ref|XP_021855943.1| adenine phosphoribosyltransferase 3 [Spinacia oleracea] >ref|XP_056687175.1| adenine phosphoribosyltransferase 3 [Spinac",
+        "organism": "Spinacia oleracea",
+        "identity_pct": 83.82,
+        "evalue": 2.68149e-102,
+        "bits": 298.13,
+        "length": 182,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021855943"
+      }
+    ]
+  },
+  "Eleusine coracana": {
+    "db": "nr_targeted",
+    "query": "Eleusine coracana",
+    "hits": [
+      {
+        "accession": "GJM95302",
+        "title": "dbj|GJM95302.1| hypothetical protein PR202_ga12019 [Eleusine coracana subsp. coracana]",
+        "organism": "Eleusine coracana subsp. coracana",
+        "identity_pct": 78.61,
+        "evalue": 8.8353e-98,
+        "bits": 281.567,
+        "length": 179,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/GJM95302"
+      }
+    ]
+  },
+  "Glycine max": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001238434",
+        "title": "ref|NP_001238434.2| adenine phosphoribosyl transferase [Glycine max] >ref|XP_028187173.1| adenine phosphoribosyltransferase 4-like [Glycine ",
+        "organism": "Glycine max",
+        "identity_pct": 84.07,
+        "evalue": 5.02733e-105,
+        "bits": 305.064,
+        "length": 184,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001238434"
+      }
+    ]
+  },
+  "Asparagus officinalis": {
+    "db": "nr_targeted",
+    "query": "Asparagus officinalis",
+    "hits": [
+      {
+        "accession": "XP_020274718",
+        "title": "ref|XP_020274718.1| adenine phosphoribosyltransferase 1-like [Asparagus officinalis]",
+        "organism": "Asparagus officinalis",
+        "identity_pct": 75.29,
+        "evalue": 2.50561e-95,
+        "bits": 275.789,
+        "length": 223,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020274718"
+      }
+    ]
+  },
+  "Chenopodium quinoa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021768434",
+        "title": "ref|XP_021768434.1| adenine phosphoribosyltransferase 3 isoform X1 [Chenopodium quinoa] >ref|XP_081483564.1| adenine phosphoribosyltransfera",
+        "organism": "Chenopodium quinoa",
+        "identity_pct": 83.33,
+        "evalue": 6.3064e-102,
+        "bits": 297.36,
+        "length": 182,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021768434"
+      }
+    ]
+  },
+  "Solanum tuberosum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_006355483",
+        "title": "ref|XP_006355483.1| adenine phosphoribosyltransferase 4 [Solanum tuberosum] >ref|XP_049361792.1| adenine phosphoribosyltransferase 4 [Solanu",
+        "organism": "Solanum tuberosum",
+        "identity_pct": 79.78,
+        "evalue": 8.38652e-102,
+        "bits": 296.975,
+        "length": 182,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_006355483"
+      }
+    ]
+  },
+  "Miscanthus sinensis": {
+    "db": "none_targeted",
+    "hits": []
+  },
+  "Gossypium hirsutum": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_016665420",
+        "title": "ref|XP_016665420.1| adenine phosphoribosyltransferase 4 isoform X1 [Gossypium hirsutum] >ref|XP_017635175.1| adenine phosphoribosyltransfera",
+        "organism": "Gossypium hirsutum",
+        "identity_pct": 82.86,
+        "evalue": 6.4448e-101,
+        "bits": 294.664,
+        "length": 182,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_016665420"
+      }
+    ]
+  },
+  "Zea mays": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "NP_001148948",
+        "title": "ref|NP_001148948.2| Adenine phosphoribosyltransferase 1 [Zea mays]",
+        "organism": "Zea mays",
+        "identity_pct": 78.61,
+        "evalue": 2.41768e-97,
+        "bits": 285.804,
+        "length": 180,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/NP_001148948"
+      }
+    ]
+  },
+  "Lactuca sativa": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_023755984",
+        "title": "ref|XP_023755984.2| adenine phosphoribosyltransferase 1 [Lactuca sativa]",
+        "organism": "Lactuca sativa",
+        "identity_pct": 78.03,
+        "evalue": 1.59821e-94,
+        "bits": 282.337,
+        "length": 287,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_023755984"
+      }
+    ]
+  },
+  "Helianthus annuus": {
+    "db": "refseq_protein_broad",
+    "query": "Viridiplantae",
+    "hits": [
+      {
+        "accession": "XP_021983475",
+        "title": "ref|XP_021983475.1| adenine phosphoribosyltransferase 1 [Helianthus annuus]",
+        "organism": "Helianthus annuus",
+        "identity_pct": 80.0,
+        "evalue": 9.40734e-98,
+        "bits": 289.271,
+        "length": 247,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_021983475"
+      }
+    ]
+  },
+  "Aegilops tauschii": {
+    "db": "nr_targeted",
+    "query": "Aegilops tauschii",
+    "hits": [
+      {
+        "accession": "XP_020192444",
+        "title": "ref|XP_020192444.1| adenine phosphoribosyltransferase 1 [Aegilops tauschii subsp. strangulata] >ref|XP_044395362.1| adenine phosphoribosyltr",
+        "organism": "Aegilops tauschii subsp. strangulata",
+        "identity_pct": 72.41,
+        "evalue": 9.62215e-92,
+        "bits": 268.085,
+        "length": 237,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_020192444"
+      }
+    ]
+  },
+  "Pisum sativum": {
+    "db": "nr_targeted",
+    "query": "Pisum sativum",
+    "hits": [
+      {
+        "accession": "XP_050907104",
+        "title": "ref|XP_050907104.1| adenine phosphoribosyltransferase 4 [Lathyrus oleraceus] >ref|XP_050907105.1| adenine phosphoribosyltransferase 4 [Lathy",
+        "organism": "Lathyrus oleraceus",
+        "identity_pct": 85.23,
+        "evalue": 6.23277e-108,
+        "bits": 306.99,
+        "length": 185,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_050907104"
+      }
+    ]
+  },
+  "Hordeum vulgare": {
+    "db": "nr_targeted",
+    "query": "Hordeum vulgare",
+    "hits": [
+      {
+        "accession": "XP_044946328",
+        "title": "ref|XP_044946328.1| adenine phosphoribosyltransferase 1 isoform X1 [Hordeum vulgare subsp. vulgare]",
+        "organism": "Hordeum vulgare subsp. vulgare",
+        "identity_pct": 72.41,
+        "evalue": 1.59785e-92,
+        "bits": 267.314,
+        "length": 181,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/XP_044946328"
+      }
+    ]
+  },
+  "Ceratopteris richardii": {
+    "db": "nr_targeted",
+    "query": "Ceratopteris richardii",
+    "hits": [
+      {
+        "accession": "KAH7434506",
+        "title": "gb|KAH7434506.1| hypothetical protein KP509_06G020500 [Ceratopteris richardii]",
+        "organism": "Ceratopteris richardii",
+        "identity_pct": 77.9,
+        "evalue": 4.53947e-100,
+        "bits": 287.345,
+        "length": 183,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAH7434506"
+      }
+    ]
+  },
+  "Vicia faba": {
+    "db": "nr_targeted",
+    "query": "Vicia faba",
+    "hits": [
+      {
+        "accession": "KAL5098971",
+        "title": "gb|KAL5098971.1| hypothetical protein RYX36_003298 [Vicia faba] >emb|CAI8589178.1| unnamed protein product [Vicia faba]",
+        "organism": "Vicia faba",
+        "identity_pct": 85.8,
+        "evalue": 8.82967e-109,
+        "bits": 309.301,
+        "length": 185,
+        "ncbi_url": "https://www.ncbi.nlm.nih.gov/protein/KAL5098971"
+      }
+    ]
+  }
+}
