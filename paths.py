@@ -67,7 +67,7 @@ def load_genes() -> dict[str, str]:
     """{gene name: Arabidopsis bait protein sequence}, in panel order."""
     genes = load_json(GENE_PROTEINS_FILE)
     if not genes:
-        raise SystemExit(f"{GENE_PROTEINS_FILE} is missing or empty — run setup_config.py first.")
+        raise SystemExit(f"{GENE_PROTEINS_FILE} is missing or empty")
     return genes
 
 
@@ -79,7 +79,7 @@ def load_species_genomes() -> dict[str, str]:
     """{species: CRISPOR genome identifier}."""
     genomes = load_json(SPECIES_GENOMES_FILE)
     if not genomes:
-        raise SystemExit(f"{SPECIES_GENOMES_FILE} is missing or empty — run setup_config.py first.")
+        raise SystemExit(f"{SPECIES_GENOMES_FILE} is missing or empty.")
     return genomes
 
 
