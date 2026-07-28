@@ -26,6 +26,11 @@ Requests 2.34.2
 Openpyxl 3.1.5
 CRISPOR 5.2
 
+need do setup e-mail adress for NCBI :
+
+
+export NCBI_EMAIL="you@example.org" or $env:NCBI_EMAIL on Windows
+
 ---
 
 ## The pipeline
