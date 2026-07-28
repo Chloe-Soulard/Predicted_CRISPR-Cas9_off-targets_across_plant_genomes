@@ -5,9 +5,13 @@ across plant genomes (47 species), with all gRNAs possibly designed on the 100 m
 
 Ten conserved *Arabidopsis thaliana* housekeeping genes are used as bait.
 For each gene :
+
 -the pipeline finds the ortholog in each species using BLAST on NCBI,
+
 -data is manually assessed. When needed, data is manually added,
+
 -the pipeline reconstructs coding sequences, selects the most conserved region in a exon for all species, and submits each genes sequence in that window to CRISPOR (https://crispor.gi.ucsc.edu) against each species' own genome assembly.
+
 -the pipeline then retrieves the results, count predicted off-target sites for all guides.
 
 Verification was conducted at each step. 
