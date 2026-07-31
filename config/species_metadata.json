@@ -11,7 +11,7 @@
     "genome_size_mb": 272,
     "ploidy": "diploid"
   },
-  "brassica rapa": {
+  "Brassica rapa": {
     "genome_size_mb": 353,
     "ploidy": "diploid"
   },
@@ -51,7 +51,7 @@
     "genome_size_mb": 513,
     "ploidy": "diploid"
   },
-  "musa acuminata": {
+  "Musa acuminata": {
     "genome_size_mb": 523,
     "ploidy": "diploid"
   },

@@ -27,7 +27,7 @@ def match_species(blast_organism: str, target_species: list[str]) -> str | None:
     """Map a BLAST hit organism onto one of the panel species, or None.
 
     Genus + species comparison, so a hit from 'Brassica rapa subsp. pekinensis'
-    matches the panel entry 'brassica rapa'.
+    matches the panel entry 'Brassica rapa'.
     """
     blast_norm = normalize_species(blast_organism)
     for species in target_species:

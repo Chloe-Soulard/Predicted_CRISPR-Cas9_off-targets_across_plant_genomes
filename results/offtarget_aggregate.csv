@@ -5,6 +5,7 @@ ACT1,Asparagus officinalis,1200,diploid,True,False,7,4277,611.0,1,20,228,1904,21
 ACT1,Beta vulgaris,558,diploid,True,False,9,168,18.67,0,3,6,34,125,65,103
 ACT1,Brachypodium distachyon,355,diploid,True,False,9,210,23.33,3,9,19,31,148,119,91
 ACT1,Brassica napus,976,tetraploid,True,False,8,396,49.5,19,22,99,99,157,341,55
+ACT1,Brassica rapa,353,diploid,True,False,8,180,22.5,1,20,41,41,77,158,22
 ACT1,Camelina sativa,785,hexaploid,True,False,6,600,100.0,47,21,49,68,415,287,313
 ACT1,Ceratopteris richardii,7400,diploid,True,False,8,2701,337.62,0,6,31,221,2443,192,2509
 ACT1,Chenopodium quinoa,1300,tetraploid,True,False,9,580,64.44,5,4,25,70,476,170,410
@@ -26,6 +27,7 @@ ACT1,Lupinus angustifolius,924,diploid,True,False,7,361,51.57,1,10,28,60,262,175
 ACT1,Malus domestica,703,diploid,True,False,8,702,87.75,9,19,21,142,511,180,522
 ACT1,Manihot esculenta,750,diploid,True,False,9,289,32.11,4,14,35,35,201,160,129
 ACT1,Miscanthus sinensis,2080,diploid,True,False,11,1563,142.09,2,20,40,139,1362,333,1230
+ACT1,Musa acuminata,523,diploid,True,False,7,295,42.14,5,15,50,67,158,213,82
 ACT1,Panicum miliaceum,835,diploid,True,False,11,1034,94.0,12,16,30,101,875,519,515
 ACT1,Paspalum notatum,513,diploid,True,False,9,366,40.67,2,11,15,38,300,141,225
 ACT1,Phaseolus vulgaris,530,diploid,True,False,7,125,17.86,0,10,6,14,95,72,53
@@ -44,14 +46,13 @@ ACT1,Vicia faba,11900,diploid,True,False,7,10716,1530.86,0,4,34,820,9858,98,1061
 ACT1,Vigna unguiculata,641,diploid,True,False,7,220,31.43,0,2,10,26,182,71,149
 ACT1,Vitis vinifera,486,diploid,True,False,7,351,50.14,2,5,18,31,295,135,216
 ACT1,Zea mays,2500,diploid,True,False,11,2390,217.27,11,37,45,176,2121,324,2066
-ACT1,brassica rapa,353,diploid,True,False,8,180,22.5,1,20,41,41,77,158,22
-ACT1,musa acuminata,523,diploid,True,False,7,295,42.14,5,15,50,67,158,213,82
 APT3,Aegilops tauschii,4200,diploid,True,False,8,931,116.38,0,0,4,37,890,91,840
 APT3,Arabidopsis thaliana,135,diploid,True,False,6,79,13.17,0,0,4,12,63,58,21
 APT3,Asparagus officinalis,1200,diploid,True,False,10,1392,139.2,0,0,22,124,1246,190,1202
 APT3,Beta vulgaris,558,diploid,True,False,4,122,30.5,0,1,3,11,107,31,91
 APT3,Brachypodium distachyon,355,diploid,True,False,8,108,13.5,0,0,0,8,100,50,58
 APT3,Brassica napus,976,tetraploid,True,False,4,340,85.0,0,2,8,59,271,130,210
+APT3,Brassica rapa,353,diploid,True,False,4,122,30.5,0,0,2,21,99,73,49
 APT3,Camelina sativa,785,hexaploid,True,False,5,599,119.8,10,0,8,41,540,140,459
 APT3,Ceratopteris richardii,7400,diploid,True,False,9,2316,257.33,13,10,128,297,1868,132,2184
 APT3,Chenopodium quinoa,1300,tetraploid,True,False,3,153,51.0,1,2,16,16,118,39,114
@@ -73,6 +74,7 @@ APT3,Lupinus angustifolius,924,diploid,True,False,6,281,46.83,0,0,2,25,254,69,21
 APT3,Malus domestica,703,diploid,True,False,9,561,62.33,1,2,14,63,481,167,394
 APT3,Manihot esculenta,750,diploid,True,False,7,42,6.0,3,2,2,5,30,27,15
 APT3,Miscanthus sinensis,2080,diploid,True,False,11,2477,225.18,3,6,29,243,2196,155,2322
+APT3,Musa acuminata,523,diploid,True,False,14,332,23.71,3,5,20,33,271,178,154
 APT3,Panicum miliaceum,835,diploid,True,False,9,408,45.33,5,2,2,29,370,72,336
 APT3,Paspalum notatum,513,diploid,True,False,7,421,60.14,0,0,7,92,322,65,356
 APT3,Phaseolus vulgaris,530,diploid,True,False,6,121,20.17,0,0,2,11,108,37,84
@@ -91,14 +93,13 @@ APT3,Vicia faba,11900,diploid,True,False,5,1254,250.8,0,0,0,35,1219,13,1241
 APT3,Vigna unguiculata,641,diploid,True,False,7,167,23.86,0,0,2,12,153,43,124
 APT3,Vitis vinifera,486,diploid,True,False,6,242,40.33,0,1,2,29,210,94,148
 APT3,Zea mays,2500,diploid,True,False,12,758,63.17,3,5,14,65,671,135,623
-APT3,brassica rapa,353,diploid,True,False,4,122,30.5,0,0,2,21,99,73,49
-APT3,musa acuminata,523,diploid,True,False,14,332,23.71,3,5,20,33,271,178,154
 EF1a,Aegilops tauschii,4200,diploid,True,False,15,2415,161.0,33,17,27,162,2176,317,2098
 EF1a,Arabidopsis thaliana,135,diploid,True,False,12,93,7.75,30,5,2,6,50,81,12
 EF1a,Asparagus officinalis,1200,diploid,True,False,14,362,25.86,0,1,10,44,307,77,285
 EF1a,Beta vulgaris,558,diploid,True,False,12,398,33.17,20,29,8,113,228,136,262
 EF1a,Brachypodium distachyon,355,diploid,True,False,15,308,20.53,48,15,4,25,216,177,131
 EF1a,Brassica napus,976,tetraploid,True,False,13,662,50.92,46,180,60,109,267,453,209
+EF1a,Brassica rapa,353,diploid,True,False,10,225,22.5,46,17,13,22,127,170,55
 EF1a,Camelina sativa,785,hexaploid,True,False,11,535,48.64,152,42,5,27,309,311,224
 EF1a,Ceratopteris richardii,7400,diploid,True,False,12,2507,208.92,2,25,76,326,2078,204,2303
 EF1a,Chenopodium quinoa,1300,tetraploid,True,False,11,459,41.73,7,8,59,88,297,215,244
@@ -120,6 +121,7 @@ EF1a,Lupinus angustifolius,924,diploid,True,False,10,375,37.5,23,39,19,20,274,13
 EF1a,Malus domestica,703,diploid,True,False,14,350,25.0,43,18,18,30,241,175,175
 EF1a,Manihot esculenta,750,diploid,True,False,14,386,27.57,23,25,11,48,279,142,244
 EF1a,Miscanthus sinensis,2080,diploid,True,False,14,2707,193.36,69,41,28,412,2157,482,2225
+EF1a,Musa acuminata,523,diploid,True,False,13,357,27.46,1,8,25,42,281,187,170
 EF1a,Panicum miliaceum,835,diploid,True,False,13,682,52.46,91,44,11,38,498,254,428
 EF1a,Paspalum notatum,513,diploid,True,False,13,656,50.46,43,21,20,53,519,195,461
 EF1a,Phaseolus vulgaris,530,diploid,True,False,14,296,21.14,2,5,12,31,246,81,215
@@ -138,14 +140,13 @@ EF1a,Vicia faba,11900,diploid,True,False,9,14973,1663.67,14,21,116,976,13846,80,
 EF1a,Vigna unguiculata,641,diploid,True,False,11,224,20.36,8,4,17,29,166,83,141
 EF1a,Vitis vinifera,486,diploid,True,False,13,405,31.15,19,16,36,62,272,191,214
 EF1a,Zea mays,2500,diploid,True,False,13,1231,94.69,55,29,33,74,1040,308,923
-EF1a,brassica rapa,353,diploid,True,False,10,225,22.5,46,17,13,22,127,170,55
-EF1a,musa acuminata,523,diploid,True,False,13,357,27.46,1,8,25,42,281,187,170
 HSP70,Aegilops tauschii,4200,diploid,True,False,8,9673,1209.12,15,9,95,1822,7732,758,8915
 HSP70,Arabidopsis thaliana,135,diploid,True,False,5,120,24.0,2,6,7,20,85,106,14
 HSP70,Asparagus officinalis,1200,diploid,True,False,6,1245,207.5,7,20,25,173,1020,201,1044
 HSP70,Beta vulgaris,558,diploid,True,False,8,318,39.75,0,4,6,57,251,122,196
 HSP70,Brachypodium distachyon,355,diploid,True,False,10,660,66.0,2,7,21,98,532,391,269
 HSP70,Brassica napus,976,tetraploid,True,False,4,688,172.0,27,14,21,87,539,414,274
+HSP70,Brassica rapa,353,diploid,True,False,4,233,58.25,9,11,9,37,167,198,35
 HSP70,Camelina sativa,785,hexaploid,True,False,5,621,124.2,43,36,53,79,410,320,301
 HSP70,Ceratopteris richardii,7400,diploid,True,False,1,0,0.0,0,0,0,0,0,0,0
 HSP70,Chenopodium quinoa,1300,tetraploid,True,False,3,514,171.33,3,6,20,76,409,164,350
@@ -167,6 +168,7 @@ HSP70,Lupinus angustifolius,924,diploid,True,False,6,506,84.33,3,4,18,62,419,175
 HSP70,Malus domestica,703,diploid,True,False,6,266,44.33,0,2,10,22,232,89,177
 HSP70,Manihot esculenta,750,diploid,True,False,5,641,128.2,1,4,9,69,558,181,460
 HSP70,Miscanthus sinensis,2080,diploid,True,False,8,5406,675.75,14,12,142,804,4434,1175,4231
+HSP70,Musa acuminata,523,diploid,True,False,4,336,84.0,0,3,9,46,278,154,182
 HSP70,Panicum miliaceum,835,diploid,True,False,8,2815,351.88,25,21,51,326,2392,1053,1762
 HSP70,Paspalum notatum,513,diploid,True,False,9,742,82.44,0,7,6,91,638,315,427
 HSP70,Phaseolus vulgaris,530,diploid,True,False,7,571,81.57,0,2,9,121,439,204,367
@@ -185,14 +187,13 @@ HSP70,Vicia faba,11900,diploid,True,False,4,4066,1016.5,5,8,89,421,3543,78,3988
 HSP70,Vigna unguiculata,641,diploid,True,False,8,589,73.62,0,1,12,57,519,178,411
 HSP70,Vitis vinifera,486,diploid,True,False,7,447,63.86,0,0,16,96,335,214,233
 HSP70,Zea mays,2500,diploid,True,False,7,4577,653.86,2,24,40,682,3829,716,3861
-HSP70,brassica rapa,353,diploid,True,False,4,233,58.25,9,11,9,37,167,198,35
-HSP70,musa acuminata,523,diploid,True,False,4,336,84.0,0,3,9,46,278,154,182
 TUBA1,Aegilops tauschii,4200,diploid,True,False,14,6764,483.14,2,12,46,542,6162,753,6011
 TUBA1,Arabidopsis thaliana,135,diploid,True,False,11,150,13.64,0,0,9,29,112,117,33
 TUBA1,Asparagus officinalis,1200,diploid,True,False,13,788,60.62,0,7,16,119,646,262,526
 TUBA1,Beta vulgaris,558,diploid,True,False,6,346,57.67,0,4,6,43,293,133,213
 TUBA1,Brachypodium distachyon,355,diploid,True,False,11,230,20.91,0,0,10,34,186,126,104
 TUBA1,Brassica napus,976,tetraploid,True,False,9,1838,204.22,26,34,78,289,1411,897,941
+TUBA1,Brassica rapa,353,diploid,True,False,10,585,58.5,11,19,28,94,433,390,195
 TUBA1,Camelina sativa,785,hexaploid,True,False,13,774,59.54,3,9,35,157,570,468,306
 TUBA1,Ceratopteris richardii,7400,diploid,True,False,14,15333,1095.21,16,19,110,3368,11820,683,14650
 TUBA1,Chenopodium quinoa,1300,tetraploid,True,False,6,974,162.33,0,9,22,122,821,450,524
@@ -214,6 +215,7 @@ TUBA1,Lupinus angustifolius,924,diploid,True,False,11,585,53.18,0,16,38,128,403,
 TUBA1,Malus domestica,703,diploid,True,False,10,780,78.0,2,7,13,148,610,249,531
 TUBA1,Manihot esculenta,750,diploid,True,False,9,458,50.89,7,9,29,70,343,234,224
 TUBA1,Miscanthus sinensis,2080,diploid,True,False,13,2255,173.46,6,13,45,238,1953,357,1898
+TUBA1,Musa acuminata,523,diploid,True,False,16,443,27.69,3,13,18,79,330,300,143
 TUBA1,Panicum miliaceum,835,diploid,True,False,16,1692,105.75,5,21,32,180,1454,642,1050
 TUBA1,Paspalum notatum,513,diploid,True,False,15,1130,75.33,0,9,34,128,959,372,758
 TUBA1,Phaseolus vulgaris,530,diploid,True,False,11,325,29.55,0,4,12,46,263,116,209
@@ -232,14 +234,13 @@ TUBA1,Vicia faba,11900,diploid,True,False,9,9474,1052.67,0,10,75,857,8532,112,93
 TUBA1,Vigna unguiculata,641,diploid,True,False,14,845,60.36,1,9,30,70,735,235,610
 TUBA1,Vitis vinifera,486,diploid,True,False,7,341,48.71,0,6,13,54,268,170,171
 TUBA1,Zea mays,2500,diploid,True,False,14,3925,280.36,8,17,30,141,3729,248,3677
-TUBA1,brassica rapa,353,diploid,True,False,10,585,58.5,11,19,28,94,433,390,195
-TUBA1,musa acuminata,523,diploid,True,False,16,443,27.69,3,13,18,79,330,300,143
 Histone H4,Aegilops tauschii,4200,diploid,True,False,11,14102,1282.0,127,164,103,4070,9638,1277,12825
 Histone H4,Arabidopsis thaliana,135,diploid,True,False,6,48,8.0,8,1,13,10,16,46,2
 Histone H4,Asparagus officinalis,1200,diploid,True,False,12,1068,89.0,21,8,15,38,986,144,924
 Histone H4,Beta vulgaris,558,diploid,True,False,3,100,33.33,7,13,5,10,65,40,60
 Histone H4,Brachypodium distachyon,355,diploid,True,False,10,918,91.8,31,52,48,112,675,658,260
 Histone H4,Brassica napus,976,tetraploid,True,False,6,815,135.83,14,35,62,119,585,560,255
+Histone H4,Brassica rapa,353,diploid,True,False,6,234,39.0,5,10,22,36,161,153,81
 Histone H4,Camelina sativa,785,hexaploid,True,False,7,211,30.14,8,23,38,54,88,166,45
 Histone H4,Ceratopteris richardii,7400,diploid,True,False,7,806,115.14,0,1,12,64,729,160,646
 Histone H4,Chenopodium quinoa,1300,tetraploid,True,False,3,44,14.67,3,9,7,2,23,28,16
@@ -261,6 +262,7 @@ Histone H4,Lupinus angustifolius,924,diploid,True,False,3,305,101.67,6,7,11,12,2
 Histone H4,Malus domestica,703,diploid,True,False,9,595,66.11,0,3,18,112,462,85,510
 Histone H4,Manihot esculenta,750,diploid,True,False,7,53,7.57,0,3,3,2,45,29,24
 Histone H4,Miscanthus sinensis,2080,diploid,True,False,10,4483,448.3,82,74,54,402,3871,1190,3293
+Histone H4,Musa acuminata,523,diploid,True,False,8,142,17.75,0,7,23,24,88,110,32
 Histone H4,Panicum miliaceum,835,diploid,True,False,10,2315,231.5,88,36,46,262,1883,1238,1077
 Histone H4,Paspalum notatum,513,diploid,True,False,12,1751,145.92,62,38,26,142,1483,801,950
 Histone H4,Phaseolus vulgaris,530,diploid,True,False,7,117,16.71,0,5,1,8,103,35,82
@@ -279,14 +281,13 @@ Histone H4,Vicia faba,11900,diploid,True,False,3,306,102.0,10,10,15,36,235,52,25
 Histone H4,Vigna unguiculata,641,diploid,True,False,4,74,18.5,0,4,7,10,53,42,32
 Histone H4,Vitis vinifera,486,diploid,True,False,8,106,13.25,1,5,16,18,66,68,38
 Histone H4,Zea mays,2500,diploid,True,False,9,1674,186.0,24,35,42,91,1482,466,1208
-Histone H4,brassica rapa,353,diploid,True,False,6,234,39.0,5,10,22,36,161,153,81
-Histone H4,musa acuminata,523,diploid,True,False,8,142,17.75,0,7,23,24,88,110,32
 EF-Tu,Aegilops tauschii,4200,diploid,True,False,9,1335,148.33,2,8,11,105,1209,124,1211
 EF-Tu,Arabidopsis thaliana,135,diploid,True,False,6,25,4.17,0,0,4,3,18,20,5
 EF-Tu,Asparagus officinalis,1200,diploid,True,False,7,528,75.43,0,1,7,108,412,125,403
 EF-Tu,Beta vulgaris,558,diploid,True,False,8,156,19.5,0,0,0,10,146,56,100
 EF-Tu,Brachypodium distachyon,355,diploid,True,False,7,120,17.14,0,0,4,8,108,61,59
 EF-Tu,Brassica napus,976,tetraploid,True,False,8,231,28.88,33,10,23,26,139,156,75
+EF-Tu,Brassica rapa,353,diploid,True,False,8,74,9.25,1,3,11,12,47,62,12
 EF-Tu,Camelina sativa,785,hexaploid,True,False,6,148,24.67,8,3,21,21,95,84,64
 EF-Tu,Ceratopteris richardii,7400,diploid,True,False,8,6543,817.88,0,1,45,461,6036,467,6076
 EF-Tu,Chenopodium quinoa,1300,tetraploid,True,False,10,361,36.1,10,2,9,35,305,140,221
@@ -308,6 +309,7 @@ EF-Tu,Lupinus angustifolius,924,diploid,True,False,8,204,25.5,5,3,3,22,171,91,11
 EF-Tu,Malus domestica,703,diploid,True,False,9,284,31.56,6,2,9,34,233,75,209
 EF-Tu,Manihot esculenta,750,diploid,True,False,9,207,23.0,0,5,10,34,158,93,114
 EF-Tu,Miscanthus sinensis,2080,diploid,True,False,11,618,56.18,11,3,7,50,547,94,524
+EF-Tu,Musa acuminata,523,diploid,True,False,7,213,30.43,0,3,15,72,123,80,133
 EF-Tu,Panicum miliaceum,835,diploid,True,False,8,303,37.88,8,0,3,21,271,87,216
 EF-Tu,Paspalum notatum,513,diploid,True,False,7,356,50.86,0,0,3,41,312,69,287
 EF-Tu,Phaseolus vulgaris,530,diploid,True,False,8,236,29.5,0,0,3,35,198,68,168
@@ -326,14 +328,13 @@ EF-Tu,Vicia faba,11900,diploid,True,False,6,4014,669.0,0,1,7,168,3838,34,3980
 EF-Tu,Vigna unguiculata,641,diploid,True,False,10,235,23.5,5,0,2,25,203,89,146
 EF-Tu,Vitis vinifera,486,diploid,True,False,6,140,23.33,0,3,3,8,126,75,65
 EF-Tu,Zea mays,2500,diploid,True,False,11,498,45.27,9,23,28,35,403,110,388
-EF-Tu,brassica rapa,353,diploid,True,False,8,74,9.25,1,3,11,12,47,62,12
-EF-Tu,musa acuminata,523,diploid,True,False,7,213,30.43,0,3,15,72,123,80,133
 RPB2,Aegilops tauschii,4200,diploid,True,False,7,693,99.0,0,2,3,45,643,54,639
 RPB2,Arabidopsis thaliana,135,diploid,True,False,6,36,6.0,0,1,1,4,30,25,11
 RPB2,Asparagus officinalis,1200,diploid,True,False,6,221,36.83,0,0,4,30,187,81,140
 RPB2,Beta vulgaris,558,diploid,True,False,9,155,17.22,0,0,2,19,134,48,107
 RPB2,Brachypodium distachyon,355,diploid,True,False,6,86,14.33,0,0,0,6,80,44,42
 RPB2,Brassica napus,976,tetraploid,True,False,7,199,28.43,3,7,8,18,163,95,104
+RPB2,Brassica rapa,353,diploid,True,False,10,200,20.0,0,1,2,21,176,72,128
 RPB2,Camelina sativa,785,hexaploid,True,False,8,238,29.75,9,7,6,55,161,110,128
 RPB2,Ceratopteris richardii,7400,diploid,True,False,6,1648,274.67,0,1,26,95,1526,171,1477
 RPB2,Chenopodium quinoa,1300,tetraploid,True,False,7,587,83.86,3,4,12,57,511,134,453
@@ -355,6 +356,7 @@ RPB2,Lupinus angustifolius,924,diploid,True,False,7,275,39.29,0,0,8,42,225,78,19
 RPB2,Malus domestica,703,diploid,True,False,12,748,62.33,0,1,4,114,629,182,566
 RPB2,Manihot esculenta,750,diploid,True,False,8,143,17.88,0,0,1,15,127,80,63
 RPB2,Miscanthus sinensis,2080,diploid,True,False,6,549,91.5,6,0,9,64,470,94,455
+RPB2,Musa acuminata,523,diploid,True,False,10,159,15.9,0,2,0,21,136,100,59
 RPB2,Panicum miliaceum,835,diploid,True,False,6,299,49.83,5,0,6,95,193,90,209
 RPB2,Paspalum notatum,513,diploid,True,False,6,253,42.17,0,1,3,8,241,98,155
 RPB2,Phaseolus vulgaris,530,diploid,True,False,6,124,20.67,0,0,4,16,104,46,78
@@ -373,14 +375,13 @@ RPB2,Vicia faba,11900,diploid,True,False,6,3133,522.17,0,0,18,181,2934,41,3092
 RPB2,Vigna unguiculata,641,diploid,True,False,6,154,25.67,0,0,3,32,119,70,84
 RPB2,Vitis vinifera,486,diploid,True,False,6,189,31.5,0,0,4,26,159,103,86
 RPB2,Zea mays,2500,diploid,True,False,5,1207,241.4,0,0,3,60,1144,36,1171
-RPB2,brassica rapa,353,diploid,True,False,10,200,20.0,0,1,2,21,176,72,128
-RPB2,musa acuminata,523,diploid,True,False,10,159,15.9,0,2,0,21,136,100,59
 RPL40B,Aegilops tauschii,4200,diploid,True,False,12,9278,773.17,113,402,1245,1873,5645,1692,7586
 RPL40B,Arabidopsis thaliana,135,diploid,True,False,9,203,22.56,5,20,50,40,88,192,11
 RPL40B,Asparagus officinalis,1200,diploid,True,False,11,2610,237.27,5,22,37,278,2268,313,2297
 RPL40B,Beta vulgaris,558,diploid,True,False,7,354,50.57,22,19,22,40,251,142,212
 RPL40B,Brachypodium distachyon,355,diploid,True,False,12,806,67.17,3,64,153,165,421,474,332
 RPL40B,Brassica napus,976,tetraploid,True,False,13,1045,80.38,67,63,148,213,554,796,249
+RPL40B,Brassica rapa,353,diploid,True,False,12,424,35.33,33,36,55,82,218,370,54
 RPL40B,Camelina sativa,785,hexaploid,True,False,7,1109,158.43,17,32,182,334,544,244,865
 RPL40B,Ceratopteris richardii,7400,diploid,True,False,4,706,176.5,1,10,80,102,513,222,484
 RPL40B,Chenopodium quinoa,1300,tetraploid,True,False,9,2489,276.56,13,18,53,674,1731,375,2114
@@ -402,6 +403,7 @@ RPL40B,Lupinus angustifolius,924,diploid,True,False,10,431,43.1,13,25,11,58,324,
 RPL40B,Malus domestica,703,diploid,True,False,11,768,69.82,35,96,114,164,359,502,266
 RPL40B,Manihot esculenta,750,diploid,True,False,7,383,54.71,2,20,30,73,258,218,165
 RPL40B,Miscanthus sinensis,2080,diploid,True,False,12,2439,203.25,16,163,240,423,1597,954,1485
+RPL40B,Musa acuminata,523,diploid,True,False,11,406,36.91,15,32,79,82,198,311,95
 RPL40B,Panicum miliaceum,835,diploid,True,False,13,1903,146.38,105,192,226,328,1052,1070,833
 RPL40B,Paspalum notatum,513,diploid,True,False,13,1159,89.15,35,93,162,229,640,793,366
 RPL40B,Phaseolus vulgaris,530,diploid,True,False,12,695,57.92,2,7,37,98,551,211,484
@@ -420,14 +422,13 @@ RPL40B,Vicia faba,11900,diploid,True,False,10,9914,991.4,0,1,17,214,9682,95,9819
 RPL40B,Vigna unguiculata,641,diploid,True,False,12,361,30.08,0,9,32,57,263,198,163
 RPL40B,Vitis vinifera,486,diploid,True,False,13,426,32.77,5,15,37,87,282,295,131
 RPL40B,Zea mays,2500,diploid,True,False,10,1247,124.7,25,52,62,122,986,357,890
-RPL40B,brassica rapa,353,diploid,True,False,12,424,35.33,33,36,55,82,218,370,54
-RPL40B,musa acuminata,523,diploid,True,False,11,406,36.91,15,32,79,82,198,311,95
 RDR1,Aegilops tauschii,4200,diploid,True,False,12,3317,276.42,10,2,8,131,3166,226,3091
 RDR1,Arabidopsis thaliana,135,diploid,True,False,6,47,7.83,0,0,1,4,42,28,19
 RDR1,Asparagus officinalis,1200,diploid,True,False,6,909,151.5,0,0,5,69,835,101,808
 RDR1,Beta vulgaris,558,diploid,True,False,6,104,17.33,0,0,1,9,94,24,80
 RDR1,Brachypodium distachyon,355,diploid,True,False,9,108,12.0,0,0,1,6,101,52,56
 RDR1,Brassica napus,976,tetraploid,True,False,8,297,37.12,0,5,1,101,190,96,201
+RDR1,Brassica rapa,353,diploid,True,False,8,69,8.62,0,0,0,7,62,37,32
 RDR1,Camelina sativa,785,hexaploid,True,False,6,206,34.33,11,7,5,27,156,92,114
 RDR1,Ceratopteris richardii,7400,diploid,True,False,9,2161,240.11,0,1,10,276,1874,136,2025
 RDR1,Chenopodium quinoa,1300,tetraploid,True,False,7,410,58.57,7,0,9,35,359,123,287
@@ -449,6 +450,7 @@ RDR1,Lupinus angustifolius,924,diploid,True,False,9,280,31.11,0,0,5,56,219,66,21
 RDR1,Malus domestica,703,diploid,True,False,10,317,31.7,3,12,17,42,243,117,200
 RDR1,Manihot esculenta,750,diploid,True,False,6,94,15.67,0,0,2,8,84,55,39
 RDR1,Miscanthus sinensis,2080,diploid,True,False,9,782,86.89,6,5,15,53,703,142,640
+RDR1,Musa acuminata,523,diploid,True,False,4,176,44.0,0,0,4,28,144,77,99
 RDR1,Panicum miliaceum,835,diploid,True,False,10,663,66.3,9,11,16,67,560,143,520
 RDR1,Paspalum notatum,513,diploid,True,False,6,213,35.5,0,0,1,15,197,54,159
 RDR1,Phaseolus vulgaris,530,diploid,True,False,13,277,21.31,0,1,4,22,250,84,193
@@ -467,5 +469,3 @@ RDR1,Vicia faba,11900,diploid,True,False,12,5354,446.17,0,0,19,326,5009,56,5298
 RDR1,Vigna unguiculata,641,diploid,True,False,10,262,26.2,6,6,8,18,224,112,150
 RDR1,Vitis vinifera,486,diploid,True,False,6,132,22.0,3,1,4,12,112,48,84
 RDR1,Zea mays,2500,diploid,True,False,9,643,71.44,0,1,4,63,575,65,578
-RDR1,brassica rapa,353,diploid,True,False,8,69,8.62,0,0,0,7,62,37,32
-RDR1,musa acuminata,523,diploid,True,False,4,176,44.0,0,0,4,28,144,77,99

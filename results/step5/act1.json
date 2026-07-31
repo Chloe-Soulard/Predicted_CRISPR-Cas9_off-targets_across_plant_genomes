@@ -8043,7 +8043,7 @@
     ],
     "window_source": "exonic"
   },
-  "brassica rapa": {
+  "Brassica rapa": {
     "genome": "GCF_000309985.2",
     "batch_id": "2lLHIARjwPpeGWxr6zBj",
     "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=2lLHIARjwPpeGWxr6zBj",
@@ -8219,7 +8219,7 @@
     ],
     "window_source": "exonic"
   },
-  "musa acuminata": {
+  "Musa acuminata": {
     "genome": "GCF_000313855.2",
     "batch_id": "2OctQTqnFt4Eh9mc2yBq",
     "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=2OctQTqnFt4Eh9mc2yBq",

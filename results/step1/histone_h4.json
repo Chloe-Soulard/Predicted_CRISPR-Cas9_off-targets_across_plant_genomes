@@ -35,9 +35,9 @@
       }
     ]
   },
-  "brassica rapa": {
+  "Brassica rapa": {
     "db": "nr_targeted",
-    "query": "brassica rapa",
+    "query": "Brassica rapa",
     "hits": [
       {
         "accession": "XP_009103711",
@@ -195,7 +195,7 @@
       }
     ]
   },
-  "musa acuminata": {
+  "Musa acuminata": {
     "db": "refseq_protein_broad",
     "query": "Viridiplantae",
     "hits": [

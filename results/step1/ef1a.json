@@ -35,7 +35,7 @@
       }
     ]
   },
-  "brassica rapa": {
+  "Brassica rapa": {
     "db": "refseq_protein_broad",
     "query": "Viridiplantae",
     "hits": [
@@ -195,7 +195,7 @@
       }
     ]
   },
-  "musa acuminata": {
+  "Musa acuminata": {
     "db": "refseq_protein_broad",
     "query": "Viridiplantae",
     "hits": [
