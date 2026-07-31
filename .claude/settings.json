@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git check-ignore *)",
+      "Bash(python -c \"import paths, step6_aggregate_tables; print\\('imports ok'\\)\")"
+    ]
+  }
+}

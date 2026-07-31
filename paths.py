@@ -33,11 +33,6 @@ SPECIES_METADATA_FILE = CONFIG_DIR / "species_metadata.json"
 AT_CDS_FILE           = CONFIG_DIR / "at_cds.json"
 MANUAL_OVERRIDES_FILE = CONFIG_DIR / "manual_cds_overrides.json"
 
-# Tandem-repeat / multi-copy families: a guide in these genes also matches its own
-# near-identical paralogs, so their off-target counts sit above the single-copy
-# trend. Flagged in every output table; no analysis filters on them.
-MULTICOPY_GENES = frozenset({"AtUBQ2", "AtHistone4"})
-
 # Length of the conserved window submitted to CRISPOR, in bp.
 WINDOW_BP = 100
 

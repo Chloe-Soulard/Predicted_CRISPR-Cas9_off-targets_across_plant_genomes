@@ -35,7 +35,7 @@ import csv
 from pathlib import Path
 
 from paths import (
-    MULTICOPY_GENES, R_EXPORT_DIR, RESULTS_DIR, STEP5_DIR, gene_names, gene_slug,
+    R_EXPORT_DIR, RESULTS_DIR, STEP5_DIR, gene_names, gene_slug,
     load_json, load_species_metadata, ploidy_group,
 )
 
@@ -111,7 +111,6 @@ def collect_windows(metadata: dict[str, dict]) -> tuple[list[dict], list[str]]:
                 "genome_size_mb": metadata[species]["genome_size_mb"],
                 "ploidy": metadata[species]["ploidy"],
                 "ploidy_group": ploidy_group(metadata[species]["ploidy"]),
-                "multicopy": gene in MULTICOPY_GENES,
                 "record": record,
                 "guides": guides,
                 "totals": tally(guides),
@@ -132,7 +131,6 @@ def aggregate_rows(windows: list[dict]) -> list[dict]:
             "genome_size_mb": w["genome_size_mb"], "ploidy": w["ploidy"],
             "found_in_genome": w["record"].get("found_in_genome"),
             "needs_manual_recovery": w["record"].get("needs_genomic_dna"),
-            "multicopy_gene": w["multicopy"],
             "n_guides": n, "ot_total": t["total"],
             "ot_per_guide": per_guide(t["total"], n, DP_REPORT),
             **{f"ot_mm{level}": t[f"mm{level}"] for level in MISMATCH_LEVELS},
@@ -149,7 +147,7 @@ def genic_rows(windows: list[dict]) -> list[dict]:
         rows.append({
             "gene": w["gene"], "species": w["species"],
             "genome_size_mb": w["genome_size_mb"], "ploidy": w["ploidy"],
-            "multicopy": w["multicopy"], "n_guides": n,
+            "n_guides": n,
             "total_ot": t["total"], "genic_ot": t["genic"],
             "intergenic_ot": t["intergenic"], "unannotated_ot": t["unannotated"],
             "fraction_genic": fraction(t["genic"], t["total"], DP_ANALYSIS),
@@ -169,7 +167,7 @@ def per_window_rows(windows: list[dict]) -> list[dict]:
         rows.append({
             "gene": w["gene"], "species": w["species"],
             "genome_size_mb": w["genome_size_mb"], "ploidy": w["ploidy"],
-            "ploidy_group": w["ploidy_group"], "multicopy": w["multicopy"],
+            "ploidy_group": w["ploidy_group"],
             "n_guides": n, "total_ot": t["total"],
             "total_ot_per_guide": per_guide(t["total"], n, DP_ANALYSIS),
             "genic_ot": t["genic"], "intergenic_ot": t["intergenic"],
@@ -195,7 +193,7 @@ def per_guide_rows(windows: list[dict]) -> list[dict]:
                 "gene": w["gene"], "species": w["species"],
                 "guide_id": guide["guide_id"], "target_seq": guide["target_seq"],
                 "genome_size_mb": w["genome_size_mb"], "ploidy": w["ploidy"],
-                "ploidy_group": w["ploidy_group"], "multicopy": w["multicopy"],
+                "ploidy_group": w["ploidy_group"],
                 "mit_spec": guide["mit_spec"], "cfd_spec": guide["cfd_spec"],
                 "total_ot": total, "genic_ot": guide["ot_genic"],
                 "intergenic_ot": guide["ot_intergenic"],
@@ -241,13 +239,6 @@ def main() -> None:
     write_csv(RESULTS_DIR / "genic_offtarget_breakdown.csv", genic_rows(windows))
     write_csv(R_EXPORT_DIR / "offtargets_perwindow.csv", per_window_rows(windows))
     write_csv(R_EXPORT_DIR / "offtargets_perguide.csv", per_guide_rows(windows))
-
-    multicopy = sorted(g for g in genes if g in MULTICOPY_GENES)
-    if multicopy:
-        print(f"\nFlagged multicopy (tandem-family) genes: {', '.join(multicopy)}")
-        print("  Their off-target counts include near-identical paralogs, so they sit")
-        print("  above the single-copy trend. The `multicopy` column marks them; no")
-        print("  table filters on it.")
 
 
 if __name__ == "__main__":
