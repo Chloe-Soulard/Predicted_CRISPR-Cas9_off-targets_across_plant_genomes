@@ -10,7 +10,7 @@ mis-pasted, truncated or frame-shifted sequence before it reaches the analysis.
 A failure aborts the write unless --force is given.
 
 Output schema (gene -> species -> entry):
-    {"AtActin": {"Rubus occidentalis": {
+    {"ACT1": {"Rubus occidentalis": {
         "protein_accession": "manual",          # source id, or 'manual' if none
         "protein": "MADGE...",                  # validated against the CDS
         "cds": "ATG...",

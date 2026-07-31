@@ -26,9 +26,9 @@ from one that is absent ("not_found") or only partly present ("partial"); the
 latter two are handled by step5b_recover_genomic.py.
 
 Run from pipeline/:
-    python step5_crispor.py --gene AtActin
+    python step5_crispor.py --gene ACT1
     python step5_crispor.py --all --resume
-    python step5_crispor.py --gene AtActin --max 3     # cap windows, for a smoke test
+    python step5_crispor.py --gene ACT1 --max 3     # cap windows, for a smoke test
 """
 
 from __future__ import annotations
@@ -155,7 +155,7 @@ def process_gene(gene: str, genomes: dict[str, str], session,
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.strip().splitlines()[0])
     group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument("--gene", help="single gene (e.g. AtActin)")
+    group.add_argument("--gene", help="single gene (e.g. ACT1)")
     group.add_argument("--all", action="store_true",
                        help="every gene that has a step34 window file")
     parser.add_argument("--resume", action="store_true",

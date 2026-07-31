@@ -1,4 +1,4 @@
-Gene: AtGTP_EFTU
+Gene: EF-Tu
 Conserved window: AT CDS positions 1098–1197 (100 bp)
 Conservation score: 4046 / 4700 (86.1%)
 Species aligned: 47

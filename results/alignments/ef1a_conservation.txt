@@ -1,4 +1,4 @@
-Gene: AtEF1a
+Gene: EF1a
 Conserved window: AT CDS positions 585–684 (100 bp)
 Conservation score: 4352 / 4700 (92.6%)
 Species aligned: 47

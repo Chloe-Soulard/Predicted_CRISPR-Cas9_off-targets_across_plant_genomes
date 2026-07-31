@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(git check-ignore *)",
-      "Bash(python -c \"import paths, step6_aggregate_tables; print\\('imports ok'\\)\")"
+      "Bash(python -c \"import paths, step6_aggregate_tables; print\\('imports ok'\\)\")",
+      "Bash(grep -v ':0$')",
+      "Bash(python -c ' *)",
+      "Bash(python \"C:/Users/CHSOUL~1/AppData/Local/Temp/claude/c--Users-chsoulard-Documents-CRISPEA-CRISPR-OFFTARGET-GIT-REPO-Predicted-CRISPR-Cas9-off-targets-across-plant-genomes/d25ce65f-3a6f-4f4b-a012-55a2ab9739c2/scratchpad/rename_genes.py\")",
+      "Bash(python step6_aggregate_tables.py)"
     ]
   }
 }

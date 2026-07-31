@@ -10,13 +10,13 @@ For each gene:
     3. fetch each coding exon and concatenate them into the spliced CDS
 
 Output: config/at_cds.json
-    {"AtActin": {"protein_accession": ..., "cds": "ATG...", "cds_length": 1134,
+    {"ACT1": {"protein_accession": ..., "cds": "ATG...", "cds_length": 1134,
                  "genomic_accession": ..., "exons": [[s, e], ...],
                  "strand": "+", "n_exons": 4}, ...}
 
 Run from pipeline/:
     python fetch_at_cds.py
-    python fetch_at_cds.py --gene AtActin
+    python fetch_at_cds.py --gene ACT1
     python fetch_at_cds.py --resume          # skip genes already fetched
 """
 
@@ -67,7 +67,7 @@ def process_gene(gene_name: str, protein_seq: str) -> dict:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.strip().splitlines()[0])
-    parser.add_argument("--gene", help="run only this gene (e.g. AtActin)")
+    parser.add_argument("--gene", help="run only this gene (e.g. ACT1)")
     parser.add_argument("--resume", action="store_true",
                         help="skip genes that already have a CDS")
     args = parser.parse_args()

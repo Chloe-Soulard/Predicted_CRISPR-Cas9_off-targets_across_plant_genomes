@@ -1,4 +1,4 @@
-Gene: AtHSP70
+Gene: HSP70
 Conserved window: AT CDS positions 1563–1662 (100 bp)
 Conservation score: 4150 / 4700 (88.3%)
 Species aligned: 47

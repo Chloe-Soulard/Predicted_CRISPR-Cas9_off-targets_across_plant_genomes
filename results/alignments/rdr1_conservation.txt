@@ -1,4 +1,4 @@
-Gene: AtRDR1
+Gene: RDR1
 Conserved window: AT CDS positions 1417–1516 (100 bp)
 Conservation score: 3719 / 4700 (79.1%)
 Species aligned: 47

@@ -1,4 +1,4 @@
-Gene: AtActin
+Gene: ACT1
 Conserved window: AT CDS positions 210–309 (100 bp)
 Conservation score: 4125 / 4700 (87.8%)
 Species aligned: 47

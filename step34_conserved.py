@@ -12,7 +12,7 @@ Step 4  Window choice. A 100 bp window is slid along the reference CDS and score
         per species, the window chosen is the highest-scoring one that lies
         entirely within a single exon in *every* species, so no species needs a
         shift across an exon junction. If no window is single-exon everywhere
-        (AtUBQ2, whose polyubiquitin repeats put junctions throughout the CDS),
+        (RPL40B, whose polyubiquitin repeats put junctions throughout the CDS),
         the window maximising the number of single-exon species wins, ties broken
         by conservation.
 
@@ -29,7 +29,7 @@ Output:
 This step is purely local: no network access.
 
 Run from pipeline/:
-    python step34_conserved.py --gene AtActin
+    python step34_conserved.py --gene ACT1
     python step34_conserved.py --all
 """
 
@@ -365,7 +365,7 @@ def run_gene(gene_name: str, window: int = WINDOW_BP) -> list[str]:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.strip().splitlines()[0])
     group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument("--gene", help="single gene (e.g. AtActin)")
+    group.add_argument("--gene", help="single gene (e.g. ACT1)")
     group.add_argument("--all", action="store_true", help="run every gene in the panel")
     parser.add_argument("--window", type=int, default=WINDOW_BP,
                         help=f"window length in bp (default {WINDOW_BP})")

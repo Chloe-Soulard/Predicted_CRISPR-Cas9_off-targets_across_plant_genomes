@@ -1,4 +1,4 @@
-Gene: AtUBQ2
+Gene: RPL40B
 Conserved window: AT CDS positions 0–99 (100 bp)
 Conservation score: 4051 / 4700 (86.2%)
 Species aligned: 47

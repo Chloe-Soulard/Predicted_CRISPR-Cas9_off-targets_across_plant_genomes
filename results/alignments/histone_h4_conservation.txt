@@ -1,4 +1,4 @@
-Gene: AtHistone4
+Gene: Histone H4
 Conserved window: AT CDS positions 175–274 (100 bp)
 Conservation score: 3946 / 4700 (84.0%)
 Species aligned: 47

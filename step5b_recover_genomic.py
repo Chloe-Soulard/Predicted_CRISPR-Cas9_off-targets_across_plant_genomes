@@ -28,7 +28,7 @@ Windows that still cannot be matched keep `recovered_from_genome: false` and a
 
 Run from pipeline/:
     python step5b_recover_genomic.py --all --resume
-    python step5b_recover_genomic.py --species "Nicotiana tabacum" --gene AtActin
+    python step5b_recover_genomic.py --species "Nicotiana tabacum" --gene ACT1
 """
 
 from __future__ import annotations

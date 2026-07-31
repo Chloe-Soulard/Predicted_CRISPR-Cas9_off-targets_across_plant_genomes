@@ -1,4 +1,4 @@
-Gene: AtRPB2
+Gene: RPB2
 Conserved window: AT CDS positions 2697–2796 (100 bp)
 Conservation score: 3974 / 4700 (84.6%)
 Species aligned: 47

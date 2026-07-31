@@ -23,7 +23,7 @@ proteins is usually an mRNA rather than a chromosome. Real coding-exon boundarie
 are added by step2b_exon_structure.py.
 
 Run from pipeline/:
-    python step2_fetch_genomic.py --gene AtActin
+    python step2_fetch_genomic.py --gene ACT1
     python step2_fetch_genomic.py --all
     python step2_fetch_genomic.py --all --resume     # skip species already reconstructed
 """
@@ -106,7 +106,7 @@ def run_gene(gene_name: str, resume: bool = False) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.strip().splitlines()[0])
     group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument("--gene", help="single gene (e.g. AtActin)")
+    group.add_argument("--gene", help="single gene (e.g. ACT1)")
     group.add_argument("--all", action="store_true", help="run every gene in the panel")
     parser.add_argument("--resume", action="store_true",
                         help="skip species that already have a CDS")

@@ -124,7 +124,7 @@ def run_gene(gene_name: str, protein_seq: str, resume: bool, retry_failed: bool)
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.strip().splitlines()[0])
     group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument("--gene", help="single gene (e.g. AtActin)")
+    group.add_argument("--gene", help="single gene (e.g. ACT1)")
     group.add_argument("--all", action="store_true", help="run every gene in the panel")
     parser.add_argument("--resume", action="store_true",
                         help="skip species a previous run already settled")

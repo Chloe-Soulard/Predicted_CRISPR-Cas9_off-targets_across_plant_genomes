@@ -40,7 +40,7 @@ WINDOW_BP = 100
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
 def gene_slug(gene_name: str) -> str:
-    """Filename-safe form of a gene name: 'AtGTP_EFTU' -> 'atgtp_eftu'."""
+    """Filename-safe form of a gene name: 'Histone H4' -> 'histone_h4'."""
     return re.sub(r"[^a-z0-9]", "_", gene_name.lower()).strip("_")
 
 

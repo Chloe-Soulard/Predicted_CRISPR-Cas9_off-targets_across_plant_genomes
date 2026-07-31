@@ -1,4 +1,4 @@
-Gene: AtAPRT
+Gene: APT3
 Conserved window: AT CDS positions 91–190 (100 bp)
 Conservation score: 3703 / 4700 (78.8%)
 Species aligned: 47
