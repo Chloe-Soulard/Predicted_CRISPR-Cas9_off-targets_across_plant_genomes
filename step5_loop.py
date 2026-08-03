@@ -18,17 +18,17 @@ import sys
 import time
 
 import crispor
-from paths import ROOT, STEP5_DIR, load_json
+from paths import DEFAULT_PAM, ROOT, load_json, step5_dir
 
 MAX_PASSES      = 40
 SLEEP_BETWEEN_S = 900      # 15 min between passes: CRISPOR jobs take minutes
 LOCK_POLL_S     = 60
 
 
-def status_counts() -> dict[str, int]:
+def status_counts(directory) -> dict[str, int]:
     """Tally window statuses across every gene's step 5 results."""
     counts: dict[str, int] = {}
-    for path in sorted(STEP5_DIR.glob("*.json")):
+    for path in sorted(directory.glob("*.json")):
         for record in load_json(path).values():
             status = record.get("status", "unknown")
             counts[status] = counts.get(status, 0) + 1
@@ -43,9 +43,9 @@ def log(message: str) -> None:
     print(time.strftime("%H:%M:%S"), message, flush=True)
 
 
-def wait_for_lock() -> None:
+def wait_for_lock(directory) -> None:
     """Block while another CRISPOR pass holds the write lock."""
-    while crispor.lock_holder(STEP5_DIR) is not None:
+    while crispor.lock_holder(directory) is not None:
         log("another CRISPOR pass is running — waiting ...")
         time.sleep(LOCK_POLL_S)
 
@@ -56,21 +56,29 @@ def main() -> None:
                         help=f"safety cap on the number of passes (default {MAX_PASSES})")
     parser.add_argument("--sleep", type=int, default=SLEEP_BETWEEN_S,
                         help=f"seconds between passes (default {SLEEP_BETWEEN_S})")
+    parser.add_argument("--pam", default=DEFAULT_PAM,
+                        help=f"CRISPOR PAM code to drive (default {DEFAULT_PAM})")
     args = parser.parse_args()
 
-    for pass_number in range(1, args.max_passes + 1):
-        wait_for_lock()
+    pam = args.pam.strip().upper()
+    directory = step5_dir(pam)
+    directory.mkdir(parents=True, exist_ok=True)
+    log(f"driving PAM {pam} -> {directory.name}")
 
-        before = status_counts()
+    for pass_number in range(1, args.max_passes + 1):
+        wait_for_lock(directory)
+
+        before = status_counts(directory)
         log(f"--- pass {pass_number}: before = {describe(before)}")
         if pass_number > 1 and not before.get("pending"):
             log("nothing pending — done")
             return
 
         subprocess.run([sys.executable, str(ROOT / "step5_crispor.py"),
-                        "--all", "--resume"], cwd=str(ROOT), check=False)
+                        "--all", "--resume", "--pam", pam],
+                       cwd=str(ROOT), check=False)
 
-        after = status_counts()
+        after = status_counts(directory)
         log(f"--- pass {pass_number}: after  = {describe(after)}")
         if not after.get("pending"):
             log("all windows resolved — done")

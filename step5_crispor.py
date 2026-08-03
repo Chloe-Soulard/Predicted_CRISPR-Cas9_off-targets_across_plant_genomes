@@ -39,8 +39,8 @@ import time
 import crispor
 import ncbi
 from paths import (
-    STEP34_DIR, STEP5_DIR, gene_slug, load_json, load_species_genomes,
-    resolve_genes, save_json,
+    DEFAULT_PAM, STEP34_DIR, gene_slug, load_json, load_species_genomes,
+    resolve_genes, save_json, step5_dir,
 )
 
 SUBMIT_DELAY_S = 3.0     # polite pause between windows
@@ -65,8 +65,8 @@ def fetch_result(session, bid: str) -> tuple[str | None, str]:
     return None, html
 
 
-def process_gene(gene: str, genomes: dict[str, str], session,
-                 resume: bool, limit: int | None) -> None:
+def process_gene(gene: str, genomes: dict[str, str], session, resume: bool,
+                 limit: int | None, pam: str, out_dir) -> None:
     slug = gene_slug(gene)
     step34_file = STEP34_DIR / f"{slug}.json"
     if not step34_file.exists():
@@ -74,7 +74,7 @@ def process_gene(gene: str, genomes: dict[str, str], session,
         return
 
     windows = load_json(step34_file).get("exonic_windows", {})
-    out_file = STEP5_DIR / f"{slug}.json"
+    out_file = out_dir / f"{slug}.json"
     results = load_json(out_file)
 
     print(f"\n{'=' * 68}\n[{gene}] {len(windows)} windows -> CRISPOR\n{'=' * 68}",
@@ -103,13 +103,14 @@ def process_gene(gene: str, genomes: dict[str, str], session,
             provenance["exon_unverified"] = True
 
         name = crispor.job_name(gene, species)
-        bid = (previous or {}).get("batch_id") or crispor.batch_id(sequence, genome, name)
+        bid = ((previous or {}).get("batch_id")
+               or crispor.batch_id(sequence, genome, name, pam))
         link = crispor.result_url(bid)
 
         # Submit only if this window has never been submitted (no batch id on file).
         if not (previous and previous.get("batch_id")):
             try:
-                bid, _ = crispor.submit(session, sequence, genome, name)
+                bid, _ = crispor.submit(session, sequence, genome, name, pam)
                 link = crispor.result_url(bid)
             except Exception as exc:
                 results[species] = {"status": "error", "reason": f"submit failed: {exc}",
@@ -139,7 +140,8 @@ def process_gene(gene: str, genomes: dict[str, str], session,
 
         offtargets_tsv = crispor.download_tsv(session, bid, "offtargets") or ""
         record = crispor.build_record(guides_tsv, offtargets_tsv, genome=genome,
-                                      bid=bid, link=link, window_source=provenance)
+                                      bid=bid, link=link, window_source=provenance,
+                                      pam=pam)
         results[species] = record
         save_json(out_file, results)
         print(f"  [{species}] OK: {record['n_guides']} guides, "
@@ -162,9 +164,17 @@ def main() -> None:
                         help="skip windows already 'ok'; fetch pending ones, retry errors")
     parser.add_argument("--max", type=int, default=None,
                         help="cap the windows processed this run (for testing)")
+    parser.add_argument("--pam", default=DEFAULT_PAM,
+                        help=f"CRISPOR PAM code (default {DEFAULT_PAM}; TTTV = Cas12a). "
+                             f"Results go to results/step5 for NGG and "
+                             f"results/step5_<pam> otherwise, so nucleases never mix.")
     args = parser.parse_args()
 
-    STEP5_DIR.mkdir(parents=True, exist_ok=True)
+    pam = args.pam.strip().upper()
+    out_dir = step5_dir(pam)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    print(f"PAM {pam} ({crispor.PAM_NAMES.get(pam, 'unlisted')}) -> "
+          f"{out_dir.relative_to(out_dir.parent.parent)}", flush=True)
     genomes = load_species_genomes()
 
     genes = [g for g in resolve_genes(args.gene)
@@ -176,9 +186,10 @@ def main() -> None:
 
     # One writer at a time: concurrent passes would interleave writes to the same
     # per-gene JSON and lose records.
-    with crispor.submission_lock(STEP5_DIR):
+    with crispor.submission_lock(out_dir):
         for gene in genes:
-            process_gene(gene, genomes, session, resume=args.resume, limit=args.max)
+            process_gene(gene, genomes, session, resume=args.resume, limit=args.max,
+                         pam=pam, out_dir=out_dir)
 
     print("\nAll done.")
 

@@ -20,7 +20,7 @@ RESULTS_DIR  = ROOT / "results"
 STEP1_DIR    = RESULTS_DIR / "step1"            # ortholog BLAST hits
 STEP2_DIR    = RESULTS_DIR / "step2"            # reconstructed CDS + exon structure
 STEP34_DIR   = RESULTS_DIR / "step34"           # conserved windows
-STEP5_DIR    = RESULTS_DIR / "step5"            # CRISPOR off-targets
+STEP5_DIR    = RESULTS_DIR / "step5"            # CRISPOR off-targets (SpCas9, NGG)
 ALIGN_DIR    = RESULTS_DIR / "alignments"       # per-gene FASTA + conservation tables
 R_EXPORT_DIR = RESULTS_DIR / "R_export"         # tidy CSVs + R analysis scripts
 
@@ -35,6 +35,18 @@ MANUAL_OVERRIDES_FILE = CONFIG_DIR / "manual_cds_overrides.json"
 
 # Length of the conserved window submitted to CRISPOR, in bp.
 WINDOW_BP = 100
+
+# The nuclease the published results were produced with. Step 5 keeps one results
+# directory per PAM, so a run with a different nuclease can never overwrite them.
+DEFAULT_PAM = "NGG"
+
+
+def step5_dir(pam: str = DEFAULT_PAM) -> Path:
+    """Results directory for one nuclease: results/step5 for NGG, results/step5_<pam>."""
+    pam = pam.strip().upper()
+    if pam == DEFAULT_PAM:
+        return STEP5_DIR
+    return RESULTS_DIR / f"step5_{re.sub(r'[^a-z0-9]', '_', pam.lower())}"
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────

@@ -25,6 +25,13 @@ BASE_URL = "https://crispor.gi.ucsc.edu/crispor.py"   # crispor.tefor.net redire
 PAM      = "NGG"                                       # Streptococcus pyogenes Cas9
 VERSION  = "5.2"                                       # CRISPOR version used in the study
 
+# CRISPOR PAM codes this pipeline has been used with. The PAM is part of the batch
+# id, so results for different nucleases never collide.
+PAM_NAMES = {
+    "NGG":  "SpCas9, 20 bp guides",
+    "TTTV": "Cas12a (Cpf1), 23 bp guides",
+}
+
 REQUEST_TIMEOUT_S = 180
 
 
@@ -54,7 +61,8 @@ def result_url(bid: str) -> str:
 
 # ── HTTP ──────────────────────────────────────────────────────────────────────
 
-def submit(session: requests.Session, seq: str, genome: str, name: str) -> tuple[str, str]:
+def submit(session: requests.Session, seq: str, genome: str, name: str,
+           pam: str = PAM) -> tuple[str, str]:
     """Submit a sequence; return (batch id, response HTML).
 
     The batch id is read back from the response when possible and recomputed
@@ -62,11 +70,11 @@ def submit(session: requests.Session, seq: str, genome: str, name: str) -> tuple
     """
     response = session.get(
         BASE_URL,
-        params={"seq": seq, "org": genome, "pam": PAM, "name": name},
+        params={"seq": seq, "org": genome, "pam": pam, "name": name},
         timeout=REQUEST_TIMEOUT_S, allow_redirects=True,
     )
     match = re.search(r"batchId=([A-Za-z0-9\-_]+)", response.url + " " + response.text)
-    bid = match.group(1) if match else batch_id(seq, genome, name)
+    bid = match.group(1) if match else batch_id(seq, genome, name, pam)
     return bid, response.text
 
 
@@ -140,14 +148,21 @@ def classify_locus(locus_desc: str) -> str:
 
 
 def build_record(guides_tsv: str, offtargets_tsv: str, *, genome: str, bid: str,
-                 link: str, window_source: dict) -> dict:
+                 link: str, window_source: dict, pam: str = PAM) -> dict:
     """Turn the two CRISPOR TSVs into one window record.
 
     Off-targets are grouped per guide and tallied by mismatch count (0-4) and by
     locus class. CRISPOR sets a specificity of -1 for a guide whose sequence is
     absent from the selected genome; such guides have no meaningful off-targets
     and are excluded from the window totals.
+
+    The MIT and CFD specificity scores are defined for SpCas9 only. For any other
+    nuclease CRISPOR returns -1 for every guide, so that test would discard the
+    whole window; there, presence in the genome is taken from the window itself,
+    which `looks_not_in_genome` already establishes before this is called.
+    `in_genome_basis` records which test was used.
     """
+    scored = pam.strip().upper() == PAM
     guide_rows = parse_tsv(guides_tsv)
 
     offtargets_by_guide: dict[str, list[dict]] = {}
@@ -178,7 +193,7 @@ def build_record(guides_tsv: str, offtargets_tsv: str, *, genome: str, bid: str,
             "guide_id":            guide_id,
             "target_seq":          row.get("targetSeq", ""),
             "on_target_locus":     row.get("targetGenomeGeneLocus", ""),
-            "in_genome":           mit is not None and mit != -1,
+            "in_genome":           (mit is not None and mit != -1) if scored else True,
             "mit_spec":            mit,
             "cfd_spec":            _number(row.get("cfdSpecScore")),
             "offtarget_count":     int(_number(row.get("offtargetCount")) or 0),
@@ -202,6 +217,8 @@ def build_record(guides_tsv: str, offtargets_tsv: str, *, genome: str, bid: str,
 
     record = {
         "genome": genome,
+        "pam": pam,
+        "in_genome_basis": "mit_spec" if scored else "window",
         "batch_id": bid,
         "crispor_link": link,
         "status": "ok",
