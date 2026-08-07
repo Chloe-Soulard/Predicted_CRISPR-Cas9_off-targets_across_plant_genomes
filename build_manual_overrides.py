@@ -48,7 +48,10 @@ from pathlib import Path
 import openpyxl
 from Bio.Seq import Seq
 
-from paths import MANUAL_OVERRIDES_FILE, ROOT, gene_names, load_json, save_json
+from paths import (
+    MANUAL_OVERRIDES_FILE, ROOT, gene_names, load_json, load_species_genomes,
+    save_json,
+)
 
 IN_FILE = ROOT / "manual_overrides_TEMPLATE.xlsx"
 SHEET   = "Manual overrides"
@@ -144,20 +147,32 @@ def resolve_gene(label: str, panel: dict[str, str]) -> str | None:
     return panel.get(key) or LEGACY_GENE_NAMES.get(key)
 
 
+def resolve_species(label: str, panel: dict[str, str]) -> str | None:
+    """Map a sheet species label onto a panel species, or None if unknown.
+
+    Case-insensitive, because a form filled by hand carries 'Vicia Faba' for
+    'Vicia faba'. Step 2 looks overrides up by the exact panel spelling, so an
+    unnormalised name would be skipped without a word.
+    """
+    return panel.get(label.strip().lower())
+
+
 def cell(row: tuple, columns: dict[str, int], field: str):
     index = columns.get(field)
     return row[index] if index is not None and index < len(row) else None
 
 
 def read_entries(sheet, columns: dict[str, int]
-                 ) -> tuple[list[tuple[str, str, dict]], list, list, list]:
-    """Read the sheet into (entries, skipped, failures, unknown_genes)."""
+                 ) -> tuple[list[tuple[str, str, dict]], list, list, list, list]:
+    """Read the sheet into (entries, skipped, failures, unknown, renamed)."""
     panel = {name.lower(): name for name in gene_names()}
+    species_panel = {name.lower(): name for name in load_species_genomes()}
 
     entries: list[tuple[str, str, dict]] = []
     skipped: list[tuple[str, str]] = []
     failures: list[tuple[str, str, str]] = []
     unknown: list[tuple[int, str, str]] = []
+    renamed: list[tuple[int, str, str]] = []
 
     for offset, row in enumerate(sheet.iter_rows(min_row=FIRST_DATA_ROW,
                                                  values_only=True)):
@@ -166,12 +181,18 @@ def read_entries(sheet, columns: dict[str, int]
         if not row or not label:
             continue
 
-        label   = str(label).strip()
-        species = str(cell(row, columns, "species") or "").strip()
-        gene    = resolve_gene(label, panel)
+        label    = str(label).strip()
+        raw_species = str(cell(row, columns, "species") or "").strip()
+        gene     = resolve_gene(label, panel)
+        species  = resolve_species(raw_species, species_panel)
         if gene is None:
-            unknown.append((row_number, label, species))
+            unknown.append((row_number, label, raw_species))
             continue
+        if species is None:
+            unknown.append((row_number, label, f"{raw_species!r} (species not in the panel)"))
+            continue
+        if species != raw_species:
+            renamed.append((row_number, raw_species, species))
 
         cds = clean_sequence(cell(row, columns, "cds"))
         if not cds:
@@ -207,7 +228,7 @@ def read_entries(sheet, columns: dict[str, int]
 
         entries.append((gene, species, entry))
 
-    return entries, skipped, failures, unknown
+    return entries, skipped, failures, unknown, renamed
 
 
 # ── Assembly ──────────────────────────────────────────────────────────────────
@@ -280,10 +301,15 @@ def main() -> None:
     sheet = workbook[SHEET]
 
     columns = resolve_columns(sheet)
-    entries, skipped, failures, unknown = read_entries(sheet, columns)
+    entries, skipped, failures, unknown, renamed = read_entries(sheet, columns)
+
+    if renamed:
+        print(f"{len(renamed)} species name(s) normalised to the panel spelling:")
+        for row_number, was, now in renamed:
+            print(f"    row {row_number}: {was!r} -> {now!r}")
 
     if unknown:
-        print(f"{len(unknown)} row(s) name a gene that is not in the panel:")
+        print(f"{len(unknown)} row(s) name a gene or species that is not in the panel:")
         for row_number, label, species in unknown:
             print(f"    row {row_number}: {label!r} / {species}")
         raise SystemExit(f"\nNothing written. Panel: {', '.join(gene_names())}")

@@ -35,8 +35,8 @@ import csv
 from pathlib import Path
 
 from paths import (
-    R_EXPORT_DIR, RESULTS_DIR, STEP5_DIR, gene_names, gene_slug,
-    load_json, load_species_metadata, ploidy_group,
+    DEFAULT_PAM, R_EXPORT_DIR, RESULTS_DIR, gene_names, gene_slug,
+    load_json, load_species_metadata, pam_suffix, ploidy_group, step5_dir,
 )
 
 MISMATCH_LEVELS = range(5)          # CRISPOR reports off-targets up to 4 mismatches
@@ -70,17 +70,18 @@ def tally(guides: list[dict]) -> dict[str, int]:
     return totals
 
 
-def collect_windows(metadata: dict[str, dict]) -> tuple[list[dict], list[str]]:
+def collect_windows(metadata: dict[str, dict],
+                    directory) -> tuple[list[dict], list[str]]:
     """Load every analysable window, in panel gene order then species order.
 
-    Returns (windows, excluded) where each window carries its species metadata,
-    its in-genome guides and their tallies, and `excluded` describes what was
-    dropped and why.
+    Returns (windows, excluded, repeats) where each window carries its species
+    metadata, its usable guides and their tallies; `excluded` describes what was
+    dropped and why, and `repeats` the guides CRISPOR could not enumerate.
     """
-    windows, excluded = [], []
+    windows, excluded, repeats = [], [], []
 
     for gene in gene_names():
-        path = STEP5_DIR / f"{gene_slug(gene)}.json"
+        path = directory / f"{gene_slug(gene)}.json"
         if not path.exists():
             excluded.append(f"{gene}: no step5 results file")
             continue
@@ -93,16 +94,29 @@ def collect_windows(metadata: dict[str, dict]) -> tuple[list[dict], list[str]]:
                 excluded.append(f"{gene} / {species}: status={record.get('status')}")
                 continue
             if not record.get("found_in_genome"):
-                excluded.append(f"{gene} / {species}: window not found in "
-                                f"{record.get('genome')}")
+                # A window with no guides did map; it simply carries no PAM site.
+                # Reporting that as "not found" would read as an assembly mismatch.
+                reason = ("no PAM site in the window"
+                          if record.get("found_state") == "no_guides"
+                          else f"window not found in {record.get('genome')}")
+                excluded.append(f"{gene} / {species}: {reason}")
                 continue
             if species not in metadata:
                 excluded.append(f"{gene} / {species}: no genome size / ploidy on file")
                 continue
 
-            guides = [g for g in record.get("guides", []) if g.get("in_genome")]
+            # Guides CRISPOR refused to enumerate ("repeated region, too unspecific")
+            # carry a 0 that means "unknown", not "none". Averaging them in would
+            # credit the most repetitive guides as the most specific, and they fall
+            # disproportionately in the largest genomes — the very axis under test.
+            in_genome = [g for g in record.get("guides", []) if g.get("in_genome")]
+            guides = [g for g in in_genome if not g.get("repeat_unspecific")]
+            n_repeat = len(in_genome) - len(guides)
+            if n_repeat:
+                repeats.append(f"{gene} / {species}: {n_repeat} repeat guide(s) dropped")
             if not guides:
-                excluded.append(f"{gene} / {species}: no guides present in the genome")
+                excluded.append(f"{gene} / {species}: no guides present in the genome"
+                                + (f" ({n_repeat} repeat-only)" if n_repeat else ""))
                 continue
 
             windows.append({
@@ -116,7 +130,7 @@ def collect_windows(metadata: dict[str, dict]) -> tuple[list[dict], list[str]]:
                 "totals": tally(guides),
             })
 
-    return windows, excluded
+    return windows, excluded, repeats
 
 
 # ── Table builders ────────────────────────────────────────────────────────────
@@ -216,12 +230,24 @@ def write_csv(path: Path, rows: list[dict]) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.strip().splitlines()[0])
-    parser.parse_args()
+    parser.add_argument("--pam", default=DEFAULT_PAM,
+                        help=f"nuclease to aggregate (default {DEFAULT_PAM}; TTTV = "
+                             f"Cas12a). Reads results/step5<suffix> and writes the "
+                             f"tables with the same suffix, so nucleases never mix.")
+    args = parser.parse_args()
+
+    pam = args.pam.strip().upper()
+    suffix = pam_suffix(pam)
+    directory = step5_dir(pam)
+    if not directory.exists():
+        raise SystemExit(f"{directory} does not exist — run "
+                         f"step5_crispor.py --pam {pam} first.")
 
     metadata = load_species_metadata()
-    windows, excluded = collect_windows(metadata)
+    windows, excluded, repeats = collect_windows(metadata, directory)
     if not windows:
-        raise SystemExit("No analysable windows in results/step5 — run step5_crispor.py first.")
+        raise SystemExit(f"No analysable windows in {directory} — "
+                         f"run step5_crispor.py --pam {pam} first.")
 
     genes = sorted({w["gene"] for w in windows})
     species = sorted({w["species"] for w in windows})
@@ -229,16 +255,24 @@ def main() -> None:
     print(f"{len(windows)} windows ({len(genes)} genes x {len(species)} species), "
           f"{n_guides} guides in genome")
 
+    if repeats:
+        n_repeat = sum(int(r.split(": ")[1].split()[0]) for r in repeats)
+        print(f"\n{n_repeat} guide(s) across {len(repeats)} window(s) dropped as "
+              f"repeats — CRISPOR reports 'repeated region, too unspecific' and "
+              f"gives 0 off-targets, which means unknown, not none:")
+        for reason in repeats:
+            print(f"  {reason}")
+
     if excluded:
         print(f"\n{len(excluded)} window(s) excluded:")
         for reason in excluded:
             print(f"  {reason}")
 
     print("\nWriting tables:")
-    write_csv(RESULTS_DIR / "offtarget_aggregate.csv", aggregate_rows(windows))
-    write_csv(RESULTS_DIR / "genic_offtarget_breakdown.csv", genic_rows(windows))
-    write_csv(R_EXPORT_DIR / "offtargets_perwindow.csv", per_window_rows(windows))
-    write_csv(R_EXPORT_DIR / "offtargets_perguide.csv", per_guide_rows(windows))
+    write_csv(RESULTS_DIR / f"offtarget_aggregate{suffix}.csv", aggregate_rows(windows))
+    write_csv(RESULTS_DIR / f"genic_offtarget_breakdown{suffix}.csv", genic_rows(windows))
+    write_csv(R_EXPORT_DIR / f"offtargets_perwindow{suffix}.csv", per_window_rows(windows))
+    write_csv(R_EXPORT_DIR / f"offtargets_perguide{suffix}.csv", per_guide_rows(windows))
 
 
 if __name__ == "__main__":

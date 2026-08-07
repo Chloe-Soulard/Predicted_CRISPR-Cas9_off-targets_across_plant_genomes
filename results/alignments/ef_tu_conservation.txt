@@ -1,6 +1,6 @@
 Gene: EF-Tu
 Conserved window: AT CDS positions 1098–1197 (100 bp)
-Conservation score: 4046 / 4700 (86.1%)
+Conservation score: 4044 / 4700 (86.0%)
 Species aligned: 47
 
   Pos  AT  Count   Frac  Consensus
@@ -22,7 +22,7 @@ Species aligned: 47
  1112   G     11   0.23          C
  1113   C     46   0.98          C
  1114   T     47   1.00          T ***
- 1115   C     26   0.55          C
+ 1115   C     25   0.53          C
  1116   A     47   1.00          A ***
  1117   C     47   1.00          C ***
  1118   A     34   0.72          A
@@ -43,7 +43,7 @@ Species aligned: 47
  1133   A     17   0.36          T
  1134   C     46   0.98          C
  1135   G     47   1.00          G ***
- 1136   T     16   0.34          T
+ 1136   T     15   0.32          T
  1137   C     47   1.00          C ***
  1138   A     47   1.00          A ***
  1139   C     32   0.68          C

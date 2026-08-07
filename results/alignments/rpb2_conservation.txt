@@ -1,6 +1,6 @@
 Gene: RPB2
 Conserved window: AT CDS positions 2697–2796 (100 bp)
-Conservation score: 3974 / 4700 (84.6%)
+Conservation score: 3977 / 4700 (84.6%)
 Species aligned: 47
 
   Pos  AT  Count   Frac  Consensus
@@ -19,7 +19,7 @@ Species aligned: 47
  2708   T     41   0.87          T
  2709   G     47   1.00          G ***
  2710   G     47   1.00          G ***
- 2711   G     28   0.60          G
+ 2711   G     29   0.62          G
  2712   C     47   1.00          C ***
  2713   A     47   1.00          A ***
  2714   A     27   0.57          A
@@ -73,7 +73,7 @@ Species aligned: 47
  2762   T     35   0.74          T
  2763   G     43   0.91          G
  2764   G     29   0.62          G
- 2765   A     39   0.83          A
+ 2765   A     40   0.85          A
  2766   G     25   0.53          G
  2767   T     25   0.53          T
  2768   T     42   0.89          T
@@ -82,7 +82,7 @@ Species aligned: 47
  2771   T     30   0.64          T
  2772   G     47   1.00          G ***
  2773   G     47   1.00          G ***
- 2774   A     20   0.43          A
+ 2774   A     21   0.45          A
  2775   A     47   1.00          A ***
  2776   T     47   1.00          T ***
  2777   G     47   1.00          G ***

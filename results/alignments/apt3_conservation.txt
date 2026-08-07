@@ -1,6 +1,6 @@
 Gene: APT3
 Conserved window: AT CDS positions 91–190 (100 bp)
-Conservation score: 3703 / 4700 (78.8%)
+Conservation score: 3702 / 4700 (78.8%)
 Species aligned: 47
 
   Pos  AT  Count   Frac  Consensus
@@ -15,7 +15,7 @@ Species aligned: 47
    98   A     31   0.66          A
    99   G     47   1.00          G ***
   100   A     47   1.00          A ***
-  101   C     35   0.74          C
+  101   C     34   0.72          C
   102   A     46   0.98          A
   103   T     47   1.00          T ***
   104   A     13   0.28          C

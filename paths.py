@@ -41,12 +41,17 @@ WINDOW_BP = 100
 DEFAULT_PAM = "NGG"
 
 
-def step5_dir(pam: str = DEFAULT_PAM) -> Path:
-    """Results directory for one nuclease: results/step5 for NGG, results/step5_<pam>."""
+def pam_suffix(pam: str = DEFAULT_PAM) -> str:
+    """Filename suffix for one nuclease: '' for the published NGG run, '_tttv' etc."""
     pam = pam.strip().upper()
     if pam == DEFAULT_PAM:
-        return STEP5_DIR
-    return RESULTS_DIR / f"step5_{re.sub(r'[^a-z0-9]', '_', pam.lower())}"
+        return ""
+    return "_" + re.sub(r"[^a-z0-9]", "_", pam.lower())
+
+
+def step5_dir(pam: str = DEFAULT_PAM) -> Path:
+    """Results directory for one nuclease: results/step5 for NGG, results/step5_<pam>."""
+    return RESULTS_DIR / f"step5{pam_suffix(pam)}"
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────

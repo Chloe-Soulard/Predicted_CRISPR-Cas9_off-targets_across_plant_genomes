@@ -30,7 +30,8 @@
         },
         "ot_genic": 63,
         "ot_intergenic": 175,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "85forw",
@@ -50,7 +51,8 @@
         },
         "ot_genic": 64,
         "ot_intergenic": 508,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "34rev",
@@ -70,7 +72,8 @@
         },
         "ot_genic": 52,
         "ot_intergenic": 113,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -90,7 +93,8 @@
         },
         "ot_genic": 86,
         "ot_intergenic": 244,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "46forw",
@@ -110,7 +114,8 @@
         },
         "ot_genic": 175,
         "ot_intergenic": 3997,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "73rev",
@@ -130,7 +135,8 @@
         },
         "ot_genic": 85,
         "ot_intergenic": 160,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "11rev",
@@ -150,7 +156,8 @@
         },
         "ot_genic": 129,
         "ot_intergenic": 432,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "26rev",
@@ -170,7 +177,8 @@
         },
         "ot_genic": 293,
         "ot_intergenic": 5673,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "59rev",
@@ -190,7 +198,8 @@
         },
         "ot_genic": 97,
         "ot_intergenic": 279,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67rev",
@@ -210,7 +219,8 @@
         },
         "ot_genic": 141,
         "ot_intergenic": 1083,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -230,10 +240,12 @@
         },
         "ot_genic": 92,
         "ot_intergenic": 161,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Asparagus officinalis": {
     "genome": "GCF_001876935.1",
@@ -266,7 +278,8 @@
         },
         "ot_genic": 1,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "55rev",
@@ -286,7 +299,8 @@
         },
         "ot_genic": 1,
         "ot_intergenic": 10,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "40rev",
@@ -306,7 +320,8 @@
         },
         "ot_genic": 4,
         "ot_intergenic": 13,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -326,7 +341,8 @@
         },
         "ot_genic": 8,
         "ot_intergenic": 19,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -346,7 +362,8 @@
         },
         "ot_genic": 1,
         "ot_intergenic": 6,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "73rev",
@@ -366,7 +383,8 @@
         },
         "ot_genic": 30,
         "ot_intergenic": 731,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67rev",
@@ -386,7 +404,8 @@
         },
         "ot_genic": 24,
         "ot_intergenic": 43,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "34rev",
@@ -406,7 +425,8 @@
         },
         "ot_genic": 9,
         "ot_intergenic": 5,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "57forw",
@@ -426,7 +446,8 @@
         },
         "ot_genic": 14,
         "ot_intergenic": 4,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "11rev",
@@ -446,7 +467,8 @@
         },
         "ot_genic": 12,
         "ot_intergenic": 8,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "28forw",
@@ -466,7 +488,8 @@
         },
         "ot_genic": 23,
         "ot_intergenic": 69,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "27forw",
@@ -486,10 +509,12 @@
         },
         "ot_genic": 17,
         "ot_intergenic": 15,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Beta vulgaris": {
     "genome": "GCF_000511025.2",
@@ -522,7 +547,8 @@
         },
         "ot_genic": 12,
         "ot_intergenic": 15,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -542,7 +568,8 @@
         },
         "ot_genic": 10,
         "ot_intergenic": 9,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -562,10 +589,12 @@
         },
         "ot_genic": 18,
         "ot_intergenic": 36,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Brachypodium distachyon": {
     "genome": "pz12Bd213v11",
@@ -598,7 +627,8 @@
         },
         "ot_genic": 11,
         "ot_intergenic": 3,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "40rev",
@@ -618,7 +648,8 @@
         },
         "ot_genic": 27,
         "ot_intergenic": 25,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "59rev",
@@ -638,7 +669,8 @@
         },
         "ot_genic": 19,
         "ot_intergenic": 13,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "34rev",
@@ -658,7 +690,8 @@
         },
         "ot_genic": 23,
         "ot_intergenic": 11,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -678,7 +711,8 @@
         },
         "ot_genic": 20,
         "ot_intergenic": 18,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "73rev",
@@ -698,7 +732,8 @@
         },
         "ot_genic": 121,
         "ot_intergenic": 35,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -718,7 +753,8 @@
         },
         "ot_genic": 76,
         "ot_intergenic": 10,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67rev",
@@ -738,7 +774,8 @@
         },
         "ot_genic": 143,
         "ot_intergenic": 48,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "11rev",
@@ -758,7 +795,8 @@
         },
         "ot_genic": 58,
         "ot_intergenic": 17,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "26rev",
@@ -778,10 +816,12 @@
         },
         "ot_genic": 160,
         "ot_intergenic": 80,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Brassica napus": {
     "genome": "GCF_000686985.2",
@@ -814,7 +854,8 @@
         },
         "ot_genic": 31,
         "ot_intergenic": 13,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "57forw",
@@ -834,7 +875,8 @@
         },
         "ot_genic": 30,
         "ot_intergenic": 5,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67forw",
@@ -854,7 +896,8 @@
         },
         "ot_genic": 70,
         "ot_intergenic": 64,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "73forw",
@@ -874,7 +917,8 @@
         },
         "ot_genic": 57,
         "ot_intergenic": 15,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "60forw",
@@ -894,7 +938,8 @@
         },
         "ot_genic": 30,
         "ot_intergenic": 2,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -914,10 +959,12 @@
         },
         "ot_genic": 342,
         "ot_intergenic": 156,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Camelina sativa": {
     "genome": "faCamSat3",
@@ -950,7 +997,8 @@
         },
         "ot_genic": 21,
         "ot_intergenic": 5,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "26rev",
@@ -970,7 +1018,8 @@
         },
         "ot_genic": 25,
         "ot_intergenic": 2,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "40rev",
@@ -990,7 +1039,8 @@
         },
         "ot_genic": 20,
         "ot_intergenic": 2,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "46rev",
@@ -1010,7 +1060,8 @@
         },
         "ot_genic": 23,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -1030,7 +1081,8 @@
         },
         "ot_genic": 27,
         "ot_intergenic": 9,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -1050,7 +1102,8 @@
         },
         "ot_genic": 26,
         "ot_intergenic": 10,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "73rev",
@@ -1070,10 +1123,12 @@
         },
         "ot_genic": 24,
         "ot_intergenic": 16,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Ceratopteris richardii": {
     "genome": "GCA_020310875.1",
@@ -1106,7 +1161,8 @@
         },
         "ot_genic": 4,
         "ot_intergenic": 3,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "56rev",
@@ -1126,7 +1182,8 @@
         },
         "ot_genic": 3,
         "ot_intergenic": 19,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "57forw",
@@ -1146,7 +1203,8 @@
         },
         "ot_genic": 6,
         "ot_intergenic": 29,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -1166,7 +1224,8 @@
         },
         "ot_genic": 17,
         "ot_intergenic": 28,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "46forw",
@@ -1186,7 +1245,8 @@
         },
         "ot_genic": 17,
         "ot_intergenic": 38,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67rev",
@@ -1206,7 +1266,8 @@
         },
         "ot_genic": 21,
         "ot_intergenic": 128,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -1226,10 +1287,12 @@
         },
         "ot_genic": 92,
         "ot_intergenic": 401,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Chenopodium quinoa": {
     "genome": "GCF_001683475.1",
@@ -1262,7 +1325,8 @@
         },
         "ot_genic": 12,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67forw",
@@ -1282,7 +1346,8 @@
         },
         "ot_genic": 8,
         "ot_intergenic": 5,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "59rev",
@@ -1302,10 +1367,12 @@
         },
         "ot_genic": 8,
         "ot_intergenic": 10,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Cicer arietinum": {
     "genome": "GCF_000331145.1",
@@ -1338,7 +1405,8 @@
         },
         "ot_genic": 6,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "40rev",
@@ -1358,7 +1426,8 @@
         },
         "ot_genic": 5,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -1378,7 +1447,8 @@
         },
         "ot_genic": 7,
         "ot_intergenic": 3,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67rev",
@@ -1398,10 +1468,12 @@
         },
         "ot_genic": 15,
         "ot_intergenic": 14,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Coffea canephora": {
     "genome": "GCA_900059795.1",
@@ -1434,7 +1506,8 @@
         },
         "ot_genic": 2,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "46rev",
@@ -1454,7 +1527,8 @@
         },
         "ot_genic": 3,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "40rev",
@@ -1474,7 +1548,8 @@
         },
         "ot_genic": 2,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "11rev",
@@ -1494,7 +1569,8 @@
         },
         "ot_genic": 8,
         "ot_intergenic": 9,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "34rev",
@@ -1514,7 +1590,8 @@
         },
         "ot_genic": 5,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "73rev",
@@ -1534,7 +1611,8 @@
         },
         "ot_genic": 4,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -1554,7 +1632,8 @@
         },
         "ot_genic": 4,
         "ot_intergenic": 6,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -1574,7 +1653,8 @@
         },
         "ot_genic": 5,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "59rev",
@@ -1594,10 +1674,12 @@
         },
         "ot_genic": 4,
         "ot_intergenic": 19,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Corylus avellana": {
     "genome": "GCF_901000735.1",
@@ -1630,7 +1712,8 @@
         },
         "ot_genic": 6,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "57forw",
@@ -1650,7 +1733,8 @@
         },
         "ot_genic": 5,
         "ot_intergenic": 3,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67rev",
@@ -1670,7 +1754,8 @@
         },
         "ot_genic": 11,
         "ot_intergenic": 9,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -1690,7 +1775,8 @@
         },
         "ot_genic": 8,
         "ot_intergenic": 6,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -1710,10 +1796,12 @@
         },
         "ot_genic": 12,
         "ot_intergenic": 6,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Cucumis sativus": {
     "genome": "GCF_000004075.3",
@@ -1746,7 +1834,8 @@
         },
         "ot_genic": 6,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "85forw",
@@ -1766,7 +1855,8 @@
         },
         "ot_genic": 9,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "57forw",
@@ -1786,7 +1876,8 @@
         },
         "ot_genic": 10,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "60forw",
@@ -1806,7 +1897,8 @@
         },
         "ot_genic": 24,
         "ot_intergenic": 27,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -1826,7 +1918,8 @@
         },
         "ot_genic": 12,
         "ot_intergenic": 8,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67forw",
@@ -1846,10 +1939,12 @@
         },
         "ot_genic": 33,
         "ot_intergenic": 20,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Daucus carota": {
     "genome": "GCF_001625215.1",
@@ -1882,7 +1977,8 @@
         },
         "ot_genic": 21,
         "ot_intergenic": 5,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -1902,7 +1998,8 @@
         },
         "ot_genic": 15,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "55rev",
@@ -1922,7 +2019,8 @@
         },
         "ot_genic": 18,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "46forw",
@@ -1942,7 +2040,8 @@
         },
         "ot_genic": 6,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "57forw",
@@ -1962,7 +2061,8 @@
         },
         "ot_genic": 9,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "60forw",
@@ -1982,7 +2082,8 @@
         },
         "ot_genic": 9,
         "ot_intergenic": 10,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "34forw",
@@ -2002,10 +2103,12 @@
         },
         "ot_genic": 22,
         "ot_intergenic": 8,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Eleusine coracana": {
     "genome": "GCA_032690845.1",
@@ -2038,7 +2141,8 @@
         },
         "ot_genic": 34,
         "ot_intergenic": 54,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "56rev",
@@ -2058,7 +2162,8 @@
         },
         "ot_genic": 73,
         "ot_intergenic": 68,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "40rev",
@@ -2078,7 +2183,8 @@
         },
         "ot_genic": 92,
         "ot_intergenic": 230,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "55rev",
@@ -2098,7 +2204,8 @@
         },
         "ot_genic": 69,
         "ot_intergenic": 87,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "59rev",
@@ -2118,7 +2225,8 @@
         },
         "ot_genic": 44,
         "ot_intergenic": 53,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67rev",
@@ -2138,7 +2246,8 @@
         },
         "ot_genic": 181,
         "ot_intergenic": 355,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -2158,7 +2267,8 @@
         },
         "ot_genic": 90,
         "ot_intergenic": 50,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "26rev",
@@ -2178,7 +2288,8 @@
         },
         "ot_genic": 239,
         "ot_intergenic": 157,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "34rev",
@@ -2198,7 +2309,8 @@
         },
         "ot_genic": 74,
         "ot_intergenic": 69,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "73rev",
@@ -2218,7 +2330,8 @@
         },
         "ot_genic": 76,
         "ot_intergenic": 62,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -2238,7 +2351,8 @@
         },
         "ot_genic": 61,
         "ot_intergenic": 38,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "11rev",
@@ -2258,10 +2372,12 @@
         },
         "ot_genic": 81,
         "ot_intergenic": 43,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Eruca vesicaria": {
     "genome": "GCA_932364175.1",
@@ -2294,7 +2410,8 @@
         },
         "ot_genic": 5,
         "ot_intergenic": 27,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "85forw",
@@ -2314,7 +2431,8 @@
         },
         "ot_genic": 5,
         "ot_intergenic": 22,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "57forw",
@@ -2334,7 +2452,8 @@
         },
         "ot_genic": 5,
         "ot_intergenic": 11,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "60forw",
@@ -2354,11 +2473,13 @@
         },
         "ot_genic": 6,
         "ot_intergenic": 13,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
     "window_source": "exonic",
-    "genome_updated": true
+    "genome_updated": true,
+    "n_guides_repeat": 0
   },
   "Fragaria ananassa": {
     "genome": "faFraAnaCama10a2",
@@ -2391,7 +2512,8 @@
         },
         "ot_genic": 14,
         "ot_intergenic": 7,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "40rev",
@@ -2411,7 +2533,8 @@
         },
         "ot_genic": 39,
         "ot_intergenic": 67,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "85forw",
@@ -2431,7 +2554,8 @@
         },
         "ot_genic": 29,
         "ot_intergenic": 23,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "46rev",
@@ -2451,7 +2575,8 @@
         },
         "ot_genic": 36,
         "ot_intergenic": 17,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "59rev",
@@ -2471,7 +2596,8 @@
         },
         "ot_genic": 16,
         "ot_intergenic": 4,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -2491,10 +2617,12 @@
         },
         "ot_genic": 39,
         "ot_intergenic": 24,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Glycine max": {
     "genome": "GCA_012273815.2",
@@ -2527,7 +2655,8 @@
         },
         "ot_genic": 17,
         "ot_intergenic": 10,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -2547,7 +2676,8 @@
         },
         "ot_genic": 19,
         "ot_intergenic": 17,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "60forw",
@@ -2567,7 +2697,8 @@
         },
         "ot_genic": 13,
         "ot_intergenic": 10,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "57forw",
@@ -2587,7 +2718,8 @@
         },
         "ot_genic": 15,
         "ot_intergenic": 7,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "40rev",
@@ -2607,7 +2739,8 @@
         },
         "ot_genic": 14,
         "ot_intergenic": 8,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "11rev",
@@ -2627,7 +2760,8 @@
         },
         "ot_genic": 10,
         "ot_intergenic": 3,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "73rev",
@@ -2647,10 +2781,12 @@
         },
         "ot_genic": 22,
         "ot_intergenic": 70,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Gossypium hirsutum": {
     "genome": "GCF_000987745.1",
@@ -2683,7 +2819,8 @@
         },
         "ot_genic": 11,
         "ot_intergenic": 14,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "57forw",
@@ -2703,7 +2840,8 @@
         },
         "ot_genic": 16,
         "ot_intergenic": 12,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "60forw",
@@ -2723,7 +2861,8 @@
         },
         "ot_genic": 10,
         "ot_intergenic": 3,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67forw",
@@ -2743,7 +2882,8 @@
         },
         "ot_genic": 26,
         "ot_intergenic": 56,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "55rev",
@@ -2763,7 +2903,8 @@
         },
         "ot_genic": 19,
         "ot_intergenic": 2,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -2783,7 +2924,8 @@
         },
         "ot_genic": 29,
         "ot_intergenic": 132,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "73rev",
@@ -2803,7 +2945,8 @@
         },
         "ot_genic": 31,
         "ot_intergenic": 84,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -2823,7 +2966,8 @@
         },
         "ot_genic": 42,
         "ot_intergenic": 63,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "85forw",
@@ -2843,10 +2987,12 @@
         },
         "ot_genic": 26,
         "ot_intergenic": 23,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Helianthus annuus": {
     "genome": "GCA_002127325.1",
@@ -2879,7 +3025,8 @@
         },
         "ot_genic": 18,
         "ot_intergenic": 52,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "40rev",
@@ -2899,7 +3046,8 @@
         },
         "ot_genic": 25,
         "ot_intergenic": 24,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "59rev",
@@ -2919,7 +3067,8 @@
         },
         "ot_genic": 18,
         "ot_intergenic": 45,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "34rev",
@@ -2939,7 +3088,8 @@
         },
         "ot_genic": 20,
         "ot_intergenic": 98,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "85forw",
@@ -2959,7 +3109,8 @@
         },
         "ot_genic": 24,
         "ot_intergenic": 76,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -2979,7 +3130,8 @@
         },
         "ot_genic": 25,
         "ot_intergenic": 49,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "60forw",
@@ -2999,10 +3151,12 @@
         },
         "ot_genic": 27,
         "ot_intergenic": 9,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Hordeum vulgare": {
     "genome": "ens95HorVul",
@@ -3035,7 +3189,8 @@
         },
         "ot_genic": 174,
         "ot_intergenic": 353,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "11rev",
@@ -3055,7 +3210,8 @@
         },
         "ot_genic": 97,
         "ot_intergenic": 223,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "26rev",
@@ -3075,7 +3231,8 @@
         },
         "ot_genic": 217,
         "ot_intergenic": 836,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "34rev",
@@ -3095,7 +3252,8 @@
         },
         "ot_genic": 92,
         "ot_intergenic": 267,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "40rev",
@@ -3115,7 +3273,8 @@
         },
         "ot_genic": 141,
         "ot_intergenic": 384,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "46rev",
@@ -3135,7 +3294,8 @@
         },
         "ot_genic": 70,
         "ot_intergenic": 147,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "55rev",
@@ -3155,7 +3315,8 @@
         },
         "ot_genic": 120,
         "ot_intergenic": 261,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "56rev",
@@ -3175,7 +3336,8 @@
         },
         "ot_genic": 107,
         "ot_intergenic": 247,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "59rev",
@@ -3195,7 +3357,8 @@
         },
         "ot_genic": 94,
         "ot_intergenic": 278,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67rev",
@@ -3215,7 +3378,8 @@
         },
         "ot_genic": 223,
         "ot_intergenic": 1330,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -3235,7 +3399,8 @@
         },
         "ot_genic": 120,
         "ot_intergenic": 372,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -3255,10 +3420,12 @@
         },
         "ot_genic": 96,
         "ot_intergenic": 853,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Lactuca sativa": {
     "genome": "GCF_002870075.1",
@@ -3291,7 +3458,8 @@
         },
         "ot_genic": 12,
         "ot_intergenic": 100,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "60forw",
@@ -3311,7 +3479,8 @@
         },
         "ot_genic": 21,
         "ot_intergenic": 8,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "26rev",
@@ -3331,7 +3500,8 @@
         },
         "ot_genic": 8,
         "ot_intergenic": 22,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -3351,7 +3521,8 @@
         },
         "ot_genic": 26,
         "ot_intergenic": 161,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "46rev",
@@ -3371,7 +3542,8 @@
         },
         "ot_genic": 21,
         "ot_intergenic": 11,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -3391,7 +3563,8 @@
         },
         "ot_genic": 24,
         "ot_intergenic": 25,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "59rev",
@@ -3411,10 +3584,12 @@
         },
         "ot_genic": 26,
         "ot_intergenic": 52,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Lotus japonicus": {
     "genome": "GCF_012489685.1",
@@ -3447,7 +3622,8 @@
         },
         "ot_genic": 7,
         "ot_intergenic": 3,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "57forw",
@@ -3467,7 +3643,8 @@
         },
         "ot_genic": 6,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -3487,7 +3664,8 @@
         },
         "ot_genic": 16,
         "ot_intergenic": 15,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "60forw",
@@ -3507,7 +3685,8 @@
         },
         "ot_genic": 10,
         "ot_intergenic": 7,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67forw",
@@ -3527,7 +3706,8 @@
         },
         "ot_genic": 7,
         "ot_intergenic": 25,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "26rev",
@@ -3547,7 +3727,8 @@
         },
         "ot_genic": 7,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "34forw",
@@ -3567,7 +3748,8 @@
         },
         "ot_genic": 6,
         "ot_intergenic": 8,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -3587,7 +3769,8 @@
         },
         "ot_genic": 12,
         "ot_intergenic": 17,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "73rev",
@@ -3607,7 +3790,8 @@
         },
         "ot_genic": 13,
         "ot_intergenic": 13,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "46forw",
@@ -3627,10 +3811,12 @@
         },
         "ot_genic": 3,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Lupinus angustifolius": {
     "genome": "GCF_001865875.1",
@@ -3663,7 +3849,8 @@
         },
         "ot_genic": 34,
         "ot_intergenic": 212,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "26rev",
@@ -3683,7 +3870,8 @@
         },
         "ot_genic": 27,
         "ot_intergenic": 9,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -3703,10 +3891,12 @@
         },
         "ot_genic": 16,
         "ot_intergenic": 7,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Malus domestica": {
     "genome": "faMalDom11",
@@ -3739,7 +3929,8 @@
         },
         "ot_genic": 0,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "40rev",
@@ -3759,7 +3950,8 @@
         },
         "ot_genic": 1,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "46rev",
@@ -3779,7 +3971,8 @@
         },
         "ot_genic": 4,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -3799,7 +3992,8 @@
         },
         "ot_genic": 7,
         "ot_intergenic": 4,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "59rev",
@@ -3819,7 +4013,8 @@
         },
         "ot_genic": 5,
         "ot_intergenic": 6,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -3839,7 +4034,8 @@
         },
         "ot_genic": 10,
         "ot_intergenic": 2,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67rev",
@@ -3859,7 +4055,8 @@
         },
         "ot_genic": 38,
         "ot_intergenic": 473,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "85forw",
@@ -3879,7 +4076,8 @@
         },
         "ot_genic": 9,
         "ot_intergenic": 13,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "34rev",
@@ -3899,10 +4097,12 @@
         },
         "ot_genic": 11,
         "ot_intergenic": 9,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Manihot esculenta": {
     "genome": "GCF_001659605.1",
@@ -3935,7 +4135,8 @@
         },
         "ot_genic": 1,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "34forw",
@@ -3955,7 +4156,8 @@
         },
         "ot_genic": 1,
         "ot_intergenic": 6,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "46rev",
@@ -3975,7 +4177,8 @@
         },
         "ot_genic": 1,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67rev",
@@ -3995,7 +4198,8 @@
         },
         "ot_genic": 13,
         "ot_intergenic": 7,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "59rev",
@@ -4015,7 +4219,8 @@
         },
         "ot_genic": 4,
         "ot_intergenic": 3,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "11rev",
@@ -4035,7 +4240,8 @@
         },
         "ot_genic": 4,
         "ot_intergenic": 5,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -4055,10 +4261,12 @@
         },
         "ot_genic": 5,
         "ot_intergenic": 2,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Miscanthus sinensis": {
     "genome": "pz12Msin71",
@@ -4091,7 +4299,8 @@
         },
         "ot_genic": 37,
         "ot_intergenic": 151,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "40rev",
@@ -4111,7 +4320,8 @@
         },
         "ot_genic": 159,
         "ot_intergenic": 487,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "34rev",
@@ -4131,7 +4341,8 @@
         },
         "ot_genic": 49,
         "ot_intergenic": 178,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "26rev",
@@ -4151,7 +4362,8 @@
         },
         "ot_genic": 271,
         "ot_intergenic": 397,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "59rev",
@@ -4171,7 +4383,8 @@
         },
         "ot_genic": 68,
         "ot_intergenic": 214,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67rev",
@@ -4191,7 +4404,8 @@
         },
         "ot_genic": 263,
         "ot_intergenic": 962,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "73rev",
@@ -4211,7 +4425,8 @@
         },
         "ot_genic": 93,
         "ot_intergenic": 231,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -4231,7 +4446,8 @@
         },
         "ot_genic": 68,
         "ot_intergenic": 199,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "11rev",
@@ -4251,7 +4467,8 @@
         },
         "ot_genic": 76,
         "ot_intergenic": 102,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -4271,11 +4488,13 @@
         },
         "ot_genic": 106,
         "ot_intergenic": 372,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
     "window_source": "exonic",
-    "exon_unverified": true
+    "exon_unverified": true,
+    "n_guides_repeat": 0
   },
   "Panicum miliaceum": {
     "genome": "GCA_003046395.2",
@@ -4308,7 +4527,8 @@
         },
         "ot_genic": 159,
         "ot_intergenic": 157,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "46rev",
@@ -4328,7 +4548,8 @@
         },
         "ot_genic": 42,
         "ot_intergenic": 170,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "34rev",
@@ -4348,7 +4569,8 @@
         },
         "ot_genic": 45,
         "ot_intergenic": 34,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "11rev",
@@ -4368,7 +4590,8 @@
         },
         "ot_genic": 81,
         "ot_intergenic": 48,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "59rev",
@@ -4388,7 +4611,8 @@
         },
         "ot_genic": 60,
         "ot_intergenic": 84,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "26rev",
@@ -4408,7 +4632,8 @@
         },
         "ot_genic": 298,
         "ot_intergenic": 140,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67rev",
@@ -4428,7 +4653,8 @@
         },
         "ot_genic": 243,
         "ot_intergenic": 147,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "73rev",
@@ -4448,7 +4674,8 @@
         },
         "ot_genic": 114,
         "ot_intergenic": 65,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -4468,7 +4695,8 @@
         },
         "ot_genic": 116,
         "ot_intergenic": 64,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -4488,10 +4716,12 @@
         },
         "ot_genic": 80,
         "ot_intergenic": 168,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Paspalum notatum": {
     "genome": "GCA_036689595.1",
@@ -4524,7 +4754,8 @@
         },
         "ot_genic": 77,
         "ot_intergenic": 103,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "46forw",
@@ -4544,7 +4775,8 @@
         },
         "ot_genic": 57,
         "ot_intergenic": 48,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "56rev",
@@ -4564,7 +4796,8 @@
         },
         "ot_genic": 50,
         "ot_intergenic": 59,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "55rev",
@@ -4584,7 +4817,8 @@
         },
         "ot_genic": 67,
         "ot_intergenic": 100,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "34rev",
@@ -4604,7 +4838,8 @@
         },
         "ot_genic": 42,
         "ot_intergenic": 54,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "59rev",
@@ -4624,7 +4859,8 @@
         },
         "ot_genic": 39,
         "ot_intergenic": 62,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "73rev",
@@ -4644,7 +4880,8 @@
         },
         "ot_genic": 60,
         "ot_intergenic": 59,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -4664,7 +4901,8 @@
         },
         "ot_genic": 71,
         "ot_intergenic": 38,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "11rev",
@@ -4684,7 +4922,8 @@
         },
         "ot_genic": 40,
         "ot_intergenic": 39,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "26rev",
@@ -4704,7 +4943,8 @@
         },
         "ot_genic": 76,
         "ot_intergenic": 120,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67rev",
@@ -4724,7 +4964,8 @@
         },
         "ot_genic": 180,
         "ot_intergenic": 242,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -4744,10 +4985,12 @@
         },
         "ot_genic": 42,
         "ot_intergenic": 26,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Pisum sativum": {
     "genome": "GCA_964186695.1",
@@ -4780,7 +5023,8 @@
         },
         "ot_genic": 5,
         "ot_intergenic": 2,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "46forw",
@@ -4800,7 +5044,8 @@
         },
         "ot_genic": 1,
         "ot_intergenic": 8,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "34rev",
@@ -4820,7 +5065,8 @@
         },
         "ot_genic": 11,
         "ot_intergenic": 54,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "60forw",
@@ -4840,7 +5086,8 @@
         },
         "ot_genic": 7,
         "ot_intergenic": 7,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "59rev",
@@ -4860,7 +5107,8 @@
         },
         "ot_genic": 13,
         "ot_intergenic": 20,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -4880,10 +5128,12 @@
         },
         "ot_genic": 27,
         "ot_intergenic": 523,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Populus deltoides": {
     "genome": "phy12pdeltoidesWV94v21",
@@ -4916,7 +5166,8 @@
         },
         "ot_genic": 10,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "59rev",
@@ -4936,7 +5187,8 @@
         },
         "ot_genic": 12,
         "ot_intergenic": 2,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "46rev",
@@ -4956,7 +5208,8 @@
         },
         "ot_genic": 7,
         "ot_intergenic": 4,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "11rev",
@@ -4976,10 +5229,12 @@
         },
         "ot_genic": 8,
         "ot_intergenic": 2,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Populus trichocarpa": {
     "genome": "pz12Ptrichocarpav41",
@@ -5012,7 +5267,8 @@
         },
         "ot_genic": 5,
         "ot_intergenic": 2,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "11rev",
@@ -5032,7 +5288,8 @@
         },
         "ot_genic": 10,
         "ot_intergenic": 2,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "59rev",
@@ -5052,7 +5309,8 @@
         },
         "ot_genic": 12,
         "ot_intergenic": 3,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -5072,10 +5330,12 @@
         },
         "ot_genic": 9,
         "ot_intergenic": 2,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Prunus persica": {
     "genome": "GCF_000346465.2",
@@ -5108,7 +5368,8 @@
         },
         "ot_genic": 9,
         "ot_intergenic": 6,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "85forw",
@@ -5128,7 +5389,8 @@
         },
         "ot_genic": 10,
         "ot_intergenic": 7,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -5148,7 +5410,8 @@
         },
         "ot_genic": 10,
         "ot_intergenic": 27,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "57forw",
@@ -5168,7 +5431,8 @@
         },
         "ot_genic": 5,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "60forw",
@@ -5188,7 +5452,8 @@
         },
         "ot_genic": 6,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -5208,7 +5473,8 @@
         },
         "ot_genic": 12,
         "ot_intergenic": 11,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "55rev",
@@ -5228,10 +5494,12 @@
         },
         "ot_genic": 12,
         "ot_intergenic": 14,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Rubus occidentalis": {
     "genome": "faRubOcc3",
@@ -5264,7 +5532,8 @@
         },
         "ot_genic": 1,
         "ot_intergenic": 5,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -5284,7 +5553,8 @@
         },
         "ot_genic": 5,
         "ot_intergenic": 13,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "73rev",
@@ -5304,7 +5574,8 @@
         },
         "ot_genic": 5,
         "ot_intergenic": 4,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "26rev",
@@ -5324,7 +5595,8 @@
         },
         "ot_genic": 9,
         "ot_intergenic": 9,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -5344,7 +5616,8 @@
         },
         "ot_genic": 5,
         "ot_intergenic": 8,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "34rev",
@@ -5364,7 +5637,8 @@
         },
         "ot_genic": 3,
         "ot_intergenic": 10,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "55rev",
@@ -5384,7 +5658,8 @@
         },
         "ot_genic": 4,
         "ot_intergenic": 5,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "57forw",
@@ -5404,7 +5679,8 @@
         },
         "ot_genic": 2,
         "ot_intergenic": 6,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "60forw",
@@ -5424,11 +5700,13 @@
         },
         "ot_genic": 4,
         "ot_intergenic": 7,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
     "window_source": "exonic",
-    "exon_unverified": true
+    "exon_unverified": true,
+    "n_guides_repeat": 0
   },
   "Setaria viridis": {
     "genome": "GCF_005286985.1",
@@ -5461,7 +5739,8 @@
         },
         "ot_genic": 54,
         "ot_intergenic": 20,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "40rev",
@@ -5481,7 +5760,8 @@
         },
         "ot_genic": 65,
         "ot_intergenic": 70,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "26rev",
@@ -5501,7 +5781,8 @@
         },
         "ot_genic": 86,
         "ot_intergenic": 36,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "34rev",
@@ -5521,7 +5802,8 @@
         },
         "ot_genic": 19,
         "ot_intergenic": 30,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "11rev",
@@ -5541,7 +5823,8 @@
         },
         "ot_genic": 54,
         "ot_intergenic": 70,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "55rev",
@@ -5561,7 +5844,8 @@
         },
         "ot_genic": 72,
         "ot_intergenic": 49,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "56rev",
@@ -5581,7 +5865,8 @@
         },
         "ot_genic": 45,
         "ot_intergenic": 64,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "59rev",
@@ -5601,7 +5886,8 @@
         },
         "ot_genic": 42,
         "ot_intergenic": 20,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "73rev",
@@ -5621,7 +5907,8 @@
         },
         "ot_genic": 57,
         "ot_intergenic": 34,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67rev",
@@ -5641,7 +5928,8 @@
         },
         "ot_genic": 151,
         "ot_intergenic": 92,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -5661,7 +5949,8 @@
         },
         "ot_genic": 67,
         "ot_intergenic": 13,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -5681,10 +5970,12 @@
         },
         "ot_genic": 47,
         "ot_intergenic": 23,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Solanum lycopersicum": {
     "genome": "faSolLyc",
@@ -5717,7 +6008,8 @@
         },
         "ot_genic": 25,
         "ot_intergenic": 16,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "55rev",
@@ -5737,7 +6029,8 @@
         },
         "ot_genic": 13,
         "ot_intergenic": 11,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "60forw",
@@ -5757,7 +6050,8 @@
         },
         "ot_genic": 11,
         "ot_intergenic": 3,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "57forw",
@@ -5777,7 +6071,8 @@
         },
         "ot_genic": 9,
         "ot_intergenic": 4,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "40rev",
@@ -5797,10 +6092,12 @@
         },
         "ot_genic": 7,
         "ot_intergenic": 5,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Solanum tuberosum": {
     "genome": "GCA_020169535.1",
@@ -5833,7 +6130,8 @@
         },
         "ot_genic": 7,
         "ot_intergenic": 5,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "40rev",
@@ -5853,7 +6151,8 @@
         },
         "ot_genic": 8,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "57forw",
@@ -5873,7 +6172,8 @@
         },
         "ot_genic": 11,
         "ot_intergenic": 4,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "60forw",
@@ -5893,7 +6193,8 @@
         },
         "ot_genic": 9,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -5913,10 +6214,12 @@
         },
         "ot_genic": 18,
         "ot_intergenic": 45,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Sorghum bicolor": {
     "genome": "GCF_000003195.3",
@@ -5949,7 +6252,8 @@
         },
         "ot_genic": 28,
         "ot_intergenic": 38,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "40rev",
@@ -5969,7 +6273,8 @@
         },
         "ot_genic": 86,
         "ot_intergenic": 75,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "55rev",
@@ -5989,7 +6294,8 @@
         },
         "ot_genic": 62,
         "ot_intergenic": 52,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "56rev",
@@ -6009,7 +6315,8 @@
         },
         "ot_genic": 64,
         "ot_intergenic": 58,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "11rev",
@@ -6029,7 +6336,8 @@
         },
         "ot_genic": 45,
         "ot_intergenic": 56,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "73rev",
@@ -6049,7 +6357,8 @@
         },
         "ot_genic": 63,
         "ot_intergenic": 35,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -6069,7 +6378,8 @@
         },
         "ot_genic": 68,
         "ot_intergenic": 36,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "26rev",
@@ -6089,7 +6399,8 @@
         },
         "ot_genic": 169,
         "ot_intergenic": 78,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "34rev",
@@ -6109,7 +6420,8 @@
         },
         "ot_genic": 48,
         "ot_intergenic": 35,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "59rev",
@@ -6129,7 +6441,8 @@
         },
         "ot_genic": 43,
         "ot_intergenic": 380,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67rev",
@@ -6149,7 +6462,8 @@
         },
         "ot_genic": 151,
         "ot_intergenic": 70,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -6169,10 +6483,12 @@
         },
         "ot_genic": 49,
         "ot_intergenic": 29,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Spinacia oleracea": {
     "genome": "GCF_002007265.1",
@@ -6205,7 +6521,8 @@
         },
         "ot_genic": 6,
         "ot_intergenic": 2,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "59rev",
@@ -6225,7 +6542,8 @@
         },
         "ot_genic": 7,
         "ot_intergenic": 2,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67forw",
@@ -6245,7 +6563,8 @@
         },
         "ot_genic": 7,
         "ot_intergenic": 7,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "73rev",
@@ -6265,7 +6584,8 @@
         },
         "ot_genic": 10,
         "ot_intergenic": 19,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -6285,7 +6605,8 @@
         },
         "ot_genic": 11,
         "ot_intergenic": 14,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "40rev",
@@ -6305,10 +6626,12 @@
         },
         "ot_genic": 7,
         "ot_intergenic": 4,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Thlaspi arvense": {
     "genome": "GCA_911865555.2",
@@ -6341,7 +6664,8 @@
         },
         "ot_genic": 4,
         "ot_intergenic": 2,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "55rev",
@@ -6361,7 +6685,8 @@
         },
         "ot_genic": 6,
         "ot_intergenic": 6,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -6381,7 +6706,8 @@
         },
         "ot_genic": 13,
         "ot_intergenic": 17,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "60forw",
@@ -6401,7 +6727,8 @@
         },
         "ot_genic": 4,
         "ot_intergenic": 6,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "26rev",
@@ -6421,7 +6748,8 @@
         },
         "ot_genic": 7,
         "ot_intergenic": 7,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "40rev",
@@ -6441,7 +6769,8 @@
         },
         "ot_genic": 4,
         "ot_intergenic": 6,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "46rev",
@@ -6461,7 +6790,8 @@
         },
         "ot_genic": 4,
         "ot_intergenic": 4,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "57forw",
@@ -6481,7 +6811,8 @@
         },
         "ot_genic": 3,
         "ot_intergenic": 10,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67forw",
@@ -6501,7 +6832,8 @@
         },
         "ot_genic": 8,
         "ot_intergenic": 13,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "34rev",
@@ -6521,10 +6853,12 @@
         },
         "ot_genic": 7,
         "ot_intergenic": 12,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Vicia faba": {
     "genome": "GCA_948472305.1",
@@ -6557,7 +6891,8 @@
         },
         "ot_genic": 11,
         "ot_intergenic": 22,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -6577,7 +6912,8 @@
         },
         "ot_genic": 11,
         "ot_intergenic": 31,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "26rev",
@@ -6597,11 +6933,13 @@
         },
         "ot_genic": 30,
         "ot_intergenic": 201,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
     "window_source": "exonic",
-    "genome_updated": true
+    "genome_updated": true,
+    "n_guides_repeat": 0
   },
   "Vigna unguiculata": {
     "genome": "GCF_004118075.1",
@@ -6634,7 +6972,8 @@
         },
         "ot_genic": 9,
         "ot_intergenic": 2,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "46rev",
@@ -6654,7 +6993,8 @@
         },
         "ot_genic": 13,
         "ot_intergenic": 9,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "57forw",
@@ -6674,7 +7014,8 @@
         },
         "ot_genic": 9,
         "ot_intergenic": 3,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -6694,10 +7035,12 @@
         },
         "ot_genic": 11,
         "ot_intergenic": 18,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Vitis vinifera": {
     "genome": "GCF_000003745.3",
@@ -6730,7 +7073,8 @@
         },
         "ot_genic": 15,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "60forw",
@@ -6750,7 +7094,8 @@
         },
         "ot_genic": 5,
         "ot_intergenic": 2,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "57forw",
@@ -6770,7 +7115,8 @@
         },
         "ot_genic": 14,
         "ot_intergenic": 3,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -6790,7 +7136,8 @@
         },
         "ot_genic": 8,
         "ot_intergenic": 3,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "85forw",
@@ -6810,7 +7157,8 @@
         },
         "ot_genic": 9,
         "ot_intergenic": 8,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67forw",
@@ -6830,7 +7178,8 @@
         },
         "ot_genic": 3,
         "ot_intergenic": 3,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -6850,7 +7199,8 @@
         },
         "ot_genic": 7,
         "ot_intergenic": 4,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "73rev",
@@ -6870,10 +7220,12 @@
         },
         "ot_genic": 7,
         "ot_intergenic": 14,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Zea mays": {
     "genome": "faZeaMays4",
@@ -6906,7 +7258,8 @@
         },
         "ot_genic": 17,
         "ot_intergenic": 7,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "46rev",
@@ -6926,7 +7279,8 @@
         },
         "ot_genic": 12,
         "ot_intergenic": 33,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "59rev",
@@ -6946,7 +7300,8 @@
         },
         "ot_genic": 15,
         "ot_intergenic": 78,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "40rev",
@@ -6966,7 +7321,8 @@
         },
         "ot_genic": 48,
         "ot_intergenic": 266,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "34rev",
@@ -6986,7 +7342,8 @@
         },
         "ot_genic": 25,
         "ot_intergenic": 105,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "11rev",
@@ -7006,7 +7363,8 @@
         },
         "ot_genic": 57,
         "ot_intergenic": 326,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "73rev",
@@ -7026,7 +7384,8 @@
         },
         "ot_genic": 69,
         "ot_intergenic": 105,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "26rev",
@@ -7046,7 +7405,8 @@
         },
         "ot_genic": 144,
         "ot_intergenic": 197,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -7066,10 +7426,12 @@
         },
         "ot_genic": 79,
         "ot_intergenic": 91,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Brassica rapa": {
     "genome": "GCF_000309985.2",
@@ -7102,7 +7464,8 @@
         },
         "ot_genic": 11,
         "ot_intergenic": 56,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "73forw",
@@ -7122,7 +7485,8 @@
         },
         "ot_genic": 25,
         "ot_intergenic": 2,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -7142,7 +7506,8 @@
         },
         "ot_genic": 58,
         "ot_intergenic": 16,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "57forw",
@@ -7162,7 +7527,8 @@
         },
         "ot_genic": 13,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "60forw",
@@ -7182,7 +7548,8 @@
         },
         "ot_genic": 13,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "67forw",
@@ -7202,186 +7569,12 @@
         },
         "ot_genic": 33,
         "ot_intergenic": 6,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
-  },
-  "Musa acuminata": {
-    "genome": "GCF_000313855.2",
-    "batch_id": "IjlQ50nUYaZWuq65IGQy",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=IjlQ50nUYaZWuq65IGQy",
-    "status": "ok",
-    "found_state": "found",
-    "found_in_genome": true,
-    "needs_genomic_dna": false,
-    "n_guides": 8,
-    "n_guides_in_genome": 8,
-    "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 142,
-    "guides": [
-      {
-        "guide_id": "46rev",
-        "target_seq": "AGTCTTCCTACGAGCGTGCTCGG",
-        "on_target_locus": "exon:XM_009386627.2",
-        "in_genome": true,
-        "mit_spec": 98.0,
-        "cfd_spec": 99.0,
-        "offtarget_count": 8,
-        "offtargets_in_table": 8,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 1,
-          "3": 2,
-          "4": 5
-        },
-        "ot_genic": 6,
-        "ot_intergenic": 2,
-        "ot_unannotated": 0
-      },
-      {
-        "guide_id": "11rev",
-        "target_seq": "CGTCACGGATCACATTCTCAAGG",
-        "on_target_locus": "exon:XM_009386627.2",
-        "in_genome": true,
-        "mit_spec": 90.0,
-        "cfd_spec": 96.0,
-        "offtarget_count": 22,
-        "offtargets_in_table": 22,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 1,
-          "3": 5,
-          "4": 16
-        },
-        "ot_genic": 14,
-        "ot_intergenic": 8,
-        "ot_unannotated": 0
-      },
-      {
-        "guide_id": "40rev",
-        "target_seq": "CCTACGAGCGTGCTCGGTGTAGG",
-        "on_target_locus": "exon:XM_009386627.2",
-        "in_genome": true,
-        "mit_spec": 87.0,
-        "cfd_spec": 97.0,
-        "offtarget_count": 14,
-        "offtargets_in_table": 14,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 2,
-          "3": 1,
-          "4": 11
-        },
-        "ot_genic": 12,
-        "ot_intergenic": 2,
-        "ot_unannotated": 0
-      },
-      {
-        "guide_id": "79forw",
-        "target_seq": "TAGGAAGACTGTCACCGCCATGG",
-        "on_target_locus": "exon:XM_009386627.2",
-        "in_genome": true,
-        "mit_spec": 78.0,
-        "cfd_spec": 96.0,
-        "offtarget_count": 21,
-        "offtargets_in_table": 21,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 3,
-          "3": 3,
-          "4": 15
-        },
-        "ot_genic": 16,
-        "ot_intergenic": 5,
-        "ot_unannotated": 0
-      },
-      {
-        "guide_id": "26rev",
-        "target_seq": "CGGTGTAGGTGACAGCGTCACGG",
-        "on_target_locus": "exon:XM_009386627.2",
-        "in_genome": true,
-        "mit_spec": 73.0,
-        "cfd_spec": 94.0,
-        "offtarget_count": 26,
-        "offtargets_in_table": 26,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 2,
-          "2": 8,
-          "3": 3,
-          "4": 13
-        },
-        "ot_genic": 20,
-        "ot_intergenic": 6,
-        "ot_unannotated": 0
-      },
-      {
-        "guide_id": "60forw",
-        "target_seq": "CCTACACCGAGCACGCTCGTAGG",
-        "on_target_locus": "exon:XM_009386627.2",
-        "in_genome": true,
-        "mit_spec": 55.0,
-        "cfd_spec": 98.0,
-        "offtarget_count": 7,
-        "offtargets_in_table": 7,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 2,
-          "2": 1,
-          "3": 0,
-          "4": 4
-        },
-        "ot_genic": 4,
-        "ot_intergenic": 3,
-        "ot_unannotated": 0
-      },
-      {
-        "guide_id": "76rev",
-        "target_seq": "CAGAGCATACACGACGTCCATGG",
-        "on_target_locus": "",
-        "in_genome": true,
-        "mit_spec": 51.0,
-        "cfd_spec": 96.0,
-        "offtarget_count": 22,
-        "offtargets_in_table": 22,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 1,
-          "2": 2,
-          "3": 4,
-          "4": 15
-        },
-        "ot_genic": 20,
-        "ot_intergenic": 2,
-        "ot_unannotated": 0
-      },
-      {
-        "guide_id": "73rev",
-        "target_seq": "AGCATACACGACGTCCATGGCGG",
-        "on_target_locus": "",
-        "in_genome": true,
-        "mit_spec": 40.0,
-        "cfd_spec": 95.0,
-        "offtarget_count": 22,
-        "offtargets_in_table": 22,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 2,
-          "2": 5,
-          "3": 6,
-          "4": 9
-        },
-        "ot_genic": 18,
-        "ot_intergenic": 4,
-        "ot_unannotated": 0
-      }
-    ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Arabidopsis thaliana": {
     "genome": "ensAraTha",
@@ -7414,7 +7607,8 @@
         },
         "ot_genic": 5,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "57forw",
@@ -7434,7 +7628,8 @@
         },
         "ot_genic": 7,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "60forw",
@@ -7454,7 +7649,8 @@
         },
         "ot_genic": 7,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "76rev",
@@ -7474,7 +7670,8 @@
         },
         "ot_genic": 10,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "79forw",
@@ -7494,7 +7691,8 @@
         },
         "ot_genic": 9,
         "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
         "guide_id": "73rev",
@@ -7514,167 +7712,409 @@
         },
         "ot_genic": 8,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
     "window_source": "exonic",
-    "exon_unverified": true
+    "exon_unverified": true,
+    "n_guides_repeat": 0
   },
-  "Phaseolus vulgaris": {
-    "genome": "ph13PhaVul",
-    "batch_id": "iK7ejpRBleJb5ZjNnRch",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=iK7ejpRBleJb5ZjNnRch",
+  "Musa acuminata": {
+    "genome": "GCF_000313855.2",
+    "pam": "NGG",
+    "in_genome_basis": "mit_spec",
+    "batch_id": "zemiIFdrvWndLlN5zH2f",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=zemiIFdrvWndLlN5zH2f",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
     "needs_genomic_dna": false,
-    "n_guides": 7,
-    "n_guides_in_genome": 7,
+    "n_guides": 8,
+    "n_guides_in_genome": 8,
     "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 117,
+    "ot_total_all_guides": 135,
     "guides": [
       {
-        "guide_id": "40rev",
-        "target_seq": "GCGGCGAGCGTGCTCGGTATAGG",
-        "on_target_locus": "exon:PvLabOv.03G141600.1.v1.1",
+        "guide_id": "46rev",
+        "target_seq": "AGTCTTCCTACGAGCGTGCTCGG",
+        "on_target_locus": "exon:XM_009386627.2",
         "in_genome": true,
-        "mit_spec": 100.0,
-        "cfd_spec": 100.0,
-        "offtarget_count": 0,
-        "offtargets_in_table": 0,
+        "mit_spec": 98.0,
+        "cfd_spec": 99.0,
+        "offtarget_count": 8,
+        "offtargets_in_table": 8,
         "ot_by_mismatch": {
           "0": 0,
           "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
+          "2": 1,
+          "3": 2,
+          "4": 5
         },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_genic": 6,
+        "ot_intergenic": 2,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
-        "guide_id": "46rev",
-        "target_seq": "GGTCTTGCGGCGAGCGTGCTCGG",
-        "on_target_locus": "exon:PvLabOv.03G141600.1.v1.1",
+        "guide_id": "11rev",
+        "target_seq": "CGTCACGGATCACATTCTCAAGG",
+        "on_target_locus": "exon:XM_009386627.2",
         "in_genome": true,
-        "mit_spec": 97.0,
-        "cfd_spec": 100.0,
+        "mit_spec": 90.0,
+        "cfd_spec": 96.0,
+        "offtarget_count": 22,
+        "offtargets_in_table": 22,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 0,
+          "2": 1,
+          "3": 5,
+          "4": 16
+        },
+        "ot_genic": 14,
+        "ot_intergenic": 8,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "40rev",
+        "target_seq": "CCTACGAGCGTGCTCGGTGTAGG",
+        "on_target_locus": "exon:XM_009386627.2",
+        "in_genome": true,
+        "mit_spec": 87.0,
+        "cfd_spec": 97.0,
+        "offtarget_count": 14,
+        "offtargets_in_table": 14,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 0,
+          "2": 2,
+          "3": 1,
+          "4": 11
+        },
+        "ot_genic": 12,
+        "ot_intergenic": 2,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "79forw",
+        "target_seq": "TAGGAAGACTGTCACCGCCATGG",
+        "on_target_locus": "exon:XM_009386627.2",
+        "in_genome": true,
+        "mit_spec": 78.0,
+        "cfd_spec": 96.0,
+        "offtarget_count": 21,
+        "offtargets_in_table": 21,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 0,
+          "2": 3,
+          "3": 3,
+          "4": 15
+        },
+        "ot_genic": 16,
+        "ot_intergenic": 5,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "26rev",
+        "target_seq": "CGGTGTAGGTGACAGCGTCACGG",
+        "on_target_locus": "exon:XM_009386627.2",
+        "in_genome": true,
+        "mit_spec": 73.0,
+        "cfd_spec": 94.0,
+        "offtarget_count": 26,
+        "offtargets_in_table": 26,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 2,
+          "2": 8,
+          "3": 3,
+          "4": 13
+        },
+        "ot_genic": 20,
+        "ot_intergenic": 6,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "76rev",
+        "target_seq": "CAGAGCGTACACGACGTCCATGG",
+        "on_target_locus": "exon:XM_009386627.2",
+        "in_genome": true,
+        "mit_spec": 68.0,
+        "cfd_spec": 96.0,
+        "offtarget_count": 17,
+        "offtargets_in_table": 17,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 0,
+          "2": 3,
+          "3": 11,
+          "4": 3
+        },
+        "ot_genic": 17,
+        "ot_intergenic": 0,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "60forw",
+        "target_seq": "CCTACACCGAGCACGCTCGTAGG",
+        "on_target_locus": "exon:XM_009386627.2",
+        "in_genome": true,
+        "mit_spec": 55.0,
+        "cfd_spec": 98.0,
+        "offtarget_count": 7,
+        "offtargets_in_table": 7,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 2,
+          "2": 1,
+          "3": 0,
+          "4": 4
+        },
+        "ot_genic": 4,
+        "ot_intergenic": 3,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "73rev",
+        "target_seq": "AGCGTACACGACGTCCATGGCGG",
+        "on_target_locus": "exon:XM_009386627.2",
+        "in_genome": true,
+        "mit_spec": 38.0,
+        "cfd_spec": 95.0,
         "offtarget_count": 20,
         "offtargets_in_table": 20,
         "ot_by_mismatch": {
           "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 20
+          "1": 2,
+          "2": 7,
+          "3": 4,
+          "4": 7
         },
-        "ot_genic": 1,
-        "ot_intergenic": 19,
-        "ot_unannotated": 0
-      },
+        "ot_genic": 18,
+        "ot_intergenic": 2,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      }
+    ],
+    "window_source": "exonic",
+    "exon_unverified": true,
+    "n_guides_repeat": 0
+  },
+  "Phaseolus vulgaris": {
+    "genome": "ph13PhaVul",
+    "pam": "NGG",
+    "in_genome_basis": "mit_spec",
+    "batch_id": "CLaWKH7X199tf7xQpGcg",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=CLaWKH7X199tf7xQpGcg",
+    "status": "ok",
+    "found_state": "found",
+    "found_in_genome": true,
+    "needs_genomic_dna": false,
+    "n_guides": 9,
+    "n_guides_in_genome": 9,
+    "n_guides_not_in_genome": 0,
+    "ot_total_all_guides": 126,
+    "guides": [
       {
-        "guide_id": "59rev",
-        "target_seq": "CCATGGCGGTGACGGTCTTGCGG",
-        "on_target_locus": "exon:PvLabOv.03G141600.1.v1.1",
+        "guide_id": "67forw",
+        "target_seq": "CGAGCACGCCAGGAGGAAGACGG",
+        "on_target_locus": "exon:PvLabOv.11G163800.1.v1.1",
         "in_genome": true,
-        "mit_spec": 97.0,
-        "cfd_spec": 99.0,
-        "offtarget_count": 9,
-        "offtargets_in_table": 9,
+        "mit_spec": 48.0,
+        "cfd_spec": 95.0,
+        "offtarget_count": 26,
+        "offtargets_in_table": 26,
         "ot_by_mismatch": {
-          "0": 0,
+          "0": 1,
           "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 9
-        },
-        "ot_genic": 1,
-        "ot_intergenic": 8,
-        "ot_unannotated": 0
-      },
-      {
-        "guide_id": "79forw",
-        "target_seq": "CCGCAAGACCGTCACCGCCATGG",
-        "on_target_locus": "exon:PvLabOv.03G141600.1.v1.1",
-        "in_genome": true,
-        "mit_spec": 96.0,
-        "cfd_spec": 99.0,
-        "offtarget_count": 5,
-        "offtargets_in_table": 5,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 2,
-          "4": 3
+          "2": 3,
+          "3": 4,
+          "4": 18
         },
         "ot_genic": 4,
-        "ot_intergenic": 1,
-        "ot_unannotated": 0
+        "ot_intergenic": 22,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
-        "guide_id": "73rev",
-        "target_seq": "GGCGTAGACAACGTCCATGGCGG",
-        "on_target_locus": "",
+        "guide_id": "73forw",
+        "target_seq": "CGCCAGGAGGAAGACGGTTACGG",
+        "on_target_locus": "exon:PvLabOv.11G163800.1.v1.1",
         "in_genome": true,
-        "mit_spec": 65.0,
-        "cfd_spec": 98.0,
-        "offtarget_count": 56,
-        "offtargets_in_table": 56,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 2,
-          "2": 0,
-          "3": 2,
-          "4": 52
-        },
-        "ot_genic": 8,
-        "ot_intergenic": 48,
-        "ot_unannotated": 0
-      },
-      {
-        "guide_id": "67rev",
-        "target_seq": "GACAACGTCCATGGCGGTGACGG",
-        "on_target_locus": "",
-        "in_genome": true,
-        "mit_spec": 57.0,
-        "cfd_spec": 97.0,
-        "offtarget_count": 15,
-        "offtargets_in_table": 15,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 1,
-          "2": 1,
-          "3": 4,
-          "4": 9
-        },
-        "ot_genic": 12,
-        "ot_intergenic": 3,
-        "ot_unannotated": 0
-      },
-      {
-        "guide_id": "76rev",
-        "target_seq": "GAGGGCGTAGACAACGTCCATGG",
-        "on_target_locus": "",
-        "in_genome": true,
-        "mit_spec": 47.0,
+        "mit_spec": 45.0,
         "cfd_spec": 97.0,
         "offtarget_count": 12,
         "offtargets_in_table": 12,
         "ot_by_mismatch": {
-          "0": 0,
-          "1": 2,
-          "2": 0,
+          "0": 1,
+          "1": 1,
+          "2": 3,
           "3": 0,
+          "4": 7
+        },
+        "ot_genic": 10,
+        "ot_intergenic": 2,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "55rev",
+        "target_seq": "GGCCGTAACCGTCTTCCTCCTGG",
+        "on_target_locus": "exon:PvLabOv.11G163800.1.v1.1",
+        "in_genome": true,
+        "mit_spec": 34.0,
+        "cfd_spec": 98.0,
+        "offtarget_count": 8,
+        "offtargets_in_table": 8,
+        "ot_by_mismatch": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 3,
+          "4": 2
+        },
+        "ot_genic": 7,
+        "ot_intergenic": 1,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "40rev",
+        "target_seq": "CCTCCTGGCGTGCTCGGTATAGG",
+        "on_target_locus": "exon:PvLabOv.11G163800.1.v1.1",
+        "in_genome": true,
+        "mit_spec": 33.0,
+        "cfd_spec": 97.0,
+        "offtarget_count": 7,
+        "offtargets_in_table": 7,
+        "ot_by_mismatch": {
+          "0": 2,
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 2
+        },
+        "ot_genic": 6,
+        "ot_intergenic": 1,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "57forw",
+        "target_seq": "TGACCTATACCGAGCACGCCAGG",
+        "on_target_locus": "exon:PvLabOv.11G163800.1.v1.1",
+        "in_genome": true,
+        "mit_spec": 33.0,
+        "cfd_spec": 97.0,
+        "offtarget_count": 13,
+        "offtargets_in_table": 13,
+        "ot_by_mismatch": {
+          "0": 2,
+          "1": 0,
+          "2": 0,
+          "3": 1,
           "4": 10
         },
+        "ot_genic": 8,
+        "ot_intergenic": 5,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "60forw",
+        "target_seq": "CCTATACCGAGCACGCCAGGAGG",
+        "on_target_locus": "exon:PvLabOv.11G163800.1.v1.1",
+        "in_genome": true,
+        "mit_spec": 33.0,
+        "cfd_spec": 96.0,
+        "offtarget_count": 9,
+        "offtargets_in_table": 9,
+        "ot_by_mismatch": {
+          "0": 2,
+          "1": 0,
+          "2": 0,
+          "3": 6,
+          "4": 1
+        },
         "ot_genic": 9,
+        "ot_intergenic": 0,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "76rev",
+        "target_seq": "CAGCGCATACACAACGTCCATGG",
+        "on_target_locus": "exon:PvLabOv.11G163800.1.v1.1",
+        "in_genome": true,
+        "mit_spec": 33.0,
+        "cfd_spec": 97.0,
+        "offtarget_count": 9,
+        "offtargets_in_table": 9,
+        "ot_by_mismatch": {
+          "0": 2,
+          "1": 0,
+          "2": 1,
+          "3": 1,
+          "4": 5
+        },
+        "ot_genic": 6,
         "ot_intergenic": 3,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "79forw",
+        "target_seq": "GAGGAAGACGGTTACGGCCATGG",
+        "on_target_locus": "exon:PvLabOv.11G163800.1.v1.1",
+        "in_genome": true,
+        "mit_spec": 33.0,
+        "cfd_spec": 97.0,
+        "offtarget_count": 18,
+        "offtargets_in_table": 18,
+        "ot_by_mismatch": {
+          "0": 1,
+          "1": 1,
+          "2": 2,
+          "3": 5,
+          "4": 9
+        },
+        "ot_genic": 13,
+        "ot_intergenic": 5,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "46rev",
+        "target_seq": "CGTCTTCCTCCTGGCGTGCTCGG",
+        "on_target_locus": "exon:PvLabOv.11G163800.1.v1.1",
+        "in_genome": true,
+        "mit_spec": 32.0,
+        "cfd_spec": 97.0,
+        "offtarget_count": 24,
+        "offtargets_in_table": 24,
+        "ot_by_mismatch": {
+          "0": 1,
+          "1": 1,
+          "2": 4,
+          "3": 0,
+          "4": 18
+        },
+        "ot_genic": 10,
+        "ot_intergenic": 14,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
     "window_source": "exonic",
-    "exon_unverified": true
+    "exon_unverified": true,
+    "n_guides_repeat": 0
   }
 }

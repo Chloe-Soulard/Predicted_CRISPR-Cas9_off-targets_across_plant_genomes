@@ -3,8 +3,8 @@
     "genome": "GCF_002575655.3",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "rZxihedtOQUOAqBooVh0",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=rZxihedtOQUOAqBooVh0",
+    "batch_id": "zrySzUzU0JVZroezsHaL",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=zrySzUzU0JVZroezsHaL",
     "status": "ok",
     "found_state": "no_guides",
     "found_in_genome": false,
@@ -14,14 +14,15 @@
     "n_guides_not_in_genome": 0,
     "ot_total_all_guides": 0,
     "guides": [],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Arabidopsis thaliana": {
     "genome": "ensAraTha",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "PdjpEWM1fctCRyKA9BAo",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=PdjpEWM1fctCRyKA9BAo",
+    "batch_id": "POaDTh4DWIOaHxuVOVtt",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=POaDTh4DWIOaHxuVOVtt",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
@@ -32,54 +33,57 @@
     "ot_total_all_guides": 17,
     "guides": [
       {
-        "guide_id": "8forw",
+        "guide_id": "9forw",
         "target_seq": "TTTCGTGAAAACGCTAACCGGCAAGAC",
         "on_target_locus": "exon:RPL40A",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 4,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 4,
         "ot_by_mismatch": {
           "0": 0,
           "1": 0,
           "2": 0,
           "3": 0,
-          "4": 0
+          "4": 4
         },
-        "ot_genic": 0,
+        "ot_genic": 4,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
-        "guide_id": "95rev",
+        "guide_id": "96rev",
         "target_seq": "TTTGTCCTGGATCTTGGCCTTGACATT",
         "on_target_locus": "exon:RPL40A",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 13,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 13,
         "ot_by_mismatch": {
           "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
+          "1": 2,
+          "2": 3,
+          "3": 5,
+          "4": 3
         },
-        "ot_genic": 0,
+        "ot_genic": 13,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Asparagus officinalis": {
     "genome": "GCF_001876935.1",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "ognvrHJYOyLQTNPfDKbI",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=ognvrHJYOyLQTNPfDKbI",
+    "batch_id": "2yh5ymI1Kg7T1UxYjbBf",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=2yh5ymI1Kg7T1UxYjbBf",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
@@ -90,55 +94,58 @@
     "ot_total_all_guides": 4,
     "guides": [
       {
-        "guide_id": "29rev",
+        "guide_id": "30rev",
         "target_seq": "TTTCCCCGTTAGGGTTTTCACGAAGAT",
         "on_target_locus": "exon:XM_020404793.1",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 1,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 1,
         "ot_by_mismatch": {
           "0": 0,
           "1": 0,
           "2": 0,
-          "3": 0,
+          "3": 1,
           "4": 0
         },
-        "ot_genic": 0,
+        "ot_genic": 1,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
-        "guide_id": "95rev",
+        "guide_id": "96rev",
         "target_seq": "TTTGTCCTGGATCTTGGCCTTGACATT",
         "on_target_locus": "exon:XM_020404793.1",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 3,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 3,
         "ot_by_mismatch": {
           "0": 0,
-          "1": 0,
+          "1": 2,
           "2": 0,
-          "3": 0,
+          "3": 1,
           "4": 0
         },
-        "ot_genic": 0,
+        "ot_genic": 3,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
     "window_source": "exonic",
-    "exon_unverified": true
+    "exon_unverified": true,
+    "n_guides_repeat": 0
   },
   "Beta vulgaris": {
     "genome": "GCF_000511025.2",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "Nk3CuevqVgBVEYEwUc2L",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=Nk3CuevqVgBVEYEwUc2L",
+    "batch_id": "ZXcMSxYTnMGiPtaZ14Ur",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=ZXcMSxYTnMGiPtaZ14Ur",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
@@ -149,54 +156,57 @@
     "ot_total_all_guides": 26,
     "guides": [
       {
-        "guide_id": "51rev",
+        "guide_id": "52rev",
         "target_seq": "TTTCGACCTCAAGAGTGATGGTCTTGC",
         "on_target_locus": "exon:XM_010685391.2",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 14,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 14,
         "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
+          "0": 5,
+          "1": 2,
           "2": 0,
-          "3": 0,
-          "4": 0
+          "3": 4,
+          "4": 3
         },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_genic": 7,
+        "ot_intergenic": 7,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
-        "guide_id": "95rev",
+        "guide_id": "96rev",
         "target_seq": "TTTGTCTTGAATCTTAGCCTTGACATT",
         "on_target_locus": "exon:XM_010685391.2",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 12,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 12,
         "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
+          "0": 3,
+          "1": 3,
           "2": 0,
           "3": 0,
-          "4": 0
+          "4": 6
         },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_genic": 4,
+        "ot_intergenic": 8,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Brachypodium distachyon": {
     "genome": "pz12Bd213v11",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "0jzeCFrnvWBgGZLGVyMI",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=0jzeCFrnvWBgGZLGVyMI",
+    "batch_id": "QUe6Yel1WDKqZkL9DThH",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=QUe6Yel1WDKqZkL9DThH",
     "status": "ok",
     "found_state": "no_guides",
     "found_in_genome": false,
@@ -206,14 +216,16 @@
     "n_guides_not_in_genome": 0,
     "ot_total_all_guides": 0,
     "guides": [],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "exon_unverified": true,
+    "n_guides_repeat": 0
   },
   "Brassica napus": {
     "genome": "GCF_000686985.2",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "wH1bett4RzEd6BJtqsRZ",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=wH1bett4RzEd6BJtqsRZ",
+    "batch_id": "MO0GR0WqdtU9LJn4atey",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=MO0GR0WqdtU9LJn4atey",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
@@ -224,92 +236,159 @@
     "ot_total_all_guides": 25,
     "guides": [
       {
-        "guide_id": "95rev",
+        "guide_id": "96rev",
         "target_seq": "TTTGTCTTGGATCTTGGCCTTGACATT",
         "on_target_locus": "exon:XM_013807678.2",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 25,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 25,
+        "ot_by_mismatch": {
+          "0": 3,
+          "1": 8,
+          "2": 2,
+          "3": 3,
+          "4": 9
+        },
+        "ot_genic": 24,
+        "ot_intergenic": 1,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      }
+    ],
+    "window_source": "exonic",
+    "n_guides_repeat": 0
+  },
+  "Brassica rapa": {
+    "genome": "GCF_000309985.2",
+    "pam": "TTTV",
+    "in_genome_basis": "window",
+    "batch_id": "Tb63VF10ikJazDwIk0cd",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=Tb63VF10ikJazDwIk0cd",
+    "status": "ok",
+    "found_state": "found",
+    "found_in_genome": true,
+    "needs_genomic_dna": false,
+    "n_guides": 1,
+    "n_guides_in_genome": 1,
+    "n_guides_not_in_genome": 0,
+    "ot_total_all_guides": 1,
+    "guides": [
+      {
+        "guide_id": "94rev",
+        "target_seq": "TTTCTTGGATCTTGGCCTTGACATTGT",
+        "on_target_locus": "exon:XR_004457818.1/XM_033290868.1/XR_004457825.1/XR_004457824.1/XR_004457823.1/XR_004457822.1/XR_004457821.1/XR_004457820.1/XR_004457819.1",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 1,
+        "offtargets_in_table": 1,
         "ot_by_mismatch": {
           "0": 0,
           "1": 0,
           "2": 0,
           "3": 0,
-          "4": 0
+          "4": 1
         },
-        "ot_genic": 0,
+        "ot_genic": 1,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Camelina sativa": {
     "genome": "faCamSat3",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "k6FiVaomUynWSBQQ2dfN",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=k6FiVaomUynWSBQQ2dfN",
+    "batch_id": "nsCmkESKFPPAh5bxNMeR",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=nsCmkESKFPPAh5bxNMeR",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
     "needs_genomic_dna": false,
-    "n_guides": 2,
-    "n_guides_in_genome": 2,
+    "n_guides": 3,
+    "n_guides_in_genome": 3,
     "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 57,
+    "ot_total_all_guides": 52,
     "guides": [
       {
-        "guide_id": "21forw",
-        "target_seq": "TTTGGAGGTTGAGAGCTCAGACACGAT",
-        "on_target_locus": "intergenic:Csa13g023520.1-Csa13g023530.1",
+        "guide_id": "9forw",
+        "target_seq": "TTTCGTGAAAACACTAACTGGGAAAAC",
+        "on_target_locus": "intergenic:Csa06g038740.1-Csa06g038750.1",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
-        "offtarget_count": 47,
-        "offtargets_in_table": 0,
+        "offtarget_count": 12,
+        "offtargets_in_table": 12,
         "ot_by_mismatch": {
-          "0": 0,
+          "0": 2,
           "1": 0,
           "2": 0,
-          "3": 0,
-          "4": 0
+          "3": 9,
+          "4": 1
         },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_genic": 2,
+        "ot_intergenic": 10,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
-        "guide_id": "62rev",
-        "target_seq": "TTTGCCTTGACGTTATCGATCGTGTCT",
-        "on_target_locus": "intergenic:Csa13g023520.1-Csa13g023530.1",
+        "guide_id": "30rev",
+        "target_seq": "TTTCCCAGTTAGTGTTTTCACGAAAAT",
+        "on_target_locus": "intergenic:Csa06g038740.1-Csa06g038750.1",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
-        "offtarget_count": 10,
-        "offtargets_in_table": 0,
+        "offtarget_count": 3,
+        "offtargets_in_table": 3,
         "ot_by_mismatch": {
-          "0": 0,
+          "0": 2,
           "1": 0,
           "2": 0,
-          "3": 0,
+          "3": 1,
           "4": 0
         },
         "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_intergenic": 3,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "78rev",
+        "target_seq": "TTTGACATTGTCGATGGTGTCACTGCT",
+        "on_target_locus": "intergenic:Csa06g038740.1-Csa06g038750.1",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 37,
+        "offtargets_in_table": 37,
+        "ot_by_mismatch": {
+          "0": 2,
+          "1": 5,
+          "2": 4,
+          "3": 12,
+          "4": 14
+        },
+        "ot_genic": 7,
+        "ot_intergenic": 30,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "exon_unverified": true,
+    "n_guides_repeat": 0
   },
   "Ceratopteris richardii": {
     "genome": "GCA_020310875.1",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "xiI7eAwTIMvLJWgQkgcs",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=xiI7eAwTIMvLJWgQkgcs",
+    "batch_id": "a41BPv3sRkkSyIqStQNg",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=a41BPv3sRkkSyIqStQNg",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
@@ -320,74 +399,78 @@
     "ot_total_all_guides": 77,
     "guides": [
       {
-        "guide_id": "28rev",
+        "guide_id": "29rev",
         "target_seq": "TTTCCCGTGAGAGTCTTTACGAAGATC",
         "on_target_locus": "exon:rna-gnl-WGS:JAIKUY-Ceric.27G040600.1",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 12,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 12,
         "ot_by_mismatch": {
           "0": 0,
           "1": 0,
           "2": 0,
-          "3": 0,
-          "4": 0
+          "3": 6,
+          "4": 6
         },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_genic": 11,
+        "ot_intergenic": 1,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
-        "guide_id": "77rev",
+        "guide_id": "78rev",
         "target_seq": "TTTCACATTATCGATAGTATCACTGCT",
         "on_target_locus": "exon:rna-gnl-WGS:JAIKUY-Ceric.27G040600.1",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 13,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 13,
         "ot_by_mismatch": {
           "0": 0,
           "1": 0,
-          "2": 0,
+          "2": 4,
           "3": 0,
-          "4": 0
+          "4": 9
         },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_genic": 8,
+        "ot_intergenic": 5,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
-        "guide_id": "95rev",
+        "guide_id": "96rev",
         "target_seq": "TTTGTCTTGGATCTTAGTTTTCACATT",
         "on_target_locus": "exon:rna-gnl-WGS:JAIKUY-Ceric.27G040600.1",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 52,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 52,
         "ot_by_mismatch": {
           "0": 0,
           "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
+          "2": 5,
+          "3": 22,
+          "4": 25
         },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_genic": 22,
+        "ot_intergenic": 30,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Chenopodium quinoa": {
     "genome": "GCF_001683475.1",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "OaTB7Sxv4KLnPOHN0FWj",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=OaTB7Sxv4KLnPOHN0FWj",
+    "batch_id": "KpmULEYTAS7RXTZ6R0NU",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=KpmULEYTAS7RXTZ6R0NU",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
@@ -398,54 +481,57 @@
     "ot_total_all_guides": 28,
     "guides": [
       {
-        "guide_id": "51rev",
+        "guide_id": "52rev",
         "target_seq": "TTTCGACCTCAAGGGTGATGGTCTTAC",
         "on_target_locus": "exon:XM_021909469.1",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 12,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 12,
         "ot_by_mismatch": {
-          "0": 0,
+          "0": 1,
           "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
+          "2": 3,
+          "3": 5,
+          "4": 3
         },
-        "ot_genic": 0,
+        "ot_genic": 12,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
-        "guide_id": "95rev",
+        "guide_id": "96rev",
         "target_seq": "TTTGTCTTGGATCTTGGCCTTGACATT",
         "on_target_locus": "exon:XM_021909469.1",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 16,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 16,
         "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
+          "0": 1,
+          "1": 1,
+          "2": 4,
+          "3": 3,
+          "4": 7
         },
-        "ot_genic": 0,
+        "ot_genic": 16,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Cicer arietinum": {
     "genome": "GCF_000331145.1",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "wtxGZERvYYl79UTofD8V",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=wtxGZERvYYl79UTofD8V",
+    "batch_id": "6iaqoAQXMSVGJ6npgWEa",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=6iaqoAQXMSVGJ6npgWEa",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
@@ -456,94 +542,99 @@
     "ot_total_all_guides": 20,
     "guides": [
       {
-        "guide_id": "29rev",
+        "guide_id": "30rev",
         "target_seq": "TTTGCCGGTTAGGGTTTTGACGAAGAT",
         "on_target_locus": "exon:XM_004497433.3",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 5,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 5,
         "ot_by_mismatch": {
           "0": 0,
-          "1": 0,
-          "2": 0,
+          "1": 2,
+          "2": 1,
           "3": 0,
-          "4": 0
+          "4": 2
         },
-        "ot_genic": 0,
+        "ot_genic": 5,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
-        "guide_id": "77rev",
+        "guide_id": "78rev",
         "target_seq": "TTTCACGTTGTCGATTGTGTCGGAGGA",
         "on_target_locus": "exon:XM_004497433.3",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 4,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 4,
         "ot_by_mismatch": {
           "0": 0,
-          "1": 0,
-          "2": 0,
+          "1": 1,
+          "2": 1,
           "3": 0,
-          "4": 0
+          "4": 2
         },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_genic": 3,
+        "ot_intergenic": 1,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
-        "guide_id": "83rev",
+        "guide_id": "84rev",
         "target_seq": "TTTGGCTTTCACGTTGTCGATTGTGTC",
         "on_target_locus": "exon:XM_004497433.3",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 4,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 4,
         "ot_by_mismatch": {
           "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1
         },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_genic": 3,
+        "ot_intergenic": 1,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
-        "guide_id": "95rev",
+        "guide_id": "96rev",
         "target_seq": "TTTGTCTTGGATTTTGGCTTTCACGTT",
         "on_target_locus": "exon:XM_004497433.3",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 7,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 7,
         "ot_by_mismatch": {
           "0": 0,
           "1": 0,
           "2": 0,
-          "3": 0,
-          "4": 0
+          "3": 2,
+          "4": 5
         },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_genic": 6,
+        "ot_intergenic": 1,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Coffea canephora": {
     "genome": "GCA_900059795.1",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "v7UhtZ3j5ggZmjwyyh32",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=v7UhtZ3j5ggZmjwyyh32",
+    "batch_id": "zueqIBYY7h0csuH0jVMv",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=zueqIBYY7h0csuH0jVMv",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
@@ -554,54 +645,57 @@
     "ot_total_all_guides": 47,
     "guides": [
       {
-        "guide_id": "28rev",
+        "guide_id": "29rev",
         "target_seq": "TTTCCGGTCAGGGTTTTGACGAAGATC",
         "on_target_locus": "exon:GSCOC_T00027666001",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 9,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 9,
         "ot_by_mismatch": {
           "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
+          "1": 1,
+          "2": 1,
+          "3": 2,
+          "4": 5
         },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_genic": 6,
+        "ot_intergenic": 3,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
-        "guide_id": "83rev",
+        "guide_id": "84rev",
         "target_seq": "TTTGGCCTTGACATTGTCGATGGTGTC",
         "on_target_locus": "exon:GSCOC_T00027666001",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 38,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 38,
         "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
+          "0": 7,
+          "1": 13,
+          "2": 6,
+          "3": 2,
+          "4": 10
         },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_genic": 36,
+        "ot_intergenic": 2,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Corylus avellana": {
     "genome": "GCF_901000735.1",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "a0jkevIvif7XZec38jwV",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=a0jkevIvif7XZec38jwV",
+    "batch_id": "zPn6hKXauRkzkpuGqC1h",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=zPn6hKXauRkzkpuGqC1h",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
@@ -612,34 +706,36 @@
     "ot_total_all_guides": 7,
     "guides": [
       {
-        "guide_id": "82rev",
+        "guide_id": "83rev",
         "target_seq": "TTTGCCTTGACATTATCGATGGTGTCA",
         "on_target_locus": "exon:XM_059578232.1",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 7,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 7,
         "ot_by_mismatch": {
           "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
+          "1": 1,
+          "2": 2,
+          "3": 1,
+          "4": 3
         },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_genic": 6,
+        "ot_intergenic": 1,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Cucumis sativus": {
     "genome": "GCF_000004075.3",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "wgz14L20K3tNl25idpsw",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=wgz14L20K3tNl25idpsw",
+    "batch_id": "jtDzWsq5VOLCeJKE2U0S",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=jtDzWsq5VOLCeJKE2U0S",
     "status": "ok",
     "found_state": "no_guides",
     "found_in_genome": false,
@@ -649,53 +745,98 @@
     "n_guides_not_in_genome": 0,
     "ot_total_all_guides": 0,
     "guides": [],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Daucus carota": {
     "genome": "GCF_001625215.1",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "GgJ4u2k3egCDcL2B5tgN",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=GgJ4u2k3egCDcL2B5tgN",
+    "batch_id": "ULQdoqkYNqQWnMZuyLjr",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=ULQdoqkYNqQWnMZuyLjr",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
     "needs_genomic_dna": false,
-    "n_guides": 1,
-    "n_guides_in_genome": 1,
+    "n_guides": 3,
+    "n_guides_in_genome": 3,
     "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 8,
+    "ot_total_all_guides": 28,
     "guides": [
       {
-        "guide_id": "83rev",
-        "target_seq": "TTTGGCCTTGACATTGTCAATGGTATC",
-        "on_target_locus": "exon:XM_017381901.1",
+        "guide_id": "10forw",
+        "target_seq": "TTTGTGAAAACTCTTACTGGGAAGACC",
+        "on_target_locus": "exon:XM_017403396.1",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
-        "offtarget_count": 8,
-        "offtargets_in_table": 0,
+        "offtarget_count": 14,
+        "offtargets_in_table": 14,
         "ot_by_mismatch": {
           "0": 0,
           "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
+          "2": 4,
+          "3": 4,
+          "4": 6
         },
-        "ot_genic": 0,
+        "ot_genic": 11,
+        "ot_intergenic": 3,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "52rev",
+        "target_seq": "TTTCTACCTCAAGAGTGATGGTCTTCC",
+        "on_target_locus": "exon:XM_017403396.1",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 7,
+        "offtargets_in_table": 7,
+        "ot_by_mismatch": {
+          "0": 1,
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 4
+        },
+        "ot_genic": 6,
+        "ot_intergenic": 1,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "96rev",
+        "target_seq": "TTTGTCTTGAATCTTAGCCTTGACATT",
+        "on_target_locus": "exon:XM_017403396.1",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 7,
+        "offtargets_in_table": 7,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 0,
+          "2": 2,
+          "3": 3,
+          "4": 2
+        },
+        "ot_genic": 7,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
     "window_source": "exonic",
-    "exon_unverified": true
+    "exon_unverified": true,
+    "n_guides_repeat": 0
   },
   "Eleusine coracana": {
     "genome": "GCA_032690845.1",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "QGm2fErNX6YAQ0Bhp5Kj",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=QGm2fErNX6YAQ0Bhp5Kj",
+    "batch_id": "BvRqweeBBANQkWgTc9Ry",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=BvRqweeBBANQkWgTc9Ry",
     "status": "ok",
     "found_state": "no_guides",
     "found_in_genome": false,
@@ -705,14 +846,15 @@
     "n_guides_not_in_genome": 0,
     "ot_total_all_guides": 0,
     "guides": [],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Eruca vesicaria": {
     "genome": "GCA_932364175.1",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "TQokofRf9OcGbEJe4UJv",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=TQokofRf9OcGbEJe4UJv",
+    "batch_id": "w09nPbbozMYxW20M8LKo",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=w09nPbbozMYxW20M8LKo",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
@@ -723,34 +865,36 @@
     "ot_total_all_guides": 19,
     "guides": [
       {
-        "guide_id": "95rev",
+        "guide_id": "96rev",
         "target_seq": "TTTGTCCTGGATCTTGGCCTTGACATT",
         "on_target_locus": "intergenic:Gap-Gap",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 19,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 19,
         "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
+          "0": 1,
+          "1": 4,
+          "2": 5,
+          "3": 5,
+          "4": 4
         },
         "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_intergenic": 19,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Fragaria ananassa": {
     "genome": "faFraAnaCama10a2",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "uvbQvc2wO94fl2vVQP89",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=uvbQvc2wO94fl2vVQP89",
+    "batch_id": "QECLJKq1DCzMuG2n3mTU",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=QECLJKq1DCzMuG2n3mTU",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
@@ -761,34 +905,36 @@
     "ot_total_all_guides": 37,
     "guides": [
       {
-        "guide_id": "9forw",
+        "guide_id": "10forw",
         "target_seq": "TTTGTGAAAACCCTAACCGGGAAGACC",
         "on_target_locus": "intergenic:maker-Fvb7-1-augustus-gene-299.57-mRNA-1-maker-Fvb7-1-snap-gene-299.78-mRNA-1",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 37,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 37,
         "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
+          "0": 3,
+          "1": 2,
+          "2": 2,
+          "3": 4,
+          "4": 26
         },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_genic": 8,
+        "ot_intergenic": 29,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Glycine max": {
     "genome": "GCA_012273815.2",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "VfQWeedNEsEfuuve4x5z",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=VfQWeedNEsEfuuve4x5z",
+    "batch_id": "aH4e6uQxVPuFsDzNaeL6",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=aH4e6uQxVPuFsDzNaeL6",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
@@ -799,34 +945,36 @@
     "ot_total_all_guides": 9,
     "guides": [
       {
-        "guide_id": "51rev",
+        "guide_id": "52rev",
         "target_seq": "TTTCGACCTCGAGGGTTATGGTCTTCC",
         "on_target_locus": "exon:rna-gmax_brs53_T0012413/rna-gmax_brs53_T0012412",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 9,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 9,
         "ot_by_mismatch": {
           "0": 0,
           "1": 0,
           "2": 0,
-          "3": 0,
-          "4": 0
+          "3": 3,
+          "4": 6
         },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_genic": 8,
+        "ot_intergenic": 1,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Gossypium hirsutum": {
     "genome": "GCF_000987745.1",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "R2Cwl5mp9ZPfw03GeHAa",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=R2Cwl5mp9ZPfw03GeHAa",
+    "batch_id": "y8ujBN9VNWzyavpNqTCD",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=y8ujBN9VNWzyavpNqTCD",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
@@ -837,71 +985,57 @@
     "ot_total_all_guides": 28,
     "guides": [
       {
-        "guide_id": "77rev",
+        "guide_id": "78rev",
         "target_seq": "TTTGACGTTGTCAATGGTATCGCTGCT",
         "on_target_locus": "exon:XM_016821494.1",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 8,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 8,
         "ot_by_mismatch": {
-          "0": 0,
+          "0": 4,
           "1": 0,
           "2": 0,
           "3": 0,
-          "4": 0
+          "4": 4
         },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_genic": 7,
+        "ot_intergenic": 1,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
-        "guide_id": "95rev",
+        "guide_id": "96rev",
         "target_seq": "TTTGTCTTGGATCTCGGCTTTGACGTT",
         "on_target_locus": "exon:XM_016821494.1",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 20,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 20,
         "ot_by_mismatch": {
           "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
+          "1": 4,
+          "2": 5,
+          "3": 6,
+          "4": 5
         },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_genic": 14,
+        "ot_intergenic": 6,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Helianthus annuus": {
     "genome": "GCA_002127325.1",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "naeCv01Zk4Dykel231mR",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=naeCv01Zk4Dykel231mR",
-    "status": "ok",
-    "found_state": "no_guides",
-    "found_in_genome": false,
-    "needs_genomic_dna": false,
-    "n_guides": 0,
-    "n_guides_in_genome": 0,
-    "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 0,
-    "guides": [],
-    "window_source": "exonic"
-  },
-  "Hordeum vulgare": {
-    "genome": "ens95HorVul",
-    "pam": "TTTV",
-    "in_genome_basis": "window",
-    "batch_id": "CLBeRv6coWxaAlulsfsZ",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=CLBeRv6coWxaAlulsfsZ",
+    "batch_id": "XRaltmOxpaVmdrSblFz7",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=XRaltmOxpaVmdrSblFz7",
     "status": "ok",
     "found_state": "no_guides",
     "found_in_genome": false,
@@ -912,72 +1046,52 @@
     "ot_total_all_guides": 0,
     "guides": [],
     "window_source": "exonic",
-    "exon_unverified": true
+    "n_guides_repeat": 0
+  },
+  "Hordeum vulgare": {
+    "genome": "ens95HorVul",
+    "pam": "TTTV",
+    "in_genome_basis": "window",
+    "batch_id": "goTo6uGiavbKVkkjHM1n",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=goTo6uGiavbKVkkjHM1n",
+    "status": "ok",
+    "found_state": "no_guides",
+    "found_in_genome": false,
+    "needs_genomic_dna": false,
+    "n_guides": 0,
+    "n_guides_in_genome": 0,
+    "n_guides_not_in_genome": 0,
+    "ot_total_all_guides": 0,
+    "guides": [],
+    "window_source": "exonic",
+    "exon_unverified": true,
+    "n_guides_repeat": 0
   },
   "Lactuca sativa": {
     "genome": "GCF_002870075.1",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "QS9qHobw3sHacTCiR2mv",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=QS9qHobw3sHacTCiR2mv",
+    "batch_id": "nIUnz1oOYslQavFOMcOK",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=nIUnz1oOYslQavFOMcOK",
     "status": "ok",
-    "found_state": "found",
-    "found_in_genome": true,
+    "found_state": "no_guides",
+    "found_in_genome": false,
     "needs_genomic_dna": false,
-    "n_guides": 2,
-    "n_guides_in_genome": 2,
+    "n_guides": 0,
+    "n_guides_in_genome": 0,
     "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 25,
-    "guides": [
-      {
-        "guide_id": "40forw",
-        "target_seq": "TTTGCTGGAAAGCAATTAGAAGATGGC",
-        "on_target_locus": "exon:XM_023890844.1",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 16,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      },
-      {
-        "guide_id": "47rev",
-        "target_seq": "TTTCCAGCAAAAATTAATCTCTGTTGG",
-        "on_target_locus": "exon:XM_023890844.1",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 9,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      }
-    ],
-    "window_source": "exonic_shifted"
+    "ot_total_all_guides": 0,
+    "guides": [],
+    "window_source": "exonic",
+    "exon_unverified": true,
+    "n_guides_repeat": 0
   },
   "Lotus japonicus": {
     "genome": "GCF_012489685.1",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "4eZZ6eMMRk8lbJhZGFSv",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=4eZZ6eMMRk8lbJhZGFSv",
+    "batch_id": "ThLKeMJOdaQ1c8accALq",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=ThLKeMJOdaQ1c8accALq",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
@@ -988,34 +1102,36 @@
     "ot_total_all_guides": 1,
     "guides": [
       {
-        "guide_id": "77rev",
+        "guide_id": "78rev",
         "target_seq": "TTTCACATTGTCGATTGTGTCGGAGGA",
         "on_target_locus": "exon:XM_057601504.1",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 1,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 1,
         "ot_by_mismatch": {
           "0": 0,
-          "1": 0,
+          "1": 1,
           "2": 0,
           "3": 0,
           "4": 0
         },
-        "ot_genic": 0,
+        "ot_genic": 1,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Lupinus angustifolius": {
     "genome": "GCF_001865875.1",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "INGK9IQLOOXUqEL2kGCk",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=INGK9IQLOOXUqEL2kGCk",
+    "batch_id": "jPI8QBFhG1gemwrKWcgI",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=jPI8QBFhG1gemwrKWcgI",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
@@ -1026,54 +1142,57 @@
     "ot_total_all_guides": 10,
     "guides": [
       {
-        "guide_id": "77rev",
+        "guide_id": "78rev",
         "target_seq": "TTTAACGTTGTCGATGGTGTCGCTGGA",
         "on_target_locus": "exon:XM_019578073.1/XM_019578074.1/XM_019578072.1",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 4,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 4,
         "ot_by_mismatch": {
           "0": 0,
-          "1": 0,
-          "2": 0,
+          "1": 1,
+          "2": 2,
           "3": 0,
-          "4": 0
+          "4": 1
         },
-        "ot_genic": 0,
+        "ot_genic": 4,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       },
       {
-        "guide_id": "95rev",
+        "guide_id": "96rev",
         "target_seq": "TTTGTCTTGAATCTTAGCTTTAACGTT",
         "on_target_locus": "exon:XM_019578073.1/XM_019578074.1/XM_019578072.1",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 6,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 6,
         "ot_by_mismatch": {
           "0": 0,
-          "1": 0,
-          "2": 0,
+          "1": 2,
+          "2": 1,
           "3": 0,
-          "4": 0
+          "4": 3
         },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_genic": 5,
+        "ot_intergenic": 1,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Malus domestica": {
     "genome": "faMalDom11",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "75saKVMrwLIE5MmlxaMQ",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=75saKVMrwLIE5MmlxaMQ",
+    "batch_id": "SBx9m1OINgmHUjJVjvLF",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=SBx9m1OINgmHUjJVjvLF",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
@@ -1084,34 +1203,36 @@
     "ot_total_all_guides": 9,
     "guides": [
       {
-        "guide_id": "8forw",
+        "guide_id": "9forw",
         "target_seq": "TTTCGTGAAAACCCTAACCGGGAAGAC",
         "on_target_locus": "exon:mRNA:MD12G1028600",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 9,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 9,
         "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
+          "0": 3,
+          "1": 1,
+          "2": 4,
+          "3": 1,
           "4": 0
         },
-        "ot_genic": 0,
+        "ot_genic": 9,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Manihot esculenta": {
     "genome": "GCF_001659605.1",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "BVGTJBaESOFsuST7IBhI",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=BVGTJBaESOFsuST7IBhI",
+    "batch_id": "u5QraS3PcdywklH7o7OD",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=u5QraS3PcdywklH7o7OD",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
@@ -1122,34 +1243,36 @@
     "ot_total_all_guides": 9,
     "guides": [
       {
-        "guide_id": "28rev",
+        "guide_id": "29rev",
         "target_seq": "TTTCCGGTTAGGGTTTTCACGAATATC",
         "on_target_locus": "exon:XM_021759188.1",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 9,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 9,
         "ot_by_mismatch": {
           "0": 0,
-          "1": 0,
-          "2": 0,
+          "1": 2,
+          "2": 2,
           "3": 0,
-          "4": 0
+          "4": 5
         },
-        "ot_genic": 0,
+        "ot_genic": 9,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
   },
   "Miscanthus sinensis": {
     "genome": "pz12Msin71",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "yvquMOitDZT3KTCztYko",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=yvquMOitDZT3KTCztYko",
+    "batch_id": "B4TEau26OxnL19I7Qlui",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=B4TEau26OxnL19I7Qlui",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
@@ -1160,836 +1283,37 @@
     "ot_total_all_guides": 37,
     "guides": [
       {
-        "guide_id": "9forw",
+        "guide_id": "10forw",
         "target_seq": "TTTGTGAAGACCCTGACCGGCAAGACT",
         "on_target_locus": "exon:Misin08G043600.1.v7.1",
         "in_genome": true,
         "mit_spec": -1.0,
         "cfd_spec": -1.0,
         "offtarget_count": 37,
-        "offtargets_in_table": 0,
+        "offtargets_in_table": 37,
         "ot_by_mismatch": {
           "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
+          "1": 2,
+          "2": 3,
+          "3": 19,
+          "4": 13
         },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_genic": 33,
+        "ot_intergenic": 4,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
     "window_source": "exonic",
-    "exon_unverified": true
-  },
-  "Panicum miliaceum": {
-    "genome": "GCA_003046395.2",
-    "pam": "TTTV",
-    "in_genome_basis": "window",
-    "batch_id": "C9XHQC6YU3nHrfTIAbip",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=C9XHQC6YU3nHrfTIAbip",
-    "status": "ok",
-    "found_state": "no_guides",
-    "found_in_genome": false,
-    "needs_genomic_dna": false,
-    "n_guides": 0,
-    "n_guides_in_genome": 0,
-    "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 0,
-    "guides": [],
-    "window_source": "exonic"
-  },
-  "Paspalum notatum": {
-    "genome": "GCA_036689595.1",
-    "pam": "TTTV",
-    "in_genome_basis": "window",
-    "batch_id": "w3xZtLAXJZC6MenujSl0",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=w3xZtLAXJZC6MenujSl0",
-    "status": "ok",
-    "found_state": "no_guides",
-    "found_in_genome": false,
-    "needs_genomic_dna": false,
-    "n_guides": 0,
-    "n_guides_in_genome": 0,
-    "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 0,
-    "guides": [],
-    "window_source": "exonic"
-  },
-  "Phaseolus vulgaris": {
-    "genome": "ph13PhaVul",
-    "pam": "TTTV",
-    "in_genome_basis": "window",
-    "batch_id": "1bZPEHRXFYDZyZwcpamu",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=1bZPEHRXFYDZyZwcpamu",
-    "status": "ok",
-    "found_state": "found",
-    "found_in_genome": true,
-    "needs_genomic_dna": false,
-    "n_guides": 1,
-    "n_guides_in_genome": 1,
-    "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 2,
-    "guides": [
-      {
-        "guide_id": "8forw",
-        "target_seq": "TTTCGTGAAAACCCTAACGGGGAAGAC",
-        "on_target_locus": "exon:PvLabOv.01G191300.1.v1.1",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 2,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      }
-    ],
-    "window_source": "exonic"
-  },
-  "Pisum sativum": {
-    "genome": "GCA_964186695.1",
-    "pam": "TTTV",
-    "in_genome_basis": "window",
-    "batch_id": "UMxUYt6eIbaERuSyZDpa",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=UMxUYt6eIbaERuSyZDpa",
-    "status": "ok",
-    "found_state": "found",
-    "found_in_genome": true,
-    "needs_genomic_dna": false,
-    "n_guides": 3,
-    "n_guides_in_genome": 3,
-    "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 25,
-    "guides": [
-      {
-        "guide_id": "9forw",
-        "target_seq": "TTTGTGAAAACCCTTACCGGCAAGACT",
-        "on_target_locus": "exon:PSAT_LOCUS23131",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 8,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      },
-      {
-        "guide_id": "77rev",
-        "target_seq": "TTTGACATTATCAATGGTGTCGCTTGA",
-        "on_target_locus": "exon:PSAT_LOCUS23131",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 2,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      },
-      {
-        "guide_id": "95rev",
-        "target_seq": "TTTGTCCTGAATCTTAGCTTTGACATT",
-        "on_target_locus": "exon:PSAT_LOCUS23131",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 15,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      }
-    ],
-    "window_source": "exonic"
-  },
-  "Populus deltoides": {
-    "genome": "phy12pdeltoidesWV94v21",
-    "pam": "TTTV",
-    "in_genome_basis": "window",
-    "batch_id": "qr6Ke9oFo0xlWrkbYG9a",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=qr6Ke9oFo0xlWrkbYG9a",
-    "status": "ok",
-    "found_state": "found",
-    "found_in_genome": true,
-    "needs_genomic_dna": false,
-    "n_guides": 2,
-    "n_guides_in_genome": 2,
-    "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 33,
-    "guides": [
-      {
-        "guide_id": "9forw",
-        "target_seq": "TTTGTGAAAACCCTAACTGGCAAGACC",
-        "on_target_locus": "exon:Podel.16G081100.1.v2.1",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 19,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      },
-      {
-        "guide_id": "83rev",
-        "target_seq": "TTTGGCCTTGACATTATCGATGGTATC",
-        "on_target_locus": "exon:Podel.16G081100.1.v2.1",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 14,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      }
-    ],
-    "window_source": "exonic"
-  },
-  "Populus trichocarpa": {
-    "genome": "pz12Ptrichocarpav41",
-    "pam": "TTTV",
-    "in_genome_basis": "window",
-    "batch_id": "N7ZmF6zDYrmhLYiYf7mF",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=N7ZmF6zDYrmhLYiYf7mF",
-    "status": "ok",
-    "found_state": "found",
-    "found_in_genome": true,
-    "needs_genomic_dna": false,
-    "n_guides": 2,
-    "n_guides_in_genome": 2,
-    "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 34,
-    "guides": [
-      {
-        "guide_id": "9forw",
-        "target_seq": "TTTGTGAAAACCCTAACTGGCAAGACC",
-        "on_target_locus": "exon:Potri.016G077200.2.v4.1",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 19,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      },
-      {
-        "guide_id": "83rev",
-        "target_seq": "TTTGGCCTTGACATTATCGATGGTATC",
-        "on_target_locus": "exon:Potri.016G077200.2.v4.1",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 15,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      }
-    ],
-    "window_source": "exonic",
-    "exon_unverified": true
-  },
-  "Prunus persica": {
-    "genome": "GCF_000346465.2",
-    "pam": "TTTV",
-    "in_genome_basis": "window",
-    "batch_id": "YRaQkkKatnnmEocGzffc",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=YRaQkkKatnnmEocGzffc",
-    "status": "ok",
-    "found_state": "found",
-    "found_in_genome": true,
-    "needs_genomic_dna": false,
-    "n_guides": 1,
-    "n_guides_in_genome": 1,
-    "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 4,
-    "guides": [
-      {
-        "guide_id": "8forw",
-        "target_seq": "TTTCGTGAAAACCCTAACCGGGAAGAC",
-        "on_target_locus": "exon:XM_007202692.2",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 4,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      }
-    ],
-    "window_source": "exonic"
-  },
-  "Rubus occidentalis": {
-    "genome": "faRubOcc3",
-    "pam": "TTTV",
-    "in_genome_basis": "window",
-    "batch_id": "DrGoameLduKhkN0xeteZ",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=DrGoameLduKhkN0xeteZ",
-    "status": "ok",
-    "found_state": "no_guides",
-    "found_in_genome": false,
-    "needs_genomic_dna": false,
-    "n_guides": 0,
-    "n_guides_in_genome": 0,
-    "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 0,
-    "guides": [],
-    "window_source": "exonic",
-    "exon_unverified": true
-  },
-  "Setaria viridis": {
-    "genome": "GCF_005286985.1",
-    "pam": "TTTV",
-    "in_genome_basis": "window",
-    "batch_id": "04GK09YG6TnXdy4Fale2",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=04GK09YG6TnXdy4Fale2",
-    "status": "ok",
-    "found_state": "no_guides",
-    "found_in_genome": false,
-    "needs_genomic_dna": false,
-    "n_guides": 0,
-    "n_guides_in_genome": 0,
-    "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 0,
-    "guides": [],
-    "window_source": "exonic",
-    "exon_unverified": true
-  },
-  "Solanum lycopersicum": {
-    "genome": "faSolLyc",
-    "pam": "TTTV",
-    "in_genome_basis": "window",
-    "batch_id": "bbMKbaHKtwcRkgdMObXa",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=bbMKbaHKtwcRkgdMObXa",
-    "status": "ok",
-    "found_state": "found",
-    "found_in_genome": true,
-    "needs_genomic_dna": false,
-    "n_guides": 2,
-    "n_guides_in_genome": 2,
-    "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 1,
-    "guides": [
-      {
-        "guide_id": "20forw",
-        "target_seq": "TTTGACGGGTAAAACCATAACCCTCGA",
-        "on_target_locus": "exon:mRNA:Solyc08g083120.3.1",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 0,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      },
-      {
-        "guide_id": "29rev",
-        "target_seq": "TTTACCCGTCAAAGTTTTCACGAAGAT",
-        "on_target_locus": "exon:mRNA:Solyc08g083120.3.1",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 1,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      }
-    ],
-    "window_source": "exonic"
-  },
-  "Solanum tuberosum": {
-    "genome": "GCA_020169535.1",
-    "pam": "TTTV",
-    "in_genome_basis": "window",
-    "batch_id": "l8rtgFZaClXO7MWSO8zO",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=l8rtgFZaClXO7MWSO8zO",
-    "status": "ok",
-    "found_state": "found",
-    "found_in_genome": true,
-    "needs_genomic_dna": false,
-    "n_guides": 1,
-    "n_guides_in_genome": 1,
-    "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 2,
-    "guides": [
-      {
-        "guide_id": "77rev",
-        "target_seq": "TTTGACATTGTCAATAGTGTCGCTCGA",
-        "on_target_locus": "exon:rna-gnl-WGS:JAIVGD-St2-St01G663520.1",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 2,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      }
-    ],
-    "window_source": "exonic"
-  },
-  "Sorghum bicolor": {
-    "genome": "GCF_000003195.3",
-    "pam": "TTTV",
-    "in_genome_basis": "window",
-    "batch_id": "40sneMG92WEUnNvW6GT7",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=40sneMG92WEUnNvW6GT7",
-    "status": "ok",
-    "found_state": "no_guides",
-    "found_in_genome": false,
-    "needs_genomic_dna": false,
-    "n_guides": 0,
-    "n_guides_in_genome": 0,
-    "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 0,
-    "guides": [],
-    "window_source": "exonic"
-  },
-  "Spinacia oleracea": {
-    "genome": "GCF_002007265.1",
-    "pam": "TTTV",
-    "in_genome_basis": "window",
-    "batch_id": "bEX1a3zBZcewxmTA759z",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=bEX1a3zBZcewxmTA759z",
-    "status": "ok",
-    "found_state": "found",
-    "found_in_genome": true,
-    "needs_genomic_dna": false,
-    "n_guides": 3,
-    "n_guides_in_genome": 3,
-    "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 12,
-    "guides": [
-      {
-        "guide_id": "9forw",
-        "target_seq": "TTTGTCAAAACTCTTACTGGGAAAACC",
-        "on_target_locus": "exon:XM_021987499.1",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 2,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      },
-      {
-        "guide_id": "29rev",
-        "target_seq": "TTTCCCAGTAAGAGTTTTGACAAAGAT",
-        "on_target_locus": "exon:XM_021987499.1",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 10,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      },
-      {
-        "guide_id": "77rev",
-        "target_seq": "TTTGACATTGTCAATAGTGTCGCTAGA",
-        "on_target_locus": "exon:XM_021987499.1",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 0,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      }
-    ],
-    "window_source": "exonic",
-    "exon_unverified": true
-  },
-  "Thlaspi arvense": {
-    "genome": "GCA_911865555.2",
-    "pam": "TTTV",
-    "in_genome_basis": "window",
-    "batch_id": "DolfiL1Nx1yngNijWOp9",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=DolfiL1Nx1yngNijWOp9",
-    "status": "ok",
-    "found_state": "found",
-    "found_in_genome": true,
-    "needs_genomic_dna": false,
-    "n_guides": 1,
-    "n_guides_in_genome": 1,
-    "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 7,
-    "guides": [
-      {
-        "guide_id": "95rev",
-        "target_seq": "TTTGTCTTGGATCTTAGCCTTGACATT",
-        "on_target_locus": "exon:TAV2_LOCUS17979",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 7,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      }
-    ],
-    "window_source": "exonic"
-  },
-  "Vicia faba": {
-    "genome": "GCA_948472305.1",
-    "pam": "TTTV",
-    "in_genome_basis": "window",
-    "batch_id": "bKgeMGTJla5z3T3ebw41",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=bKgeMGTJla5z3T3ebw41",
-    "status": "ok",
-    "found_state": "found",
-    "found_in_genome": true,
-    "needs_genomic_dna": false,
-    "n_guides": 4,
-    "n_guides_in_genome": 4,
-    "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 64,
-    "guides": [
-      {
-        "guide_id": "9forw",
-        "target_seq": "TTTGTGAAAACCCTTACCGGCAAGACT",
-        "on_target_locus": "exon:VFH_II133760",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 11,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      },
-      {
-        "guide_id": "77rev",
-        "target_seq": "TTTGACATTGTCGATGGTGTCGCTTGA",
-        "on_target_locus": "exon:VFH_II133760",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 6,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      },
-      {
-        "guide_id": "82rev",
-        "target_seq": "TTTGCTTTGACATTGTCGATGGTGTCG",
-        "on_target_locus": "exon:VFH_II133760",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 7,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      },
-      {
-        "guide_id": "95rev",
-        "target_seq": "TTTGTCCTGAATCTTTGCTTTGACATT",
-        "on_target_locus": "exon:VFH_II133760",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 40,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      }
-    ],
-    "window_source": "exonic"
-  },
-  "Vigna unguiculata": {
-    "genome": "GCF_004118075.1",
-    "pam": "TTTV",
-    "in_genome_basis": "window",
-    "batch_id": "c3qzTFkmg8XsdeQLMbGg",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=c3qzTFkmg8XsdeQLMbGg",
-    "status": "ok",
-    "found_state": "found",
-    "found_in_genome": true,
-    "needs_genomic_dna": false,
-    "n_guides": 1,
-    "n_guides_in_genome": 1,
-    "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 1,
-    "guides": [
-      {
-        "guide_id": "8forw",
-        "target_seq": "TTTCGTGAAAACCCTAACGGGGAAGAC",
-        "on_target_locus": "exon:XM_028074892.1",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 1,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      }
-    ],
-    "window_source": "exonic"
-  },
-  "Vitis vinifera": {
-    "genome": "GCF_000003745.3",
-    "pam": "TTTV",
-    "in_genome_basis": "window",
-    "batch_id": "Mhc0udxL8ECWsVDF8iYb",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=Mhc0udxL8ECWsVDF8iYb",
-    "status": "ok",
-    "found_state": "no_guides",
-    "found_in_genome": false,
-    "needs_genomic_dna": false,
-    "n_guides": 0,
-    "n_guides_in_genome": 0,
-    "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 0,
-    "guides": [],
-    "window_source": "exonic"
-  },
-  "Zea mays": {
-    "genome": "faZeaMays4",
-    "pam": "TTTV",
-    "in_genome_basis": "window",
-    "batch_id": "xiLcWa2cxH8CtM7oaBVF",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=xiLcWa2cxH8CtM7oaBVF",
-    "status": "ok",
-    "found_state": "found",
-    "found_in_genome": true,
-    "needs_genomic_dna": false,
-    "n_guides": 1,
-    "n_guides_in_genome": 1,
-    "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 7,
-    "guides": [
-      {
-        "guide_id": "9forw",
-        "target_seq": "TTTGTGAAGACGCTGACAGGGAAGACC",
-        "on_target_locus": "intergenic:transcript:Zm00001d028344_T002/transcript:Zm00001d028344_T001-transcript:Zm00001d028347_T001",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 7,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      }
-    ],
-    "window_source": "exonic",
-    "exon_unverified": true
-  },
-  "Brassica rapa": {
-    "genome": "GCF_000309985.2",
-    "pam": "TTTV",
-    "in_genome_basis": "window",
-    "batch_id": "bee8Dlg6agAO08yXeq9g",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=bee8Dlg6agAO08yXeq9g",
-    "status": "ok",
-    "found_state": "found",
-    "found_in_genome": true,
-    "needs_genomic_dna": false,
-    "n_guides": 1,
-    "n_guides_in_genome": 1,
-    "n_guides_not_in_genome": 0,
-    "ot_total_all_guides": 1,
-    "guides": [
-      {
-        "guide_id": "93rev",
-        "target_seq": "TTTCTTGGATCTTGGCCTTGACATTGT",
-        "on_target_locus": "exon:XR_004457818.1/XM_033290868.1/XR_004457825.1/XR_004457824.1/XR_004457823.1/XR_004457822.1/XR_004457821.1/XR_004457820.1/XR_004457819.1",
-        "in_genome": true,
-        "mit_spec": -1.0,
-        "cfd_spec": -1.0,
-        "offtarget_count": 1,
-        "offtargets_in_table": 0,
-        "ot_by_mismatch": {
-          "0": 0,
-          "1": 0,
-          "2": 0,
-          "3": 0,
-          "4": 0
-        },
-        "ot_genic": 0,
-        "ot_intergenic": 0,
-        "ot_unannotated": 0
-      }
-    ],
-    "window_source": "exonic"
+    "exon_unverified": true,
+    "n_guides_repeat": 0
   },
   "Musa acuminata": {
     "genome": "GCF_000313855.2",
     "pam": "TTTV",
     "in_genome_basis": "window",
-    "batch_id": "GfDrVwzGuQteZXI9IZ2D",
-    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=GfDrVwzGuQteZXI9IZ2D",
+    "batch_id": "A9tPkhncdeukMxHnWjL1",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=A9tPkhncdeukMxHnWjL1",
     "status": "ok",
     "found_state": "found",
     "found_in_genome": true,
@@ -2000,7 +1324,7 @@
     "ot_total_all_guides": 0,
     "guides": [
       {
-        "guide_id": "95rev",
+        "guide_id": "96rev",
         "target_seq": "TTTGTCCTGGATCTTGGTCTTGACGTT",
         "on_target_locus": "exon:XM_018820093.1/XM_009386823.2",
         "in_genome": true,
@@ -2017,9 +1341,814 @@
         },
         "ot_genic": 0,
         "ot_intergenic": 0,
-        "ot_unannotated": 0
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
       }
     ],
-    "window_source": "exonic"
+    "window_source": "exonic",
+    "n_guides_repeat": 0
+  },
+  "Panicum miliaceum": {
+    "genome": "GCA_003046395.2",
+    "pam": "TTTV",
+    "in_genome_basis": "window",
+    "batch_id": "De38yTfCWXKHwVHbDFqp",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=De38yTfCWXKHwVHbDFqp",
+    "status": "ok",
+    "found_state": "no_guides",
+    "found_in_genome": false,
+    "needs_genomic_dna": false,
+    "n_guides": 0,
+    "n_guides_in_genome": 0,
+    "n_guides_not_in_genome": 0,
+    "ot_total_all_guides": 0,
+    "guides": [],
+    "window_source": "exonic",
+    "n_guides_repeat": 0
+  },
+  "Paspalum notatum": {
+    "genome": "GCA_036689595.1",
+    "pam": "TTTV",
+    "in_genome_basis": "window",
+    "batch_id": "lv2M0q6FZxI5MlDHNXc6",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=lv2M0q6FZxI5MlDHNXc6",
+    "status": "ok",
+    "found_state": "no_guides",
+    "found_in_genome": false,
+    "needs_genomic_dna": false,
+    "n_guides": 0,
+    "n_guides_in_genome": 0,
+    "n_guides_not_in_genome": 0,
+    "ot_total_all_guides": 0,
+    "guides": [],
+    "window_source": "exonic",
+    "n_guides_repeat": 0
+  },
+  "Phaseolus vulgaris": {
+    "genome": "ph13PhaVul",
+    "pam": "TTTV",
+    "in_genome_basis": "window",
+    "batch_id": "Wnkf5QFsLvuVpXN6kGj6",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=Wnkf5QFsLvuVpXN6kGj6",
+    "status": "ok",
+    "found_state": "found",
+    "found_in_genome": true,
+    "needs_genomic_dna": false,
+    "n_guides": 1,
+    "n_guides_in_genome": 1,
+    "n_guides_not_in_genome": 0,
+    "ot_total_all_guides": 2,
+    "guides": [
+      {
+        "guide_id": "9forw",
+        "target_seq": "TTTCGTGAAAACCCTAACGGGGAAGAC",
+        "on_target_locus": "exon:PvLabOv.01G191300.1.v1.1",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 2,
+        "offtargets_in_table": 2,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 2
+        },
+        "ot_genic": 2,
+        "ot_intergenic": 0,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      }
+    ],
+    "window_source": "exonic",
+    "n_guides_repeat": 0
+  },
+  "Pisum sativum": {
+    "genome": "GCA_964186695.1",
+    "pam": "TTTV",
+    "in_genome_basis": "window",
+    "batch_id": "EBN0MY7EGMwFAc1TCSrI",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=EBN0MY7EGMwFAc1TCSrI",
+    "status": "ok",
+    "found_state": "found",
+    "found_in_genome": true,
+    "needs_genomic_dna": false,
+    "n_guides": 3,
+    "n_guides_in_genome": 3,
+    "n_guides_not_in_genome": 0,
+    "ot_total_all_guides": 25,
+    "guides": [
+      {
+        "guide_id": "10forw",
+        "target_seq": "TTTGTGAAAACCCTTACCGGCAAGACT",
+        "on_target_locus": "exon:PSAT_LOCUS23131",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 8,
+        "offtargets_in_table": 8,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 0,
+          "2": 2,
+          "3": 2,
+          "4": 4
+        },
+        "ot_genic": 2,
+        "ot_intergenic": 6,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "78rev",
+        "target_seq": "TTTGACATTATCAATGGTGTCGCTTGA",
+        "on_target_locus": "exon:PSAT_LOCUS23131",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 2,
+        "offtargets_in_table": 2,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 2
+        },
+        "ot_genic": 1,
+        "ot_intergenic": 1,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "96rev",
+        "target_seq": "TTTGTCCTGAATCTTAGCTTTGACATT",
+        "on_target_locus": "exon:PSAT_LOCUS23131",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 15,
+        "offtargets_in_table": 15,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 3,
+          "2": 0,
+          "3": 5,
+          "4": 7
+        },
+        "ot_genic": 3,
+        "ot_intergenic": 12,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      }
+    ],
+    "window_source": "exonic",
+    "n_guides_repeat": 0
+  },
+  "Populus deltoides": {
+    "genome": "phy12pdeltoidesWV94v21",
+    "pam": "TTTV",
+    "in_genome_basis": "window",
+    "batch_id": "uLjdNRk30KH82vQrlJ3k",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=uLjdNRk30KH82vQrlJ3k",
+    "status": "ok",
+    "found_state": "found",
+    "found_in_genome": true,
+    "needs_genomic_dna": false,
+    "n_guides": 2,
+    "n_guides_in_genome": 2,
+    "n_guides_not_in_genome": 0,
+    "ot_total_all_guides": 33,
+    "guides": [
+      {
+        "guide_id": "10forw",
+        "target_seq": "TTTGTGAAAACCCTAACTGGCAAGACC",
+        "on_target_locus": "exon:Podel.16G081100.1.v2.1",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 19,
+        "offtargets_in_table": 19,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 3,
+          "2": 4,
+          "3": 1,
+          "4": 11
+        },
+        "ot_genic": 18,
+        "ot_intergenic": 1,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "84rev",
+        "target_seq": "TTTGGCCTTGACATTATCGATGGTATC",
+        "on_target_locus": "exon:Podel.16G081100.1.v2.1",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 14,
+        "offtargets_in_table": 14,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 4,
+          "4": 7
+        },
+        "ot_genic": 11,
+        "ot_intergenic": 3,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      }
+    ],
+    "window_source": "exonic",
+    "n_guides_repeat": 0
+  },
+  "Populus trichocarpa": {
+    "genome": "pz12Ptrichocarpav41",
+    "pam": "TTTV",
+    "in_genome_basis": "window",
+    "batch_id": "KCz2dx4aGAogAoK6PAOo",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=KCz2dx4aGAogAoK6PAOo",
+    "status": "ok",
+    "found_state": "found",
+    "found_in_genome": true,
+    "needs_genomic_dna": false,
+    "n_guides": 2,
+    "n_guides_in_genome": 2,
+    "n_guides_not_in_genome": 0,
+    "ot_total_all_guides": 34,
+    "guides": [
+      {
+        "guide_id": "10forw",
+        "target_seq": "TTTGTGAAAACCCTAACTGGCAAGACC",
+        "on_target_locus": "exon:Potri.016G077200.2.v4.1",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 19,
+        "offtargets_in_table": 19,
+        "ot_by_mismatch": {
+          "0": 1,
+          "1": 2,
+          "2": 4,
+          "3": 4,
+          "4": 8
+        },
+        "ot_genic": 18,
+        "ot_intergenic": 1,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "84rev",
+        "target_seq": "TTTGGCCTTGACATTATCGATGGTATC",
+        "on_target_locus": "exon:Potri.016G077200.2.v4.1",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 15,
+        "offtargets_in_table": 15,
+        "ot_by_mismatch": {
+          "0": 1,
+          "1": 1,
+          "2": 3,
+          "3": 5,
+          "4": 5
+        },
+        "ot_genic": 12,
+        "ot_intergenic": 3,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      }
+    ],
+    "window_source": "exonic",
+    "exon_unverified": true,
+    "n_guides_repeat": 0
+  },
+  "Prunus persica": {
+    "genome": "GCF_000346465.2",
+    "pam": "TTTV",
+    "in_genome_basis": "window",
+    "batch_id": "8NqJiuOWaXIa5uBFDJOY",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=8NqJiuOWaXIa5uBFDJOY",
+    "status": "ok",
+    "found_state": "found",
+    "found_in_genome": true,
+    "needs_genomic_dna": false,
+    "n_guides": 1,
+    "n_guides_in_genome": 1,
+    "n_guides_not_in_genome": 0,
+    "ot_total_all_guides": 4,
+    "guides": [
+      {
+        "guide_id": "9forw",
+        "target_seq": "TTTCGTGAAAACCCTAACCGGGAAGAC",
+        "on_target_locus": "exon:XM_007202692.2",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 4,
+        "offtargets_in_table": 4,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 1,
+          "2": 1,
+          "3": 2,
+          "4": 0
+        },
+        "ot_genic": 4,
+        "ot_intergenic": 0,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      }
+    ],
+    "window_source": "exonic",
+    "n_guides_repeat": 0
+  },
+  "Rubus occidentalis": {
+    "genome": "faRubOcc3",
+    "pam": "TTTV",
+    "in_genome_basis": "window",
+    "batch_id": "1PPNY3THJbuqADADJkMA",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=1PPNY3THJbuqADADJkMA",
+    "status": "ok",
+    "found_state": "no_guides",
+    "found_in_genome": false,
+    "needs_genomic_dna": false,
+    "n_guides": 0,
+    "n_guides_in_genome": 0,
+    "n_guides_not_in_genome": 0,
+    "ot_total_all_guides": 0,
+    "guides": [],
+    "window_source": "exonic",
+    "exon_unverified": true,
+    "n_guides_repeat": 0
+  },
+  "Setaria viridis": {
+    "genome": "GCF_005286985.1",
+    "pam": "TTTV",
+    "in_genome_basis": "window",
+    "batch_id": "g3aGotsMhagPjsqLODyt",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=g3aGotsMhagPjsqLODyt",
+    "status": "ok",
+    "found_state": "no_guides",
+    "found_in_genome": false,
+    "needs_genomic_dna": false,
+    "n_guides": 0,
+    "n_guides_in_genome": 0,
+    "n_guides_not_in_genome": 0,
+    "ot_total_all_guides": 0,
+    "guides": [],
+    "window_source": "exonic",
+    "exon_unverified": true,
+    "n_guides_repeat": 0
+  },
+  "Solanum lycopersicum": {
+    "genome": "faSolLyc",
+    "pam": "TTTV",
+    "in_genome_basis": "window",
+    "batch_id": "gwVkNKsnwOwgV8Qu9h7M",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=gwVkNKsnwOwgV8Qu9h7M",
+    "status": "ok",
+    "found_state": "found",
+    "found_in_genome": true,
+    "needs_genomic_dna": false,
+    "n_guides": 2,
+    "n_guides_in_genome": 2,
+    "n_guides_not_in_genome": 0,
+    "ot_total_all_guides": 1,
+    "guides": [
+      {
+        "guide_id": "21forw",
+        "target_seq": "TTTGACGGGTAAAACCATAACCCTCGA",
+        "on_target_locus": "exon:mRNA:Solyc08g083120.3.1",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 0,
+        "offtargets_in_table": 0,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "ot_genic": 0,
+        "ot_intergenic": 0,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "30rev",
+        "target_seq": "TTTACCCGTCAAAGTTTTCACGAAGAT",
+        "on_target_locus": "exon:mRNA:Solyc08g083120.3.1",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 1,
+        "offtargets_in_table": 1,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0
+        },
+        "ot_genic": 1,
+        "ot_intergenic": 0,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      }
+    ],
+    "window_source": "exonic",
+    "n_guides_repeat": 0
+  },
+  "Solanum tuberosum": {
+    "genome": "GCA_020169535.1",
+    "pam": "TTTV",
+    "in_genome_basis": "window",
+    "batch_id": "iL0nZ1hJOjFNZ4ioHXM5",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=iL0nZ1hJOjFNZ4ioHXM5",
+    "status": "ok",
+    "found_state": "found",
+    "found_in_genome": true,
+    "needs_genomic_dna": false,
+    "n_guides": 1,
+    "n_guides_in_genome": 1,
+    "n_guides_not_in_genome": 0,
+    "ot_total_all_guides": 2,
+    "guides": [
+      {
+        "guide_id": "78rev",
+        "target_seq": "TTTGACATTGTCAATAGTGTCGCTCGA",
+        "on_target_locus": "exon:rna-gnl-WGS:JAIVGD-St2-St01G663520.1",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 2,
+        "offtargets_in_table": 2,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 2
+        },
+        "ot_genic": 1,
+        "ot_intergenic": 1,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      }
+    ],
+    "window_source": "exonic",
+    "n_guides_repeat": 0
+  },
+  "Sorghum bicolor": {
+    "genome": "GCF_000003195.3",
+    "pam": "TTTV",
+    "in_genome_basis": "window",
+    "batch_id": "Tp7lwZNdRMb5SW9A3P9l",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=Tp7lwZNdRMb5SW9A3P9l",
+    "status": "ok",
+    "found_state": "no_guides",
+    "found_in_genome": false,
+    "needs_genomic_dna": false,
+    "n_guides": 0,
+    "n_guides_in_genome": 0,
+    "n_guides_not_in_genome": 0,
+    "ot_total_all_guides": 0,
+    "guides": [],
+    "window_source": "exonic",
+    "n_guides_repeat": 0
+  },
+  "Spinacia oleracea": {
+    "genome": "GCF_002007265.1",
+    "pam": "TTTV",
+    "in_genome_basis": "window",
+    "batch_id": "rgppJBiCakQVrlhX5GpO",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=rgppJBiCakQVrlhX5GpO",
+    "status": "ok",
+    "found_state": "found",
+    "found_in_genome": true,
+    "needs_genomic_dna": false,
+    "n_guides": 3,
+    "n_guides_in_genome": 3,
+    "n_guides_not_in_genome": 0,
+    "ot_total_all_guides": 12,
+    "guides": [
+      {
+        "guide_id": "10forw",
+        "target_seq": "TTTGTCAAAACTCTTACTGGGAAAACC",
+        "on_target_locus": "exon:XM_021987499.1",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 2,
+        "offtargets_in_table": 2,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 2
+        },
+        "ot_genic": 1,
+        "ot_intergenic": 1,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "30rev",
+        "target_seq": "TTTCCCAGTAAGAGTTTTGACAAAGAT",
+        "on_target_locus": "exon:XM_021987499.1",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 10,
+        "offtargets_in_table": 10,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 5,
+          "4": 5
+        },
+        "ot_genic": 5,
+        "ot_intergenic": 5,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "78rev",
+        "target_seq": "TTTGACATTGTCAATAGTGTCGCTAGA",
+        "on_target_locus": "exon:XM_021987499.1",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 0,
+        "offtargets_in_table": 0,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "ot_genic": 0,
+        "ot_intergenic": 0,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      }
+    ],
+    "window_source": "exonic",
+    "exon_unverified": true,
+    "n_guides_repeat": 0
+  },
+  "Thlaspi arvense": {
+    "genome": "GCA_911865555.2",
+    "pam": "TTTV",
+    "in_genome_basis": "window",
+    "batch_id": "uGK2yugC71gQR2ahnwUK",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=uGK2yugC71gQR2ahnwUK",
+    "status": "ok",
+    "found_state": "found",
+    "found_in_genome": true,
+    "needs_genomic_dna": false,
+    "n_guides": 1,
+    "n_guides_in_genome": 1,
+    "n_guides_not_in_genome": 0,
+    "ot_total_all_guides": 7,
+    "guides": [
+      {
+        "guide_id": "96rev",
+        "target_seq": "TTTGTCTTGGATCTTAGCCTTGACATT",
+        "on_target_locus": "exon:TAV2_LOCUS17979",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 7,
+        "offtargets_in_table": 7,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 0,
+          "2": 2,
+          "3": 1,
+          "4": 4
+        },
+        "ot_genic": 5,
+        "ot_intergenic": 2,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      }
+    ],
+    "window_source": "exonic",
+    "n_guides_repeat": 0
+  },
+  "Vicia faba": {
+    "genome": "GCA_948472305.1",
+    "pam": "TTTV",
+    "in_genome_basis": "window",
+    "batch_id": "aiE8IaKuFb1OtvCIgkEy",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=aiE8IaKuFb1OtvCIgkEy",
+    "status": "ok",
+    "found_state": "found",
+    "found_in_genome": true,
+    "needs_genomic_dna": false,
+    "n_guides": 4,
+    "n_guides_in_genome": 4,
+    "n_guides_not_in_genome": 0,
+    "ot_total_all_guides": 64,
+    "guides": [
+      {
+        "guide_id": "10forw",
+        "target_seq": "TTTGTGAAAACCCTTACCGGCAAGACT",
+        "on_target_locus": "exon:VFH_II133760",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 11,
+        "offtargets_in_table": 11,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 9
+        },
+        "ot_genic": 11,
+        "ot_intergenic": 0,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "78rev",
+        "target_seq": "TTTGACATTGTCGATGGTGTCGCTTGA",
+        "on_target_locus": "exon:VFH_II133760",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 6,
+        "offtargets_in_table": 6,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 6
+        },
+        "ot_genic": 3,
+        "ot_intergenic": 3,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "83rev",
+        "target_seq": "TTTGCTTTGACATTGTCGATGGTGTCG",
+        "on_target_locus": "exon:VFH_II133760",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 7,
+        "offtargets_in_table": 7,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 7
+        },
+        "ot_genic": 1,
+        "ot_intergenic": 6,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      },
+      {
+        "guide_id": "96rev",
+        "target_seq": "TTTGTCCTGAATCTTTGCTTTGACATT",
+        "on_target_locus": "exon:VFH_II133760",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 40,
+        "offtargets_in_table": 40,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 3,
+          "2": 3,
+          "3": 1,
+          "4": 33
+        },
+        "ot_genic": 9,
+        "ot_intergenic": 31,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      }
+    ],
+    "window_source": "exonic",
+    "n_guides_repeat": 0
+  },
+  "Vigna unguiculata": {
+    "genome": "GCF_004118075.1",
+    "pam": "TTTV",
+    "in_genome_basis": "window",
+    "batch_id": "F6iatlErowQZ5r4zNdPu",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=F6iatlErowQZ5r4zNdPu",
+    "status": "ok",
+    "found_state": "found",
+    "found_in_genome": true,
+    "needs_genomic_dna": false,
+    "n_guides": 1,
+    "n_guides_in_genome": 1,
+    "n_guides_not_in_genome": 0,
+    "ot_total_all_guides": 1,
+    "guides": [
+      {
+        "guide_id": "9forw",
+        "target_seq": "TTTCGTGAAAACCCTAACGGGGAAGAC",
+        "on_target_locus": "exon:XM_028074892.1",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 1,
+        "offtargets_in_table": 1,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1
+        },
+        "ot_genic": 1,
+        "ot_intergenic": 0,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      }
+    ],
+    "window_source": "exonic",
+    "n_guides_repeat": 0
+  },
+  "Vitis vinifera": {
+    "genome": "GCF_000003745.3",
+    "pam": "TTTV",
+    "in_genome_basis": "window",
+    "batch_id": "EWmjGLEc3cRRbkcpc8yZ",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=EWmjGLEc3cRRbkcpc8yZ",
+    "status": "ok",
+    "found_state": "no_guides",
+    "found_in_genome": false,
+    "needs_genomic_dna": false,
+    "n_guides": 0,
+    "n_guides_in_genome": 0,
+    "n_guides_not_in_genome": 0,
+    "ot_total_all_guides": 0,
+    "guides": [],
+    "window_source": "exonic",
+    "n_guides_repeat": 0
+  },
+  "Zea mays": {
+    "genome": "faZeaMays4",
+    "pam": "TTTV",
+    "in_genome_basis": "window",
+    "batch_id": "eQgjUuEy0a0DhG7UKNaa",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=eQgjUuEy0a0DhG7UKNaa",
+    "status": "ok",
+    "found_state": "found",
+    "found_in_genome": true,
+    "needs_genomic_dna": false,
+    "n_guides": 1,
+    "n_guides_in_genome": 1,
+    "n_guides_not_in_genome": 0,
+    "ot_total_all_guides": 7,
+    "guides": [
+      {
+        "guide_id": "10forw",
+        "target_seq": "TTTGTGAAGACGCTGACAGGGAAGACC",
+        "on_target_locus": "intergenic:transcript:Zm00001d028344_T002/transcript:Zm00001d028344_T001-transcript:Zm00001d028347_T001",
+        "in_genome": true,
+        "mit_spec": -1.0,
+        "cfd_spec": -1.0,
+        "offtarget_count": 7,
+        "offtargets_in_table": 7,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 0,
+          "2": 2,
+          "3": 0,
+          "4": 5
+        },
+        "ot_genic": 4,
+        "ot_intergenic": 3,
+        "ot_unannotated": 0,
+        "repeat_unspecific": false
+      }
+    ],
+    "window_source": "exonic",
+    "exon_unverified": true,
+    "n_guides_repeat": 0
   }
 }

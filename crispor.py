@@ -30,7 +30,17 @@ VERSION  = "5.2"                                       # CRISPOR version used in
 PAM_NAMES = {
     "NGG":  "SpCas9, 20 bp guides",
     "TTTV": "Cas12a (Cpf1), 23 bp guides",
+    "NAA":  "iSpyMacCas9, 20 bp guides",
 }
+
+# MIT and CFD specificity are Cas9 scores. CRISPOR returns -1 for every guide of
+# these 5'-PAM nucleases (Cas12a/Cas12b/CasX families), so a guide's presence in
+# the genome cannot be read from them. Cas9-type PAMs — including variants such as
+# NAA (iSpyMacCas9) — are scored normally and are the default.
+UNSCORED_PAMS = frozenset({
+    "TTTV", "TTTV-21", "TTTN", "TTN", "TNN", "ATTN", "TTCN", "NGTN",
+    "TYCV", "TATV", "TTTA", "TCTA", "TCCA", "CCCA", "GGTT", "YTTV", "TTYN",
+})
 
 REQUEST_TIMEOUT_S = 180
 
@@ -114,14 +124,35 @@ def looks_not_in_genome(html: str) -> bool:
 
 # ── TSV parsing ───────────────────────────────────────────────────────────────
 
-def parse_tsv(text: str) -> list[dict]:
-    """Parse a CRISPOR TSV download into a list of row dicts."""
+# CRISPOR's off-target download omits the header row for some nucleases (Cas12a
+# among them), so the first line is already data. Without this fallback the first
+# off-target is mistaken for the header and every row is keyed by garbage, which
+# silently zeroes the mismatch and genic/intergenic tallies.
+OFFTARGET_COLUMNS = [
+    "guideId", "guideSeq", "offtargetSeq", "mismatchPos", "mismatchCount",
+    "mitOfftargetScore", "cfdOfftargetScore", "chrom", "start", "end",
+    "strand", "locusDesc",
+]
+
+
+def parse_tsv(text: str, default_header: list[str] | None = None) -> list[dict]:
+    """Parse a CRISPOR TSV download into a list of row dicts.
+
+    `default_header` is used when the download carries no header line, detected by
+    the first field not naming a column.
+    """
     lines = [ln for ln in (text or "").splitlines() if ln.strip()]
     if not lines:
         return []
-    header = lines[0].lstrip("#").split("\t")
+
+    first = lines[0].lstrip("#").split("\t")
+    if default_header is not None and first[0].strip() != default_header[0]:
+        header, body = default_header, lines
+    else:
+        header, body = first, lines[1:]
+
     rows = []
-    for line in lines[1:]:
+    for line in body:
         cells = line.split("\t")
         cells += [""] * (len(header) - len(cells))
         rows.append(dict(zip(header, cells)))
@@ -162,11 +193,11 @@ def build_record(guides_tsv: str, offtargets_tsv: str, *, genome: str, bid: str,
     which `looks_not_in_genome` already establishes before this is called.
     `in_genome_basis` records which test was used.
     """
-    scored = pam.strip().upper() == PAM
+    scored = pam.strip().upper() not in UNSCORED_PAMS
     guide_rows = parse_tsv(guides_tsv)
 
     offtargets_by_guide: dict[str, list[dict]] = {}
-    for row in parse_tsv(offtargets_tsv):
+    for row in parse_tsv(offtargets_tsv, OFFTARGET_COLUMNS):
         offtargets_by_guide.setdefault(row.get("guideId", ""), []).append(row)
 
     guides = []
@@ -189,10 +220,23 @@ def build_record(guides_tsv: str, offtargets_tsv: str, *, genome: str, bid: str,
                 unannotated += 1
 
         mit = _number(row.get("mitSpecScore"))
+        cfd = _number(row.get("cfdSpecScore"))
+        locus = (row.get("targetGenomeGeneLocus") or "").strip()
+        count = int(_number(row.get("offtargetCount")) or 0)
+
+        # "This guide is a repeated region, it is too unspecific" — CRISPOR gives up
+        # rather than enumerate, and reports zero off-targets with a zero specificity
+        # and no locus. Those zeros are unknowns, not clean guides, so they are
+        # flagged and kept out of the totals; counting them as 0 would credit the
+        # most repetitive guides in the most repetitive genomes as the most specific.
+        repeat = count == 0 and not locus and (
+            (mit == 0 and cfd == 0) if scored else True)
+
         guides.append({
             "guide_id":            guide_id,
             "target_seq":          row.get("targetSeq", ""),
             "on_target_locus":     row.get("targetGenomeGeneLocus", ""),
+            "repeat_unspecific":   repeat,
             "in_genome":           (mit is not None and mit != -1) if scored else True,
             "mit_spec":            mit,
             "cfd_spec":            _number(row.get("cfdSpecScore")),
@@ -228,6 +272,7 @@ def build_record(guides_tsv: str, offtargets_tsv: str, *, genome: str, bid: str,
         "n_guides": len(guides),
         "n_guides_in_genome": n_in,
         "n_guides_not_in_genome": n_out,
+        "n_guides_repeat": sum(1 for g in guides if g["repeat_unspecific"]),
         # Totals count only guides that are actually present in the genome.
         "ot_total_all_guides": sum(g["offtarget_count"] for g in guides if g["in_genome"]),
         "guides": guides,
