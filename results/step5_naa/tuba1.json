@@ -12594,5 +12594,172 @@
     "window_source": "exonic",
     "exon_unverified": true,
     "n_guides_repeat": 1
+  },
+  "Brassica napus": {
+    "genome": "GCF_000686985.2",
+    "pam": "NAA",
+    "in_genome_basis": "mit_spec",
+    "batch_id": "4yBCC8BE1X7DGZx8Xl7r",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=4yBCC8BE1X7DGZx8Xl7r",
+    "status": "ok",
+    "found_state": "found",
+    "found_in_genome": true,
+    "needs_genomic_dna": false,
+    "n_guides": 7,
+    "n_guides_in_genome": 7,
+    "n_guides_not_in_genome": 0,
+    "n_guides_repeat": 0,
+    "ot_total_all_guides": 645,
+    "guides": [
+      {
+        "guide_id": "43rev",
+        "target_seq": "AGATCCTCACGAGCCTCTGAGAA",
+        "on_target_locus": "exon:XM_022697231.1",
+        "repeat_unspecific": false,
+        "in_genome": true,
+        "mit_spec": 37.0,
+        "cfd_spec": 100.0,
+        "offtarget_count": 56,
+        "offtargets_in_table": 56,
+        "ot_by_mismatch": {
+          "0": 0,
+          "1": 8,
+          "2": 2,
+          "3": 5,
+          "4": 41
+        },
+        "ot_genic": 45,
+        "ot_intergenic": 11,
+        "ot_unannotated": 0
+      },
+      {
+        "guide_id": "65rev",
+        "target_seq": "ATAATCCTTCTCCAACGCCGCAA",
+        "on_target_locus": "exon:XM_022697231.1",
+        "repeat_unspecific": false,
+        "in_genome": true,
+        "mit_spec": 35.0,
+        "cfd_spec": 100.0,
+        "offtarget_count": 104,
+        "offtargets_in_table": 104,
+        "ot_by_mismatch": {
+          "0": 1,
+          "1": 2,
+          "2": 0,
+          "3": 15,
+          "4": 86
+        },
+        "ot_genic": 44,
+        "ot_intergenic": 60,
+        "ot_unannotated": 0
+      },
+      {
+        "guide_id": "78forw",
+        "target_seq": "GAGGATCTTGCGGCGTTGGAGAA",
+        "on_target_locus": "exon:XM_022697231.1",
+        "repeat_unspecific": false,
+        "in_genome": true,
+        "mit_spec": 32.0,
+        "cfd_spec": 100.0,
+        "offtarget_count": 64,
+        "offtargets_in_table": 64,
+        "ot_by_mismatch": {
+          "0": 1,
+          "1": 2,
+          "2": 0,
+          "3": 8,
+          "4": 53
+        },
+        "ot_genic": 46,
+        "ot_intergenic": 18,
+        "ot_unannotated": 0
+      },
+      {
+        "guide_id": "73rev",
+        "target_seq": "ACCTCCTCATAATCCTTCTCCAA",
+        "on_target_locus": "exon:XM_022697231.1",
+        "repeat_unspecific": false,
+        "in_genome": true,
+        "mit_spec": 23.0,
+        "cfd_spec": 100.0,
+        "offtarget_count": 242,
+        "offtargets_in_table": 242,
+        "ot_by_mismatch": {
+          "0": 1,
+          "1": 3,
+          "2": 0,
+          "3": 24,
+          "4": 214
+        },
+        "ot_genic": 105,
+        "ot_intergenic": 137,
+        "ot_unannotated": 0
+      },
+      {
+        "guide_id": "1rev",
+        "target_seq": "TCACCGACATACCAGTGAACGAA",
+        "on_target_locus": "exon:XM_022697231.1",
+        "repeat_unspecific": false,
+        "in_genome": true,
+        "mit_spec": 17.0,
+        "cfd_spec": 100.0,
+        "offtarget_count": 52,
+        "offtargets_in_table": 52,
+        "ot_by_mismatch": {
+          "0": 3,
+          "1": 3,
+          "2": 7,
+          "3": 9,
+          "4": 30
+        },
+        "ot_genic": 34,
+        "ot_intergenic": 18,
+        "ot_unannotated": 0
+      },
+      {
+        "guide_id": "34forw",
+        "target_seq": "ATGTCGGTGAGGGTATGGAGGAA",
+        "on_target_locus": "exon:XM_022697231.1",
+        "repeat_unspecific": false,
+        "in_genome": true,
+        "mit_spec": 14.0,
+        "cfd_spec": 100.0,
+        "offtarget_count": 84,
+        "offtargets_in_table": 84,
+        "ot_by_mismatch": {
+          "0": 3,
+          "1": 3,
+          "2": 0,
+          "3": 2,
+          "4": 76
+        },
+        "ot_genic": 55,
+        "ot_intergenic": 29,
+        "ot_unannotated": 0
+      },
+      {
+        "guide_id": "5rev",
+        "target_seq": "ACCCTCACCGACATACCAGTGAA",
+        "on_target_locus": "exon:XM_022697231.1",
+        "repeat_unspecific": false,
+        "in_genome": true,
+        "mit_spec": 12.0,
+        "cfd_spec": 100.0,
+        "offtarget_count": 43,
+        "offtargets_in_table": 43,
+        "ot_by_mismatch": {
+          "0": 3,
+          "1": 5,
+          "2": 0,
+          "3": 0,
+          "4": 35
+        },
+        "ot_genic": 25,
+        "ot_intergenic": 18,
+        "ot_unannotated": 0
+      }
+    ],
+    "window_source": "exonic",
+    "exon_unverified": true
   }
 }

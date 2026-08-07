@@ -153,7 +153,6 @@ HSP70,Vigna unguiculata,641,diploid,2,1,1,0,0,1.0,0.5,0.5,0.0
 HSP70,Vitis vinifera,486,diploid,1,1,0,1,0,0.0,1.0,0.0,1.0
 TUBA1,Arabidopsis thaliana,135,diploid,2,0,0,0,0,0.0,0.0,0.0,0.0
 TUBA1,Beta vulgaris,558,diploid,2,1,1,0,0,1.0,0.5,0.5,0.0
-TUBA1,Brassica napus,976,tetraploid,2,27,25,2,0,0.9259,13.5,12.5,1.0
 TUBA1,Brassica rapa,353,diploid,2,9,9,0,0,1.0,4.5,4.5,0.0
 TUBA1,Camelina sativa,785,hexaploid,2,9,9,0,0,1.0,4.5,4.5,0.0
 TUBA1,Ceratopteris richardii,7400,diploid,3,20,14,6,0,0.7,6.67,4.67,2.0

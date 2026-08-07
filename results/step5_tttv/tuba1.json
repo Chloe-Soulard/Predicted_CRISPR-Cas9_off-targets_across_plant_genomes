@@ -2314,5 +2314,24 @@
     "window_source": "exonic",
     "exon_unverified": true,
     "n_guides_repeat": 0
+  },
+  "Brassica napus": {
+    "genome": "GCF_000686985.2",
+    "pam": "TTTV",
+    "in_genome_basis": "window",
+    "batch_id": "pe7EdAkwzkNFp0RCFMsM",
+    "crispor_link": "https://crispor.gi.ucsc.edu/crispor.py?batchId=pe7EdAkwzkNFp0RCFMsM",
+    "status": "ok",
+    "found_state": "no_guides",
+    "found_in_genome": false,
+    "needs_genomic_dna": false,
+    "n_guides": 0,
+    "n_guides_in_genome": 0,
+    "n_guides_not_in_genome": 0,
+    "n_guides_repeat": 0,
+    "ot_total_all_guides": 0,
+    "guides": [],
+    "window_source": "exonic",
+    "exon_unverified": true
   }
 }

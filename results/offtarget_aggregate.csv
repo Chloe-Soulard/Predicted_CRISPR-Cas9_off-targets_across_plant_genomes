@@ -191,7 +191,7 @@ TUBA1,Arabidopsis thaliana,135,diploid,True,False,11,150,13.64,0,0,9,29,112,117,
 TUBA1,Asparagus officinalis,1200,diploid,True,False,13,788,60.62,0,7,16,119,646,262,526
 TUBA1,Beta vulgaris,558,diploid,True,False,6,346,57.67,0,4,6,43,293,133,213
 TUBA1,Brachypodium distachyon,355,diploid,True,False,11,230,20.91,0,0,10,34,186,126,104
-TUBA1,Brassica napus,976,tetraploid,True,False,9,1838,204.22,26,34,78,289,1411,897,941
+TUBA1,Brassica napus,976,tetraploid,True,False,13,1292,99.38,25,51,49,154,1013,701,591
 TUBA1,Brassica rapa,353,diploid,True,False,10,585,58.5,11,19,28,94,433,390,195
 TUBA1,Camelina sativa,785,hexaploid,True,False,13,774,59.54,3,9,35,157,570,468,306
 TUBA1,Ceratopteris richardii,7400,diploid,True,False,14,15333,1095.21,16,19,110,3368,11820,683,14650
