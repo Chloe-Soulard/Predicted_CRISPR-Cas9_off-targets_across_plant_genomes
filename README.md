@@ -3,7 +3,8 @@
 This pipeline automatically retrieves data on the number of predicted CRISPR off-target
 across plant genomes (47 species), with all gRNAs possibly designed on the 100 more conserved bp of 10 different genes.
 
-Ten conserved *Arabidopsis thaliana* housekeeping genes are used as bait.
+Ten conserved *Arabidopsis thaliana* housekeeping genes (ACT1, APT3, EF1a, EF-TU, HISTONE H4, HSP70, RDR1, RPB2, RPL40b, TUBA1) are used as bait.
+
 For each gene :
 
 -the pipeline finds the ortholog in each species using BLAST on NCBI,
