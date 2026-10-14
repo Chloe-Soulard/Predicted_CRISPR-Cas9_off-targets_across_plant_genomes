@@ -38,7 +38,7 @@ ACT1,Prunus persica,272,diploid,True,False,15,489,32.6,5,11,20,49,404,211,278
 ACT1,Rubus occidentalis,240,diploid,True,False,12,1009,84.08,1,32,19,150,807,248,761
 ACT1,Setaria viridis,397,diploid,True,False,10,467,46.7,5,9,13,40,400,151,316
 ACT1,Solanum lycopersicum,824,diploid,True,False,9,2131,236.78,8,11,31,172,1909,256,1875
-ACT1,Solanum tuberosum,1653,tetraploid,True,False,16,1780,111.25,2,17,28,159,1574,405,1375
+ACT1,Solanum tuberosum,1653,diploid,True,False,16,1780,111.25,2,17,28,159,1574,405,1375
 ACT1,Sorghum bicolor,709,diploid,True,False,4,176,44.0,3,7,10,14,142,59,117
 ACT1,Spinacia oleracea,989,diploid,True,False,8,408,51.0,0,1,8,31,368,91,317
 ACT1,Thlaspi arvense,539,diploid,True,False,9,344,38.22,10,17,32,30,255,133,211
@@ -85,7 +85,7 @@ APT3,Prunus persica,272,diploid,True,False,20,1264,63.2,19,1,7,104,1133,380,884
 APT3,Rubus occidentalis,240,diploid,True,False,20,2832,141.6,0,0,7,241,2584,639,2193
 APT3,Setaria viridis,397,diploid,True,False,11,318,28.91,0,0,0,20,298,64,254
 APT3,Solanum lycopersicum,824,diploid,True,False,19,4798,252.53,0,1,19,392,4386,564,4234
-APT3,Solanum tuberosum,1653,tetraploid,True,False,21,6224,296.38,0,0,19,487,5718,672,5552
+APT3,Solanum tuberosum,1653,diploid,True,False,21,6224,296.38,0,0,19,487,5718,672,5552
 APT3,Sorghum bicolor,709,diploid,True,False,8,305,38.12,0,0,0,18,287,38,267
 APT3,Spinacia oleracea,989,diploid,True,False,18,2341,130.06,0,0,5,283,2053,464,1877
 APT3,Thlaspi arvense,539,diploid,True,False,16,1927,120.44,0,0,6,141,1780,358,1569
@@ -132,7 +132,7 @@ EF1a,Prunus persica,272,diploid,True,False,10,341,34.1,12,13,4,23,289,143,198
 EF1a,Rubus occidentalis,240,diploid,True,False,11,363,33.0,9,8,19,45,282,170,193
 EF1a,Setaria viridis,397,diploid,True,False,9,371,41.22,51,20,3,37,260,143,228
 EF1a,Solanum lycopersicum,824,diploid,True,False,10,639,63.9,19,9,13,39,559,180,459
-EF1a,Solanum tuberosum,1653,tetraploid,True,False,9,870,96.67,11,20,14,56,769,183,687
+EF1a,Solanum tuberosum,1653,diploid,True,False,9,870,96.67,11,20,14,56,769,183,687
 EF1a,Sorghum bicolor,709,diploid,True,False,6,135,22.5,1,0,8,12,114,63,72
 EF1a,Spinacia oleracea,989,diploid,True,False,14,969,69.21,77,20,20,126,726,316,653
 EF1a,Thlaspi arvense,539,diploid,True,False,8,260,32.5,11,11,0,12,226,61,199
@@ -179,7 +179,7 @@ HSP70,Prunus persica,272,diploid,True,False,13,773,59.46,0,3,9,94,667,389,384
 HSP70,Rubus occidentalis,240,diploid,True,False,8,1179,147.38,0,2,19,136,1022,548,631
 HSP70,Setaria viridis,397,diploid,True,False,9,1199,133.22,4,2,41,170,982,314,885
 HSP70,Solanum lycopersicum,824,diploid,True,False,12,2117,176.42,0,4,15,179,1919,552,1565
-HSP70,Solanum tuberosum,1653,tetraploid,True,False,10,2797,279.7,1,1,34,387,2374,494,2303
+HSP70,Solanum tuberosum,1653,diploid,True,False,10,2797,279.7,1,1,34,387,2374,494,2303
 HSP70,Sorghum bicolor,709,diploid,True,False,9,1991,221.22,3,19,33,140,1796,488,1503
 HSP70,Spinacia oleracea,989,diploid,True,False,13,1441,110.85,0,4,12,141,1284,453,988
 HSP70,Thlaspi arvense,539,diploid,True,False,12,1025,85.42,7,13,20,87,898,298,727
@@ -226,7 +226,7 @@ TUBA1,Prunus persica,272,diploid,True,False,16,649,40.56,1,3,12,59,574,366,283
 TUBA1,Rubus occidentalis,240,diploid,True,False,8,126,15.75,0,3,11,14,98,85,41
 TUBA1,Setaria viridis,397,diploid,True,False,12,482,40.17,0,0,1,34,447,139,343
 TUBA1,Solanum lycopersicum,824,diploid,True,False,14,971,69.36,0,5,5,58,903,223,748
-TUBA1,Solanum tuberosum,1653,tetraploid,True,False,17,2364,139.06,0,3,17,179,2165,517,1847
+TUBA1,Solanum tuberosum,1653,diploid,True,False,17,2364,139.06,0,3,17,179,2165,517,1847
 TUBA1,Sorghum bicolor,709,diploid,True,False,8,196,24.5,0,0,10,22,164,76,120
 TUBA1,Spinacia oleracea,989,diploid,True,False,15,1188,79.2,0,6,10,108,1064,382,806
 TUBA1,Thlaspi arvense,539,diploid,True,False,13,194,14.92,6,3,5,17,163,89,105
@@ -273,7 +273,7 @@ Histone H4,Prunus persica,272,diploid,True,False,6,101,16.83,8,3,5,7,78,56,45
 Histone H4,Rubus occidentalis,240,diploid,True,False,5,90,18.0,10,10,7,9,54,32,58
 Histone H4,Setaria viridis,397,diploid,True,False,3,57,19.0,18,6,0,2,31,39,18
 Histone H4,Solanum lycopersicum,824,diploid,True,False,8,489,61.12,18,26,22,41,382,176,313
-Histone H4,Solanum tuberosum,1653,tetraploid,True,False,5,466,93.2,16,10,18,43,379,137,329
+Histone H4,Solanum tuberosum,1653,diploid,True,False,5,466,93.2,16,10,18,43,379,137,329
 Histone H4,Sorghum bicolor,709,diploid,True,False,3,82,27.33,13,17,0,2,50,51,31
 Histone H4,Spinacia oleracea,989,diploid,True,False,7,335,47.86,25,6,8,31,265,129,206
 Histone H4,Thlaspi arvense,539,diploid,True,False,6,86,14.33,0,3,10,7,66,24,62
@@ -320,7 +320,7 @@ EF-Tu,Prunus persica,272,diploid,True,False,11,244,22.18,0,0,1,16,227,108,136
 EF-Tu,Rubus occidentalis,240,diploid,True,False,12,325,27.08,0,0,1,23,301,170,155
 EF-Tu,Setaria viridis,397,diploid,True,False,8,218,27.25,0,0,2,11,205,73,145
 EF-Tu,Solanum lycopersicum,824,diploid,True,False,11,841,76.45,0,1,2,63,775,125,716
-EF-Tu,Solanum tuberosum,1653,tetraploid,True,False,10,902,90.2,1,0,4,52,845,118,784
+EF-Tu,Solanum tuberosum,1653,diploid,True,False,10,902,90.2,1,0,4,52,845,118,784
 EF-Tu,Sorghum bicolor,709,diploid,True,False,7,145,20.71,0,2,0,6,137,51,94
 EF-Tu,Spinacia oleracea,989,diploid,True,False,11,754,68.55,0,0,2,33,719,220,534
 EF-Tu,Thlaspi arvense,539,diploid,True,False,12,349,29.08,0,4,4,12,329,72,277
@@ -367,7 +367,7 @@ RPB2,Prunus persica,272,diploid,True,False,9,203,22.56,8,8,5,24,158,77,126
 RPB2,Rubus occidentalis,240,diploid,True,False,9,221,24.56,0,0,0,3,218,42,179
 RPB2,Setaria viridis,397,diploid,True,False,7,131,18.71,0,0,0,5,126,37,94
 RPB2,Solanum lycopersicum,824,diploid,True,False,7,328,46.86,0,0,0,16,312,83,245
-RPB2,Solanum tuberosum,1653,tetraploid,True,False,8,349,43.62,0,0,1,31,317,96,253
+RPB2,Solanum tuberosum,1653,diploid,True,False,8,349,43.62,0,0,1,31,317,96,253
 RPB2,Sorghum bicolor,709,diploid,True,False,7,223,31.86,0,0,1,20,202,81,142
 RPB2,Spinacia oleracea,989,diploid,True,False,8,751,93.88,0,0,2,48,701,142,609
 RPB2,Thlaspi arvense,539,diploid,True,False,10,154,15.4,0,0,0,7,147,44,110
@@ -414,7 +414,7 @@ RPL40B,Prunus persica,272,diploid,True,False,10,393,39.3,6,44,57,68,218,274,119
 RPL40B,Rubus occidentalis,240,diploid,True,False,9,361,40.11,20,34,27,52,228,107,254
 RPL40B,Setaria viridis,397,diploid,True,False,6,531,88.5,26,59,56,75,315,360,171
 RPL40B,Solanum lycopersicum,824,diploid,True,False,15,1862,124.13,0,8,37,148,1669,407,1455
-RPL40B,Solanum tuberosum,1653,tetraploid,True,False,13,1642,126.31,1,18,48,178,1397,482,1160
+RPL40B,Solanum tuberosum,1653,diploid,True,False,13,1642,126.31,1,18,48,178,1397,482,1160
 RPL40B,Sorghum bicolor,709,diploid,True,False,6,734,122.33,36,45,60,107,486,353,381
 RPL40B,Spinacia oleracea,989,diploid,True,False,16,1458,91.12,0,4,31,159,1264,498,960
 RPL40B,Thlaspi arvense,539,diploid,True,False,10,579,57.9,7,19,46,112,395,241,338
@@ -461,7 +461,7 @@ RDR1,Prunus persica,272,diploid,True,False,14,887,63.36,0,0,6,69,812,260,627
 RDR1,Rubus occidentalis,240,diploid,True,False,12,331,27.58,9,0,1,24,297,142,189
 RDR1,Setaria viridis,397,diploid,True,False,10,451,45.1,1,4,1,30,415,102,349
 RDR1,Solanum lycopersicum,824,diploid,True,False,12,758,63.17,0,0,0,34,724,155,603
-RDR1,Solanum tuberosum,1653,tetraploid,True,False,13,1179,90.69,13,0,1,75,1090,264,915
+RDR1,Solanum tuberosum,1653,diploid,True,False,13,1179,90.69,13,0,1,75,1090,264,915
 RDR1,Sorghum bicolor,709,diploid,True,False,10,317,31.7,0,0,0,10,307,86,231
 RDR1,Spinacia oleracea,989,diploid,True,False,11,1043,94.82,9,0,3,71,960,294,749
 RDR1,Thlaspi arvense,539,diploid,True,False,9,243,27.0,0,0,0,14,229,43,200

@@ -145,7 +145,7 @@
   },
   "Solanum tuberosum": {
     "genome_size_mb": 1653,
-    "ploidy": "tetraploid"
+    "ploidy": "diploid"
   },
   "Miscanthus sinensis": {
     "genome_size_mb": 2080,
