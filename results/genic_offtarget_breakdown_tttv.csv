@@ -67,7 +67,7 @@ APT3,Malus domestica,703,diploid,6,26,17,9,0,0.6538,4.33,2.83,1.5
 APT3,Manihot esculenta,750,diploid,5,7,7,0,0,1.0,1.4,1.4,0.0
 APT3,Miscanthus sinensis,2080,diploid,2,1,1,0,0,1.0,0.5,0.5,0.0
 APT3,Musa acuminata,523,diploid,1,2,2,0,0,1.0,2.0,2.0,0.0
-APT3,Panicum miliaceum,835,diploid,2,2,2,0,0,1.0,1.0,1.0,0.0
+APT3,Panicum miliaceum,835,tetraploid,2,2,2,0,0,1.0,1.0,1.0,0.0
 APT3,Paspalum notatum,513,diploid,2,2,0,2,0,0.0,1.0,0.0,1.0
 APT3,Phaseolus vulgaris,530,diploid,4,3,0,3,0,0.0,0.75,0.0,0.75
 APT3,Pisum sativum,4450,diploid,5,1,0,1,0,0.0,0.2,0.0,0.2
@@ -109,7 +109,7 @@ EF1a,Lotus japonicus,554,diploid,1,2,2,0,0,1.0,2.0,2.0,0.0
 EF1a,Malus domestica,703,diploid,1,5,5,0,0,1.0,5.0,5.0,0.0
 EF1a,Manihot esculenta,750,diploid,1,6,3,3,0,0.5,6.0,3.0,3.0
 EF1a,Miscanthus sinensis,2080,diploid,1,5,5,0,0,1.0,5.0,5.0,0.0
-EF1a,Panicum miliaceum,835,diploid,1,13,8,5,0,0.6154,13.0,8.0,5.0
+EF1a,Panicum miliaceum,835,tetraploid,1,13,8,5,0,0.6154,13.0,8.0,5.0
 EF1a,Paspalum notatum,513,diploid,1,6,6,0,0,1.0,6.0,6.0,0.0
 EF1a,Phaseolus vulgaris,530,diploid,2,2,2,0,0,1.0,1.0,1.0,0.0
 EF1a,Pisum sativum,4450,diploid,2,12,7,5,0,0.5833,6.0,3.5,2.5
@@ -236,7 +236,7 @@ EF-Tu,Malus domestica,703,diploid,3,5,3,2,0,0.6,1.67,1.0,0.67
 EF-Tu,Manihot esculenta,750,diploid,1,3,3,0,0,1.0,3.0,3.0,0.0
 EF-Tu,Miscanthus sinensis,2080,diploid,2,2,2,0,0,1.0,1.0,1.0,0.0
 EF-Tu,Musa acuminata,523,diploid,3,4,3,1,0,0.75,1.33,1.0,0.33
-EF-Tu,Panicum miliaceum,835,diploid,2,2,2,0,0,1.0,1.0,1.0,0.0
+EF-Tu,Panicum miliaceum,835,tetraploid,2,2,2,0,0,1.0,1.0,1.0,0.0
 EF-Tu,Paspalum notatum,513,diploid,2,1,1,0,0,1.0,0.5,0.5,0.0
 EF-Tu,Phaseolus vulgaris,530,diploid,2,1,1,0,0,1.0,0.5,0.5,0.0
 EF-Tu,Pisum sativum,4450,diploid,3,21,2,19,0,0.0952,7.0,0.67,6.33
@@ -281,7 +281,7 @@ RPB2,Malus domestica,703,diploid,2,1,0,1,0,0.0,0.5,0.0,0.5
 RPB2,Manihot esculenta,750,diploid,1,0,0,0,0,0.0,0.0,0.0,0.0
 RPB2,Miscanthus sinensis,2080,diploid,2,4,2,2,0,0.5,2.0,1.0,1.0
 RPB2,Musa acuminata,523,diploid,1,0,0,0,0,0.0,0.0,0.0,0.0
-RPB2,Panicum miliaceum,835,diploid,2,2,2,0,0,1.0,1.0,1.0,0.0
+RPB2,Panicum miliaceum,835,tetraploid,2,2,2,0,0,1.0,1.0,1.0,0.0
 RPB2,Paspalum notatum,513,diploid,2,0,0,0,0,0.0,0.0,0.0,0.0
 RPB2,Phaseolus vulgaris,530,diploid,3,0,0,0,0,0.0,0.0,0.0,0.0
 RPB2,Pisum sativum,4450,diploid,3,10,0,10,0,0.0,3.33,0.0,3.33
@@ -362,7 +362,7 @@ RDR1,Malus domestica,703,diploid,3,15,12,3,0,0.8,5.0,4.0,1.0
 RDR1,Manihot esculenta,750,diploid,2,0,0,0,0,0.0,0.0,0.0,0.0
 RDR1,Miscanthus sinensis,2080,diploid,3,8,4,4,0,0.5,2.67,1.33,1.33
 RDR1,Musa acuminata,523,diploid,3,5,2,3,0,0.4,1.67,0.67,1.0
-RDR1,Panicum miliaceum,835,diploid,2,6,0,6,0,0.0,3.0,0.0,3.0
+RDR1,Panicum miliaceum,835,tetraploid,2,6,0,6,0,0.0,3.0,0.0,3.0
 RDR1,Paspalum notatum,513,diploid,3,0,0,0,0,0.0,0.0,0.0,0.0
 RDR1,Phaseolus vulgaris,530,diploid,4,4,0,4,0,0.0,1.0,0.0,1.0
 RDR1,Pisum sativum,4450,diploid,2,1,0,1,0,0.0,0.5,0.0,0.5

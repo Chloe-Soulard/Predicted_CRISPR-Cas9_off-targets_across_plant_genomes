@@ -28,7 +28,7 @@ ACT1,Malus domestica,703,diploid,True,False,8,702,87.75,9,19,21,142,511,180,522
 ACT1,Manihot esculenta,750,diploid,True,False,9,289,32.11,4,14,35,35,201,160,129
 ACT1,Miscanthus sinensis,2080,diploid,True,False,11,1563,142.09,2,20,40,139,1362,333,1230
 ACT1,Musa acuminata,523,diploid,True,False,7,295,42.14,5,15,50,67,158,213,82
-ACT1,Panicum miliaceum,835,diploid,True,False,11,1034,94.0,12,16,30,101,875,519,515
+ACT1,Panicum miliaceum,835,tetraploid,True,False,11,1034,94.0,12,16,30,101,875,519,515
 ACT1,Paspalum notatum,513,diploid,True,False,9,366,40.67,2,11,15,38,300,141,225
 ACT1,Phaseolus vulgaris,530,diploid,True,False,7,125,17.86,0,10,6,14,95,72,53
 ACT1,Pisum sativum,4450,diploid,True,False,7,2398,342.57,0,10,16,199,2173,94,2304
@@ -75,7 +75,7 @@ APT3,Malus domestica,703,diploid,True,False,9,561,62.33,1,2,14,63,481,167,394
 APT3,Manihot esculenta,750,diploid,True,False,7,42,6.0,3,2,2,5,30,27,15
 APT3,Miscanthus sinensis,2080,diploid,True,False,11,2477,225.18,3,6,29,243,2196,155,2322
 APT3,Musa acuminata,523,diploid,True,False,14,332,23.71,3,5,20,33,271,178,154
-APT3,Panicum miliaceum,835,diploid,True,False,9,408,45.33,5,2,2,29,370,72,336
+APT3,Panicum miliaceum,835,tetraploid,True,False,9,408,45.33,5,2,2,29,370,72,336
 APT3,Paspalum notatum,513,diploid,True,False,7,421,60.14,0,0,7,92,322,65,356
 APT3,Phaseolus vulgaris,530,diploid,True,False,6,121,20.17,0,0,2,11,108,37,84
 APT3,Pisum sativum,4450,diploid,True,False,7,2915,416.43,0,0,17,1135,1763,38,2877
@@ -122,7 +122,7 @@ EF1a,Malus domestica,703,diploid,True,False,14,350,25.0,43,18,18,30,241,175,175
 EF1a,Manihot esculenta,750,diploid,True,False,14,386,27.57,23,25,11,48,279,142,244
 EF1a,Miscanthus sinensis,2080,diploid,True,False,14,2707,193.36,69,41,28,412,2157,482,2225
 EF1a,Musa acuminata,523,diploid,True,False,14,354,25.29,10,18,19,39,268,181,173
-EF1a,Panicum miliaceum,835,diploid,True,False,13,682,52.46,91,44,11,38,498,254,428
+EF1a,Panicum miliaceum,835,tetraploid,True,False,13,682,52.46,91,44,11,38,498,254,428
 EF1a,Paspalum notatum,513,diploid,True,False,13,656,50.46,43,21,20,53,519,195,461
 EF1a,Phaseolus vulgaris,530,diploid,True,False,14,296,21.14,2,5,12,31,246,81,215
 EF1a,Pisum sativum,4450,diploid,True,False,8,7377,922.12,14,10,19,156,7178,59,7318
@@ -168,7 +168,7 @@ HSP70,Malus domestica,703,diploid,True,False,6,266,44.33,0,2,10,22,232,89,177
 HSP70,Manihot esculenta,750,diploid,True,False,5,641,128.2,1,4,9,69,558,181,460
 HSP70,Miscanthus sinensis,2080,diploid,True,False,8,5406,675.75,14,12,142,804,4434,1175,4231
 HSP70,Musa acuminata,523,diploid,True,False,4,280,70.0,0,0,7,40,233,136,144
-HSP70,Panicum miliaceum,835,diploid,True,False,8,2815,351.88,25,21,51,326,2392,1053,1762
+HSP70,Panicum miliaceum,835,tetraploid,True,False,8,2815,351.88,25,21,51,326,2392,1053,1762
 HSP70,Paspalum notatum,513,diploid,True,False,9,742,82.44,0,7,6,91,638,315,427
 HSP70,Phaseolus vulgaris,530,diploid,True,False,5,724,144.8,0,0,13,123,588,121,603
 HSP70,Pisum sativum,4450,diploid,True,False,4,2892,723.0,6,5,13,152,2716,91,2801
@@ -215,7 +215,7 @@ TUBA1,Malus domestica,703,diploid,True,False,10,780,78.0,2,7,13,148,610,249,531
 TUBA1,Manihot esculenta,750,diploid,True,False,9,458,50.89,7,9,29,70,343,234,224
 TUBA1,Miscanthus sinensis,2080,diploid,True,False,13,2255,173.46,6,13,45,238,1953,357,1898
 TUBA1,Musa acuminata,523,diploid,True,False,16,443,27.69,3,13,18,79,330,300,143
-TUBA1,Panicum miliaceum,835,diploid,True,False,16,1692,105.75,5,21,32,180,1454,642,1050
+TUBA1,Panicum miliaceum,835,tetraploid,True,False,16,1692,105.75,5,21,32,180,1454,642,1050
 TUBA1,Paspalum notatum,513,diploid,True,False,15,1130,75.33,0,9,34,128,959,372,758
 TUBA1,Phaseolus vulgaris,530,diploid,True,False,14,968,69.14,0,6,41,112,809,290,678
 TUBA1,Pisum sativum,4450,diploid,True,False,10,2879,287.9,2,6,77,279,2515,142,2737
@@ -262,7 +262,7 @@ Histone H4,Malus domestica,703,diploid,True,False,9,595,66.11,0,3,18,112,462,85,
 Histone H4,Manihot esculenta,750,diploid,True,False,7,53,7.57,0,3,3,2,45,29,24
 Histone H4,Miscanthus sinensis,2080,diploid,True,False,10,4483,448.3,82,74,54,402,3871,1190,3293
 Histone H4,Musa acuminata,523,diploid,True,False,8,135,16.88,0,6,26,29,74,107,28
-Histone H4,Panicum miliaceum,835,diploid,True,False,10,2315,231.5,88,36,46,262,1883,1238,1077
+Histone H4,Panicum miliaceum,835,tetraploid,True,False,10,2315,231.5,88,36,46,262,1883,1238,1077
 Histone H4,Paspalum notatum,513,diploid,True,False,12,1751,145.92,62,38,26,142,1483,801,950
 Histone H4,Phaseolus vulgaris,530,diploid,True,False,9,126,14.0,13,4,15,22,72,73,53
 Histone H4,Pisum sativum,4450,diploid,True,False,6,678,113.0,4,2,16,29,627,64,614
@@ -309,7 +309,7 @@ EF-Tu,Malus domestica,703,diploid,True,False,9,284,31.56,6,2,9,34,233,75,209
 EF-Tu,Manihot esculenta,750,diploid,True,False,9,207,23.0,0,5,10,34,158,93,114
 EF-Tu,Miscanthus sinensis,2080,diploid,True,False,11,618,56.18,11,3,7,50,547,94,524
 EF-Tu,Musa acuminata,523,diploid,True,False,7,213,30.43,0,3,15,72,123,80,133
-EF-Tu,Panicum miliaceum,835,diploid,True,False,8,303,37.88,8,0,3,21,271,87,216
+EF-Tu,Panicum miliaceum,835,tetraploid,True,False,8,303,37.88,8,0,3,21,271,87,216
 EF-Tu,Paspalum notatum,513,diploid,True,False,7,356,50.86,0,0,3,41,312,69,287
 EF-Tu,Phaseolus vulgaris,530,diploid,True,False,8,236,29.5,0,0,3,35,198,68,168
 EF-Tu,Pisum sativum,4450,diploid,True,False,6,404,67.33,0,1,15,21,367,30,374
@@ -356,7 +356,7 @@ RPB2,Malus domestica,703,diploid,True,False,12,761,63.42,0,0,4,116,641,186,575
 RPB2,Manihot esculenta,750,diploid,True,False,8,143,17.88,0,0,1,15,127,80,63
 RPB2,Miscanthus sinensis,2080,diploid,True,False,6,549,91.5,6,0,9,64,470,94,455
 RPB2,Musa acuminata,523,diploid,True,False,10,144,14.4,0,0,0,17,127,94,50
-RPB2,Panicum miliaceum,835,diploid,True,False,6,299,49.83,5,0,6,95,193,90,209
+RPB2,Panicum miliaceum,835,tetraploid,True,False,6,299,49.83,5,0,6,95,193,90,209
 RPB2,Paspalum notatum,513,diploid,True,False,6,253,42.17,0,1,3,8,241,98,155
 RPB2,Phaseolus vulgaris,530,diploid,True,False,6,124,20.67,0,0,4,16,104,46,78
 RPB2,Pisum sativum,4450,diploid,True,False,7,3191,455.86,0,0,31,480,2680,48,3143
@@ -403,7 +403,7 @@ RPL40B,Malus domestica,703,diploid,True,False,11,768,69.82,35,96,114,164,359,502
 RPL40B,Manihot esculenta,750,diploid,True,False,7,383,54.71,2,20,30,73,258,218,165
 RPL40B,Miscanthus sinensis,2080,diploid,True,False,12,2439,203.25,16,163,240,423,1597,954,1485
 RPL40B,Musa acuminata,523,diploid,True,False,11,406,36.91,15,32,79,82,198,311,95
-RPL40B,Panicum miliaceum,835,diploid,True,False,13,1903,146.38,105,192,226,328,1052,1070,833
+RPL40B,Panicum miliaceum,835,tetraploid,True,False,13,1903,146.38,105,192,226,328,1052,1070,833
 RPL40B,Paspalum notatum,513,diploid,True,False,13,1159,89.15,35,93,162,229,640,793,366
 RPL40B,Phaseolus vulgaris,530,diploid,True,False,12,695,57.92,2,7,37,98,551,211,484
 RPL40B,Pisum sativum,4450,diploid,True,False,10,1237,123.7,0,2,33,143,1059,127,1110
@@ -450,7 +450,7 @@ RDR1,Malus domestica,703,diploid,True,False,10,317,31.7,3,12,17,42,243,117,200
 RDR1,Manihot esculenta,750,diploid,True,False,6,94,15.67,0,0,2,8,84,55,39
 RDR1,Miscanthus sinensis,2080,diploid,True,False,9,782,86.89,6,5,15,53,703,142,640
 RDR1,Musa acuminata,523,diploid,True,False,4,176,44.0,0,0,4,28,144,77,99
-RDR1,Panicum miliaceum,835,diploid,True,False,10,663,66.3,9,11,16,67,560,143,520
+RDR1,Panicum miliaceum,835,tetraploid,True,False,10,663,66.3,9,11,16,67,560,143,520
 RDR1,Paspalum notatum,513,diploid,True,False,6,213,35.5,0,0,1,15,197,54,159
 RDR1,Phaseolus vulgaris,530,diploid,True,False,13,277,21.31,0,1,4,22,250,84,193
 RDR1,Pisum sativum,4450,diploid,True,False,12,2218,184.83,0,0,9,79,2130,43,2175
